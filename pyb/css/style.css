@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* needs work */
 #mytopnav li{
 display:inline-block;
 position:relative;
@@ -13,14 +14,63 @@ position:relative;
 
 }
 
-[class*='col-']{
-  float:left;
+/* declare social media circles */
+.sm_circles {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+
+  background-color: lightblue;
 }
 
+/* declare story/mission/leadership circles */
+.story_circles{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px; 
+
+  background-color: lightblue;
+}
+
+/* declare footer size and color */
+.footer{
+  background-color: white;
+  width: 100%;
+  height: 150px;
+}
+
+/* circle padding for social media row */
+.sm_row{
+  padding: 40px;
+}
+
+/* circle padding for our mission/leadership/ideas */
+.story_row{
+  padding: 10px 60px 60px 60px;
+}
+
+/* Generic wrapper */
+.site_row_wrapper{
+  text-align:center;
+
+}
+/* Generic self*/
+.site_row{
+  display:inline-block;  
+}
+
+/* for generic columns of buttons */
+.button_row{
+  padding: 40px;
+}
+
+/* recent blogpost columns */
 .col-1-2{
+  float:left;
   width: 50%;
 }
 
+/* align headers in center */
 h3{
   text-align: center;
 }
@@ -28,11 +78,12 @@ h2{
   text-align: center;
 }
 
-.site_row_wrapper{
-  text-align:center;
-
+/* footer columns */
+#col_a{
+  text-align:left;
+  margin-left: 30px;
 }
-.site_row{
-  display:inline-block;
+#col_b{
+  text-align:left;
+  margin-left:70px;
 }
-
