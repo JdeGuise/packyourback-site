@@ -23,13 +23,27 @@ position:relative;
   background-color: lightblue;
 }
 
+#overhead_para{
+  text-align: center;
+}
+
 /* declare story/mission/leadership circles */
 .story_circles{
   border-radius: 50%;
-  width: 100px;
-  height: 100px; 
-
+  width: 170px;
+  height: 170px; 
+  margin: 40px;
   background-color: lightblue;
+  display: inline-block;
+}
+
+#side_image{
+  float:center;
+  margin-right:755px;
+}
+
+#blog_header{
+  text-align: left;
 }
 
 /* declare footer size and color */
@@ -52,11 +66,24 @@ position:relative;
 /* Generic wrapper */
 .site_row_wrapper{
   text-align:center;
+  width:100%;
 
 }
 /* Generic self*/
 .site_row{
   display:inline-block;  
+}
+
+
+
+.leadership_articles{
+  max-width: 350px;
+  margin: 0 25px 0 25px;
+  text-align: left;
+}
+
+.leader_row{
+  margin: 0 150px 0 150px;
 }
 
 /* for generic columns of buttons */
@@ -66,7 +93,7 @@ position:relative;
 
 /* recent blogpost columns */
 .col-1-2{
-  float:left;
+  float:right;
   width: 50%;
 }
 
@@ -78,10 +105,12 @@ h2{
   text-align: center;
 }
 
+
+
 /* footer columns */
 #col_a{
   text-align:left;
-  margin-left: 30px;
+  margin-left:30px;
 }
 #col_b{
   text-align:left;
