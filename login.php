@@ -4,7 +4,7 @@ $username = $_GET['fname'];
 
 $password = $_GET['fpass'];
 
-$con=mysqli_connect("mysql","database_user","database_password","mydatabase");
+$con=mysqli_connect("localhost:8888","johndeguise","S3rvinGupR3alness","packyourback");
 
 // Check connection
 
