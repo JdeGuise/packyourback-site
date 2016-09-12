@@ -1,4 +1,4 @@
-<?php
+<?PHP
 require_once("./include/fg_membersite.php");
 
 $fgmembersite = new FGMembersite();
@@ -14,13 +14,13 @@ $fgmembersite->SetAdminEmail('john.r.deguise@gmail.com');
 //note that the script will create the table (for example, fgusers in this case)
 //by itself on submitting register.php for the first time
 $fgmembersite->InitDB(/*hostname*/'localhost',
-                      /*username*/'johndeguise',
-                      /*password*/'S3rvinGupR3alness',
+                      /*username*/'root',
+                      /*password*/'root',
                       /*database name*/'packyourback',
-                      /*table name*/'fgusers3');
+                      /*table name*/'Users');
 
 //For better security. Get a random string from this link: http://tinyurl.com/randstr
 // and put it here
-$fgmembersite->SetRandomKey('4FJMu5sx5u0Ga9b');
+$fgmembersite->SetRandomKey('HI6ZYtT3KWI1cDC');
 
 ?>

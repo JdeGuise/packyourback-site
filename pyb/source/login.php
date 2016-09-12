@@ -22,7 +22,7 @@ if(isset($_POST['submitted']))
 
 <!-- Form Code Start -->
 <div id='fg_membersite'>
-<form id='login' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
 <fieldset >
 <legend>Login</legend>
 

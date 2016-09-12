@@ -24,7 +24,7 @@ if(isset($_POST['submitted']))
 
 <!-- Form Code Start -->
 <div id='fg_membersite'>
-<form id='register' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+<form id='register' action='include/phpmailer-fe.php' method='post' accept-charset='UTF-8'>
 <fieldset >
 <legend>Register</legend>
 

@@ -360,15 +360,16 @@ class FGMembersite
         $pwdmd5 = md5($password);
         $qry = "Select name, email from $this->tablename where username='$username' and password='$pwdmd5' and confirmcode='y'";
         
-        $result = mysql_query($qry,$this->connection);
-        
+        $res = mysql_query($qry,$this->connection);
+        $result = mysql_fetch_row($res);
+        print_r(mysql_num_rows($result));
         if(!$result || mysql_num_rows($result) <= 0)
         {
             $this->HandleError("Error logging in. The username or password does not match");
             return false;
         }
         
-        $row = mysql_fetch_assoc($result);
+        $row = mysql_fetch_assoc($res);
         
         
         $_SESSION['name_of_user']  = $row['name'];
