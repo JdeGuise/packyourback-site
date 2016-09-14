@@ -36,15 +36,99 @@
 		text-align: left;
 	}*/
 
-	.nav_list li{
+
+
+
+/*
+#nav_list li{
 		display:inline;
+		cursor: pointer;
+		border: 1px solid black;
+}
+
+header a{
+	text-decoration: none;
+}
+#nav_list ul{
+	display: inline;
+	vertical-align: middle;
+	list-style: none;
+}
+header img{
+	display:inline;
+}*/
+
+
+/* START LOGO/NAV STYLING */
+/* styling and formatting for logo/nav header */
+
+
+header{
+	height: 75px;
+}
+header img{
+	width: 200px;
+	height: 60px;
+}
+
+#logo {
+  vertical-align: middle;
+}
+
+header ul {
+  display: inline;
+  list-style: none;
+}
+
+header li {
+  vertical-align: middle;
+  display: inline;
+  cursor: pointer;
+  padding: 20px;
+  margin-left: -5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* change color of navbar button when highlighted */
+li:hover {
+  background: lightgrey;
+}
+
+@media only screen and (max-width: 775px){
+
+	#logo{
+		text-align:center;
 	}
-	.nav_list ul{
-		display: inline-block;
-		vertical-align: middle;
-		width:100%;
+	header{
+		height: 100px;
+	}
+	
+
+
+}
+@media only screen and (max-width: 412px){
+
+	#logo{
+		text-align:center;
+	}
+	header{
+		height: 110px;
 	}
 
+}
+
+
+/* END LOGO/NAV STYLING */
+
+
+
+
+
+/*
 	.nav_list a {
 	  color: #5a5a5a;
 	  font-size: 11px;
@@ -55,7 +139,7 @@
 
 	.row img{
 		margin-right:500px;
-	}
+	}*/
 
 	/* declare social media circles */
 	.sm_circles {
