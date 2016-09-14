@@ -26,5 +26,4 @@ The project structure is standard for a set of static webpages, and the overview
 		backend community relations committee
 		backend expansion committee
 
-	additionally, the site uses Django as the web framework for managing user logins and file access
 
