@@ -6,26 +6,29 @@
     <script type="text/javascript" src="../js/main.js"></script>
   </head>
   <body>
-    <ul class="topnav" id="mytopnav">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li class="dropdown">
-        <a href="donationinfo.html" class="dropbtn">Donations</a>
-        <div class="dropdown-content">
-          <a href="https://www.classy.org/checkout/donation?eid=81983">Donate Now</a>
-          <a href="donationinfo.html">Donation Information</a>
-          <a href="sponsorship.html">Sponsorships</a>
-        </div>
-      </li>
-      <li><a href="getinvolved.html">Get Involved</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="login.html">Login</a></li>
 
-      <li class="icon">
-      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-      </li>
+<!row is from Foundation, and allows us to dynamically move elements on the page
+    <div class="row">
 
-    </ul>
+       <header>
+<! columns and small-12 are Foundation classes 
+    that split the browser window into 12 columns 
+    that actively resize themselves
+
+          <div class="columns small-12">
+              <a href="../index.html">
+                <img id="logo" src="../assets/pyb_row_270x70px.png">
+              </a>
+               <ul>
+                  <li><a href="leadership.html">Leadership</a></li>
+                  <li><a href="ideas.html">Ideas</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
+                  <li><a href="getinvolved.html">Get Involved</a></li>
+               </ul>
+          </div>
+      </header>
+    </div>
     <h1>Donations</h1>
     <p>Hello World!</p>
   </body>

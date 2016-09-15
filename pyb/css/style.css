@@ -1,145 +1,81 @@
-
-/* START: defining generic/reused work */
-/*
-	.head{
-		width:100%;
-	}
-
-	body{
-		background-color: white;
-		width: 960px;
-	}
-
-	* {
-			box-sizing: border-box;
-	}
-*/
-	/* grid wrapper */
-/*	.grid{
-		width:100%;
-	}*/
-
-	/* aligning text in the center of double columned .grid-classed divs */
-/*	.grid .col-1-2 h3 p{
-		text-align: center;
-	}*/
-
-	/* needs work */
-/*	#nav_ul li{
-	display:inline-block;
-	position:relative;
-		left:200px;
-		top: -15px;
-
-	}
-	#nav_ul img{
-		text-align: left;
-	}*/
-
-
-
-
-/*
-#nav_list li{
-		display:inline;
-		cursor: pointer;
-		border: 1px solid black;
-}
-
-header a{
-	text-decoration: none;
-}
-#nav_list ul{
-	display: inline;
-	vertical-align: middle;
-	list-style: none;
-}
-header img{
-	display:inline;
-}*/
-
-
 /* START LOGO/NAV STYLING */
-/* styling and formatting for logo/nav header */
-
-
-header{
-	height: 75px;
-}
-header img{
-	width: 200px;
-	height: 60px;
-}
-
-#logo {
-  vertical-align: middle;
-}
-
-header ul {
-  display: inline;
-  list-style: none;
-}
-
-header li {
-  vertical-align: middle;
-  display: inline;
-  cursor: pointer;
-  padding: 20px;
-  margin-left: -5px;
-}
-
-a {
-  text-decoration: none;
-}
-
-
-/* change color of navbar button when highlighted */
-li:hover {
-  background: lightgrey;
-}
-
-@media only screen and (max-width: 775px){
-
-	#logo{
-		text-align:center;
-	}
-	header{
-		height: 100px;
-	}
 	
+	/* styling and formatting for logo/nav header */
 
-
-}
-@media only screen and (max-width: 412px){
-
-	#logo{
-		text-align:center;
-	}
+	/* set default header height */
 	header{
-		height: 110px;
+		height: 75px;
 	}
 
-}
+	/* set default header logo width and height */
+	header img{
+/*		width: 200px;
+*/		height: 60px;
+	}
+
+	/*align our logo vertically with the box it sits in */
+	header #logo {
+	  vertical-align: middle;
+	}
+
+	/* align header elements and move navbar into a row */
+	header ul {
+	  display: inline;
+	  list-style: none;
+	}
+	header li {
+	  vertical-align: middle;
+	  display: inline;
+	  cursor: pointer;
+	  padding: 20px;
+	  margin-left: -5px;
+	}
+
+	/* remove hyperlink decoration from links */
+	header a {
+	  text-decoration: none;
+	}
+
+	/* change color of navbar button when highlighted */
+	header li:hover {
+	  background: lightgrey;
+	}
+
+	/* query is for when screen width is less than 775px
+		while it's true, we want to:
+			1 center our logo,
+			2 make the header taller, so that we can...
+			3 center the navbar links below the logo.
+	*/
+	@media only screen and (max-width: 775px){
+
+		/* center logo */
+		#logo{
+			text-align:center;
+		}
+
+		/* make header taller */
+		header{
+			height: 100px;
+		}
+	}
+
+	/* this query is for when the screen is super small 
+		basically we want the same thing as above but taller
+	*/
+	@media only screen and (max-width: 412px){
+
+		#logo{
+			text-align:center;
+		}
+		header{
+			height: 110px;
+		}
+	}
 
 
 /* END LOGO/NAV STYLING */
 
-
-
-
-
-/*
-	.nav_list a {
-	  color: #5a5a5a;
-	  font-size: 11px;
-	  font-weight: bold;
-	  padding: 14px 10px;
-	  text-transform: uppercase;
-	}
-
-	.row img{
-		margin-right:500px;
-	}*/
 
 	/* declare social media circles */
 	.sm_circles {
@@ -161,6 +97,19 @@ li:hover {
 		left: 75px;
 	}	
 
+	/* declare story/mission/leadership circles */
+	.story_circles{
+		/*make our box into circles */
+		border-radius: 50%;
+
+		/*initialize a box */
+		width: 150px;
+		height: 150px; 
+
+		/* color of story/mission/idea circles */
+		background-color: lightblue;
+	}	
+
 	/* set h* and p fonts */
 	h1, h2, h3, h4, h5, h6{ font-family: 'Roboto', sans-serif; }	
 
@@ -169,10 +118,10 @@ li:hover {
 	.row p{
 		text-align:center;
 	}
-
 	.row article{
 		text-align: left;
 	}
+
 
 	li{
 		font-family: 'Raleway', sans-serif;
@@ -194,46 +143,13 @@ li:hover {
 		margin: 10px 0 10px 0;
 	}
 
-/*	@media only screen, and (min-width: 720px){
-		
-	}*/
-
-	/* END: header alignments;
-
-
-	/* START: Media Queries; */
-
-		/* media queries for transitioning slide show */
-/*		@-webkit-keyframes fade {
-			from {opacity: .4}
-			to {opacity: 1}
-		}
-
-		@keyframes fade {
-			from {opacity: .4}
-			to {opacity: 1}
-		}
-
-		 On smaller screens, decrease text size 
-		@media only screen and (max-width: 300px) {
-			.text {font-size: 11px}
-		}*/
-
-	/* END: Media Queries */
-
-
-/* END: generic/reused work */
-
-
-
 /* START: index.html */
 
 	/* START: Carousel */
 
 		/* test stuff for carousel */
 		* {box-sizing:border-box}
-/*		body {font-family: Verdana,sans-serif;}
-*/
+
 		/* Slideshow container */
 		.slideshow-container {
 			position: relative;
@@ -285,54 +201,15 @@ li:hover {
 	/* END: Carousel */
 
 
-	/* story pics for the index slideshow*/ 
-/*	#sc_1{
-		background-image: url('../assets/story_pics/supplies.png');
-	}
-	#sc_2{
-		background-image: url('../assets/story_pics/swinging.png');
-	}
-	#sc_3{
-		background-image: url('../assets/story_pics/paints.png');
-	}*/
-
-	/* styles the grid of blog posts on index.html*/
-/*	#box_b img, #box_d img{
-		position: relative;
-		left: 300px;
-		margin-bottom: 10px;
-		margin-top: 10px;
-	}*/
-
-	/* declare story/mission/leadership circles */
-	.story_circles{
-		border-radius: 50%;
-		width: 150px;
-		height: 150px; 
-		background-color: lightblue;
-		display: inline-block;
-		position: relative;
-		left: 27.5%;		
-	}	
 	.leadership_articles p{
 		text-align: left;
 	}
 
-	/* style for who we are paragraph */
-/*	.whoweare_p{
-		 text-align:center;
-		 width:650px;
-		 position: relative;
-		 left: 18%;
-	}	
-*/
-	/* style for who we are paragraph wrapper*/
-/*	.whoweare{
-		width:100%;
-		display:inline-block;
-		margin: 0 auto;
+	.story_circles:hover{
+		opacity:.5;
 	}
-*/
+
+
 /* END: index.html */
 
 
@@ -391,25 +268,6 @@ li:hover {
 
 /* END: leadership.html */
 
-
-
-/*START: Defining column sizes */
-
-	/* recent blogpost columns */
-/*	.col-1-2{
-		float:left;
-		width: 50%;
-	}
-	.col-1-3{
-		float:left;
-		width:33.33%;
-	}
-	.col-1-4{
-		float:left;
-		width: 25%;
-	}*/
-
-/* END: defining column sizes */
 
 
 

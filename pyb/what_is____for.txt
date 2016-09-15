@@ -1,0 +1,7 @@
+media queries, 
+
+	basically they're used to respond to some condition of the device
+	
+		in many cases, this is our screen's width.
+
+			they allow us to move elements on the page accordingly when the screen is too big/small, etc.
