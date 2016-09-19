@@ -1,101 +1,159 @@
-/* START LOGO/NAV STYLING */
+ /* START TEMPLATE STYLING */
+
+	/* set h*, li, and p fonts */
+	h1, h2, h3, h4, h5, h6{ font-family: 'Roboto', sans-serif; }	
+
+	p{ font-family: 'Open-Sans', sans-serif; }
 	
-	/* styling and formatting for logo/nav header */
-
-	/* set default header height */
-	header{
-		height: 75px;
+	li{
+		font-family: 'Raleway', sans-serif;
 	}
 
-	/* set default header logo width and height */
-	header img{
-/*		width: 200px;
-*/		height: 60px;
-	}
+	/* START LOGO/NAV STYLING */
+	
+		/* styling and formatting for logo/nav header */
 
-	/*align our logo vertically with the box it sits in */
-	header #logo {
-	  vertical-align: middle;
-	}
-
-	/* align header elements and move navbar into a row */
-	header ul {
-	  display: inline;
-	  list-style: none;
-	}
-	header li {
-	  vertical-align: middle;
-	  display: inline;
-	  cursor: pointer;
-	  padding: 20px;
-	  margin-left: -5px;
-	}
-
-	/* remove hyperlink decoration from links */
-	header a {
-	  text-decoration: none;
-	}
-
-	/* change color of navbar button when highlighted */
-	header li:hover {
-	  background: lightgrey;
-	}
-
-	/* query is for when screen width is less than 775px
-		while it's true, we want to:
-			1 center our logo,
-			2 make the header taller, so that we can...
-			3 center the navbar links below the logo.
-	*/
-	@media only screen and (max-width: 775px){
-
-		/* center logo */
-		#logo{
-			text-align:center;
-		}
-
-		/* make header taller */
+		/* set default header height */
 		header{
-			height: 100px;
+			height: 75px;
 		}
-	}
 
-	/* this query is for when the screen is super small 
-		basically we want the same thing as above but taller
-	*/
-	@media only screen and (max-width: 412px){
+		/* set default header logo width and height */
+		header img{
+			height: 60px;
+		}
 
-		#logo{
+		/*align our logo vertically with the box it sits in */
+		header #logo {
+		  vertical-align: middle;
+		}
+
+		/* align header elements and move navbar into a row */
+		header ul {
+		  display: inline;
+		  list-style: none;
+		  top: 20px;
+		}
+		header li {
+		  vertical-align: middle;
+		  display: inline;
+		  cursor: pointer;
+		  padding: 20px;
+		  margin-left: -5px;
+		}
+
+		/* remove hyperlink decoration from links */
+		header a {
+		  text-decoration: none;
+		}
+
+		/* query is for when screen width is less than 775px
+			while it's true, we want to:
+				1 center our logo,
+				2 make the header taller, so that we can...
+				3 center the navbar links below the logo.
+		*/
+		@media only screen and (max-width: 775px){
+
+			/* center logo */
+			#logo{
+				text-align:center;
+			}
+
+			/* make header taller */
+			header{
+				height: 100px;
+			}
+		}
+
+		/* this query is for when the screen is super small 
+			basically we want the same thing as above but taller
+		*/
+		@media only screen and (max-width: 420px){
+
+			header li{
+				margin-left: -10px;
+			}
+		}
+
+
+	/* END LOGO/NAV STYLING */
+
+	/* START SOCIAL MEDIA CIRCLES */
+		/* declare social media circles */
+		.sm_circles {
+			border-radius: 50%;
+			width: 100px;
+			height: 100px; 
+
+			background-color: skyblue;
+		}
+
+		/* style for social media icons */
+		.sm_circles img{
+			width:50px;
+			height:50px;
+			vertical-align: center;
 			text-align:center;
+			position:relative;
+			top: 25px;
+			left: 25px;
+		}	
+
+		/* styling social media paragraph descriptions */
+		.sm_circles p{
+			position:relative; 
+			top:50px; 
+			font-size: 15px;
+
 		}
-		header{
-			height: 110px;
+
+	/* END SOCIAL MEDIA CIRCLES */
+
+
+	/*START: HEADER ALIGNMENTS */
+
+		/* align headers in center */
+		.row h3, .row h2{
+			text-align: center;
 		}
-	}
+
+		/* align all of our footer headers to the left*/
+		#fcol_a h3, #fcol_b h3{
+			text-align: left;
+		}
+
+		/* aligning our footer lists to the left,
+			removing their bullet points, and
+			giving them top and bottom margins for spacing */
+		#fcol_a li, #fcol_b li{
+			text-align: left;
+			list-style-type: none;
+			margin: 10px 0 10px 0;
+		}	
+
+	/* END HEADER ALIGNMENTS */
 
 
-/* END LOGO/NAV STYLING */
-
-
-	/* declare social media circles */
-	.sm_circles {
-		border-radius: 50%;
-		width: 100px;
-		height: 100px; 
-
-		background-color: skyblue;
-	}
-
-	/* style for social media icons */
-	.sm_circles img{
-		width:50px;
-		height:50px;
-		vertical-align: center;
+	/* all of our rows' paragraphs are 
+		default aligned to center */
+	.row p{
 		text-align:center;
-		position:relative;
-		top: 50px;
-		left: 75px;
+	}
+
+	/* all of our articles acting as descriptions are aligned left */
+	.articles article{
+		text-align: left;
 	}	
+
+/* END TEMPLATING */
+
+/* START index.html */
+
+
+
+
+/* START: index.html */
 
 	/* declare story/mission/leadership circles */
 	.story_circles{
@@ -103,47 +161,43 @@
 		border-radius: 50%;
 
 		/*initialize a box */
-		width: 150px;
-		height: 150px; 
+		width: 140px;
+		height: 140px; 
+		margin-left: 80px;
 
 		/* color of story/mission/idea circles */
 		background-color: lightblue;
-	}	
-
-	/* set h* and p fonts */
-	h1, h2, h3, h4, h5, h6{ font-family: 'Roboto', sans-serif; }	
-
-	p{ font-family: 'Open-Sans', sans-serif; }
-
-	.row p{
-		text-align:center;
-	}
-	.row article{
-		text-align: left;
 	}
 
 
-	li{
-		font-family: 'Raleway', sans-serif;
-	}
-	/*START: header alignments */
 
-		/* align headers in center */
-	.row h3, .row h2{
-		text-align: center;
+	/*when the screen is between 505px and 910px,
+		we want to move the story_circles to the left
+	*/
+	@media only screen and (max-width: 910px){
+
+		.story_circles{
+			margin-left: 40px;
+		}
+
+	}
+	/* when the screen is less than 505px, we want each 
+		story_circle column div to expand to 12 cols
+	*/
+	@media only screen and (max-width: 505px){
+
+		.story_circles{
+			margin-left: -5px;
+		}
+
 	}
 
-	.footer h3{
-		text-align: left;
+	/* we want to 'highlight' the circles on mouseover */	
+	.story_circles:hover, .sm_circles a:hover{
+		opacity:.5;
 	}
 
-	#fcol_a li, #fcol_b li{
-		text-align: left;
-		list-style-type: none;
-		margin: 10px 0 10px 0;
-	}
 
-/* START: index.html */
 
 	/* START: Carousel */
 
@@ -166,15 +220,6 @@
 			text-align: center;
 		}
 
-		/* Number text (1/3 etc) */
-		.numbertext {
-			color: #f2f2f2;
-			font-size: 12px;
-			padding: 8px 12px;
-			position: absolute;
-			top: 0;
-		}
-
 		/* The dots/bullets/indicators */
 		.dot {
 			height: 13px;
@@ -186,6 +231,7 @@
 			transition: background-color 0.6s ease;
 		}
 
+		/* active dot color */
 		.active {
 			background-color: #717171;
 		}
@@ -198,16 +244,34 @@
 			animation-duration: 1.5s;
 		}
 
+		.row .mySlideDots{
+			text-align:center;
+		}
+
+		.row .mySlides{
+			width: 100%;
+		}
+
 	/* END: Carousel */
 
 
-	.leadership_articles p{
-		text-align: left;
-	}
+	/* START: Blog Previews; */
 
-	.story_circles:hover{
-		opacity:.5;
-	}
+		.row .blogbox img{
+			float:left; 
+			clear:both; 
+			margin: 0 10px 10px 10px;
+		}
+
+		.row .blogbox p{
+			display:block; 
+			margin-left: 5px; 
+			overflow:auto; 
+			text-align:left; 
+			margin-top: -5px;
+		}
+
+	/* END: Blog Previews; */
 
 
 /* END: index.html */
@@ -244,6 +308,18 @@
 
 /* START: leadership.html */
 
+
+	.leadership_circles{
+		border-radius: 50%;
+
+		width: 150px;
+		height: 150px;
+
+		background-color: lightblue;
+
+
+	}
+
 	/* leaders descriptions*/
 /*	.leadership_articles{
 		max-width: 960px;
@@ -273,16 +349,6 @@
 
 /* START: Footer;
 
-	/* footer columns */
-/*	#fcol_a{
-		text-align:left;
-		margin-left:30px;
-	}*/
-/*	#fcol_b{
-		text-align:left;
-		margin-left:70px;
-	}*/
-
 	/* styling footer buttons/copyright text */
 /*	.button_row{
 		margin: 40px;
@@ -295,4 +361,4 @@
 		height: 150px;
 	}*/
 
-/* END: Footer; */
+/* END: Footer; 
