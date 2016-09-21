@@ -25,7 +25,8 @@
 
 		/*align our logo vertically with the box it sits in */
 		header #logo {
-		  vertical-align: middle;
+		  position:relative;
+		  margin-top:7px;
 		}
 
 		/* align header elements and move navbar into a row */
@@ -97,7 +98,7 @@
 			text-align:center;
 			position:relative;
 			top: 25px;
-			left: 25px;
+			margin-left: 25px;
 		}	
 
 		/* styling social media paragraph descriptions */
@@ -165,32 +166,63 @@
 		height: 140px; 
 		margin-left: 80px;
 
-		/* color of story/mission/idea circles */
-		background-color: lightblue;
 	}
 
-
-
-	/*when the screen is between 505px and 910px,
+	/*when the screen is between 505px and 910px (largest screen sizes),
 		we want to move the story_circles to the left
 	*/
 	@media only screen and (max-width: 910px){
 
 		.story_circles{
-			margin-left: 40px;
+			margin-left: 30px;
 		}
-
+		.row .sm_circles{
+			width:100%;
+		}
 	}
-	/* when the screen is less than 505px, we want each 
-		story_circle column div to expand to 12 cols
+
+	/* when the screen is in middle screen size, 
+		- create line breaks between all blog posts
+		- specially align the story circles with their descriptions
+		- set the story_circle divs to be 100% of the width of the view
+		- set the blog divs to be 100% of the width of the view
 	*/
+	@media only screen and (min-width: 506px) and (max-width: 705px){
+		.row .sm_circles{
+			width:100%;
+		}
+		.story_circles{
+			margin-left: 40%;
+		}
+		.row .story_feature{
+			width:100%;
+		}
+		.row .blogbox{
+			width:100%;
+		}
+	}
+
+	/* smallest screen size, align 
+		story circles with their messages, and
+		keep blog and story boxes at 100% width
+	*/ 
 	@media only screen and (max-width: 505px){
 
+		.row .sm_circles{
+			width:100%;
+		}
 		.story_circles{
-			margin-left: -5px;
+			margin-left: 25%;
 		}
 
+		.row .story_feature{
+			width:100%;
+		}
+		.row .blogbox{
+			width:100%;
+		}
 	}
+
 
 	/* we want to 'highlight' the circles on mouseover */	
 	.story_circles:hover, .sm_circles a:hover{
@@ -254,6 +286,13 @@
 
 	/* END: Carousel */
 
+	/* START: Featured Quote */
+
+		#index-quote{
+			text-align:center;
+		}
+
+	/* END: Featured Quote */
 
 	/* START: Blog Previews; */
 
@@ -266,7 +305,6 @@
 		.row .blogbox p{
 			display:block; 
 			margin-left: 5px; 
-			overflow:auto; 
 			text-align:left; 
 			margin-top: -5px;
 		}
@@ -317,7 +355,6 @@
 
 		background-color: lightblue;
 
-
 	}
 
 	/* leaders descriptions*/
@@ -350,15 +387,14 @@
 /* START: Footer;
 
 	/* styling footer buttons/copyright text */
-/*	.button_row{
+	.row button{
 		margin: 40px;
-	}*/
+	}
 
 	/* declare footer size and color */
-/*	.footer{
-		background-color: white;
+	footer .row{
 		width: 100%;
-		height: 150px;
-	}*/
+		height: 120px;
+	}
 
 /* END: Footer; 
