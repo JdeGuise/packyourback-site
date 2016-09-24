@@ -3,7 +3,9 @@
 	/* set h*, li, and p fonts */
 	h1, h2, h3, h4, h5, h6{ font-family: 'Roboto', sans-serif; }	
 
-	p{ font-family: 'Open-Sans', sans-serif; }
+	.who_we_are p{
+		font-family: 'Raleway', sans-serif;
+	}
 	
 	li{
 		font-family: 'Raleway', sans-serif;
@@ -40,7 +42,7 @@
 		  display: inline;
 		  cursor: pointer;
 		  padding: 20px;
-		  margin-left: -5px;
+		  margin-left: -20px;
 		}
 
 		/* remove hyperlink decoration from links */
@@ -70,46 +72,13 @@
 		/* this query is for when the screen is super small 
 			basically we want the same thing as above but taller
 		*/
-		@media only screen and (max-width: 420px){
+		@media only screen and (max-width: 385px){
 
 			header li{
-				margin-left: -10px;
+				margin-left: 0px;
+				text-align: center;
 			}
 		}
-
-
-	/* END LOGO/NAV STYLING */
-
-	/* START SOCIAL MEDIA CIRCLES */
-		/* declare social media circles */
-		.sm_circles {
-			border-radius: 50%;
-			width: 100px;
-			height: 100px; 
-
-			background-color: skyblue;
-		}
-
-		/* style for social media icons */
-		.sm_circles img{
-			width:50px;
-			height:50px;
-			vertical-align: center;
-			text-align:center;
-			position:relative;
-			top: 25px;
-			margin-left: 25px;
-		}	
-
-		/* styling social media paragraph descriptions */
-		.sm_circles p{
-			position:relative; 
-			top:50px; 
-			font-size: 15px;
-
-		}
-
-	/* END SOCIAL MEDIA CIRCLES */
 
 
 	/*START: HEADER ALIGNMENTS */
@@ -118,20 +87,30 @@
 		.row h3, .row h2{
 			text-align: center;
 		}
-
-		/* align all of our footer headers to the left*/
-		#fcol_a h3, #fcol_b h3{
+		.content{
+			position: relative;
+			top: 50px;
+			left:20px;
+			color:white;
+		}
+		footer h4{
+			position: relative;
 			text-align: left;
+			color: rgba(255, 255, 255, .6);
 		}
 
 		/* aligning our footer lists to the left,
 			removing their bullet points, and
 			giving them top and bottom margins for spacing */
-		#fcol_a li, #fcol_b li{
+		footer li{
+			position: relative;
+
 			text-align: left;
 			list-style-type: none;
-			margin: 10px 0 10px 0;
-		}	
+			margin: 10px 0 10px 0;			
+		}
+
+
 
 	/* END HEADER ALIGNMENTS */
 
@@ -147,12 +126,19 @@
 		text-align: left;
 	}	
 
+	.after{
+		background: rgba(0,0,0,0.75);
+	}
+
+	footer img{
+		width: 25px;
+		height: 25px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+
 /* END TEMPLATING */
-
-/* START index.html */
-
-
-
 
 /* START: index.html */
 
@@ -164,15 +150,17 @@
 		/*initialize a box */
 		width: 140px;
 		height: 140px; 
-		margin-left: 80px;
+		margin-left: 155px;
 
 	}
 
-
+	.who_we_are{
+		background-color:lightgray;
+	}
 	/*when the screen is between 505px and 910px (largest screen sizes),
 		we want to move the story_circles to the left
 	*/
-	@media only screen and (min-width: 706px) and (max-width: 899px){
+	@media only screen and (min-width: 706px) and (max-width: 1050px){
 		.story_circles{
 			margin-left: 60px;
 		}
@@ -249,17 +237,6 @@
 			position: relative;
 		}
 
-		/* Caption text */
-		.text {
-			color: #f2f2f2;
-			font-size: 15px;
-			padding: 8px 12px;
-			position: absolute;
-			bottom: 8px;
-			width: 100%;
-			text-align: center;
-		}
-
 		/* The dots/bullets/indicators */
 		.dot {
 			height: 13px;
@@ -318,6 +295,9 @@
 		}
 
 	/* END: Blog Previews; */
+
+
+	/* END LOGO/NAV STYLING */
 
 
 /* END: index.html */
@@ -395,8 +375,9 @@
 /* START: Footer;
 
 	/* styling footer buttons/copyright text */
-	.row button{
-		margin: 40px;
+	footer button{
+		position: relative;
+		bottom:20px;
 	}
 
 	/* declare footer size and color */
