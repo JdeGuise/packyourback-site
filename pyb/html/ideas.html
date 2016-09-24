@@ -13,7 +13,7 @@
 
 	<body> 
 <!-- row is from Foundation, and allows us to dynamically move elements on the page-->
-    <div class="row">
+    <div class="row header">
 
        <header>
 <!-- columns and small-12 are Foundation classes 
@@ -35,24 +35,23 @@
       </header>
     </div>
 
-
+<br>
+<br>
+<br>
+<br>
 		<div class="row">
 			<div class="columns small-12">
 				<h1 style="text-align:center;">Current Projects</h1>
 
 					<div class="columns small-6">
 				    	<h3>col1</h3>
-							<p><a href="#">P11</a></p>
-							<p><a href="#">P12</a></p>
-							<p><a href="#">P13</a></p>
-							<p><a href="#">P14</a></p>
+							<p><a href="#">August 20th Distribution Event</a></p>
+							<p><a href="#">Upcoming event 2</a></p>
 					  </div>
 					<div class="columns small-6">
 						<h3>col2</h3>
-							<p><a href="#">P21</a></p>
-							<p><a href="#">P22</a></p>
-							<p><a href="#">P23</a></p>
-							<p><a href="#">P24</a></p>
+							<p><a href="#">Pack Your Back at CMU</a></p>
+							<p><a href="#">Expansion Goals</a></p>
 					</div>
 			</div>
 		</div>
@@ -359,4 +358,14 @@
       </footer><!-- close footer content -->
 
 	</body>
+	<script type="text/javascript">
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 1){  
+			    $('header').addClass("sticky");
+			  }
+			  else{
+			    $('header').removeClass("sticky");
+			  }
+			});
+	</script>
   </html>

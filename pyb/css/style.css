@@ -1,13 +1,9 @@
  /* START TEMPLATE STYLING */
 
 	/* set h*, li, and p fonts */
-	h1, h2, h3, h4, h5, h6{ font-family: 'Roboto', sans-serif; }	
+	body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
 
-	.who_we_are p{
-		font-family: 'Raleway', sans-serif;
-	}
-	
-	li{
+	.who_we_are p, li, body p{
 		font-family: 'Raleway', sans-serif;
 	}
 
@@ -49,7 +45,14 @@
 		header a {
 		  text-decoration: none;
 		}
-
+		.header{
+			position: fixed;
+			color: lightblue;
+			width: 100%;
+			top: 0;
+			z-index: 1;
+			background-color: rgba(0,0,0,.75);
+		}
 		/* query is for when screen width is less than 775px
 			while it's true, we want to:
 				1 center our logo,
@@ -305,6 +308,10 @@
 
 
 /* START: ideas.html */
+
+
+
+
 
 	/* style for ideas.html project paragraphs*/
 /*	.project p{
