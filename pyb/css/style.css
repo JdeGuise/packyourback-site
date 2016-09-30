@@ -1,5 +1,41 @@
  /* START TEMPLATE STYLING */
 
+ html, body{
+ 	padding: 0px;
+ 	margin: 0px;
+/* 	margin-left: -20px;
+*/	
+	width:100%;
+ }
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+/*	color: rgb(228, 68, 23);
+*/	color: rgb(33, 65, 149);  /* dark blue */
+
+}
+
+
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+ 	@media only screen and (max-width: 1049px){
+ 		.menuitem{
+ 			visibility: hidden;
+ 		}
+ 		.icon{
+ 			visibility: visible;
+ 		}
+ 	}
+
+ 	@media only screen and (min-width: 1050px){
+ 		.icon{
+ 			visibility: hidden;
+ 		}
+ 	}
+
+
+
 	/* set h*, li, and p fonts */
 	body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
 
@@ -37,7 +73,7 @@
 		  vertical-align: middle;
 		  display: inline;
 		  cursor: pointer;
-		  padding: 20px;
+		  padding: 40px;
 		  margin-left: -20px;
 		}
 
@@ -63,13 +99,19 @@
 
 			/* center logo */
 			#logo{
-				text-align:center;
+				position: relative;
+				left: 12%;
 			}
 
 			/* make header taller */
 			header{
 				height: 100px;
+				opacity: .8;
 			}
+			header li{
+				padding: 20px;
+			}
+			
 		}
 
 		/* this query is for when the screen is super small 
@@ -81,6 +123,9 @@
 				margin-left: 0px;
 				text-align: center;
 			}
+			header{
+				opacity: 1;
+			}
 		}
 
 
@@ -90,12 +135,13 @@
 		.row h3, .row h2{
 			text-align: center;
 		}
+		
 		.content{
 			position: relative;
 			top: 50px;
-			left:20px;
 			color:white;
 		}
+
 		footer h4{
 			position: relative;
 			text-align: left;
@@ -136,8 +182,6 @@
 	footer img{
 		width: 25px;
 		height: 25px;
-		margin-left: 10px;
-		margin-right: 10px;
 	}
 
 
@@ -145,7 +189,7 @@
 
 /* START: index.html */
 
-	/* declare story/mission/leadership circles */
+	/* declare story/mission/idea circles */
 	.story_circles{
 		/*make our box into circles */
 		border-radius: 50%;
@@ -158,7 +202,7 @@
 	}
 
 	.who_we_are{
-		background-color:lightgray;
+		background-color:lightblue;
 	}
 	/*when the screen is between 505px and 910px (largest screen sizes),
 		we want to move the story_circles to the left
@@ -211,7 +255,7 @@
 			margin-left:25px;
 		}
 		.story_circles{
-			margin-left: 31%;
+			margin-left: 28%;
 		}
 
 		.row .story_feature{
@@ -232,12 +276,11 @@
 
 	/* START: Carousel */
 
-		/* test stuff for carousel */
-		* {box-sizing:border-box}
 
 		/* Slideshow container */
 		.slideshow-container {
 			position: relative;
+			width: 100%;
 		}
 
 		/* The dots/bullets/indicators */
@@ -282,6 +325,8 @@
 
 	/* END: Featured Quote */
 
+
+
 	/* START: Blog Previews; */
 
 		.row .blogbox img{
@@ -295,6 +340,12 @@
 			margin-left: 5px; 
 			text-align:left; 
 			margin-top: -5px;
+		}
+
+		.blogrow{
+/*			background-color: rgb(211,211,211);
+*/			
+background-color: lightblue;
 		}
 
 	/* END: Blog Previews; */
@@ -349,7 +400,18 @@
 		height: 150px;
 
 		background-color: lightblue;
+		position: relative;
+		left: 40.5%;
 
+	}
+
+	@media only screen and (max-width: 950px){
+		.row #side_image{
+			width: 100%;
+		}
+		.row #vision_para{
+			width: 100%;
+		}
 	}
 
 	/* leaders descriptions*/
@@ -379,7 +441,11 @@
 
 
 
-/* START: Footer;
+/* START: Footer; */
+
+	#social_media_footer img:hover{
+		opacity: .75;
+	}
 
 	/* styling footer buttons/copyright text */
 	footer button{
@@ -392,5 +458,9 @@
 		width: 100%;
 		height: 120px;
 	}
+
+/*	footer .fwrapper{
+
+	}*/
 
 /* END: Footer; 

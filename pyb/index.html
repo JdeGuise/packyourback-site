@@ -12,55 +12,49 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
 	
 	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
 
   </head>
 
-	<body style="background-color:lightblue;">
+	<body style="background-color:#AAE4E4;">
 
 	<!-- row is from Foundation, and allows us to dynamically move elements on the page-->
-			<div class="row header">
-
-				 <header>
-
+				 <header class="header" style="width:100%;">
 	<!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
 			that can actively resize themselves -->
 					  <div class="columns small-12">
+
+							   <ul class="topnav" id="myTopNav">
 								<a href="index.html">
 								  <img id="logo" src="assets/pyb_row_270x70px.png">
 								</a>
-							   <ul>
-									<li><a href="html/leadership.html">Leadership</a></li>
-									<li><a href="html/ideas.html">Ideas</a></li>
-									<li><a href="html/blog.html">Blog</a></li>
-									<li><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
-									<li><a href="html/getinvolved.html">Get Involved</a></li>
+									<li class="menuitem"><a href="html/leadership.html">Leadership</a></li>
+									<li class="menuitem"><a href="html/ideas.html">Ideas</a></li>
+									<li class="menuitem"><a href="html/blog.html">Blog</a></li>
+									<li class="menuitem"><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
+									<li class="menuitem"><a href="html/getinvolved.html">Get Involved</a></li>
+							   		<li class="login menuitem"><a href="#">Login</a></li>
+							   		<li class="icon">
+							   			<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+							   		</li>
 							   </ul>
 					  </div>
 				</header>
-			</div>
-			<br>
-			<br>
-			<br>
-			<div class="row">
-				<div class="columns small-12 slideshow-container" style="top:3px;">
 
-					  <div class="mySlides fade">
+				<div class="columns small-12 slideshow-container" style="top:75px; background-color:black;">
+
+					  <div class="mySlides fade" >
 						<div class="numbertext"></div>
-							<img src="assets/suppliesheader.png" style="width:100%;">
-						<div class="text"></div>
+							<img src="assets/suppliesheader.png">
 					  </div>
 
 					  <div class="mySlides fade">
 						<div class="numbertext"></div>
-							<img src="assets/Flint Photos/allweneedislove.jpg" style="width:100%;">
-						<div class="text"></div>
+							<img src="assets/Flint Photos/allweneedislove.jpg">
 					  </div>
 
 					  <div class="mySlides fade">
 						<div class="numbertext"></div>
-							<img src="assets/Flint Photos/girl-in-firecap.png" style="width:100%;">
-						<div class="text"></div>
+							<img src="assets/Flint Photos/girl-in-firecap.png">
 					  </div>
 						<div class="mySlideDots" style="position: relative; top: -20px;">
 						  <span class="dot"></span>
@@ -68,16 +62,19 @@
 						  <span class="dot"></span>
 						</div>
 				</div>
-			</div>
+
 
 		<div class="who_we_are">
 			<div class="row">
 				<div class="columns small-12">
 				<br/>
+				<br>
+				<br>
+				<br>
 				  <h3>Who We Are</h3>
 				  <br>
 					<p>
-					  In 2016, organizers identified the financial burdens faced by families due to recent economic downturns, and the underfunding of the Michigan public education system. Pack Your Back is currently working to supply the children of Michigan with the supplies they need in order to succeed in the classroom. 
+					  In 2016, Central Michigan University students identified the financial burdens faced by families due to the recent economic downturns, and the underfunding of the Michigan public education system.  Pack Your Back was created by those CMU students to help supply younger students living in underprivileged locations with the proper resources to succeed in the classroom.
 					</p>
 
 				</div>
@@ -85,24 +82,13 @@
 			</div>
 
 			<br/>
-		  <br/>
 		</div>
 
-		  <div class="row">
-		  <br>
-				  <h2>Why Donate?</h2>
-				  <br>
-					<p>
-					  Pack Your Back relies on the kind donations from the community and various stores in order to provide the school supplies to the children. Since there are always more children in need, our goal this year is to donate over 500 backpacks filled with school supplies.
-					</p>
-
-					<p>
-					  In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
-					</p>
-		  </div>
+		 
 
 		  <div class="row">
 			<div class="columns small-12">
+			<br>
 			<br>
 				<div class="columns small-4 story_feature">		
 					<div class="story_circles">	  
@@ -112,7 +98,7 @@
 					</div>
 					<br/>
 				  <h3>Our Needs</h3>
-				  <p>Pack Your Back relies on your charitable donations of school supplies.</p>
+				  <p>Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
 				
 				</div>
 				
@@ -124,7 +110,7 @@
 					</div>
 						<br/>
 					<h3>Our Leaders</h3>
-				  <p>Leaders are stepping up to large challenges in order to accomplish social good.</p>
+				  <p>Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to help budding younger generations receive the education they need.</p>
 				</div>
 
 				<div class="columns small-4 story_feature">
@@ -136,17 +122,13 @@
 					</div>
 					<br/>
 				  <h3>Our Ideas</h3>
-				  <p>We are planning a number of events and initiatives in order to keep making a difference.</p>
+				  <p>Events catering to students in need, whether they're distribution events or just community get-togethers, students have an opportunity to interact and grow.</p>
 
-				</div>	
+				</div>
 			</div>
 
 		  </div>
-
-	<!-- 	  <h3>What We Do</h3>
-
-			<p>Pack Your Back raises charitable donations - school supplies such as backpacks, pencils, funds, etc. - in order to distribute them to impoverished communities in need across greater Michigan.</p> -->
-
+				<br>	
 
 			<div class="row" id="index-quote" style="background-color:white;">
 
@@ -157,20 +139,32 @@
 
 			  <br/>
 			</div>
-
-
+ 		<div class="row" id="why_donate_container">
+		  <br>
+		  		<div class="columns small-12" id="why_donate_content">
+						  <h2>Why Donate?</h2>
+						  <br>
+							<p style= "word-wrap:break-word;">
+							  Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
+							</p>
+							<br>
+							<br>
+							<p>
+							  In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
+							</p>
+							<br>
+							<button type="submit" style="left:44.75%;">Donate Now</button>
+ 				</div>
+		  </div>
 
 
 
 			<br/>
-			<br/>
-
-			<div class="row">
-				
+			<div class="row blogrow">
+			<br>		
 				<h3>Recent Blog Posts</h3>
 
 				  <div class="columns small-12 blogbreaks">
-				  <br/>
 					<div class="columns small-6 blogbox">
 						<br/>
 						<br>
@@ -189,7 +183,7 @@
 			</div>
 
 
-			<div class="row">
+			<div class="row blogrow">
 				  <div class="columns small-12 blogbreaks">
 
 					<div class="columns small-6 blogbox">
@@ -200,7 +194,6 @@
 					  <img src="assets/blog/blog3.jpg">
 						<p>This paragraph should be something about a problem that many people don't know exists, or may be more of a problem than expected.  The descriptive paragraph can serve as a call to action for people, which inspires them to want to get involved. <a href="#">[LEARN MORE]</a></p>		
 					</div>
-
 					<div class="columns small-6 blogbox">
 
 					  <br/>
@@ -209,22 +202,20 @@
 					  <br>
 					  <img src="assets/blog/blog4.jpg">
 					  	<p>Are things getting better?  This is a wildcard blog post spot, meaning that we can put whatever type of article we want here.  Speculative?  Something important to say?  Good PR opportunity?  Whatever shoe fits for the snapshot in time. <a href="#">[READ MORE]</a></p>	
+
 					</div>
 				  </div>
+
 			</div>
 
-		<br/>
-		<br/>
 
-		  <br>
-		  <br>
 
 		<!-- Footer Section -->
 				 <br/>
 
-			<footer style="background-image: url('assets/Flint Photos/Chalk Horizontal.jpeg');" class="footer">
+			<footer style="background-image: url('assets/Flint Photos/Chalk Horizontal.jpeg');">
 			<div class="after">
-			  <div class="row">  
+			  <div class="row fwrapper">  
 
 				  <div class="columns small-3">
 						<div class="content">
@@ -266,7 +257,7 @@
 						<div class="columns small-3">
 
 								<a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
-								  <img src="assets/social_media/linkedin.jpg">
+								  <img src="assets/social_media/linkedin.png">
 								</a>				             
 								  <a href="https://twitter.com/packyourback">
 									<img src="assets/social_media/twitter.png">
@@ -275,14 +266,15 @@
 									<img src="assets/social_media/facebook.png">
 								 </a>
 									<a href="#">
-										<img src="assets/social_media/email.png">
+										<img src="assets/social_media/email_white.png">
 									</a>
 						</div>
 
 					<br/>
 				</div>  				       
-
+				<div class="push"></div>
 			  </div>
+			  <div class="footer"></div>
 				<div class="row">
 					<div class="columns small-12">
 						
@@ -314,6 +306,17 @@
 
 
 	 <script>
+
+	 		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+			function myFunction() {
+			    var x = document.getElementById("myTopNav");
+			    if (x.className === "topnav") {
+			        x.className += " responsive";
+			    } else {
+			        x.className = "topnav";
+			    }
+			}
+
 
 			// This function controls the paneling and transition of our slide show.
 			//	Without it, the pictures will all display in a column and the transition will break
