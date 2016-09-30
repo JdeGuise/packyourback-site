@@ -8,6 +8,10 @@
 	width:100%;
  }
 
+.body{
+	background-color:#AAE4E4;
+}
+
 /* Change background color of links on hover */
 ul.topnav li a:hover {
 /*	color: rgb(228, 68, 23);

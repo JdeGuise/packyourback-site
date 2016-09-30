@@ -12,28 +12,30 @@
   </head>
 
 
-<!-- row is from Foundation, and allows us to dynamically move elements on the page-->
-    <div class="row header">
+   <body class="body">
 
-       <header>
-<!-- columns and small-12 are Foundation classes 
-    that split the browser window into 12 columns 
-    that actively resize themselves
--->
-          <div class="columns small-12">
-              <a href="../index.html">
-                <img id="logo" src="../assets/pyb_row_270x70px.png">
-              </a>
-               <ul>
-                  <li><a href="leadership.html">Leadership</a></li>
-                  <li><a href="ideas.html">Ideas</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
-                  <li><a href="getinvolved.html">Get Involved</a></li>
-               </ul>
-          </div>
-      </header>
-    </div>
+  <!-- row is from Foundation, and allows us to dynamically move elements on the page-->
+         <header class="header" style="width:100%;">
+  <!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
+      that can actively resize themselves -->
+            <div class="columns small-12">
+
+                 <ul class="topnav" id="myTopNav">
+                <a href="../index.html">
+                  <img id="logo" src="../assets/pyb_row_270x70px.png">
+                </a>
+                  <li class="menuitem"><a href="leadership.html">Leadership</a></li>
+                  <li class="menuitem"><a href="ideas.html">Ideas</a></li>
+                  <li class="menuitem"><a href="blog.html">Blog</a></li>
+                  <li class="menuitem"><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
+                  <li class="menuitem"><a href="getinvolved.html">Get Involved</a></li>
+                    <li class="login menuitem"><a href="#">Login</a></li>
+                    <li class="icon">
+                      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                    </li>
+                 </ul>
+            </div>
+        </header>
 
       <h3 id="blog_header">Contact Us</h3>
 
