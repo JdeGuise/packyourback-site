@@ -162,10 +162,14 @@ ul.topnav li a:hover {
 			position: relative;
 			top: 50px;
 			color:white;
+
 		}
 		.content p{
-			text-align:left;
 			margin-left: 5px;
+		}	
+
+		#about_us{
+			text-align: left;
 		}
 
 
@@ -191,7 +195,7 @@ ul.topnav li a:hover {
 		}
 
 		/* styling footer buttons/copyright text */
-		footer button{
+		.footer_buttons button{
 			position: relative;
 			bottom:20px;
 		}
@@ -199,10 +203,9 @@ ul.topnav li a:hover {
 		/* declare footer size and color */
 		footer .row{
 			width: 100%;
-			height: 120px;
 		}		
 		footer {
-			background-image: url('../assets/Flint Photos/Chalk Horizontal.jpeg');
+			background-image: black;
 		}
 																			/* END FOOTER ALIGNMENTS */
 	
@@ -255,17 +258,6 @@ ul.topnav li a:hover {
 	.who_we_are .row{
 		max-width: 1000px;
 	}
-	/*when the screen is between 505px and 910px (largest screen sizes),
-		we want to move the story_circles to the left
-	*/
-	@media only screen and (min-width: 706px) and (max-width: 1050px){
-		.story_circles{
-			margin-left: 60px;
-		}
-		.row .sm_features{
-			width:100%;
-		}
-	}
 	/* when the screen is in middle screen size, 
 		- create line breaks between all blog posts
 		- specially align the story circles with their descriptions
@@ -273,16 +265,6 @@ ul.topnav li a:hover {
 		- set the blog divs to be 100% of the width of the view
 	*/
 	@media only screen and (min-width: 506px) and (max-width: 705px){
-		.row .sm_feature{
-			width:50%;
-		}
-		.row .sm_circles{
-			height:50px;
-			width:50px;
-		}
-		.story_circles{
-			margin-left: 40%;
-		}
 		.row .story_feature{
 			width:100%;
 		}
@@ -297,18 +279,6 @@ ul.topnav li a:hover {
 	*/ 
 	@media only screen and (max-width: 505px){
 
-		.row .sm_feature{
-			width:50%;
-		}
-		.row .sm_circles{
-			height: 75px;
-			width: 75px;
-			margin-left:25px;
-		}
-		.story_circles{
-			margin-left: 28%;
-		}
-
 		.row .story_feature{
 			width:100%;
 		}
@@ -319,7 +289,7 @@ ul.topnav li a:hover {
 
 
 	/* we want to 'highlight' the circles on mouseover */	
-	.story_circles:hover, .sm_circles a:hover{
+	.story_circles:hover{
 		opacity:.5;
 	}
 
@@ -412,7 +382,7 @@ ul.topnav li a:hover {
 		.blogrow{
 /*			background-color: rgb(211,211,211);
 */			
-background-color: lightblue;
+			background-color: lightblue;
 		}
 
 																			/* END: Blog Previews; */
