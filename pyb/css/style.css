@@ -1,4 +1,4 @@
- /* START TEMPLATE STYLING */
+																		 /* START TEMPLATE STYLES */
 
  html, body{
  	padding: 0px;
@@ -10,6 +10,7 @@
 
 .body{
 	background-color:#AAE4E4;
+	font-family: Arial;
 }
 
 /* Change background color of links on hover */
@@ -21,35 +22,44 @@ ul.topnav li a:hover {
 
 
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-
- 	@media only screen and (max-width: 1049px){
- 		.menuitem{
- 			visibility: hidden;
- 		}
- 		.icon{
- 			visibility: visible;
- 		}
- 	}
-
- 	@media only screen and (min-width: 1050px){
- 		.icon{
- 			visibility: hidden;
- 		}
- 	}
 
 
 
-	/* set h*, li, and p fonts */
-	body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
 
-	.who_we_are p, li, body p{
-		font-family: 'Raleway', sans-serif;
-	}
 
-	/* START LOGO/NAV STYLING */
+
+																			/* START FONTS */
+		/* set h*, li, and p fonts */
+		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
+
+		.who_we_are p, li, body p{
+			font-family: 'Raleway', sans-serif;
+		}
+																			/* END FONTS */
+
 	
 		/* styling and formatting for logo/nav header */
+
+
+																					/* START NAVHEADER STYLINGS */
+
+		/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+		 	@media only screen and (max-width: 1049px){
+		 		.menuitem{
+		 			visibility: hidden;
+		 		}
+		 		.icon{
+		 			visibility: visible;
+		 		}
+		 	}
+
+		 	@media only screen and (min-width: 1050px){
+		 		.icon{
+		 			visibility: hidden;
+		 		}
+		 	}
+
 
 		/* set default header height */
 		header{
@@ -93,6 +103,14 @@ ul.topnav li a:hover {
 			z-index: 1;
 			background-color: rgba(0,0,0,.75);
 		}
+		.menuitem{
+			left:100px;
+		  	top: 5px;
+		  	position: relative;
+		}
+		.login{
+			left:500px;
+		}
 		/* query is for when screen width is less than 775px
 			while it's true, we want to:
 				1 center our logo,
@@ -131,9 +149,9 @@ ul.topnav li a:hover {
 				opacity: 1;
 			}
 		}
+																					/* END NAVHEADER STYLINGS */
 
-
-	/*START: HEADER ALIGNMENTS */
+																			/*START: HEADER ALIGNMENTS */
 
 		/* align headers in center */
 		.row h3, .row h2{
@@ -145,29 +163,49 @@ ul.topnav li a:hover {
 			top: 50px;
 			color:white;
 		}
+		.content p{
+			text-align:left;
+			margin-left: 5px;
+		}
 
+
+																			/* END HEADER ALIGNMENTS */
+
+																			/* START FOOTER ALIGNMENTS */
+	/* aligning our footer lists to the left,
+			removing their bullet points, and
+			giving them top and bottom margins for spacing */
+		footer li{
+			position: relative;
+			text-align: left;
+			list-style-type: none;
+			margin: 10px 0 10px 0;			
+		}																		
 		footer h4{
 			position: relative;
 			text-align: left;
 			color: rgba(255, 255, 255, .6);
 		}
-
-		/* aligning our footer lists to the left,
-			removing their bullet points, and
-			giving them top and bottom margins for spacing */
-		footer li{
-			position: relative;
-
-			text-align: left;
-			list-style-type: none;
-			margin: 10px 0 10px 0;			
+		#social_media_footer img:hover{
+			opacity: .75;
 		}
 
+		/* styling footer buttons/copyright text */
+		footer button{
+			position: relative;
+			bottom:20px;
+		}
 
-
-	/* END HEADER ALIGNMENTS */
-
-
+		/* declare footer size and color */
+		footer .row{
+			width: 100%;
+			height: 120px;
+		}		
+		footer {
+			background-image: url('../assets/Flint Photos/Chalk Horizontal.jpeg');
+		}
+																			/* END FOOTER ALIGNMENTS */
+	
 	/* all of our rows' paragraphs are 
 		default aligned to center */
 	.row p{
@@ -187,12 +225,14 @@ ul.topnav li a:hover {
 		width: 25px;
 		height: 25px;
 	}
+	.org_p{
+		color:white; 
+		position:relative; 
+		top:40px;
+	}
+																		/* END TEMPLATING */
 
-
-/* END TEMPLATING */
-
-/* START: index.html */
-
+																		/* START: index.html */
 	/* declare story/mission/idea circles */
 	.story_circles{
 		/*make our box into circles */
@@ -201,12 +241,19 @@ ul.topnav li a:hover {
 		/*initialize a box */
 		width: 140px;
 		height: 140px; 
-		margin-left: 155px;
-
+/*		margin-left: 155px;
+*/
+		margin: 0 auto;
+	}
+	.story_p{
+	  	max-width: 500px;
 	}
 
 	.who_we_are{
 		background-color:lightblue;
+	}
+	.who_we_are .row{
+		max-width: 1000px;
 	}
 	/*when the screen is between 505px and 910px (largest screen sizes),
 		we want to move the story_circles to the left
@@ -278,7 +325,7 @@ ul.topnav li a:hover {
 
 
 
-	/* START: Carousel */
+																			/* START: Carousel */
 
 
 		/* Slideshow container */
@@ -319,19 +366,35 @@ ul.topnav li a:hover {
 			width: 100%;
 		}
 
-	/* END: Carousel */
+																			/* END: Carousel */
 
-	/* START: Featured Quote */
+																			/* START: Featured Quote */
 
 		#index-quote{
 			text-align:center;
+			max-width: 1000px;
+		}
+		#index-quote #index-quote-self{
+			margin: 0 auto;
+		}
+		#index-quote-wrapper{
+			background-color: white;
 		}
 
-	/* END: Featured Quote */
+																			/* END: Featured Quote */
 
 
+																			/* START: Why Donate Container */
 
-	/* START: Blog Previews; */
+		#why_donate_container{
+			max-width: 800px;
+		}
+
+
+																			/* END: Why Donate Container;
+
+
+																			/* START: Blog Previews; */
 
 		.row .blogbox img{
 			float:left; 
@@ -352,17 +415,14 @@ ul.topnav li a:hover {
 background-color: lightblue;
 		}
 
-	/* END: Blog Previews; */
+																			/* END: Blog Previews; */
 
 
-	/* END LOGO/NAV STYLING */
-
-
-/* END: index.html */
+																		/* END: index.html */
 
 
 
-/* START: ideas.html */
+																		/* START: ideas.html */
 
 
 
@@ -380,21 +440,21 @@ background-color: lightblue;
 		margin: 0 0 0 15px;
 	}*/
 
-/*END: ideas.html */
+																			/*END: ideas.html */
 
 
 
-/* START: blog.html */
+																			/* START: blog.html */
 
 /*	#blog_header{
 		text-align: left;
 	}*/
 
-/* END: blog.html */
+																		/* END: blog.html */
 
 
 
-/* START: leadership.html */
+																		/* START: leadership.html */
 
 
 	.leadership_circles{
@@ -447,21 +507,7 @@ background-color: lightblue;
 
 /* START: Footer; */
 
-	#social_media_footer img:hover{
-		opacity: .75;
-	}
 
-	/* styling footer buttons/copyright text */
-	footer button{
-		position: relative;
-		bottom:20px;
-	}
-
-	/* declare footer size and color */
-	footer .row{
-		width: 100%;
-		height: 120px;
-	}
 
 /*	footer .fwrapper{
 

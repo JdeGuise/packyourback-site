@@ -62,7 +62,7 @@ body {
 */  font-style: normal;
   font-weight: normal;
   line-height: 1.5;
-  margin: 0;
+  margin: 0px;
   padding: 0;
   position: relative; }
 
@@ -2919,7 +2919,7 @@ meta.foundation-mq-topbar {
     .slideshow-wrapper .orbit-container .orbit-bullets li {
       display: inline-block; }
   .slideshow-wrapper .preloader {
-    border-radius: 1000px;
+    border-radius: 100%;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-name: rotate;

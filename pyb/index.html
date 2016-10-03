@@ -18,7 +18,7 @@
 	<body class="body">
 
 	<!-- row is from Foundation, and allows us to dynamically move elements on the page-->
-				 <header class="header" style="width:100%;">
+				 <header class="header">
 	<!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
 			that can actively resize themselves -->
 					  <div class="columns small-12">
@@ -98,7 +98,7 @@
 					</div>
 					<br/>
 				  <h3>Our Needs</h3>
-				  <p>Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
+				  <p class="story_p">Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
 				
 				</div>
 				
@@ -110,7 +110,7 @@
 					</div>
 						<br/>
 					<h3>Our Leaders</h3>
-				  <p>Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to help budding younger generations receive the education they need.</p>
+				  <p class="story_p">Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to help budding younger generations receive the education they need.</p>
 				</div>
 
 				<div class="columns small-4 story_feature">
@@ -122,29 +122,35 @@
 					</div>
 					<br/>
 				  <h3>Our Ideas</h3>
-				  <p>Events catering to students in need, whether they're distribution events or just community get-togethers, students have an opportunity to interact and grow.</p>
+				  <p class="story_p">Events catering to students in need, whether they're distribution events or just community get-togethers, students have an opportunity to interact and grow.</p>
 
 				</div>
 			</div>
 
 		  </div>
 				<br>	
+		<div id="index-quote-wrapper">
 
-			<div class="row" id="index-quote" style="background-color:white;">
+			<div class="row" id="index-quote">
 
 				<br/>
 				<br/>
+				<div id="index-quote-self">
+			  		<h4>According to the 2014 American Community Survey, 23% of children in Michigan come from a poor family.  There is a constant need for education supplies to help children succeed.</h4>					
+				</div>
 
-			  <h4>"Galen Miller Galen Miller Galen Miller Galen Miller Galen Miller Galen Miller"<br/>- Galen Miller</h4>
 
 			  <br/>
-			</div>
+			</div>			
+
+		</div>
+
  		<div class="row" id="why_donate_container">
 		  <br>
 		  		<div class="columns small-12" id="why_donate_content">
 						  <h2>Why Donate?</h2>
 						  <br>
-							<p style= "word-wrap:break-word;">
+							<p>
 							  Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
 							</p>
 							<br>
@@ -153,7 +159,14 @@
 							  In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
 							</p>
 							<br>
-							<button type="submit" style="left:44.75%;">Donate Now</button>
+							<div class="columns small-6">
+								<a href="https://www.classy.org/checkout/donation?eid=81983"><button>Donate Now</button></a>
+							</div>
+							<div class="columns small-6">
+								<a href="https://www.classy.org/checkout/donation?eid=81983"><button>More Info</button></a>
+							</div>
+
+							</div>
  				</div>
 		  </div>
 
@@ -213,7 +226,7 @@
 		<!-- Footer Section -->
 				 <br/>
 
-			<footer style="background-image: url('assets/Flint Photos/Chalk Horizontal.jpeg');">
+		<footer>
 			<div class="after">
 			  <div class="row fwrapper">  
 
@@ -245,7 +258,7 @@
 				  <div class="columns small-3">
 						<div class="content">
 							<h4>About Us</h4>
-							<p style="text-align:left; margin-left:5px;">	In 2016, organizers identified the financial burdens faced by families due to recent economic downturns, and the underfunding of the Michigan public education system. Pack Your Back is currently working to supply the children of Michigan with the supplies they need in order to succeed in the classroom. </p>
+							<p>	In 2016, organizers identified the financial burdens faced by families due to recent economic downturns, and the underfunding of the Michigan public education system. Pack Your Back is currently working to supply the children of Michigan with the supplies they need in order to succeed in the classroom. </p>
 
 						</div>
 					<br/>
@@ -294,7 +307,7 @@
 					
 						<div class="columns small-6"></div>
 						<div class="columns small-6">
-							<p style="color:white; position:relative; top:40px;">PACK YOUR BACK IS A REGISTERED 501(C)(3) NONPROFIT ORGANIZATION. &copy;2016 &nbsp;&nbsp;</p>		
+							<p id="org_p">PACK YOUR BACK IS A REGISTERED 501(C)(3) NONPROFIT ORGANIZATION. &copy;2016 &nbsp;&nbsp;</p>		
 						</div>
 				</div>
 
