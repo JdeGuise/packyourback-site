@@ -109,7 +109,7 @@ ul.topnav li a:hover {
 		  	position: relative;
 		}
 		.login{
-			left:500px;
+			left:450px;
 		}
 		/* query is for when screen width is less than 775px
 			while it's true, we want to:
@@ -207,6 +207,27 @@ ul.topnav li a:hover {
 		footer {
 			background-image: black;
 		}
+		#about_us{
+			min-width: 250px;
+		}
+		#terms_of_use{
+			top:11px;
+		}
+
+
+		@media only screen and (max-width: 1000px){
+			#footer1, #footer2, #footer3, #footer4{
+				width:50%;
+			}
+			.footer_buttons{
+				margin-top: 10px;
+			}
+		}
+		@media only screen and (max-width: 550px){
+			#footer1, #footer2, #footer3, #footer4{
+				width:100%;
+			}
+		}
 																			/* END FOOTER ALIGNMENTS */
 	
 	/* all of our rows' paragraphs are 
@@ -244,8 +265,6 @@ ul.topnav li a:hover {
 		/*initialize a box */
 		width: 140px;
 		height: 140px; 
-/*		margin-left: 155px;
-*/
 		margin: 0 auto;
 	}
 	.story_p{
@@ -258,6 +277,8 @@ ul.topnav li a:hover {
 	.who_we_are .row{
 		max-width: 1000px;
 	}
+	
+
 	/* when the screen is in middle screen size, 
 		- create line breaks between all blog posts
 		- specially align the story circles with their descriptions
@@ -427,6 +448,8 @@ ul.topnav li a:hover {
 																		/* START: leadership.html */
 
 
+
+
 	.leadership_circles{
 		border-radius: 50%;
 
@@ -435,8 +458,25 @@ ul.topnav li a:hover {
 
 		background-color: lightblue;
 		position: relative;
-		left: 40.5%;
+		margin:0 auto;
+	}
 
+	#leaderjumbo_wrapper{
+		background-color:black;
+		position:relative;
+		top:3px;
+	}
+
+	#ti_wrapper{
+		background-color:white;
+	}
+	#ti_content{
+		max-width: 950px;
+	}
+
+	.lead_article_wrapper{
+		max-width: 500px;
+		margin: 0 auto;
 	}
 
 	@media only screen and (max-width: 950px){
@@ -446,6 +486,10 @@ ul.topnav li a:hover {
 		.row #vision_para{
 			width: 100%;
 		}
+	}
+
+	#pyb_cmu_p{
+		max-width: 950px;
 	}
 
 	/* leaders descriptions*/
