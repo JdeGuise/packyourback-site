@@ -99,6 +99,17 @@ ul.menuitems li a:hover {
 		  	top: 5px;
 		  	position: relative;
 		}
+		.menuitem button{
+			color:white;
+			vertical-align: center;
+		  	transition: all 0.4s;			
+		}
+		.menuitem button:hover{
+			color:black;
+		}
+
+
+
 		.login{
 			left:450px;
 		}
@@ -256,14 +267,7 @@ ul.menuitems li a:hover {
 	.story_circles:hover{
 		opacity:.5;
 	}
-	.donatebtn{
-		color:white;
-		vertical-align: center;
-	  	transition: all 0.4s;
-	}
-	.donatebtn:hover{
-		color:black;
-	}
+
 
 
 
