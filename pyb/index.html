@@ -16,7 +16,8 @@
   </head>
 
 	<body class="body">
-
+			<div class="row">
+				
 	<!-- row is from Foundation, and allows us to dynamically move elements on the page-->
 				 <header class="header">
 	<!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
@@ -27,93 +28,84 @@
 								<a href="index.html">
 								  <img id="logo" src="assets/pyb_row_270x70px.png">
 								</a>
-									<li class="menuitem"><a href="html/leadership.html">Leadership</a></li>
-									<li class="menuitem"><a href="html/ideas.html">Ideas</a></li>
-									<li class="menuitem"><a href="html/blog.html">Blog</a></li>
-									<li class="menuitem"><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
+									<li class="menuitem"><a href="html/leadership.html">Staff</a></li>
+									<li class="menuitem"><a href="html/blog.html">Causes</a></li>
 									<li class="menuitem"><a href="html/getinvolved.html">Get Involved</a></li>
-							   		<li class="login menuitem"><a href="#">Login</a></li>
-							   		<li class="icon">
-							   			<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-							   		</li>
+							   		<li class="menuitem"><a href="login.html">Login</a></li>
+									<li class="menuitem donateitem">
+										<button style="background-color:crimson;"><a class="donatebtn" href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></button>
+									</li>
 							   </ul>
 					  </div>
-				</header>
-
-				<div class="columns small-12 slideshow-container" style="top:75px; background-color:black;">
-
-					  <div class="mySlides fade" >
-						<div class="numbertext"></div>
-							<img src="assets/suppliesheader.png">
-					  </div>
-
-					  <div class="mySlides fade">
-						<div class="numbertext"></div>
-							<img src="assets/Flint Photos/allweneedislove.jpg">
-					  </div>
-
-					  <div class="mySlides fade">
-						<div class="numbertext"></div>
-							<img src="assets/Flint Photos/girl-in-firecap.png">
-					  </div>
-						<div class="mySlideDots" style="position: relative; top: -20px;">
-						  <span class="dot"></span>
-						  <span class="dot"></span>
-						  <span class="dot"></span>
-						</div>
-				</div>
-
-
-		<div class="who_we_are">
-			<div class="row">
-				<div class="columns small-12">
-				<br/>
-				<br>
-				<br>
-				<br>
-				  <h3>Who We Are</h3>
-				  <br>
-					<p>
-					  In 2016, Central Michigan University students identified the financial burdens faced by families due to the recent economic downturns, and the underfunding of the Michigan public education system.  Pack Your Back was created by those CMU students to help supply younger students living in underprivileged locations with the proper resources to succeed in the classroom.
-					</p>
-
-				</div>
-
+				</header>				
 			</div>
+				<div class="slideshow-container">
+					  <div class="mySlides fade" >
+					  			<img src="assets/suppliesheader.png" id="jumboimg"/>
+					  </div>
 
-			<br/>
+					  <div class="mySlides fade">
+							<img src="assets/Flint Photos/allweneedislove.jpg" id="jumboimg">
+					  </div>
+
+					  <div class="mySlides fade">
+							<img src="assets/Flint Photos/girl-in-firecap.png" id="jumboimg">
+					  </div>
+						<div class="mySlideDots" style="position: relative; top: -35px; text-align:center">
+						  <span class="dot"></span>
+						  <span class="dot"></span>
+						  <span class="dot"></span>
+						</div>					
+				</div>
+
+
+		<div id="who_we_are_container">
+			<div class="row" id="who_we_are_self">					
+					<div class="columns small-12">
+					<br/>
+						  <h1>Who We Are</h1>
+							  <br>
+								<p>
+								  In 2016, Central Michigan University students identified the financial burdens faced by families due to the recent economic downturns, and the underfunding of the Michigan public education system.  Pack Your Back was created by those CMU students to help supply younger students living in underprivileged locations with the proper resources to succeed in the classroom.
+								</p>
+					</div>
+					<br/>
+			</div>			
 		</div>
+
 
 		 
 
 		  <div class="row">
-			<div class="columns small-12">
 			<br>
 			<br>
-				<div class="columns small-4 story_feature">		
+				<div class="columns small-12 medium-12 large-4 story_feature">		
 					<div class="story_circles">	  
 					  <a href="html/getinvolved.html">
 						<img src='assets/story_pics/supplies.png'>
 					  </a>
 					</div>
 					<br/>
-				  <h3>Our Needs</h3>
-				  <p class="story_p">Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
-				
+				  	<h2>Our Needs</h2>
+				  	<p class="story_p">Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
+				  	<br>
+					<br>
 				</div>
 				
-				<div class="columns small-4 story_feature">
+				<div class="columns small-12 medium-12 large-4 story_feature">
 					<div class="story_circles">
 					  <a href="html/leadership.html">
 						<img src='assets/story_pics/swinging.png'>
 					  </a>
 					</div>
 						<br/>
-					<h3>Our Leaders</h3>
-				  <p class="story_p">Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to help budding younger generations receive the education they need.</p>
+					<h2>Our Leaders</h2>
+				  	<p class="story_p">Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to help budding younger generations receive the education they need.</p>
+				  	<br>
+				  	<br>
 				</div>
 
-				<div class="columns small-4 story_feature">
+				<div class="columns small-12 medium-12 large-4 story_feature">
 				
 					<div class="story_circles">
 					  <a href="html/ideas.html">
@@ -121,23 +113,24 @@
 					  </a>
 					</div>
 					<br/>
-				  <h3>Our Ideas</h3>
-				  <p class="story_p">Events catering to students in need, whether they're distribution events or just community get-togethers, students have an opportunity to interact and grow.</p>
+				  	<h2>Our Ideas</h2>
+				  	<p class="story_p">Events catering to students in need, whether they're distribution events or just community get-togethers, students have an opportunity to interact and grow.</p>
+				  	<br>
+				  	<br>
 
 				</div>
-			</div>
 
 		  </div>
-				<br>	
 		<div id="index-quote-wrapper">
 
-			<div class="row" id="index-quote">
+			<div class="row" id="index-quote" style="max-width:1200px;">
 
 				<br/>
 				<br/>
 				<div id="index-quote-self">
-			  		<h4>According to the 2014 American Community Survey, 23% of children in Michigan come from a poor family.  There is a constant need for education supplies to help children succeed.</h4>					
+			  		<h4>23% of Michigan fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>					
 				</div>
+				<br>
 
 
 			  <br/>
@@ -148,7 +141,9 @@
  		<div class="row" id="why_donate_container">
 		  <br>
 		  		<div class="columns small-12" id="why_donate_content">
-						  <h2>Why Donate?</h2>
+		  					<br>
+						  <h1>Why Donate?</h1>
+						  <br>
 						  <br>
 							<p>
 							  Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
@@ -159,10 +154,10 @@
 							  In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
 							</p>
 							<br>
-							<div class="columns small-6">
+							<div class="columns small-6" style="text-align:center;">
 								<a href="https://www.classy.org/checkout/donation?eid=81983"><button>Donate Now</button></a>
 							</div>
-							<div class="columns small-6">
+							<div class="columns small-6" style="text-align:center;">
 								<a href="https://www.classy.org/checkout/donation?eid=81983"><button>More Info</button></a>
 							</div>
 
@@ -203,19 +198,20 @@
 						<br/>
 						<br>
 						<br>
-						<br>
 					  <img src="assets/blog/blog3.jpg">
 						<p>This paragraph should be something about a problem that many people don't know exists, or may be more of a problem than expected.  The descriptive paragraph can serve as a call to action for people, which inspires them to want to get involved. <a href="#">[LEARN MORE]</a></p>		
+						<br>
+						<br>
 					</div>
 					<div class="columns small-6 blogbox">
 
 					  <br/>
 					  <br>
 					  <br>
-					  <br>
 					  <img src="assets/blog/blog4.jpg">
 					  	<p>Are things getting better?  This is a wildcard blog post spot, meaning that we can put whatever type of article we want here.  Speculative?  Something important to say?  Good PR opportunity?  Whatever shoe fits for the snapshot in time. <a href="#">[READ MORE]</a></p>	
-
+					  	<br>
+					  	<br>
 					</div>
 				  </div>
 
@@ -223,12 +219,11 @@
 
 
     <!-- Footer Section -->
-         <br/>
 
     <footer class="footer">
       <div class="after">
         <div class="row fwrapper">  
-            <div class="columns small-3" id="footer1">
+            <div class="columns small-12 medium-6 large-3" id="footer1">
               <div class="content">
                 <h4>Get Involved</h4>
 
@@ -246,7 +241,7 @@
               <button class="footer_buttons" id="terms_of_use">Terms of Use</button>
 
             </div>
-            <div class="columns small-3" id="footer2">
+            <div class="columns small-12 medium-6 large-3" id="footer2">
               <div class="content">
                 <h4>Who We Are</h4>
 
@@ -263,7 +258,7 @@
               <button class="footer_buttons">Privacy Policy</button>
 
             </div>            
-            <div class="columns small-3" id="footer3">
+            <div class="columns small-12 medium-6 large-3" id="footer3">
               <div class="content">
                 <h4>About Us</h4>
                 <p id="about_us">In 2016, organizers identified the financial burdens faced by families due to recent economic downturns, and the underfunding of the Michigan public education system. Pack Your Back is currently working to supply the children of Michigan with the supplies they need in order to succeed in the classroom. </p>
@@ -272,7 +267,7 @@
             <br/>
             </div>
               
-          <div class="columns small-3" id="footer4">
+          <div class="columns small-12 medium-6 large-3" id="footer4">
               <div class="content" id="social_media_footer">
                 <h4>Find Us Elsewhere</h4>
 
@@ -303,7 +298,6 @@
               <p id="org_p">PACK YOUR BACK IS A REGISTERED 501(C)(3) NONPROFIT ORGANIZATION. &copy;2016 &nbsp;&nbsp;</p>    
             </div>
         </div>
-        <br>
      
       </div>  <!-- close container -->
     </footer><!-- close footer content -->

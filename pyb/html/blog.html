@@ -12,29 +12,29 @@
   </head>
 
    <body class="body">
-
+      <div class="row">
+        
   <!-- row is from Foundation, and allows us to dynamically move elements on the page-->
-         <header class="header" style="width:100%;">
+         <header class="header">
   <!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
       that can actively resize themselves -->
             <div class="columns small-12">
 
                  <ul class="topnav" id="myTopNav">
                 <a href="../index.html">
-                  <img id="logo" src="../assets/pyb_row_270x70px.png">
+                  <img id="logo" src="assets/pyb_row_270x70px.png">
                 </a>
-                  <li class="menuitem"><a href="leadership.html">Leadership</a></li>
-                  <li class="menuitem"><a href="ideas.html">Ideas</a></li>
-                  <li class="menuitem"><a href="blog.html">Blog</a></li>
-                  <li class="menuitem"><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
+                  <li class="menuitem"><a href="leadership.html">Staff</a></li>
+                  <li class="menuitem"><a href="blog.html">Causes</a></li>
                   <li class="menuitem"><a href="getinvolved.html">Get Involved</a></li>
-                    <li class="login menuitem"><a href="#">Login</a></li>
-                    <li class="icon">
-                      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-                    </li>
+                    <li class="menuitem"><a href="login.html">Login</a></li>
+                  <li class="menuitem donateitem">
+                    <button style="background-color:crimson;"><a class="donatebtn" href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></button>
+                  </li>
                  </ul>
             </div>
-        </header>
+        </header>       
+      </div>
 
     <br>
     <br>
@@ -66,17 +66,16 @@
          </div> 
         </div>     
     <!-- Footer Section -->
-         <br/>
 
     <footer class="footer">
       <div class="after">
         <div class="row fwrapper">  
-            <div class="columns small-3" id="footer1">
+            <div class="columns small-12 medium-6 large-3" id="footer1">
               <div class="content">
                 <h4>Get Involved</h4>
 
                 <ul>
-                    <li><a href="../html/getinvolved.html">Work With Us</a></li>
+                    <li><a href="html/getinvolved.html">Work With Us</a></li>
                     <li><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
                 </ul>
 
@@ -89,14 +88,14 @@
               <button class="footer_buttons" id="terms_of_use">Terms of Use</button>
 
             </div>
-            <div class="columns small-3" id="footer2">
+            <div class="columns small-12 medium-6 large-3" id="footer2">
               <div class="content">
                 <h4>Who We Are</h4>
 
                 <ul>
-                    <li><a href="../html/leadership.html">Our People</a></li>
-                    <li><a href="../html/financials.html" >Financial Overview</a></li>
-                    <li><a href="../html/contact.html">Contact</a></li>
+                    <li><a href="html/leadership.html">Our People</a></li>
+                    <li><a href="html/financials.html" >Financial Overview</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>
                 </ul>
               </div>
 
@@ -106,7 +105,7 @@
               <button class="footer_buttons">Privacy Policy</button>
 
             </div>            
-            <div class="columns small-3" id="footer3">
+            <div class="columns small-12 medium-6 large-3" id="footer3">
               <div class="content">
                 <h4>About Us</h4>
                 <p id="about_us">In 2016, organizers identified the financial burdens faced by families due to recent economic downturns, and the underfunding of the Michigan public education system. Pack Your Back is currently working to supply the children of Michigan with the supplies they need in order to succeed in the classroom. </p>
@@ -115,22 +114,22 @@
             <br/>
             </div>
               
-          <div class="columns small-3" id="footer4">
+          <div class="columns small-12 medium-6 large-3" id="footer4">
               <div class="content" id="social_media_footer">
                 <h4>Find Us Elsewhere</h4>
 
 
                   <a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
-                    <img src="../assets/social_media/linkedin.png">
+                    <img src="assets/social_media/linkedin.png">
                   </a>                     
                     <a href="https://twitter.com/packyourback">
-                    <img src="../assets/social_media/twitter.png">
+                    <img src="assets/social_media/twitter.png">
                     </a>
                    <a href="https://www.facebook.com/PackYourBack/">
-                    <img src="../assets/social_media/facebook.png">
+                    <img src="assets/social_media/facebook.png">
                    </a>
                     <a href="#">
-                      <img src="../assets/social_media/email_white.png">
+                      <img src="assets/social_media/email_white.png">
                     </a>
               </div>
 
@@ -146,7 +145,6 @@
               <p id="org_p">PACK YOUR BACK IS A REGISTERED 501(C)(3) NONPROFIT ORGANIZATION. &copy;2016 &nbsp;&nbsp;</p>    
             </div>
         </div>
-        <br>
      
       </div>  <!-- close container -->
     </footer><!-- close footer content -->
