@@ -170,6 +170,10 @@ ul.menuitems li a:hover {
 			margin-left: 5px;
 		}	
 
+		.content, .footer_buttons{
+			margin-left: 50px;
+		}
+
 		#about_us{
 			text-align: left;
 		}
