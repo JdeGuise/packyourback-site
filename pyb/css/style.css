@@ -406,12 +406,9 @@ ul.menuitems li a:hover {
 
 	.leadership_circles{
 		border-radius: 50%;
-
-		width: 150px;
-		height: 150px;
-
+		width: 180px;
+		height: 180px;
 		background-color: lightblue;
-		position: relative;
 		margin:0 auto;
 	}
 
@@ -429,17 +426,21 @@ ul.menuitems li a:hover {
 	}
 
 	.lead_article_wrapper{
-		max-width: 500px;
+		max-width: 600px;
 		margin: 0 auto;
 	}
+	.lead_article_wrapper article p{
+		text-align: left;
+	}
+
 
 	@media only screen and (max-width: 950px){
-		.row #side_image{
+/*		.row #side_image{
 			width: 100%;
 		}
 		.row #vision_para{
 			width: 100%;
-		}
+		}*/
 	}
 
 	#pyb_cmu_p{
