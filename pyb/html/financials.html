@@ -27,10 +27,10 @@
                 </a>
                   <li class="menuitem"><a href="../index.html">Home</a></li>
                   <li class="menuitem"><a href="leadership.html">Staff</a></li>                  
-                  <li class="menuitem"><a href="blog.html">Causes</a></li>
+                  <li class="menuitem"><a href="blog.html">Our Cause</a></li>
                   <li class="menuitem"><a href="getinvolved.html">Get Involved</a></li>
-                    <li class="menuitem"><a href="login.php">Login</a></li>
-                  <li class="menuitem">
+<!--                     <li class="menuitem"><a href="login.php">Login</a></li>
+ -->                  <li class="menuitem">
                     <button onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button>
                   </li>
                  </ul>

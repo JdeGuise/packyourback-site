@@ -34,16 +34,10 @@ ul.menuitems li a:hover {
 
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
 
-		 	@media only screen and (max-width: 1049px){
-		 		.menuitem{
+		 	@media only screen and (max-width: 1260px){
+		 		.menuitem, .menuitem button{
 		 			visibility: hidden;
 		 		}
-		 		.icon{
-		 			visibility: visible;
-		 		}
-		 	}
-
-		 	@media only screen and (min-width: 1050px){
 		 		.icon{
 		 			visibility: hidden;
 		 		}
@@ -76,8 +70,8 @@ ul.menuitems li a:hover {
 		  vertical-align: middle;
 		  display: inline;
 		  cursor: pointer;
-		  padding-left: 60px;
-		  padding-right: 60px;
+		  padding-left: 50px;
+		  padding-right: 50px;
 		  margin-left: -20px;
 		}
 
@@ -121,21 +115,18 @@ ul.menuitems li a:hover {
 		*/
 		@media only screen and (max-width: 775px){
 
-			/* center logo */
-			#logo{
-				position: relative;
-				left: 12%;
-			}
-
 			/* make header taller */
 			header{
-				height: 100px;
 				opacity: .8;
 			}
 			header li{
-				padding: 20px;
+				padding-right: 20px;
+				padding-left: 20px;
 			}
-			
+			.slideshow-container{
+				top:75px;
+				margin-bottom:75px;
+			}
 		}
 
 		/* this query is for when the screen is super small 
@@ -240,10 +231,8 @@ ul.menuitems li a:hover {
 		width: 25px;
 		height: 25px;
 	}
-	.org_p{
-		color:white; 
-		position:relative; 
-		top:40px;
+	#org_p{
+		color:white;  
 	}
 																		/* END TEMPLATING */
 
@@ -261,6 +250,15 @@ ul.menuitems li a:hover {
 	.story_p{
 	  	max-width: 500px;
 	  	margin: 0 auto;
+	}
+
+
+	.sm_circles{
+		border-radius:50%;
+		background-color: lightblue;
+		width:150px;
+		height:150px;
+		margin:0 auto;
 	}
 
 	#who_we_are_self{
