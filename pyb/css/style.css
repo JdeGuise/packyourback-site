@@ -27,10 +27,9 @@ ul.menuitems li a:hover {
 																			/* END FONTS */
 
 	
-		/* styling and formatting for logo/nav header */
+		/* styling and formatting for logo/nav header
 
-
-																					/* START NAVHEADER STYLINGS */
+				 																	/* START NAVHEADER STYLINGS */
 
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
 
@@ -40,6 +39,14 @@ ul.menuitems li a:hover {
 		 		}
 		 		.icon{
 		 			visibility: hidden;
+		 		}
+		 		#hamburger{
+		 			display: contents;
+		 		}
+		 	}
+		 	@media screen and (min-width: 1260px){
+		 		#hamburger{
+		 			display: none;
 		 		}
 		 	}
 
@@ -58,6 +65,15 @@ ul.menuitems li a:hover {
 		header #logo {
 		  position:relative;
 		  margin-top:7px;
+		}
+		/*align hamburger menu more closely with the left side of the screen, for aesthetic purposes*/
+		header #hamburger{
+			margin-left:-20px;
+
+		}
+		header #hamburger:hover{
+			background-color: yellow;
+			cursor: pointer
 		}
 
 		/* align header elements and move navbar into a row */
