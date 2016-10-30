@@ -19,6 +19,8 @@ pyb/
 		
 		backend/
 			dashboard.html
+				file server links to .pdfs
+
 			bod.html
 			marketingcomm.html
 			fundraisingcomm.html
@@ -33,7 +35,6 @@ pyb/
 		main.js
 		vendor/
 			jquery.js
-
 
 
 
