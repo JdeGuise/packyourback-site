@@ -1,8 +1,8 @@
 # packyourback
 
-This is the custom site solution for Pack Your Back, a nonprofit located in Mount Pleasant and Bad Axe, Michigan. 
+This is the custom site solution for Pack Your Back, a nonprofit located in Mount Pleasant, Michigan.
 
-The project structure is standard for a set of static webpages, and the overview of the project is as follows:
+# File Structure
 
 pyb/
 
