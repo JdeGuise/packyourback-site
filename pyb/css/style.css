@@ -7,12 +7,10 @@
  	margin: 0px;
 	width:100%;
  }
-
 .body{
 	background-color: rgb(242, 242, 242);
 	font-family: Arial;
 }
-
 /* Change background color of links on hover */
 ul.menuitems li a:hover {
 	color: rgb(33, 65, 149);  /* dark blue */
@@ -24,7 +22,6 @@ ul.menuitems li a:hover {
 
 		/* set h*, li, and p fonts */
 		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
-
 		.who_we_are p, li, body p{
 			font-family: 'Raleway', sans-serif;
 		}
@@ -40,7 +37,6 @@ ul.menuitems li a:hover {
 /****************************/
 
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
-
 		 	@media only screen and (max-width: 1260px){
 		 		.menuitem, .menuitem button{
 		 			visibility: hidden;
@@ -48,25 +44,43 @@ ul.menuitems li a:hover {
 		 		.icon{
 		 			visibility: hidden;
 		 		}
+		 		#hamburger{
+		 			visibility: visible;
+		 		}
 		 	}
-
-
+		 	@media screen and (min-width: 1260px){
+		 		#hamburger{
+		 			visibility: hidden;
+		 		}
+		 		#dropdownOverlay{
+		 			visibility: hidden;
+		 		}
+		 	}
 		/* set default header height */
 		header{
 			height: 75px;
 		}
-
 		/* set default header logo width and height */
 		header img{
 			height: 60px;
 		}
-
 		/*align our logo vertically with the box it sits in */
 		header #logo {
 		  position:relative;
 		  margin-top:7px;
 		}
-
+		/*align hamburger menu more closely with the right side of the screen, for aesthetic purposes*/
+		header #hamburger{
+			position: absolute;
+			right:7px;
+			top:10px;
+			width:50px;
+			height: 55px;
+		}
+		header #hamburger:hover{
+			background-color: yellow;
+			cursor: pointer
+		}
 		/* align header elements and move navbar into a row */
 		header ul {
 		  display: inline;
@@ -81,7 +95,6 @@ ul.menuitems li a:hover {
 		  padding-right: 50px;
 		  margin-left: -20px;
 		}
-
 		/* remove hyperlink decoration from links */
 		header a {
 		  text-decoration: none;
@@ -108,9 +121,6 @@ ul.menuitems li a:hover {
 		.menuitem button:hover{
 			color:black;
 		}
-
-
-
 		.login{
 			left:450px;
 		}
@@ -121,7 +131,6 @@ ul.menuitems li a:hover {
 				3 center the navbar links below the logo.
 		*/
 		@media only screen and (max-width: 775px){
-
 			/* make header taller */
 			header{
 				opacity: .8;
@@ -135,12 +144,10 @@ ul.menuitems li a:hover {
 				margin-bottom:75px;
 			}
 		}
-
 		/* this query is for when the screen is super small 
 			basically we want the same thing as above but taller
 		*/
 		@media only screen and (max-width: 385px){
-
 			header li{
 				margin-left: 0px;
 				text-align: center;
@@ -157,6 +164,23 @@ ul.menuitems li a:hover {
 /* START: HEADER ALIGNMENTS */
 /***************************/
 
+ 		#myDropdown {
+ 			display: block;
+ 			position:relative;
+ 			font-size: 26px;
+
+ 		}
+ 		.dropdown_menuitem {
+ 			list-style-type: none;
+ 			padding-left: 20px;
+ 			/*padding-top: 8px;*/
+ 			margin-top: 10px;
+ 			position: static;
+ 			text-align: center;
+
+ 		}
+																	/*end dropdown items*/
+																			/*START: HEADER ALIGNMENTS */
 		/* align headers in center */
 		.row h3, .row h2, .row h1{
 			text-align: center;
@@ -166,16 +190,13 @@ ul.menuitems li a:hover {
 			position: relative;
 			top: 50px;
 			color:white;
-
 		}
 		.content p{
 			margin-left: 5px;
 		}	
-
 		.content, .footer_buttons{
 			margin-left: 50px;
 		}
-
 		#about_us{
 			text-align: left;
 		}
@@ -205,13 +226,11 @@ ul.menuitems li a:hover {
 		#social_media_footer img:hover{
 			opacity: .75;
 		}
-
 		/* styling footer buttons/copyright text */
 		.footer_buttons button{
 			position: relative;
 			bottom:20px;
 		}
-
 		/* declare footer size and color */
 		footer .row{
 			width: 100%;
@@ -254,16 +273,13 @@ ul.menuitems li a:hover {
 	.row p{
 		text-align:center;
 	}
-
 	/* all of our articles acting as descriptions are aligned left */
 	.articles article{
 		text-align: left;
 	}	
-
 	.after{
 		background: rgba(0,0,0,0.75);
 	}
-
 	footer img{
 		width: 25px;
 		height: 25px;
