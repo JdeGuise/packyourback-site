@@ -14,17 +14,13 @@
 	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 
   </head>
-
 	<body class="body">
 				
 	<!-- row is from Foundation, and allows us to dynamically move elements on the page-->
 				 <header class="header">
 	<!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
 			that can actively resize themselves -->
-
 							   <ul class="topnav" id="myTopNav">
-							   		<ul>
-							   			<img id="hamburger" src="assets/literalhamburger.png"></ul>
 									<a href="index.html">
 									  <img id="logo" src="assets/pyb_row_270x70px.png">
 									</a>
@@ -36,17 +32,33 @@
 									<li class="menuitem">
 										<button onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button>
 									</li>
+									<ul>
+										<!-- This is a fun placeholder image. Actual asset at assets/hamburgermenu.png 
+										It's a little smaller than the burger, so modifications to CSS are a must-->
+							   			<img id="hamburger" src="assets/hamburgermenu.png">
+							   		</ul>
 							   </ul>
-				</header>				
+				</header>
+				<div id="dropdownOverlay">
+					<div class="thedropdown">
+						<ul class="dropdown" id="myDropdown" >
+							<li class="dropdown_menuitem"><a href="index.html">Home</a></li>
+							<li class="dropdown_menuitem"><a href="html/leadership.html">Staff</a></li>
+							<li class="dropdown_menuitem"><a href="html/blog.html">Our Cause</a></li>
+							<li class="dropdown_menuitem"><a href="html/getinvolved.html">Get Involved</a></li>
+					   		<li class="dropdown_menuitem"><a href="backend/index.php">Login</a></li>
+							<li class="dropdown_menuitem">
+								<button onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
+						</ul>
+					</div>
+				</div>				
 				<div class="slideshow-container" style="background-color:lightblue;">
 					  <div class="mySlides fade" >
 					  			<img src="assets/index_pics/1.jpeg" id="jumboimg"/>
 					  </div>
-
 					  <div class="mySlides fade">
 							<img src="assets/index_pics/2.png" id="jumboimg">
 					  </div>
-
 					  <div class="mySlides fade">
 							<img src="assets/index_pics/3.png" id="jumboimg">
 					  </div>
@@ -56,11 +68,9 @@
 						  <span class="dot"></span>
 						</div>					
 				</div>
-
 			<div class="row blogrow">
 			<br>
 				<h2>Recent Blog Posts</h2>
-
 					<div class="columns small-12 medium-6 large-6 blogbox">
 						<br/>
 						<br>
@@ -69,34 +79,26 @@
 						This is a paragraph discussing information about an event that the organization is throwing or already held.  Clicking on the 'more info' link at the end of this paragraph will take them to the full blog page comprehensively detailing one of our current events. <a href="#">[MORE INFO]</a></p>
 					</div>
 					<div class="columns small-12 medium-6 large-6 blogbox">
-
 		  				<br/>
 		  				<br>
 						<img src="assets/blog/blog2.jpg">
 						<p>This could be a paragraph talking about the originations of the organization, or even a spotlight for some of the initiatives that non-director members are involving themselves with.  Basically, this is a blog post preview about internals of the organization. <a href="#">[READ MORE]</a></p>
 					</div>	
 			</div>
-
-
 			<div class="row blogrow">
-
 					<div class="columns small-12 medium-6 large-6 blogbox">
 						
 						<br/>
 						<br>
 						<br>
-
 					  <img src="assets/blog/blog3.jpg">
 						<p>This paragraph should be something about a problem that many people don't know exists, or may be more of a problem than expected.  The descriptive paragraph can serve as a call to action for people, which inspires them to want to get involved. <a href="#">[LEARN MORE]</a></p>		
 						
 					</div>
-
 					<div class="columns small-12 medium-6 large-6 blogbox">
-
 					  <br/>
 					  <br>
 					  <br>
-
 					  <img src="assets/blog/blog4.jpg">
 					  	<p>Are things getting better?  This is a wildcard blog post spot, meaning that we can put whatever type of article we want here.  Speculative?  Something important to say?  Good PR opportunity?  Whatever shoe fits for the snapshot in time. <a href="#">[READ MORE]</a></p>	
 					</div>
@@ -104,7 +106,6 @@
 			<div style="background-color:lightblue;">
 				
 				<br>
-
 			</div>
 		  <div class="row">
 			<br>
@@ -134,7 +135,6 @@
 				  	<br>
 				  	<br>
 				</div>
-
 				<div class="columns small-12 medium-12 large-4 story_feature">
 				
 					<div class="story_circles">
@@ -147,27 +147,19 @@
 				  	<p class="story_p">Events catering to students in need, whether they're distribution events or just community get-togethers, students have an opportunity to interact and grow.</p>
 				  	<br>
 				  	<br>
-
 				</div>
-
 		  </div>
 		<div id="index-quote-wrapper">
-
 			<div class="row" id="index-quote" style="max-width:1200px;">
-
 				<br/>
 				<br/>
 				<div id="index-quote-self">
 			  		<h4>23% of Michigan fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>					
 				</div>
 				<br>
-
-
 			  <br/>
 			</div>			
-
 		</div>
-
  		<div class="row" id="why_donate_container">
 		  <br>
 		  		<div class="columns small-12" id="why_donate_content">
@@ -190,61 +182,46 @@
 							<div class="columns small-6" style="text-align:center;">
 								<a href="https://www.classy.org/checkout/donation?eid=81983"><button>More Info</button></a>
 							</div>
-
 							</div>
  				</div>
 		  </div>
-
-
-
 			<br/>
-
-
     <!-- Footer Section -->
-
     <footer class="footer">
       <div class="after">
         <div class="row fwrapper">  
             <div class="columns small-12 medium-6 large-3" id="footer1">
               <div class="content">
                 <h4>Get Involved</h4>
-
                 <ul>
                     <li><a href="html/getinvolved.html">Work With Us</a></li>
                     <li><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
                 </ul>
-
               </div>
-
             <br>
             <br>
             <br>
             <br>
               <button class="footer_buttons" id="terms_of_use">Terms of Use</button>
-
             </div>
             <div class="columns small-12 medium-6 large-3" id="footer2">
               <div class="content">
                 <h4>Who We Are</h4>
-
                 <ul>
                     <li><a href="html/leadership.html">Our People</a></li>
                     <li><a href="html/financials.html" >Financial Overview</a></li>
                     <li><a href="html/contact.html">Contact Us</a></li>
                 </ul>
               </div>
-
             <br/>
             <br>
             <br>
               <button class="footer_buttons">Privacy Policy</button>
-
             </div>            
             <div class="columns small-12 medium-6 large-3" id="footer3">
               <div class="content">
                 <h4>About Us</h4>
                 <p id="about_us">In 2016, organizers identified the financial burdens faced by families due to recent economic downturns, and the underfunding of the Michigan public education system. Pack Your Back is currently working to supply the children of Michigan with the supplies they need in order to succeed in the classroom. </p>
-
               </div>
             <br/>
             </div>
@@ -252,8 +229,6 @@
           <div class="columns small-12 medium-6 large-3" id="footer4">
               <div class="content" id="social_media_footer">
                 <h4>Find Us Elsewhere</h4>
-
-
                   <a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
                     <img src="assets/social_media/linkedin.png">
                   </a>                     
@@ -267,7 +242,6 @@
                       <img src="assets/social_media/email_white.png">
                     </a>
               </div>
-
             <br/>
           </div>          
         </div>
@@ -283,12 +257,8 @@
      
       </div>  <!-- close container -->
     </footer><!-- close footer content -->
-
 	  </body><!-- close body -->
-
-
 	 <script>
-
 	 		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 			function myFunction() {
 			    var x = document.getElementById("myTopNav");
@@ -298,17 +268,12 @@
 			        x.className = "topnav";
 			    }
 			}
-
-
 			// This function controls the paneling and transition of our slide show.
 			//	Without it, the pictures will all display in a column and the transition will break
-
 			 function showSlides() {
 				var i;
-
 				//divs that hold each mySlide class
 				var slides = document.getElementsByClassName("mySlides");
-
 				//spans that hold each dot class
 				var dots = document.getElementsByClassName("dot");
 				
@@ -327,25 +292,34 @@
 				for (i = 0; i < dots.length; i++) {
 					dots[i].className = dots[i].className.replace(" active", "");
 				}
-
 				// correspond display:block to the right slide
 				slides[slideIndex-1].style.display = "block";
 				
 				// corresponsed the active dot to the active slide
 				dots[slideIndex-1].className += " active";
-
 				// change image every 10 seconds
 				setTimeout(showSlides, 10000);
 			}
-
 			//start the slide index at 0
 			var slideIndex = 0;
-
 			//run our function
 			showSlides();
 
+			// function testf(){
+			// 	alert("test");
+			// }
+			// function toggleMenu(){
+			// 	var dropdown = document.getElementById("myDropdown")
+			// 	var display = dropdown.style.display;
+
+
+			// 	if (display == "none"){
+			// 		dropdown.style.display = "block"
+			// 	}
+			// 	else {
+			// 		dropdown.style.display = "none"
+			// 	}
+			// }
 	 </script>
-
 	 <script src="js/menu.js" ></script>
-
 </html>

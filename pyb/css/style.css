@@ -1,38 +1,28 @@
 																		 /* START TEMPLATE STYLES */
-
  html, body{
  	padding: 0px;
  	margin: 0px;
 	width:100%;
  }
-
 .body{
 	background-color: rgb(242, 242, 242);
 	font-family: Arial;
 }
-
 /* Change background color of links on hover */
 ul.menuitems li a:hover {
 	color: rgb(33, 65, 149);  /* dark blue */
 }
-
-
 																			/* START FONTS */
 		/* set h*, li, and p fonts */
 		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
-
 		.who_we_are p, li, body p{
 			font-family: 'Raleway', sans-serif;
 		}
 																			/* END FONTS */
-
 	
 		/* styling and formatting for logo/nav header
-
 				 																	/* START NAVHEADER STYLINGS */
-
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
-
 		 	@media only screen and (max-width: 1260px){
 		 		.menuitem, .menuitem button{
 		 			visibility: hidden;
@@ -41,41 +31,42 @@ ul.menuitems li a:hover {
 		 			visibility: hidden;
 		 		}
 		 		#hamburger{
-		 			display: contents;
+		 			visibility: visible;
 		 		}
 		 	}
 		 	@media screen and (min-width: 1260px){
 		 		#hamburger{
-		 			display: none;
+		 			visibility: hidden;
+		 		}
+		 		#dropdownOverlay{
+		 			visibility: hidden;
 		 		}
 		 	}
-
-
 		/* set default header height */
 		header{
 			height: 75px;
 		}
-
 		/* set default header logo width and height */
 		header img{
 			height: 60px;
 		}
-
 		/*align our logo vertically with the box it sits in */
 		header #logo {
 		  position:relative;
 		  margin-top:7px;
 		}
-		/*align hamburger menu more closely with the left side of the screen, for aesthetic purposes*/
+		/*align hamburger menu more closely with the right side of the screen, for aesthetic purposes*/
 		header #hamburger{
-			margin-left:-20px;
-
+			position: absolute;
+			right:7px;
+			top:10px;
+			width:50px;
+			height: 55px;
 		}
 		header #hamburger:hover{
 			background-color: yellow;
 			cursor: pointer
 		}
-
 		/* align header elements and move navbar into a row */
 		header ul {
 		  display: inline;
@@ -90,7 +81,6 @@ ul.menuitems li a:hover {
 		  padding-right: 50px;
 		  margin-left: -20px;
 		}
-
 		/* remove hyperlink decoration from links */
 		header a {
 		  text-decoration: none;
@@ -117,9 +107,6 @@ ul.menuitems li a:hover {
 		.menuitem button:hover{
 			color:black;
 		}
-
-
-
 		.login{
 			left:450px;
 		}
@@ -130,7 +117,6 @@ ul.menuitems li a:hover {
 				3 center the navbar links below the logo.
 		*/
 		@media only screen and (max-width: 775px){
-
 			/* make header taller */
 			header{
 				opacity: .8;
@@ -144,12 +130,10 @@ ul.menuitems li a:hover {
 				margin-bottom:75px;
 			}
 		}
-
 		/* this query is for when the screen is super small 
 			basically we want the same thing as above but taller
 		*/
 		@media only screen and (max-width: 385px){
-
 			header li{
 				margin-left: 0px;
 				text-align: center;
@@ -159,9 +143,38 @@ ul.menuitems li a:hover {
 			}
 		}
 																					/* END NAVHEADER STYLINGS */
+																	/*start dropdown items*/
+		#dropdownOverlay{
+			display:none;
+			position:fixed;
+			z-index: 1;
+			margin-top: 75px;
+			top:75px;
+			margin:0;
+			width:100%;
 
+			background-color: rgba(242, 242, 242, .8);
+			/*needs work*/
+			transition: background-color .5s ease;
+		}
+
+ 		#myDropdown {
+ 			display: block;
+ 			position:relative;
+ 			font-size: 26px;
+
+ 		}
+ 		.dropdown_menuitem {
+ 			list-style-type: none;
+ 			padding-left: 20px;
+ 			/*padding-top: 8px;*/
+ 			margin-top: 10px;
+ 			position: static;
+ 			text-align: center;
+
+ 		}
+																	/*end dropdown items*/
 																			/*START: HEADER ALIGNMENTS */
-
 		/* align headers in center */
 		.row h3, .row h2, .row h1{
 			text-align: center;
@@ -171,23 +184,17 @@ ul.menuitems li a:hover {
 			position: relative;
 			top: 50px;
 			color:white;
-
 		}
 		.content p{
 			margin-left: 5px;
 		}	
-
 		.content, .footer_buttons{
 			margin-left: 50px;
 		}
-
 		#about_us{
 			text-align: left;
 		}
-
-
 																			/* END HEADER ALIGNMENTS */
-
 																			/* START FOOTER ALIGNMENTS */
 	/* aligning our footer lists to the left,
 			removing their bullet points, and
@@ -206,13 +213,11 @@ ul.menuitems li a:hover {
 		#social_media_footer img:hover{
 			opacity: .75;
 		}
-
 		/* styling footer buttons/copyright text */
 		.footer_buttons button{
 			position: relative;
 			bottom:20px;
 		}
-
 		/* declare footer size and color */
 		footer .row{
 			width: 100%;
@@ -233,16 +238,13 @@ ul.menuitems li a:hover {
 	.row p{
 		text-align:center;
 	}
-
 	/* all of our articles acting as descriptions are aligned left */
 	.articles article{
 		text-align: left;
 	}	
-
 	.after{
 		background: rgba(0,0,0,0.75);
 	}
-
 	footer img{
 		width: 25px;
 		height: 25px;
@@ -251,13 +253,11 @@ ul.menuitems li a:hover {
 		color:white;  
 	}
 																		/* END TEMPLATING */
-
 																		/* START: index.html */
 	/* declare story/mission/idea circles */
 	.story_circles{
 		/*make our box into circles */
 		border-radius: 50%;
-
 		/*initialize a box */
 		width: 140px;
 		height: 140px; 
@@ -267,8 +267,6 @@ ul.menuitems li a:hover {
 	  	max-width: 500px;
 	  	margin: 0 auto;
 	}
-
-
 	.sm_circles{
 		border-radius:50%;
 		background-color: lightblue;
@@ -276,32 +274,22 @@ ul.menuitems li a:hover {
 		height:150px;
 		margin:0 auto;
 	}
-
 	#who_we_are_self{
 		max-width: 1000px;
 	}	
-
 	/* we want to 'highlight' the circles on mouseover */	
 	.story_circles:hover{
 		opacity:.5;
 	}
-
-
-
-
 																			/* START: Carousel */
-
-
 		/* Slideshow container */
 		.slideshow-container {
 			position: relative;
 			width: 100%;
 		}
-
 		#jumboimg{
 			width:100%;
 		}
-
 		/* The dots/bullets/indicators */
 		.dot {
 			height: 13px;
@@ -312,12 +300,10 @@ ul.menuitems li a:hover {
 			display: inline-block;
 			transition: background-color 0.6s ease;
 		}
-
 		/* active dot color */
 		.active {
 			background-color: #717171;
 		}
-
 		/* Fading animation */
 		.fade {
 			-webkit-animation-name: fade;
@@ -325,15 +311,11 @@ ul.menuitems li a:hover {
 			animation-name: fade;
 			animation-duration: 1.5s;
 		}
-
 		.mySlides{
 			width: 100%;
 		}
-
 																			/* END: Carousel */
-
 																			/* START: Featured Quote */
-
 		#index-quote{
 			text-align:center;
 			max-width: 1000px;
@@ -344,84 +326,49 @@ ul.menuitems li a:hover {
 		#index-quote-wrapper{
 			background-color: lightblue;
 		}
-
 																			/* END: Featured Quote */
-
-
 																			/* START: Why Donate Container */
 		#why_donate_container{
 			max-width: 1200px;
 		}
-
-
 																			/* END: Why Donate Container;
-
-
 																			/* START: Blog Previews; */
-
 		.row .blogbox img{
 			float:left; 
 			clear:both; 
 			margin: 0 10px 10px 10px;
 		}
-
 		.row .blogbox p{
 			display:block; 
 			margin-left: 5px; 
 			text-align:left; 
 			margin-top: -5px;
 		}
-
 		.blogrow{
 /*			background-color: rgb(211,211,211);
 */			
 			background-color: lightblue;
 		}
-
 																			/* END: Blog Previews; */
-
-
 																		/* END: index.html */
-
-
-
 																		/* START: ideas.html */
-
-
-
-
-
 	/* style for ideas.html project paragraphs*/
 /*	.project p{
 		width: 100%;
 		margin: 0 25px 25px 25px;
 	}*/
-
 	/* style for ideas.html project headers */
 /*	.project_header{
 		text-align: left;
 		margin: 0 0 0 15px;
 	}*/
-
 																			/*END: ideas.html */
-
-
-
 																			/* START: blog.html */
-
 /*	#blog_header{
 		text-align: left;
 	}*/
-
 																		/* END: blog.html */
-
-
-
 																		/* START: leadership.html */
-
-
-
-
 	.leadership_circles{
 		border-radius: 50%;
 		width: 180px;
@@ -429,20 +376,17 @@ ul.menuitems li a:hover {
 		background-color: lightblue;
 		margin:0 auto;
 	}
-
 	#leaderjumbo_wrapper{
 		background-color:black;
 		position:relative;
 		top:3px;
 	}
-
 	#ti_wrapper{
 		background-color:white;
 	}
 	#ti_content{
 		max-width: 950px;
 	}
-
 	.lead_article_wrapper{
 		max-width: 600px;
 		margin: 0 auto;
@@ -450,8 +394,6 @@ ul.menuitems li a:hover {
 	.lead_article_wrapper article p{
 		text-align: left;
 	}
-
-
 	@media only screen and (max-width: 950px){
 /*		.row #side_image{
 			width: 100%;
@@ -460,44 +402,29 @@ ul.menuitems li a:hover {
 			width: 100%;
 		}*/
 	}
-
 	#pyb_cmu_p{
 		max-width: 950px;
 	}
-
 	/* leaders descriptions*/
 /*	.leadership_articles{
 		max-width: 960px;
 		margin: 0 25px 0 25px;
 		text-align: left;
 	}*/
-
 	/* row showcasing the leaders, two cols*/
 /*	.leader_row{
 		margin: 0 50px 0 50px;
 	}*/
-
 	/* side image for leadership initiatives */
 /*	#side_image{
 		float:center;
 		margin-right:755px;
 	}
-
 	.side_box article{
 		text-align: left;
 	}*/	
-
 /* END: leadership.html */
-
-
-
-
 /* START: Footer; */
-
-
-
 /*	footer .fwrapper{
-
 	}*/
-
 /* END: Footer; 
