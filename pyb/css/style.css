@@ -242,6 +242,21 @@ ul.menuitems li a:hover {
 		#social_media_footer img:hover{
 			opacity: .75;
 		}
+		#social_media_footer img, #footer1{
+			left:23px;
+		}
+		#social_media_footer h4, #footer1 h4, #footer2 h5{
+			color: rgb(222,222,222);
+		}
+
+		#footer2 h4, #footer2 h5{
+			left:50px;
+		}
+		#footer2 h5, .input_email_subscribe{
+			position:relative;
+			left:50px;
+
+		}
 		/* styling footer buttons/copyright text */
 		.footer_buttons button{
 			position: relative;
@@ -260,6 +275,8 @@ ul.menuitems li a:hover {
 		#terms_of_use{
 			top:11px;
 		}
+
+
 	
 /*************************/
 /* END FOOTER ALIGNMENTS */
