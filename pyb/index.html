@@ -17,28 +17,29 @@
 	<body class="body">
 				
 	<!-- row is from Foundation, and allows us to dynamically move elements on the page-->
-				 <header class="header">
-	<!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
-			that can actively resize themselves -->
-							   <ul class="topnav" id="myTopNav">
-									<a href="index.html">
-									  <img id="logo" src="assets/icons/pyb_row_270x70px.png">
-									</a>
-									<li class="menuitem"><a href="index.html">Home</a></li>
-									<li class="menuitem"><a href="html/leadership.html">Staff</a></li>
-									<li class="menuitem"><a href="html/blog.html">Our Cause</a></li>
-									<li class="menuitem"><a href="html/getinvolved.html">Get Involved</a></li>
-							   		<li class="menuitem"><a href="backend/index.php">Login</a></li>
-									<li class="menuitem">
-										<button onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button>
-									</li>
-									<ul>
-										<!-- This is a fun placeholder image. Actual asset at assets/hamburgermenu.png 
-										It's a little smaller than the burger, so modifications to CSS are a must-->
-							   			<img id="hamburger" src="assets/hamburgermenu.png">
-							   		</ul>
-							   </ul>
-				</header>
+         <header class="header">
+  <!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
+      that can actively resize themselves -->
+            <div class="columns small-12">
+
+                 <ul class="topnav" id="myTopNav">
+                <a href="index.html">
+                  <img id="logo" src="assets/pyb_row_270x70px.png">
+                </a>
+                  <li class="menuitem"><a href="index.html">Home</a></li>
+                  <li class="menuitem"><a href="html/leadership.html">Staff</a></li>
+                  <li class="menuitem"><a href="html/blog.html">Our Cause</a></li>
+                  <li class="menuitem"><a href="html/getinvolved.html">Get Involved</a></li>
+                    <li class="menuitem"><a href="html/login.php">Login</a></li>
+                  <li class="menuitem">
+                    <button onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button>
+                  </li>
+                  <ul>
+                    <img id="hamburger" src="assets/hamburgermenu.png">
+                  </ul>
+                 </ul>
+            </div>
+        </header> 
 				<div id="dropdownOverlay">
 					<div class="thedropdown">
 						<ul class="dropdown" id="myDropdown" >
