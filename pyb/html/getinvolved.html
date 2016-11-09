@@ -81,22 +81,34 @@
 <br>
 
             <div class="columns small-12 medium-3 large-3">
-              <div class="sm_circles"></div>
+              <div class="sm_circles" onclick="launchSocialMedia('twitter')">
+                <img id="social_media_icons"  src="../assets/social_media/circle-twitter-128.png"><br>
+                <h6>Follow us on Tweeter</h6>
+              </div>
               <br>
             </div>
             
             <div class="columns small-12 medium-3 large-3">
-              <div class="sm_circles"></div>
+              <div class="sm_circles" onclick="launchSocialMedia('twitter')">
+                <img id="social_media_icons"  src="../assets/social_media/circle-twitter-128.png"><br>
+                <h6>FOLLOW US ON TWEETER</h6>
+              </div>
               <br>
             </div>       
             
             <div class="columns small-12 medium-3 large-3">
-              <div class="sm_circles"></div>
+              <div class="sm_circles" onclick="launchSocialMedia('facebook')">
+                <img id="social_media_icons"  src="../assets/social_media/circle-facebook-128.png"><br>
+                <h6>LIKE US ON <br>FACEBOOK</h6>
+              </div>
               <br>
             </div>    
 
             <div class="columns small-12 medium-3 large-3">
-              <div class="sm_circles"></div>
+              <div class="sm_circles" onclick="launchSocialMedia('linkedin')">
+                <img id="social_media_icons"  src="../assets/social_media/circle-linkedin-128.png"><br>
+                <h6>Do something <br> with Linkedin</h6>
+              </div>              
               <br>
             </div>     
          </div> 
@@ -238,5 +250,23 @@
     </footer><!-- close footer content -->
 
     </body>
+    <script>
+      function launchSocialMedia(media){
+        var win
+        if (media == 'twitter'){
+           win = window.open("https://twitter.com/PackYourBack", '_blank');
+          // win.focus()
+        }
+        else if (media == 'facebook'){
+          win = window.open("https://www.facebook.com/PackYourBack/", '_blank')
+          // win.focus()
+        }
+        else if (media == 'linkedin'){
+          win = window.open("https://www.linkedin.com/company/pack-your-back", '_blank')
+        }
+        win.focus()
+      }
+
+    </script>
     <script src="../js/menu.js" ></script>
   </html>

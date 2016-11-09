@@ -156,6 +156,8 @@ ul.menuitems li a:hover {
 				opacity: 1;
 			}
 		}
+
+
 /**************************/
 /* END NAVHEADER STYLINGS */
 /**************************/
@@ -271,11 +273,30 @@ ul.menuitems li a:hover {
 
 
 	.sm_circles img{
-		margin: 0 auto;
+		/*#margin: 0 auto;*/
+		height:50%;
+		width:50%;
+		margin-left:36px;
+		margin-top: 26px;
+
 	}
 	.sm_circles{
 		position:relative;
 		margin: 0 auto;
+		cursor: pointer;
+	}
+
+	#social_media_icons{
+		height:40%;
+		width:40%;
+		margin-left:43px;
+		margin-top: 16px;
+	}
+
+	.sm_circles h6{
+		padding: 3px;
+		text-align: center
+
 	}
 
 
@@ -518,6 +539,18 @@ ul.menuitems li a:hover {
 
 	#pyb_cmu_p{
 		max-width: 950px;
+	}
+
+	.p-image{
+		float:left;
+		margin:30px;
+	}
+
+	@media only screen and (max-width: 800px){
+		.p-image{
+			max-width: 300px;
+
+		}
 	}
 
 /************************/
