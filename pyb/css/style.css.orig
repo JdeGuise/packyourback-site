@@ -1,7 +1,11 @@
+<<<<<<< HEAD
+																		 /* START TEMPLATE STYLES */
+=======
 /*************************/
 /* START TEMPLATE STYLES */
 /*************************/
 
+>>>>>>> develop
  html, body{
  	padding: 0px;
  	margin: 0px;
@@ -15,16 +19,26 @@
 ul.menuitems li a:hover {
 	color: rgb(33, 65, 149);  /* dark blue */
 }
+<<<<<<< HEAD
+																			/* START FONTS */
+=======
 
 /***************/
 /* START FONTS */
 /***************/
 
+>>>>>>> develop
 		/* set h*, li, and p fonts */
 		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
 		.who_we_are p, li, body p{
 			font-family: 'Raleway', sans-serif;
 		}
+<<<<<<< HEAD
+																			/* END FONTS */
+	
+		/* styling and formatting for logo/nav header
+				 																	/* START NAVHEADER STYLINGS */
+=======
 
 /*************/
 /* END FONTS */
@@ -36,6 +50,7 @@ ul.menuitems li a:hover {
 /* START NAVHEADER STYLINGS */
 /****************************/
 
+>>>>>>> develop
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
 		 	@media only screen and (max-width: 1260px){
 		 		.menuitem, .menuitem button{
@@ -156,14 +171,9 @@ ul.menuitems li a:hover {
 				opacity: 1;
 			}
 		}
-/**************************/
-/* END NAVHEADER STYLINGS */
-/**************************/
-
-/***************************/
-/* START: HEADER ALIGNMENTS */
-/***************************/
-
+<<<<<<< HEAD
+																					/* END NAVHEADER STYLINGS */
+																	/*start dropdown items*/
 		#dropdownOverlay{
 			display:none;
 			position:fixed;
@@ -177,8 +187,15 @@ ul.menuitems li a:hover {
 			/*needs work*/
 			transition: background-color .5s ease;
 		}
+=======
+/**************************/
+/* END NAVHEADER STYLINGS */
+/**************************/
 
-
+/***************************/
+/* START: HEADER ALIGNMENTS */
+/***************************/
+>>>>>>> develop
 
  		#myDropdown {
  			display: block;
@@ -216,6 +233,10 @@ ul.menuitems li a:hover {
 		#about_us{
 			text-align: left;
 		}
+<<<<<<< HEAD
+																			/* END HEADER ALIGNMENTS */
+																			/* START FOOTER ALIGNMENTS */
+=======
 
 /*************************/
 /* END HEADER ALIGNMENTS */
@@ -225,6 +246,7 @@ ul.menuitems li a:hover {
 /* START FOOTER ALIGNMENTS */
 /***************************/
 
+>>>>>>> develop
 	/* aligning our footer lists to the left,
 			removing their bullet points, and
 			giving them top and bottom margins for spacing */
@@ -241,25 +263,6 @@ ul.menuitems li a:hover {
 		}
 		#social_media_footer img:hover{
 			opacity: .75;
-		}
-		#social_media_footer img, #footer1{
-			left:23px;
-		}
-		#social_media_footer h4, #footer1 h4, #footer2 h5{
-			color: rgb(222,222,222);
-		}
-		#footer1 h4{
-			left:23px;
-			font-size:13pt;
-		}
-
-		#footer2 h4, #footer2 h5{
-			left:50px;
-		}
-		#footer2 h5, .input_email_subscribe{
-			position:relative;
-			left:50px;
-
 		}
 		/* styling footer buttons/copyright text */
 		.footer_buttons button{
@@ -279,8 +282,6 @@ ul.menuitems li a:hover {
 		#terms_of_use{
 			top:11px;
 		}
-
-
 	
 /*************************/
 /* END FOOTER ALIGNMENTS */
@@ -322,8 +323,76 @@ ul.menuitems li a:hover {
 		height: 25px;
 	}
 	#org_p{
-		color:rgb(100,100,100);	
+		color:white;  
 	}
+<<<<<<< HEAD
+																		/* END TEMPLATING */
+																		/* START: index.html */
+	/* declare story/mission/idea circles */
+	.story_circles{
+		/*make our box into circles */
+		border-radius: 50%;
+		/*initialize a box */
+		width: 140px;
+		height: 140px; 
+		margin: 0 auto;
+	}
+	.story_p{
+	  	max-width: 500px;
+	  	margin: 0 auto;
+	}
+	.sm_circles{
+		border-radius:50%;
+		background-color: lightblue;
+		width:150px;
+		height:150px;
+		margin:0 auto;
+	}
+	#who_we_are_self{
+		max-width: 1000px;
+	}	
+	/* we want to 'highlight' the circles on mouseover */	
+	.story_circles:hover{
+		opacity:.5;
+	}
+																			/* START: Carousel */
+		/* Slideshow container */
+		.slideshow-container {
+			position: relative;
+			width: 100%;
+		}
+		#jumboimg{
+			width:100%;
+		}
+		/* The dots/bullets/indicators */
+		.dot {
+			height: 13px;
+			width: 13px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+		/* active dot color */
+		.active {
+			background-color: #717171;
+		}
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+		.mySlides{
+			width: 100%;
+		}
+																			/* END: Carousel */
+																			/* START: Featured Quote */
+		#index-quote{
+			text-align:center;
+=======
 /******************/
 /* END TEMPLATING */
 /******************/
@@ -361,6 +430,7 @@ ul.menuitems li a:hover {
 		}
 
 		#who_we_are_self{
+>>>>>>> develop
 			max-width: 1000px;
 		}	
 
@@ -368,6 +438,51 @@ ul.menuitems li a:hover {
 		.story_circles:hover{
 			opacity:.5;
 		}
+<<<<<<< HEAD
+																			/* END: Featured Quote */
+																			/* START: Why Donate Container */
+		#why_donate_container{
+			max-width: 1200px;
+		}
+																			/* END: Why Donate Container;
+																			/* START: Blog Previews; */
+		.row .blogbox img{
+			float:left; 
+			clear:both; 
+			margin: 0 10px 10px 10px;
+		}
+		.row .blogbox p{
+			display:block; 
+			margin-left: 5px; 
+			text-align:left; 
+			margin-top: -5px;
+		}
+		.blogrow{
+/*			background-color: rgb(211,211,211);
+*/			
+			background-color: lightblue;
+		}
+																			/* END: Blog Previews; */
+																		/* END: index.html */
+																		/* START: ideas.html */
+	/* style for ideas.html project paragraphs*/
+/*	.project p{
+		width: 100%;
+		margin: 0 25px 25px 25px;
+	}*/
+	/* style for ideas.html project headers */
+/*	.project_header{
+		text-align: left;
+		margin: 0 0 0 15px;
+	}*/
+																			/*END: ideas.html */
+																			/* START: blog.html */
+/*	#blog_header{
+		text-align: left;
+	}*/
+																		/* END: blog.html */
+																		/* START: leadership.html */
+=======
 
 	/*********************************/
 	/* END: Story Circles/Who We Are */
@@ -507,6 +622,7 @@ ul.menuitems li a:hover {
 /**************************/
 
 
+>>>>>>> develop
 	.leadership_circles{
 		border-radius: 50%;
 		width: 180px;
@@ -514,20 +630,17 @@ ul.menuitems li a:hover {
 		background-color: lightblue;
 		margin:0 auto;
 	}
-
 	#leaderjumbo_wrapper{
 		background-color:black;
 		position:relative;
 		top:3px;
 	}
-
 	#ti_wrapper{
 		background-color:white;
 	}
 	#ti_content{
 		max-width: 950px;
 	}
-
 	.lead_article_wrapper{
 		max-width: 600px;
 		margin: 0 auto;
@@ -535,6 +648,42 @@ ul.menuitems li a:hover {
 	.lead_article_wrapper article p{
 		text-align: left;
 	}
+<<<<<<< HEAD
+	@media only screen and (max-width: 950px){
+/*		.row #side_image{
+			width: 100%;
+		}
+		.row #vision_para{
+			width: 100%;
+		}*/
+	}
+	#pyb_cmu_p{
+		max-width: 950px;
+	}
+	/* leaders descriptions*/
+/*	.leadership_articles{
+		max-width: 960px;
+		margin: 0 25px 0 25px;
+		text-align: left;
+	}*/
+	/* row showcasing the leaders, two cols*/
+/*	.leader_row{
+		margin: 0 50px 0 50px;
+	}*/
+	/* side image for leadership initiatives */
+/*	#side_image{
+		float:center;
+		margin-right:755px;
+	}
+	.side_box article{
+		text-align: left;
+	}*/	
+/* END: leadership.html */
+/* START: Footer; */
+/*	footer .fwrapper{
+	}*/
+/* END: Footer; 
+=======
 
 
 	#pyb_cmu_p{
@@ -544,3 +693,4 @@ ul.menuitems li a:hover {
 /************************/
 /* END: leadership.html */
 /************************/
+>>>>>>> develop
