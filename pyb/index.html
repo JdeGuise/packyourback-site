@@ -195,9 +195,9 @@
 <br>
       <div class="row">
             <div class="columns small-12 medium-3 large-3">
-              <div class="sm_circles" onclick="launchSocialMedia('twitter')">
-                <img id="social_media_icons"  src="assets/social_media/circle-twitter-128.png"><br>
-                <h6>Follow us on Tweeter</h6>
+              <div class="sm_circles" onclick="launchSocialMedia('mail')">
+                <img id="social_media_icons"  src="assets/social_media/email-icon.png"><br>
+                <h6>SEND US AN <br>EMAIL</h6>
               </div>
               <br>
             </div>
@@ -221,7 +221,7 @@
             <div class="columns small-12 medium-3 large-3">
               <div class="sm_circles" onclick="launchSocialMedia('linkedin')">
                 <img id="social_media_icons"  src="assets/social_media/circle-linkedin-128.png"><br>
-                <h6>Do something <br> with Linkedin</h6>
+                <h6>FOLLOW US ON LINKEDIN</h6>
               </div>              
               <br>
             </div>          
@@ -348,7 +348,11 @@
 			//buttons launch to. 
 			function launchSocialMedia(media){
 		        var win
-		        if (media == 'twitter'){
+
+		        if (media == 'mail'){
+		        	win = window.open("html/contact.html")
+		        }
+		        else if (media == 'twitter'){
 		           win = window.open("https://twitter.com/PackYourBack", '_blank');
 		          // win.focus()
 		        }

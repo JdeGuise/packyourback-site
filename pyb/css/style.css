@@ -317,7 +317,8 @@ ul.menuitems li a:hover {
 
 	.sm_circles h6{
 		padding: 3px;
-		text-align: center
+		text-align: center;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 	}
 
