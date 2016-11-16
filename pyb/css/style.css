@@ -247,11 +247,13 @@ ul.menuitems li a:hover {
 		#social_media_footer img, #footer1{
 			left:23px;
 		}
+		#footer1 img{
+			right:23px;
+		}
 		#social_media_footer h4, #footer1 h4, #footer2 h5{
 			color: rgb(222,222,222);
 		}
 		#footer1 h4{
-			left:23px;
 			font-size:13pt;
 		}
 
