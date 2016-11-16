@@ -16,6 +16,9 @@ function testf(){
 	alert("test");
 }
 $(document).ready( function() {
+
+
+
 	$('#hamburger').on('click', function(){ 
 		var dropdown = document.getElementById("myDropdown");
 		var dropdown_overlay = document.getElementById("dropdownOverlay");
