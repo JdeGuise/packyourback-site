@@ -1,21 +1,1 @@
-index
-    blog
-    contact us
-    donation info
-    financials
-    getinvolved
-    ideas
-    leadership
-    login_page
-    sponsorship
-
-login
-    login landing page
-    backend dashboard
-    backend policies
-    backend manual
-    backend board of directors private page
-    backend marketing committee
-    backend fundraising committee
-    backend community relations committee
-    backend expansion committee
+Šw^Å¹hÊ'µ§-ºÇh«b¢x§~‡â©Ü‰©lëbú%½çbuæ¬•æz»!Š™h‚)éj¬¦‰ì¢»!Š™h‚)å¢§•©İŠx)j›iÉ×Z²èj·[iÉÚh–'"zÆÚrG§vf§¹©[iÉÖèj·h}Ø«yËh®ÊkŠö­z– y¶œ‘éİ™ªäzØ§Ê&š+myæÚrG§uû§v¶¢²)àr‰¦ŠÛ^y¶œ‘éİr‰¦ºx­Ê·¥jØ¨Ç(šh­µç›iÉ×±¥©ìŠ‰Ü¢i¢¶×
