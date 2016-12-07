@@ -72,14 +72,18 @@ ul.menuitems li a:hover {
 		/*align hamburger menu more closely with the right side of the screen, for aesthetic purposes*/
 		header #hamburger{
 			position: absolute;
-			right:7px;
-			top:10px;
+			/*transform: rotate(45deg);*/
+			right:12px;
+			top:12px;
 			width:50px;
-			height: 55px;
+			height: 50px;
+			border-radius: 50%;
 		}
 		header #hamburger:hover{
-			background-color: yellow;
-			cursor: pointer
+			background-color: rgb(250, 108, 51);
+			/*opacity: .8;*/
+			cursor: pointer;
+			/*transition: background-color .4s ease;*/
 		}
 		/* align header elements and move navbar into a row */
 		header ul {
@@ -175,7 +179,7 @@ ul.menuitems li a:hover {
 
 			background-color: rgba(242, 242, 242, .8);
 			/*needs work*/
-			transition: background-color .5s ease;
+			transition: .5s ease;
 		}
 
 
@@ -184,6 +188,7 @@ ul.menuitems li a:hover {
  			display: block;
  			position:relative;
  			font-size: 26px;
+ 			transition: .5s ease;
 
  		}
  		.dropdown_menuitem {
@@ -281,8 +286,9 @@ ul.menuitems li a:hover {
 		#terms_of_use{
 			top:11px;
 		}
-
-
+		.subscribe-pitch{
+			color:grey;
+		}
 	
 /*************************/
 /* END FOOTER ALIGNMENTS */
@@ -294,13 +300,31 @@ ul.menuitems li a:hover {
 
 
 	.sm_circles img{
-		margin: 0 auto;
+		height:50%;
+		width:50%;
+		margin-left:36px;
+		margin-top: 26px;	
 	}
 	.sm_circles{
+		user-select:none;
 		position:relative;
 		margin: 0 auto;
+		cursor: pointer;
+	}
+	#social_media_icons{
+		height:40%;
+		width:40%;
+		margin-left:43px;
+		margin-top: 16px;
 	}
 
+
+	.sm_circles h6{
+		padding: 3px;
+		text-align: center;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	}
 
 
 /****************************************/
@@ -324,7 +348,7 @@ ul.menuitems li a:hover {
 		height: 25px;
 	}
 	#org_p{
-		color:rgb(100,100,100);	
+		color:white;  
 	}
 /******************/
 /* END TEMPLATING */
@@ -353,15 +377,6 @@ ul.menuitems li a:hover {
 		  	margin: 0 auto;
 		}
 
-
-		.sm_circles{
-			border-radius:50%;
-			background-color: lightblue;
-			width:150px;
-			height:150px;
-			margin:0 auto;
-		}
-
 		#who_we_are_self{
 			max-width: 1000px;
 		}	
@@ -370,6 +385,31 @@ ul.menuitems li a:hover {
 		.story_circles:hover{
 			opacity:.5;
 		}
+
+
+		.sm_circles{
+			border-radius:50%;
+			background-image: url("../assets/Blue-Pattern03.jpg");
+			width:150px;
+			height:150px;
+			margin:0 auto;
+			transition: .2s all;
+/*
+			-webkit-animation-name: fade;
+				-webkit-animation-duration: 1.5s;
+				animation-name: fade;
+				animation-duration: 1.5s;*/
+		}
+
+		#who_we_are_self{
+			max-width: 1000px;
+		}	
+
+		/* we want to 'highlight' the circles on mouseover */	
+		/*.sm_circles:hover{
+			background-color:black;
+			opacity:.8;
+		}*/
 
 	/*********************************/
 	/* END: Story Circles/Who We Are */
@@ -541,6 +581,18 @@ ul.menuitems li a:hover {
 
 	#pyb_cmu_p{
 		max-width: 950px;
+	}
+
+	.p-image{
+		float:left;
+		margin:30px;
+	}
+
+	@media only screen and (max-width: 800px){
+		.p-image{
+			max-width: 300px;
+
+		}
 	}
 
 /************************/
