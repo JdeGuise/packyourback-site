@@ -77,7 +77,7 @@ ul.menuitems li a:hover {
 			top:12px;
 			width:50px;
 			height: 50px;
-			border-radius: 50%
+			border-radius: 50%;
 		}
 		header #hamburger:hover{
 			background-color: rgb(250, 108, 51);
@@ -188,7 +188,7 @@ ul.menuitems li a:hover {
  			display: block;
  			position:relative;
  			font-size: 26px;
-+			transition: .5s ease;
+ 			transition: .5s ease;
 
  		}
  		.dropdown_menuitem {
@@ -246,6 +246,27 @@ ul.menuitems li a:hover {
 		}
 		#social_media_footer img:hover{
 			opacity: .75;
+		}
+		#social_media_footer img, #footer1{
+			left:23px;
+		}
+		#footer1 img{
+			right:23px;
+		}
+		#social_media_footer h4, #footer1 h4, #footer2 h5{
+			color: rgb(222,222,222);
+		}
+		#footer1 h4{
+			font-size:13pt;
+		}
+
+		#footer2 h4, #footer2 h5{
+			left:50px;
+		}
+		#footer2 h5, .input_email_subscribe{
+			position:relative;
+			left:50px;
+
 		}
 		/* styling footer buttons/copyright text */
 		.footer_buttons button{
@@ -560,6 +581,18 @@ ul.menuitems li a:hover {
 
 	#pyb_cmu_p{
 		max-width: 950px;
+	}
+
+	.p-image{
+		float:left;
+		margin:30px;
+	}
+
+	@media only screen and (max-width: 800px){
+		.p-image{
+			max-width: 300px;
+
+		}
 	}
 
 /************************/
