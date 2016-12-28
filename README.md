@@ -36,6 +36,3 @@ pyb/
 		main.js
 		vendor/
 			jquery.js
-
-
-
