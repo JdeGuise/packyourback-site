@@ -5,7 +5,8 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="initial-scale=1.0">
 	<meta name="google-site-verification" content="qt_-l__afKRIRexX94lbqPj8nf87AolmgIn0vJMInSc" />
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="../../css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../../css/foundation.css">
 <!--     <link rel="stylesheet" href="css/foundation.css" />
  -->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
@@ -14,89 +15,104 @@
 	<script type="text/javascript" src="js/main.js"></script>
   </head>
 
-<body>
+  <style type="text/css">
+  	
+  .header{
+  	background-color:rgb(51,51,51);
+  }
+  .header li{
+  	padding-left: 30px;
+  	padding-right: 30px;
+  }
 
-		<div class="row">
-			 <header>
-			 	<a href="../../index.html"><img src="../../assets/pyb_stacked.png" width="50" height="50"></a>
-			 	<ul>
-				 	<li>
-				 		butts
-				 	</li>
-				 					 	<li>
-				 		butts
-				 	</li>
-				 					 	<li>
-				 		butts
-				 	</li>
-				 					 	<li>
-				 		butts
-				 	</li>
-			 	</ul>
-			 </header>
-			<br>
-		</div>
+  .square{
+  	margin: 0 auto;
+  	width: 320px;
+  	height: 300px;
+  	background-color: rgb(200, 200, 200);
+  }
+  .square h6{
+  	margin-left: 16px;
+  }
 
+  .square h6, .square li{
+  	  	font-family: Arial;
+  }
 
+  .square li{
+  	list-style-type: none;
+  }
 
+  .content{
+  	background-color:rgb(51,51,51); 
+  	height:400px; 
+  	margin-left:10px;
+  }
 
-	<!-- Footer Section -->
-			 <br/>
+  </style>
 
-		<div class="footer">
-		  <div class="row">  
+	<body class="body">
+				
+	<!-- row is from Foundation, and allows us to dynamically move elements on the page-->
+				 <header class="header">
+	<!-- columns and small-12 are Foundation classes that split the browser window into 12 columns 
+			that can actively resize themselves -->
 
-			  <div class="columns small-6">
-				   <h3>Get Involved</h3>
-					<div id="fcol_a">
-						<ul>
-							  <li><a href="html/getinvolved.html">Work With Us</a></li>
-							  <li><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
-						</ul>
+							   <ul class="topnav" id="myTopNav">
+									<a href="index.html">
+									  <img id="logo" src="../../assets/icons/pyb_row_270x70px.png">
+									</a>
+									<li class="menuitem"><a href="bod.html">Board of Directors</a></li>
+									<li class="menuitem"><a href="expansioncomm.html">Expansion</a></li>
+									<li class="menuitem"><a href="fundraisingcomm.html">Fundraising</a></li>
+									<li class="menuitem"><a href="crcomm.html">Community Relations</a></li>
+									<li class="menuitem"><a href="marketingcomm.html">Marketing</a></li>
+									<li class="menuitem"><a href="#">Log Out</a></li>
+							   </ul>
+				</header>	
+	
+				<br>
+				<br>
+				<br>
+				<br>
 
+				<div class="row">
+					<div class="columns small-12 medium-12 large-12">
+					<br>
+						<h3>Pack Your Back Dashboard</h3>
 					</div>
-				<br/>
-			  </div>
-			  <div class="columns small-6">
-				  <h3>Who We Are</h3>
-					<div id="fcol_b">
-						<ul>
-							  <li><a href="html/leadership.html">Our People</a></li>
-							  <li><a href="html/financials.html" >Financial Overview</a></li>
-							  <li><a href="html/contact.html">Contact</a></li>
-					  	</ul>
-					</div>
-
-				<br/>
-			  </div>       
-
-		  </div>
-		  	<div class="row">
-				<div class="columns small-12">
-				  	<p>PACK YOUR BACK IS A REGISTERED 501(C)(3) NONPROFIT ORGANIZATION. &copy;2016 &nbsp;&nbsp;</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="column small-12">
+				<br>
+				<br>
+				<div class="row">
+					<div class="columns small-12 medium-8 large-8">
 
-					<div class="column small-6">
-					 	<button>Terms of Use</button>
+						<div class="content">
+							asdf
+						</div>
+
+
 					</div>
+					<div class="columns small-12 medium-4 large-4">
+					<br>
+						<div class="square">
+						<br>
+							<h6>Internals Overview</h6>
+							<ul>
+								<li><a href="../../pdf/test.pdf">Policies</a></a></li>
+								<li><a href="../../pdf/test.pdf">Manual</a></li>
+								<li><a href="../../pdf/test.pdf">Reporting</a></li>
+								<br>
+								<li><a href="bod.html">Board of Directors</a></li>
+								<li><a href="marketingcomm.html">Marketing</a></li>
+								<li><a href="fundraisingcomm.html">Fundraising</a></li>
+								<li><a href="expansioncomm.html">Expansion</a></li>
+								<li><a href="crcomm.html">Community Relations</a></li>
+							</ul>
+						</div>
 
-					 <div class="column small-6">
-					  	<button>Privacy Policy</button>
-					 </div>
-
+					</div>
 				</div>
-				 <div class="column small-12">
-					   Site by John deGuise
-				 </div>
-			</div>
-
-	 
-			  <!-- close container -->
-		</div><!-- close footer content -->
-
   </body><!-- close body -->
 
 
