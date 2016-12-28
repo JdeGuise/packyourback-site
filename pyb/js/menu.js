@@ -25,6 +25,20 @@ $(document).ready( function() {
 	});
 });
 
+$("#hamburger").hover(
+  function(){
+  	if (document.getElementById("myDropdown").style.display == "block"){
+    	$(this).css({"opacity" : ".8", "transform" : "rotate(-90deg)","transition" : ".3s ease"});
+	} else {
+		$(this).css({"opacity" : ".8", "transform" : "rotate(12deg)", "transition" : ".3s ease"});
+	}
+  }, function(){
+  	if (document.getElementById("myDropdown").style.display == "block"){
+    	$(this).css({"opacity" : "1", "transform" : "rotate(-90deg)"});
+    } else {
+    	$(this).css({"opacity" : "1", "transform" : "rotate(0deg)"});
+    }
+  });
 
 
 // $modalOpen.click(function(){
