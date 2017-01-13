@@ -21,7 +21,7 @@ ul.menuitems li a:hover {
 /***************/
 
 		/* set h*, li, and p fonts */
-		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }	
+		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }
 		.who_we_are p, li, body p{
 			font-family: 'Raleway', sans-serif;
 		}
@@ -29,7 +29,7 @@ ul.menuitems li a:hover {
 /*************/
 /* END FONTS */
 /*************/
-	
+
 		/* styling and formatting for logo/nav header */
 
 /****************************/
@@ -120,7 +120,7 @@ ul.menuitems li a:hover {
 		.menuitem button{
 			color:white;
 			vertical-align: center;
-		  	transition: all 0.4s;			
+		  	transition: all 0.4s;
 		}
 		.menuitem button:hover{
 			color:black;
@@ -148,7 +148,7 @@ ul.menuitems li a:hover {
 				margin-bottom:75px;
 			}
 		}
-		/* this query is for when the screen is super small 
+		/* this query is for when the screen is super small
 			basically we want the same thing as above but taller
 		*/
 		@media only screen and (max-width: 385px){
@@ -206,7 +206,7 @@ ul.menuitems li a:hover {
 		.row h3, .row h2, .row h1{
 			text-align: center;
 		}
-		
+
 		.content{
 			position: relative;
 			top: 50px;
@@ -214,7 +214,7 @@ ul.menuitems li a:hover {
 		}
 		.content p{
 			margin-left: 5px;
-		}	
+		}
 		.content, .footer_buttons{
 			margin-left: 50px;
 		}
@@ -237,8 +237,8 @@ ul.menuitems li a:hover {
 			position: relative;
 			text-align: left;
 			list-style-type: none;
-			margin: 10px 0 10px 0;			
-		}																		
+			margin: 10px 0 10px 0;
+		}
 		footer h4{
 			position: relative;
 			text-align: left;
@@ -247,7 +247,7 @@ ul.menuitems li a:hover {
 		#social_media_footer img:hover{
 			opacity: .75;
 		}
-		#social_media_footer img, #footer1{
+		#social_media_footer img{
 			left:23px;
 		}
 		#footer1 img{
@@ -260,10 +260,10 @@ ul.menuitems li a:hover {
 			font-size:13pt;
 		}
 
-		#footer2 h4, #footer2 h5{
+		#footer2 h5{
 			left:50px;
 		}
-		#footer2 h5, .input_email_subscribe{
+		#footer2 h5{
 			position:relative;
 			left:50px;
 
@@ -276,7 +276,7 @@ ul.menuitems li a:hover {
 		/* declare footer size and color */
 		footer .row{
 			width: 100%;
-		}		
+		}
 		footer {
 			background-image: black;
 		}
@@ -289,7 +289,7 @@ ul.menuitems li a:hover {
 		.subscribe-pitch{
 			color:grey;
 		}
-	
+
 /*************************/
 /* END FOOTER ALIGNMENTS */
 /*************************/
@@ -303,7 +303,7 @@ ul.menuitems li a:hover {
 		height:50%;
 		width:50%;
 		margin-left:36px;
-		margin-top: 26px;	
+		margin-top: 26px;
 	}
 	.sm_circles{
 		user-select:none;
@@ -331,7 +331,7 @@ ul.menuitems li a:hover {
 /* END: GENERIC SOCIAL MEDIA ALIGNMENTS */
 /****************************************/
 
-	/* all of our rows' paragraphs are 
+	/* all of our rows' paragraphs are
 		default aligned to center */
 	.row p{
 		text-align:center;
@@ -339,7 +339,7 @@ ul.menuitems li a:hover {
 	/* all of our articles acting as descriptions are aligned left */
 	.articles article{
 		text-align: left;
-	}	
+	}
 	.after{
 		background: rgba(0,0,0,0.75);
 	}
@@ -348,7 +348,7 @@ ul.menuitems li a:hover {
 		height: 25px;
 	}
 	#org_p{
-		color:white;  
+		color:white;
 	}
 /******************/
 /* END TEMPLATING */
@@ -369,7 +369,7 @@ ul.menuitems li a:hover {
 
 			/*initialize a box */
 			width: 140px;
-			height: 140px; 
+			height: 140px;
 			margin: 0 auto;
 		}
 		.story_p{
@@ -379,9 +379,9 @@ ul.menuitems li a:hover {
 
 		#who_we_are_self{
 			max-width: 1000px;
-		}	
+		}
 
-		/* we want to 'highlight' the circles on mouseover */	
+		/* we want to 'highlight' the circles on mouseover */
 		.story_circles:hover{
 			opacity:.5;
 		}
@@ -403,9 +403,9 @@ ul.menuitems li a:hover {
 
 		#who_we_are_self{
 			max-width: 1000px;
-		}	
+		}
 
-		/* we want to 'highlight' the circles on mouseover */	
+		/* we want to 'highlight' the circles on mouseover */
 		/*.sm_circles:hover{
 			background-color:black;
 			opacity:.8;
@@ -459,6 +459,9 @@ ul.menuitems li a:hover {
 			.mySlides{
 				width: 100%;
 			}
+			.mySlideDots{
+				position: relative; top: -35px; text-align:center;
+			}
 	/*****************/
 	/* END: Carousel */
 	/*****************/
@@ -498,19 +501,19 @@ ul.menuitems li a:hover {
 	/*************************/
 
 			.row .blogbox img{
-				float:left; 
-				clear:both; 
+				float:left;
+				clear:both;
 				margin: 0 10px 10px 10px;
 			}
 
 			.row .blogbox p{
-				display:block; 
-				margin-left: 5px; 
-				text-align:left; 
+				display:block;
+				margin-left: 5px;
+				text-align:left;
 				margin-top: -5px;
 			}
 
-			.blogrow{			
+			.blogrow{
 				background-color: lightblue;
 			}
 
@@ -538,6 +541,9 @@ ul.menuitems li a:hover {
 /* START: blog.html */
 /********************/
 
+	.blogpost p{
+		text-align:left;
+	}
 
 /******************/
 /* END: blog.html */
@@ -555,6 +561,11 @@ ul.menuitems li a:hover {
 		height: 180px;
 		background-color: lightblue;
 		margin:0 auto;
+	}
+	.staff_pics{
+		border-radius: 50%;
+		width:150px;
+		height:150px;
 	}
 
 	#leaderjumbo_wrapper{

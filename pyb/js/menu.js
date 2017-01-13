@@ -1,4 +1,17 @@
+// var thing1 = document.getElementById("hamburger");
+// thing1.onclick = function() {
+// 	var origclassname = "dropdown_menuitem"
+// 	//alert("test")
+// 	//var str = thing1.className;
+// 	alert(String(thing1.className));
+// 	if(!thing1.className.includes('show'){
+// 		document.getElementById("hamburger").classList = origclassname + " " + "show";
 
+// 	} 
+// 	else {
+// 		thing1.classList = origclassname + " " + "hide";
+// 	}
+// }
 function testf(){
 	alert("test");
 }
@@ -25,6 +38,8 @@ $(document).ready( function() {
 	});
 });
 
+
+
 $("#hamburger").hover(
   function(){
   	if (document.getElementById("myDropdown").style.display == "block"){
@@ -40,8 +55,31 @@ $("#hamburger").hover(
     }
   });
 
+// $("#hamburger").onClick(
+//   function(){
+//     $(this).css({"transform" : "rotate(90deg)", "opacity" : ".2"});
+//   }, function(){
+//     $(this).css({"transform" : "rotate(0deg)", "opacity" : "1"});
+//   });
+
+// var $modalOverlay = $('#dropdownOverlay');
+// var $modal        = $('#thedropdown');
+// var $modalClose   = $('#hamburger');
+// var $modalOpen    = $('#hamburger');
 
 // $modalOpen.click(function(){
 //   $modalOverlay.stop().fadeTo(500,1);
 // });
 
+// $modalOverlay.click(function(){
+//   $modalOverlay.stop().fadeTo(500,0, function(){ $(this).hide(); });
+// });
+
+
+// $modal.click(function( e ) {
+//    e.stopPropagation(); 
+// });
+
+// $modalClose.click(function(){
+//   $modalOverlay.click();
+// });
