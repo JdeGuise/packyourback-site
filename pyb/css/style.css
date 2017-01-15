@@ -304,12 +304,14 @@ ul.menuitems li a:hover {
 		width:50%;
 		margin-left:36px;
 		margin-top: 26px;
+
 	}
 	.sm_circles{
 		user-select:none;
 		position:relative;
 		margin: 0 auto;
 		cursor: pointer;
+
 	}
 	#social_media_icons{
 		height:40%;
@@ -317,7 +319,9 @@ ul.menuitems li a:hover {
 		margin-left:43px;
 		margin-top: 16px;
 	}
-
+	#social_media_text{
+		font-size: 16px;
+	}
 
 	.sm_circles h6{
 		padding: 3px;
@@ -389,7 +393,10 @@ ul.menuitems li a:hover {
 
 		.sm_circles{
 			border-radius:50%;
-			background-image: url("../assets/Blue-Pattern03.jpg");
+			border-width: 1px;
+			border-style: double;
+			border-color: rgb(48, 158, 203);
+			background-color: rgb(76, 206, 251);
 			width:150px;
 			height:150px;
 			margin:0 auto;
