@@ -1,7 +1,17 @@
+$(".menuitem").hover(
+	function(){
+		$(this).css({"border-bottom" : "7px",
+					"border-color": "rgb(48, 88, 164)",
+					"transition" : ".2s all",
+					'border-style': "none none solid none"});
+	}, function(){
+		$(this).css({"border-bottom" : "7px",
+					"border-color" : "rgb(242, 242, 242)",
+					'border-style': "none none solid none",
+					"transition" : ".2s all"});
+	}
+);
 
-function testf(){
-	alert("test");
-}
 $(document).ready( function() {
 	$('#hamburger').on('click', function(){ 
 		var dropdown = document.getElementById("myDropdown");

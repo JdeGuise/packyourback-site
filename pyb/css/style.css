@@ -38,7 +38,7 @@ ul.menuitems li a:hover {
 
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
 		 	@media only screen and (max-width: 1200px){
-		 		.menuitem, .menuitem button{
+		 		.menuitem, #donatebutton{
 		 			visibility: hidden;
 		 		}
 		 		.icon{
@@ -83,8 +83,8 @@ ul.menuitems li a:hover {
 		header #donatebutton{
 			/*position: absolute;*/
 			float: right;
-			right: 95px;
-			top: 6px;
+			right: 10px;
+			top: 11px;
 			/*display: inline-block;*/
 		}
 		header #hamburger:hover{
@@ -118,18 +118,33 @@ ul.menuitems li a:hover {
 			top: 0;
 			z-index: 1;
 			background-color: rgb(242, 242, 242);
-			border-bottom: 1px solid rgb(200, 200, 200);
+			border-bottom: 4px solid rgb(246, 103, 56);
+
 		}
 		.menuitem{
-			left:100px;
+			font-size: 18px;
+			left:65px;
 		  	top: 5px;
 		  	position: relative;
+		  	margin: 0 3px 12px 0;
+
+		  	/*disables selection of the menu text, for reasons*/
+		  	-webkit-user-select: none; /* Chrome/Safari */        
+			-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+ */
+
+			border-bottom: 7px;
+			border-color: rgb(242, 242, 242);
+			padding-bottom: 15px;
+			padding-top: 15px;
+			border-style: none none solid none;
+
 		}
-		.menuitem button{
+		/*.menuitem button{
 			color:white;
 			vertical-align: center;
 		  	transition: all 0.4s;
-		}
+		}*/
 		.menuitem button:hover{
 			color:black;
 		}
