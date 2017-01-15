@@ -37,7 +37,7 @@ ul.menuitems li a:hover {
 /****************************/
 
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
-		 	@media only screen and (max-width: 1260px){
+		 	@media only screen and (max-width: 1200px){
 		 		.menuitem, .menuitem button{
 		 			visibility: hidden;
 		 		}
@@ -48,7 +48,7 @@ ul.menuitems li a:hover {
 		 			visibility: visible;
 		 		}
 		 	}
-		 	@media screen and (min-width: 1260px){
+		 	@media screen and (min-width: 1201px){
 		 		#hamburger{
 		 			visibility: hidden;
 		 		}
@@ -78,6 +78,14 @@ ul.menuitems li a:hover {
 			width:50px;
 			height: 50px;
 			border-radius: 50%;
+		}
+
+		header #donatebutton{
+			/*position: absolute;*/
+			float: right;
+			right: 95px;
+			top: 6px;
+			/*display: inline-block;*/
 		}
 		header #hamburger:hover{
 			background-color: rgb(250, 108, 51);
