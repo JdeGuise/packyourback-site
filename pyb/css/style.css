@@ -247,7 +247,7 @@ ul.menuitems li a:hover {
 		#social_media_footer img:hover{
 			opacity: .75;
 		}
-		#social_media_footer img{
+		#social_media_footer img, #footer1{
 			left:23px;
 		}
 		#footer1 img{
@@ -260,10 +260,10 @@ ul.menuitems li a:hover {
 			font-size:13pt;
 		}
 
-		#footer2 h5{
+		#footer2 h4, #footer2 h5{
 			left:50px;
 		}
-		#footer2 h5{
+		#footer2 h5, .input_email_subscribe{
 			position:relative;
 			left:50px;
 
@@ -317,7 +317,9 @@ ul.menuitems li a:hover {
 		margin-left:43px;
 		margin-top: 16px;
 	}
-
+	#social_media_text{
+		font-size: 16px;
+	}
 
 	.sm_circles h6{
 		padding: 3px;
@@ -389,7 +391,10 @@ ul.menuitems li a:hover {
 
 		.sm_circles{
 			border-radius:50%;
-			background-image: url("../assets/Blue-Pattern03.jpg");
+			border-width: 1px;
+			border-style: double;
+			border-color: rgb(48, 158, 203);
+			background-color: rgb(76, 206, 251);
 			width:150px;
 			height:150px;
 			margin:0 auto;
@@ -605,6 +610,65 @@ ul.menuitems li a:hover {
 
 		}
 	}
+
+  .staff_name{
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .staff_title{
+    color: #454545;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  .staff_pics{
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  #staff_blurb{
+    text-align: left;
+    max-width: 420px;
+  }
+
+  .padding{
+    padding: 4vh 6vw;
+  }
+
+  .max-width-500{
+    max-width: 500px;
+  }
+
+  .flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .center-everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self:flex-start;
+    flex-grow: 2;
+    padding: 20px;
+    max-width: 560px;
+  }
+
+  .lead_headers{
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+
+  .directors{
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
 
 /************************/
 /* END: leadership.html */
