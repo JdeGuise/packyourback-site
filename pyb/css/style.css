@@ -6,6 +6,9 @@
  	padding: 0px;
  	margin: 0px;
 	width:100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
  }
 .body{
 	background-color: rgb(242, 242, 242);
@@ -179,6 +182,7 @@ ul.menuitems li a:hover {
 				2 make the header taller, so that we can...
 				3 center the navbar links below the logo.
 		*/
+
 		@media only screen and (max-width: 775px){
 			/* make header taller */
 			header{
