@@ -364,6 +364,11 @@ ul.menuitems li a:hover {
 			color:grey;
 		}
 
+		.subscribe-form{
+			width: 400px;
+			height: 20px;
+		}
+
 /*************************/
 /* END FOOTER ALIGNMENTS */
 /*************************/
