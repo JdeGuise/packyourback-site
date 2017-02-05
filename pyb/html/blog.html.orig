@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pack Your Back - Supplying Success</title>
+    <title>Our Cause</title>
     <meta charset="utf-8"/>
-  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/foundation.css" />
 
@@ -21,6 +21,7 @@
          <header class="header">
   <!-- columns and small-12 are Foundation classes that split the browser window into 12 columns
       that can actively resize themselves -->
+<<<<<<< HEAD
             <div class="columns small-12">
 
                  <ul class="topnav" id="myTopNav">
@@ -41,6 +42,41 @@
                  </ul>
             </div>
         </header>
+        <div id="dropdownOverlay">
+          <div class="thedropdown">
+            <ul class="dropdown" id="myDropdown" >
+              <li class="dropdown_menuitem"><a href="../index.html">Home</a></li>
+              <li class="dropdown_menuitem"><a href="../html/leadership.html">Leadership</a></li>
+              <li class="dropdown_menuitem"><a href="../html/blog.html">Our Cause</a></li>
+              <li class="dropdown_menuitem"><a href="../html/getinvolved.html">Get Involved</a></li>
+<!--                 <li class="dropdown_menuitem"><a href="../backend/index.php">Login</a></li>
+ -->              <li class="dropdown_menuitem">
+                <button onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
+            </ul>
+          </div>
+        </div>
+=======
+      <div class="columns small-12">
+
+        <ul class="topnav" id="myTopNav">
+          <a href="../index.html"><img id="logo" src="../assets/pyb_row_270x70px.png"></a>
+          <li class="menuitem" onclick="location.href='../index.html';">
+            <a href="../index.html">Home</a></li>
+          <li class="menuitem" onclick="location.href='leadership.html';">
+            <a href="leadership.html">Leadership</a></li>
+          <li class="menuitem" onclick="location.href='blog.html';">
+            <a href="blog.html">Our Cause</a></li>
+          <li class="menuitem" onclick="location.href='getinvolved.html';">
+            <a href="getinvolved.html">Get Involved</a></li>
+  <!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
+   -->      <li>
+            <button id="donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
+          <ul>
+            <img id="hamburger" src="../assets/hamburgermenu-blue.png">
+          </ul>
+        </ul>
+      </div>
+    </header>
 
     <div id="dropdownOverlay">
       <div class="thedropdown">
@@ -57,138 +93,73 @@
 -->         <li >
             <button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
         </ul>
+>>>>>>> develop
       </div>
     </div>
-</div>
-    <br>
-    <br>
-    <br>
+    </div>
 
-
+    <br>
+    <br>
+    <br>
 
             <div class="container">
-                  <img src="../assets/leadership_pics/leadership_amazon.jpeg" id="jumboimg">
+                  <img src="../assets/project_Flint.jpeg" id="jumboimg">
             </div>
+            <br>
+            <br>
+            <h2 style="text-align:center;">Recent Events</h2>
 
-<div id="who_we_are_container">
-      <div class="row" id="who_we_are_self">
-          <div class="columns small-12">
-          <br/>
-          <br>
-              <h1>Who We Are</h1>
-                <br>
-                <p>
-                  In 2016, Central Michigan University students identified the financial burdens faced by families due to the recent economic downturns, and the underfunding of the Michigan public education system.  Pack Your Back was created by those CMU students to help supply younger students living in underprivileged locations with the proper resources to succeed in the classroom.
-                </p>
-          <br/>
-          <br>
+      <div class="row">
+          <div class="columns small-12 medium-12 large-12">
+
+            <br>
+
+            <h5 style="left:20px; position:relative;">December 9, 2016 - Mount Pleasant, MI</h5>
+            <br>
+            <br>
+            <h3 style="text-align:left;">Pack Your Back Delivers Holiday Surprises</h3>
           </div>
+        <br>
+        <div class="columns small-12 medium-12 large-9" class="blogpost" style="left:35px;">
+        <br>
+        <br>
+            <p style="text-align:left; max-width: 900px;">Michigan teachers received an early holiday gift this December thanks to the Pack Your Back organization. The nonprofit, dedicated to “supplying success,” teamed up with a student group, known as Advocates for Justice in Education, at Central Michigan University in order to put together a holiday-themed charity event: “Stuff Your Stocking.”</p>
+            <br>
+            <p style="text-align:left; max-width: 900px;">The cause was simple: to ensure that teachers in Michigan would have the proper resources in order to succeed in the classroom for the second semester of school. To accomplish this, “Stuff Your Stocking” distributed decorated holiday stockings filled with new school supplies to both the Huron Learning Center in Bad Axe, and five public elementary schools in Mount Pleasant.</p>
 
-          <hr>
+        </div>
+        <div class="columns small-12 medium-6 large-3" style="text-align:center;">
+        <br>
+          <img src="../assets/blog/120916_p1.png" style="text-align:center;">
+          <br>
+          <br>
+        </div>
+
+        <div class="columns small-12 medium-6 large-3" style="text-align:center;">
+        <br>
+          <img src="../assets/blog/120916_p2.png" style="text-align:center;">
+        </div>
+        <div class="columns small-12 large-9" class="blogpost">
+        <br>
+        <br>
+            <p style="text-align:left; max-width: 900px;">This is the second major event Pack Your Back has put on, the first being a summer back-to-school school supply distribution in Flint, Michigan.</p>
+
+            <p style="text-align:left; max-width: 900px;">According to Pack Your Back founder, Galen Miller, the organization was looking to expand their efforts beyond the start of the school year. “We don’t want our distributions to only occur during the summer right before school,” explained Miller. “We want to help students year round in getting the resources they need.”</p>
+
+            <p style="text-align:left; max-width: 900px;">The event was much appreciated by the recipients. "Thank you so much for the stockings full of school supplies. The pens, pencils, tape, markers, crayons, rulers, and the rest will all be put to good use with our students. Thank you for your kindness and generosity. You have made a difference in our students' lives." - Huron Learning Center. Due to the program’s success, Pack Your Back looks forward to implementing it in the future.</p>
+
+        </div>
       </div>
+
+
     </div>
 
-    <br>
-      <br/>
-     <h2 style="text-align:center;">Board of Directors</h2>
-     <br>
-      <br/>
-
-
-      <div class="row" style="text-align: center;">
-          <div class="columns small-12 medium-4 large-4">
-              <img src="../assets/leadership_pics/staff/gmiller.jpg" class="staff_pics">
-              <br>
-              <br>
-              <h4>Galen Miller</h4>
-              <h6>President &amp Founder</h6>
-              <br>
-              <p style="max-width: 75%; margin:0 auto;">
-                  Galen Miller currently serves as Pack Your Back's President. He is currently attending Central Michigan University and will graduate in May 2019 with a degree in Recreation and Event Management. He is pursuing a major in Commercial Event Management and a minor in both Hospitality Administration and Leadership. In addition to working with Pack Your Back, Galen is also very involved on campus with the Office of Student Activities and Involvement.
-              </p>
-              <br>
-          </div>
-      <div class="columns small-12 medium-4 large-4">
-              <img src="../assets/leadership_pics/staff/jborn.jpg" class="staff_pics">
-              <br>
-            <br>
-                <h4>Josie Born</h4>
-                <h6>Treasurer</h6>
-              <p style="max-width:75%;margin:0 auto;">
-              <br>
-              Josie Born currently serves as the Treasurer of Pack Your Back. She presently attends Saginaw Valley State University to complete a teaching degree. She is pursuing a major in Music Education and a minor in Secondary Mathematics Education. In addition to working with Pack Your Back, Josie is also involved in multiple music-related activities on campus and is a co-owner of her family business.
-
-              </p>
-                <br>
-          </div>
-          <div class="columns small-12 medium-4 large-4">
-              <img src="../assets/leadership_pics/staff/kschweitzer.jpg" class="staff_pics">
-              <br>
-             <br>
-              <h4>Kayla Schweitzer</h4>
-              <h6>Vice President</h6>
-              <br>
-              <p style="max-width:75%; margin:0 auto;">
-                Kayla Schweitzer currently serves as the Vice President for Pack Your Back. She attended Saginaw Valley State University to study Communications and Political Science. Kayla has been involved in many nonprofit organizations, serving in a variety of leadership positions.
-              </p>
-              <br>
-          </div>
       </div>
-      <div class="row" style="text-align: center;">
-        <div class="columns small-12 medium-4 large-4">
-              <img src="../assets/leadership_pics/staff/mmariles.jpg" class="staff_pics">
-              <br>
-              <br>
-              <h4 style="text-align:center;">Madison Mariles</h4>
-              <h6 style="text-align:center;">Marketing &amp Public Relations</h6>
-              <br>
-                <p style="max-width:75%; margin:0 auto;">
-                  Madison Mariles is currently the Director of Marketing & Public Relations at Pack Your Back. She is a Leader Advancement Scholar at Central Michigan University and is expected to graduate in May 2020. She is pursuing a major in Integrative Public Relations with minors in Marketing and Leadership. Aside from working with Pack Your Back, Madison is also very involved on campus, serving as a deskie for her residence hall and an active member of Program Board and PRSSA.
-                </p>
-              <br>
-
-
-        </div>
-          <div class="columns small-12 medium-4 large-4">
-              <img src="../assets/leadership_pics/staff/kreed.jpg" class="staff_pics">
-              <br>
-            <br>
-                <h4>Kaitlyn Reed</h4>
-                <h6>Secretary</h6>
-                <br>
-                <p style="max-width:75%;margin:0 auto;">
-                  Kaitlyn Reed has served as Pack Your Back's secretary since its inception. She is currently an honors student at Central Michigan University and will graduate in May 2018 with a business degree. She is pursuing a major in General Management and a minor in Hospitality Services & Administration. In addition to working with Pack Your Back, Kaitlyn is also involved on campus, especially with the Volunteer Center where she works as an On-Campus Service Student Coordinator.
-                </p>
-                <br>
-          </div>
-  <div class="columns small-12 medium-4 large-4">
-              <img src="../assets/leadership_pics/staff/cfelton.jpg" class="staff_pics">
-              <br>
-         <br>
-              <h4 style="text-align:center;">Cabrina Felton</h4>
-              <h6 style="text-align:center;">Fundraising</h6>
-              <br>
-              <p style="max-width:75%; margin:0 auto;">
-                Cabrina Felton currently serves as a Fundraiser Director for Pack Your Back. She is a senior at Central Michigan University studying Apparel Merchandising and Design. She is expected to graduate in December 2017. Cabrina has been involved in multiple organizations at school.
-              </p>
-              <br>
-
-        </div>
-      </div>
-
-
-
-
-
-      </div>
-
-          <br>
-          <br>
-
-      <img src="../assets/leadership_pics/vision_Chalk.jpeg"  width="100%" />
+      <br>
+      <hr>
+      <br>
         <div class="row" id="pyb_cmu_p">
-	<br>
-	<br>
+
           <div class="columns small-12 medium-12 large-12">
             <a href="https://www.cmich.edu/stamp/Pages/pack-your-back.aspx"><h3>Pack Your Back at CMU</h3></a>
           </div>
@@ -221,14 +192,63 @@ The organization plans to extend to the rest of the state and even the country i
           <div class="columns small-12 medium-4 large-7">
                 <br>
                 <br>
-                <img src="../assets/leadership_pics/calkins.jpg" width="80%" style="margin-left:30px;" />
+                <img src="../assets/blog/calkins.jpg" width="80%" style="margin-left:30px;" />
+  <br>
+  <br>
+  <br>
           </div>
-
 
       </div>
 
+    <div id="index-quote-wrapper">
+
+      <div class="row" id="index-quote" style="max-width:1200px;">
+
+        <br/>
+        <br/>
+        <div id="index-quote-self">
+            <h4>23% of Michigan fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
+        </div>
+        <br>
+
+
+        <br/>
+      </div>
+
+    </div>
+    <div class="row" id="why_donate_container">
       <br>
-      <br>
+          <div class="columns small-12" id="why_donate_content">
+                <br>
+              <h1>Why Donate?</h1>
+
+
+              <br>
+              <br>
+
+
+              <p>
+                Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
+              </p>
+              <br>
+              <br>
+              <p>
+                In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
+              </p>
+              <br>
+              <div class="columns small-6" style="text-align:center;">
+                <a href="https://www.classy.org/campaign/pack-your-back/c114131"><button>Donate Now</button></a>
+              </div>
+              <div class="columns small-6" style="text-align:center;">
+                <a href="donationinfo.html"><button>More Info</button></a>
+              </div>
+
+              </div>
+        </div>
+        <br>
+      </div>
+
+
     <!-- Footer Section -->
     <footer class="footer">
       <div class="after">
@@ -310,7 +330,7 @@ The organization plans to extend to the rest of the state and even the country i
                 <h4>Get Involved</h4>
                 <ul>
                     <li><a href="getinvolved.html">Work With Us</a></li>
-                    <li><a href="https://www.classy.org/campaign/pack-your-back/c114131">Donate</a></li>
+                    <li><a href="https://www.classy.org/checkout/donation?eid=81983">Donate</a></li>
                 </ul>
                 </div>
                 <br>
@@ -332,9 +352,8 @@ The organization plans to extend to the rest of the state and even the country i
 
       </div>  <!-- close container -->
     </footer><!-- close footer content -->
-
   </body>
   <script src="../js/menu.js" ></script>
-  <script src="../js/social_media_animation.js"></script>
+     <script src="../js/social_media_animation.js"></script>
 
-</html>
+ </html>

@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+// var thing1 = document.getElementById("hamburger");
+// thing1.onclick = function() {
+// 	var origclassname = "dropdown_menuitem"
+// 	//alert("test")
+// 	//var str = thing1.className;
+// 	alert(String(thing1.className));
+// 	if(!thing1.className.includes('show'){
+// 		document.getElementById("hamburger").classList = origclassname + " " + "show";
+
+// 	} 
+// 	else {
+// 		thing1.classList = origclassname + " " + "hide";
+// 	}
+// }
+function testf(){
+	alert("test");
+}
+=======
 $(".menuitem").hover(
 	function(){
 		$(this).css({"border-bottom" : "7px",
@@ -57,6 +76,7 @@ $("#dropdown_donatebutton").hover(
 					"transition" : ".2s all",});
 	}
 );
+>>>>>>> develop
 $(document).ready( function() {
 	$('#hamburger').on('click', function(){ 
 		var dropdown = document.getElementById("myDropdown");
