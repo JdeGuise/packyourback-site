@@ -36,7 +36,7 @@
 						<a href="html/getinvolved.php">Get Involved</a></li>
 	<!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
 	 -->			<li>
-	 					<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131''" style="background-color:crimson;">Donate</button></li>
+	 					<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
 					<ul>
 						<img id="hamburger" src="assets/hamburgermenu-blue.png">
 					</ul>
@@ -63,7 +63,18 @@
 			</div>
 		</div>
 
-		<div class="slideshow-container">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="row" style="width: 1800px; height: 500px;">
+			<div class="columns small-12 medium-12 large-12" style="z-index: 0;">
+			<a href="php/blogmodule/index.php"><img src="assets/index_pics/distribution_locations_announcement_graphic.png" width="1800px" height="500px"></a>
+			</div>
+		</div>
+
+<!-- 		<div class="slideshow-container">
 			  <div class="mySlides fade" >
 						<img src="assets/index_pics/1.jpeg" id="jumboimg"/>
 			  </div>
@@ -79,7 +90,7 @@
 				  <span class="dot"></span>
 				</div>
 		</div>
-<!-- 			<div class="row blogrow">
+ --><!-- 			<div class="row blogrow">
 			<br>
 				<h2>Recent Blog Posts</h2>
 					<div class="columns small-12 medium-6 large-6 blogbox">
@@ -119,9 +130,86 @@
 				<br>
 			</div> -->
 		  <div class="row">
-			<br>
-			<br>
+		  		
+		<br>
+		<br>
+		<br>		  		
+		<br>
+		<br>
+		<br>
+		<br>		  		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<br>
+		  		<video src="assets/index_pics/pyb_promo.mp4" controls autoplay style="position: absolute; top:515px; left: 52%;width:40%; z-index: 1;"></video>
+
+		  		</div>
+		  		<div class="row" style="max-width: 90%;">
+
+		  		<div class="columns small-12">
+				<div class="columns small-8 medium-8 large-8" id="why_donate_content">
+							<br>
+						  <h1>Why Donate?</h1>
+						  <br>
+						  <br>
+							<p>
+							  Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
+							</p>						  		
+
+							<br>
+							<br>
+							<p>
+							  In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
+							</p>
+							<br>
+							<br>
+							<div class="columns small-6" style="text-align:center;">
+								<a href="https://www.classy.org/campaign/pack-your-back/c114131"><button>Donate Now</button></a>
+							</div>
+							<div class="columns small-6" style="text-align:center;">
+								<a href="https://www.classy.org/campaign/pack-your-back/c114131"><button>More Info</button></a>
+							</div>
+
+
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<hr>
+
+				</div>
+				<div class="columns small-4">
+
+					<div class="columns small-12">
+						
+						<img src="assets/index_pics/kids.png" style="left: 40px; width:494px; height:240px; position:relative;">	
+						<br>
+					</div>
+					<div class="columns small-12">
+						<br>
+						<img src="assets/index_pics/1.jpeg" style="left:40px; height:240px; position: relative;">
+
+					</div>
+
+
+				</div>	
+
+		  		</div>
+
+
+
+
+
 				<div class="columns small-12 medium-4 large-4 story_feature">
+
+								<br>
+
 					<div class="story_circles">
 					  <a href="html/getinvolved.php">
 						<img src='assets/story_pics/supplies.png'>
@@ -135,6 +223,8 @@
 				</div>
 
 				<div class="columns small-12 medium-4 large-4 story_feature">
+					
+								<br>
 					<div class="story_circles">
 					  <a href="html/leadership.php">
 						<img src='assets/story_pics/swinging.png'>
@@ -148,6 +238,7 @@
 				</div>
 				<div class="columns small-12 medium-4 large-4 story_feature">
 
+								<br>
 					<div class="story_circles">
 					  <a href="https://www.cmich.edu/stamp/Pages/pack-your-back.aspx">
 						<img src='assets/story_pics/paints.png'>
@@ -158,10 +249,11 @@
 					<p class="story_p">Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.</p>
 					<br>
 					<br>
-				</div>
-		  </div>
+				</div>					
+		</div>
+
 		<div id="index-quote-wrapper">
-			<div class="row" id="index-quote" style="max-width:1200px;">
+			<div class="row" id="index-quote" style="max-width:70%;">
 				<br/>
 				<br/>
 				<div id="index-quote-self">
@@ -171,33 +263,10 @@
 			  <br/>
 			</div>
 		</div>
-		<div class="row" id="why_donate_container">
-		  <br>
-				<div class="columns small-12" id="why_donate_content">
-							<br>
-						  <h1>Why Donate?</h1>
-						  <br>
-						  <br>
-							<p>
-							  Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
-							</p>
-							<br>
-							<br>
-							<p>
-							  In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
-							</p>
-							<br>
-							<div class="columns small-6" style="text-align:center;">
-								<a href="https://www.classy.org/campaign/pack-your-back/c114131"><button>Donate Now</button></a>
-							</div>
-							<div class="columns small-6" style="text-align:center;">
-								<a href="https://www.classy.org/campaign/pack-your-back/c114131"><button>More Info</button></a>
-							</div>
-							</div>
-				</div>
+
 
 <br>
-
+<br>
 
 			<h3 style="text-align: center;">Keep up with Pack Your Back</h3>
 
