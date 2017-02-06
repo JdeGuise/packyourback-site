@@ -120,10 +120,12 @@ ul.menuitems li a:hover {
 			/*color: lightblue;*/
 			width: 100%;
 			top: 0;
-			z-index: 1;
 			background-color: rgb(242, 242, 242);
 			border-bottom: 4px solid rgb(246, 103, 56);
 
+		}
+		header{
+			z-index: 2;
 		}
 
 		.menuitem{
