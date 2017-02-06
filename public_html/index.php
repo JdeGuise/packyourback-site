@@ -63,7 +63,17 @@
 			</div>
 		</div>
 
-		<div class="slideshow-container">
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="row" style="width: 1800px; height: 500px;">
+			<div class="columns small-12 medium-12 large-12">
+			<a href="php/blogmodule/index.php"><img src="assets/index_pics/distribution_locations_announcement_graphic.png" width="1800px" height="500px"></a>
+			</div>
+		</div>
+
+<!-- 		<div class="slideshow-container">
 			  <div class="mySlides fade" >
 						<img src="assets/index_pics/1.jpeg" id="jumboimg"/>
 			  </div>
@@ -79,7 +89,7 @@
 				  <span class="dot"></span>
 				</div>
 		</div>
-<!-- 			<div class="row blogrow">
+ --><!-- 			<div class="row blogrow">
 			<br>
 				<h2>Recent Blog Posts</h2>
 					<div class="columns small-12 medium-6 large-6 blogbox">
@@ -119,9 +129,29 @@
 				<br>
 			</div> -->
 		  <div class="row">
+		  		<br>
+		<br>
 			<br>
+			<br>		  		<br>
+		<br>
 			<br>
+			<br>		  		<br>
+		<br>
+			<br>
+			<br>		  		<br>
+		<br>
+		  		<br>
+		  		<br>
+		  		<br>
+		  		<br>
+		  		<hr>
+
+		  		<video src="assets/index_pics/pyb_promo.mp4" controls autoplay style="position: relative; left: 53.5%; top:-610px; width:40%;"></video>
+		<br>
+			<br>
+
 				<div class="columns small-12 medium-4 large-4 story_feature">
+
 					<div class="story_circles">
 					  <a href="html/getinvolved.php">
 						<img src='assets/story_pics/supplies.png'>
