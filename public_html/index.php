@@ -70,7 +70,7 @@
 		<br>
 		<div class="row" style="width: 1800px; height: 500px;">
 			<div class="columns small-12 medium-12 large-12" style="z-index: 0;">
-			<a href="php/blogmodule/index.php"><img src="assets/index_pics/distribution_locations_announcement_graphic.png" width="1800px" height="500px"></a>
+			<a href="/php/blogmodule/viewpost.php?id=2"><img src="assets/index_pics/distribution_locations_announcement_graphic.png" width="1800px" height="500px"></a>
 			</div>
 		</div>
 
