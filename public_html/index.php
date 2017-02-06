@@ -36,7 +36,7 @@
 						<a href="html/getinvolved.php">Get Involved</a></li>
 	<!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
 	 -->			<li>
-	 					<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131''" style="background-color:crimson;">Donate</button></li>
+	 					<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
 					<ul>
 						<img id="hamburger" src="assets/hamburgermenu-blue.png">
 					</ul>
