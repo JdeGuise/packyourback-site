@@ -323,20 +323,20 @@ ul.menuitems li a:hover {
 			text-align: left;
 			color: rgba(255, 255, 255, .6);
 		}
-		/*
+		
 		#social_media_footer img:hover{
 			opacity: .75;
 		}
-		#social_media_footer img, #footer1{
+		/*#social_media_footer img, #footer1{
 			left:23px;
 		}
 		#footer1 img{
 			right:23px;
 		}
-		*/
+		
 		#social_media_footer h4, #footer1 h4, #footer2 h5, #footer h2{
 			color: rgb(222,222,222);
-		}
+		}*/
 		/*
 		#footer1 h4{
 			font-size:13pt;
@@ -364,8 +364,18 @@ ul.menuitems li a:hover {
 			background-color: rgb(61, 61, 61);
 			height: 600px;
 		}
-		footer h4, footer h5{
+		footer h4{
 			color: white;
+			font-size: 24px;
+		}
+
+		footer h3{
+			/*these are the links. implement them*/
+		}
+
+		footer h2{
+			color: rgb(102,102,102);
+			font-size:16px;
 		}
 		/*
 		#about_us{
@@ -435,8 +445,9 @@ ul.menuitems li a:hover {
 
 		.section_top {
 			clear: both;
-			padding: 0px;
-			margin: 8%;
+			/*padding: 0px;*/
+			margin: 4%;
+			padding-top: 2%;
 			width: 100%;
 			/*font-size: 150%;*/
 
@@ -445,6 +456,7 @@ ul.menuitems li a:hover {
 			display: block;
 			float: left;
 			margin: 3% 0% 2% 0%;
+			/*background-color: white;*/
 		}
 		.col:first-child { margin-left: 0; }
 
@@ -455,6 +467,20 @@ ul.menuitems li a:hover {
 		.group { zoom:1; /* For IE 6/7 */ 
 			/*border: 10px;
 			border-color: green;*/
+		}
+		.section_first{
+			/*width: 100px;*/
+			height: 100px;
+			padding: 2px;
+			background-color: blue;			
+		}
+		.section_second{
+			padding: 10px;
+			margin: 2px;
+			/*width: 50px;*/
+			height: 50px;
+			width: 20%;
+			background-color: green;
 		}
 
 
@@ -522,7 +548,7 @@ ul.menuitems li a:hover {
 		.span23 { width: 66.13%; float: left;}
 		.span13 { width: 32.26%; }
 
-		.spanHalf { width: 50%; }
+		.spanHalf { width: 40%; }
 		/*.span2of2 { width: 100%; }*/
 
 		/*  GO FULL WIDTH BELOW 480 PIXELS */
