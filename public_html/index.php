@@ -20,7 +20,7 @@
 
 		<header class="header">
   <!-- columns and small-12 are Foundation classes that split the browser window into 12 columns
-      that can actively resize themselves -->
+	  that can actively resize themselves -->
 			<div class="columns small-12">
 
 				<ul class="topnav" id="myTopNav">
@@ -36,7 +36,7 @@
 						<a href="html/getinvolved.php">Get Involved</a></li>
 	<!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
 	 -->			<li>
-	 					<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
+						<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
 					<ul>
 						<img id="hamburger" src="assets/hamburgermenu-blue.png">
 					</ul>
@@ -47,18 +47,25 @@
 		<div id="dropdownOverlay">
 			<div class="thedropdown">
 				<ul class="dropdown" id="myDropdown" >
+
+				<br>
 					<li class="dropdown_menuitem" onclick="location.href='index.php';">
-						<a href="index.php">Home</a></li>
+						<a href="index.php">Home</a>
+					</li>
 <!-- 						<li class="dropdown_menuitem" onclick="location.href='php/blogmodule/index.php';"><a href="php/blogmodule/index.php">Blog</a></li>
  -->					<li class="dropdown_menuitem" onclick="location.href='html/leadership.php';">
-						<a href="html/leadership.php">Leadership</a></li>
+						<a href="html/leadership.php">Leadership</a>
+					</li>
 					<li class="dropdown_menuitem"onclick="location.href='html/ourcause.php';">
-						<a href="html/ourcause.php">Our Cause</a></li>
+						<a href="html/ourcause.php">Our Cause</a>
+					</li>
 					<li class="dropdown_menuitem" onclick="location.href='html/getinvolved.php';">
-						<a href="html/getinvolved.php">Get Involved</a></li>
+						<a href="html/getinvolved.php">Get Involved</a>
+					</li>
 <!-- 					   		<li class="dropdown_menuitem"><a href="backend/index.php">Login</a></li>
 -->					<li >
-						<button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
+						<button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -130,7 +137,7 @@
 				<br>
 			</div> -->
 		  <div class="row">
-		  		
+				
 		<br>
 		<br>
 		<br>		  		
@@ -146,12 +153,12 @@
 		<br>
 		<hr>
 		<br>
-		  		<video src="assets/index_pics/pyb_promo.mp4" controls autoplay style="position: absolute; top:515px; left: 52%;width:40%; z-index: 1;"></video>
+				<video src="assets/index_pics/pyb_promo.mp4" controls style="position: absolute; top:515px; left: 52%;width:40%; z-index: 1;"></video>
 
-		  		</div>
-		  		<div class="row" style="max-width: 90%;">
+				</div>
+				<div class="row" style="max-width: 90%;">
 
-		  		<div class="columns small-12">
+				<div class="columns small-12">
 				<div class="columns small-8 medium-8 large-8" id="why_donate_content">
 							<br>
 						  <h1>Why Donate?</h1>
@@ -200,7 +207,7 @@
 
 				</div>	
 
-		  		</div>
+				</div>
 
 
 
