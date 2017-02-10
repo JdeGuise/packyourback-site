@@ -289,10 +289,8 @@ ul.menuitems li a:hover {
 			color:white;
 		}
 		.content p{
-			margin-left: 5px;
 		}
 		.content, .footer_buttons{
-			margin-left: 50px;
 		}
 		#about_us{
 			text-align: left;
@@ -324,7 +322,6 @@ ul.menuitems li a:hover {
 			opacity: .75;
 		}
 		#social_media_footer img, #footer1{
-			left:23px;
 		}
 		#footer1 img{
 			right:23px;
@@ -337,11 +334,9 @@ ul.menuitems li a:hover {
 		}
 
 		#footer2 h4, #footer2 h5{
-			left:50px;
 		}
 		#footer2 h5, .input_email_subscribe{
 			position:relative;
-			left:50px;
 
 		}
 		/* styling footer buttons/copyright text */
