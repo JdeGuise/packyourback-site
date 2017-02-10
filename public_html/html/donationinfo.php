@@ -47,6 +47,7 @@
       <div class="thedropdown">
         <ul class="dropdown" id="myDropdown" >
           <li class="dropdown_menuitem" onclick="location.href='../index.php';">
+          <br>
             <a href="../index.php">Home</a></li>
 <!--             <li class="dropdown_menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
  -->          <li class="dropdown_menuitem" onclick="location.href='leadership.php';">
