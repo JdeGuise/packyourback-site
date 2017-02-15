@@ -496,14 +496,12 @@ ul.menuitems li a:hover {
 			float: right;
 			border: 10px green;
 		}
-		#right{
-			float: right;
-		}
+		
 		@media only screen and (max-width: 1000px){
-			#r-shift{
-				float: left;
-			}
-		}
+		 		/*.shift{
+		 			display: none;
+		 		}*/
+		 	}
 		
 		/*.left{
 			margin-right: 2px;
@@ -543,12 +541,9 @@ ul.menuitems li a:hover {
 	        margin-right: -100%;
 	        text-align: right;
 	    }*/
-
-		.spanFull { width: 100%; }
-		.span23 { width: 66.13%; float: left;}
-		.span13 { width: 32.26%; }
-
-		.spanHalf { width: 40%; }
+	    .lines_shift{
+	    	display: none;
+	    }
 		/*.span2of2 { width: 100%; }*/
 
 		/*  GO FULL WIDTH BELOW 480 PIXELS */

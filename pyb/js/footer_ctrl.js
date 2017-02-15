@@ -22,45 +22,29 @@ $(document).ready( function() {
 
 
 
-	$( window ).resize(function(){
 
-		if($(window).width() <= 1000){
-			// $('.l-primary').css({"width":"100%"})
-			// $('.l-secondary').css({"width":"100%",
-			// 						"border-style": "solid",
-			// 						"border-width":"5px",
-			// 						"border-color":"white"});
 
-			// $('#l-shift').css({"border-bottom": "7px",
-			// "border-color": "rgb(242, 242, 242)",
-			// "padding-top": "15px",
-			// "border-style": "none none solid none"});
-			$('#l-shift').removeClass('spanHalf');
-			$('#l-shift').addClass('spanFull');
-			// $('#l-shift').addClass('a');
-
-			$('#r-shift').removeClass('spanHalf');
-			$('#r-shift').addClass('spanFull');
-			// $('#r-shift').addClass('a');
-			$('#right').css({"float": "right"});
-			// $('#container_shift').removeClass('a');
+		if($(window).width() <= 1024){
+			$('.lines_shift').css({"display":"block"});
+			
+			
 		}
-		if($(window).width() > 1000){
-			// $('.l-primary').css({"width":"66.6667%"})
-			// $('.l-secondary').css({"width":"33.3333%"})
-
-			$('#l-shift').removeClass('spanFull');
-			$('#l-shift').addClass('spanHalf');
-			// $('#l-shift').addClass('a');
-
-			$('#r-shift').removeClass('spanFull');
-			$('#r-shift').addClass('spanHalf');
-			// $('#r-shift').addClass('a');
-			$('#right').css({"float": "left"});
-
-
-			// $('#container_shift').addClass('a');
+		if($(window).width() > 1024){
+			$('.lines_shift').css({"display":"none"});
+			
 		}
 
-	});
+		window.onresize = function() {
+			if($(window).width() <= 1024){
+				$('.lines_shift').css({"display":"block"});
+				
+				
+			}
+			if($(window).width() > 1024){
+				$('.lines_shift').css({"display":"none"});
+				
+			}
+
+		}
+
 });
