@@ -27,8 +27,8 @@
           <a href="../index.php"><img id="logo" src="../assets/pyb_row_270x70px.png"></a>
           <li class="menuitem" onclick="location.href='../index.php';">
             <a href="../index.php">Home</a></li>
-<!--             <li class="menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
- -->          <li class="menuitem" onclick="location.href='leadership.php';">
+            <li class="menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
+          <li class="menuitem" onclick="location.href='leadership.php';">
             <a href="leadership.php">Leadership</a></li>
           <li class="menuitem" onclick="location.href='ourcause.php';">
             <a href="ourcause.php">Our Cause</a></li>
@@ -50,8 +50,8 @@
           <li class="dropdown_menuitem" onclick="location.href='../index.php';">
           <br>
             <a href="../index.php">Home</a></li>
-<!--             <li class="dropdown_menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
- -->          <li class="dropdown_menuitem" onclick="location.href='leadership.php';">
+            <li class="dropdown_menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
+          <li class="dropdown_menuitem" onclick="location.href='leadership.php';">
             <a href="leadership.php">Leadership</a></li>
           <li class="dropdown_menuitem"onclick="location.href='ourcause.php';">
             <a href="ourcause.php">Our Cause</a></li>
