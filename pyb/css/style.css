@@ -363,20 +363,26 @@ ul.menuitems li a:hover {
 			color: #ffffff;
 			background-color: rgb(61, 61, 61);
 			/*height: 300px;*/
-			overflow: auto;
-		}
+			overflow: auto
+			min-height: 100%;
+
+			}
 		footer h4{
 			color: white;
-			font-size: 24px;
+			font-size: 20px;
 		}
 
 		footer h3{
 			/*these are the links. implement them*/
 		}
 
-		footer h2{
+
+
+		footer h2, .sitelinks {
 			color: rgb(102,102,102);
-			font-size:16px;
+			font-size:14px;
+			margin-bottom: -10px;
+			margin-top: -8px;
 		}
 
 		footer .sidebar p{
@@ -384,6 +390,7 @@ ul.menuitems li a:hover {
 			font-family: Roboto;
 
 			padding-left: 20px;
+			padding-bottom: 15px;
 			height: 100%;
 		}
 
@@ -393,11 +400,12 @@ ul.menuitems li a:hover {
 			width: auto/9;
 		}
 
-		.sidebar{
-			background-color: white;
-			padding-bottom: 30px;
-
+		footer hr{
+			display: block;
+			border-color: rgb(102,102,102);
 		}
+
+
 
 		/*.sidebar img{
 			padding-left: 40px;
@@ -429,20 +437,20 @@ ul.menuitems li a:hover {
 			top: -40px;
 		}*/
 		footer button {
-			  width: 100px;
-			  display: inline-block;
+			  width: 85px;
+			  display: inline;
 			  position: relative;
 			  /*right: 1000px;*/
 			  bottom: 20px;
-			  background: #09C;
-			  color: #fff;
+			  /*background: #09C;*/
+			  /*color: #fff;*/
 			  font-family: Tahoma, Geneva, sans-serif;
 			  height: 35px;
 			  border-radius: 8px;
 			  border: 1px solid #999;
 			 cursor: pointer;
 
-			 left: 210px;
+			 left: 130px;
 			 top: -52px;
 			 text-align: center;
 			 padding: 0px;
@@ -452,14 +460,20 @@ ul.menuitems li a:hover {
 			height: 20px;
 			background-color: #444;
 		}*/
-		input [type="email"], textarea{
+
+		/*not working for whatever reason*/
+		/*input [type="email"]{
 			display: inline-block;
 			position: relative;
-			top: -43px;
-			/*left: 200px;*/
-			width: 100px;
-			background-color: gray;
+			
+			border-style: none;
+			background-color: white;
+		}*/
+
+		input [type="email"]{
+			width: 500px;
 		}
+
 
 		/*.subscribe-submit{
 			display: inline-block;
@@ -468,12 +482,12 @@ ul.menuitems li a:hover {
 			left: 2px;
 		}*/
 		.subscribe-form{
-			width: 200px;
-			height: 20px;
-			background: black;
+			width: 120px;
+			height: 16px;
+			color: white;
 		}
 		.subscribe-input{
-			/*background: gray;*/
+			/*background-color: black;*/
 		}
 		#footer_pyb{
 			width: 270px; 
@@ -485,17 +499,66 @@ ul.menuitems li a:hover {
 			height: 100%;
 		}
 		.sitelinks{
-			margin: 0 auto;
+			/*margin: 0 auto;
 			padding-top: 00px;
-			padding-bottom: 0px;
+			padding-bottom: 0px;*/
 			/*padding-left: 15px;*/
+		}
+
+		/*.floatright h2, .sitelinks{
+			font-size: 14px;
+		}*/
+
+		.f_smalltext{
+			font-size: 20px;
+		}
+		.f_largetext{
+			font-size: 30px;
 		}
 
 		.floatright{
 			float: right;
 			padding-bottom: 0px;
 		}
+		
 
+		.sidebar{
+			background-color: white;
+			padding-bottom: 15px;
+			border-radius: 15%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-right: 10px;
+			margin-left: -30px;
+		}
+		.sidebar p{
+			font-size: 14px;
+		}
+
+		.footer_top{
+			/*margin-right: 20px;*/
+		}
+
+		.contactinfo h2{
+			text-align: left;
+			padding-left: 15px;
+			margin-top: -8px;
+			padding-bottom: 20px;
+		}
+
+		.el1{
+ 			margin-bottom: -7px;
+ 			margin-top: -20px;
+ 		}
+
+ 		.el2{
+ 			margin-top:-15px;
+ 			margin-bottom: -14px;
+ 		}
+
+ 		/*.el3{
+ 			margin-bottom: -20px;
+ 		}*/
 
 		
 		@media only screen and (max-width: 1024px){
@@ -507,6 +570,28 @@ ul.menuitems li a:hover {
 		 			font-size: 10px;
 		 			margin-left: -20px;
 		 		}
+
+		 		footer .sidebar{
+		 		}
+		 		.floatright h2{
+					margin-top: -8px;
+					margin-bottom: -15px;
+				}
+
+		 		.el1{
+		 			margin-bottom: 7px;
+		 			margin-top: -20px;
+		 		}
+
+		 		.el2{
+		 			margin-top:-17px;
+		 			margin-bottom: -8px;
+		 		}
+		 		
+
+		 		.sitelinks{
+		 			margin-bottom: 10px;
+		 		}
 		 		/*footer .sidebar img{
 		 			width: 50%;
 		 			height: 50%;
@@ -517,10 +602,37 @@ ul.menuitems li a:hover {
 		/*has associated javascript*/
 	    .lines_shift{
 	    	display: none;
-	    	margin: 0 auto;
-	    	/*padding: -5px;*/
+	    	/*margin: 10px auto;*/
+	    	/*padding-top: 50px;*/
+	    	/*padding-bottom: 25px;*/
+	    	margin-left: 15px;
+	    	width: 94.54%;
+	    }
+
+	    input::-webkit-input-placeholder {
+	    	color: white !important;
+	    	font-size: 12px;
+	    }
+
+	    input:-moz-placeholder { /* Firefox 18- */
+	    	color: white !important;
+	    	font-size: 12px;  
+	    }
+
+	    input::-moz-placeholder {  /* Firefox 19+ */
+	    	color: white !important;
+	    	font-size: 12px;  
+	    }
+
+	    input:-ms-input-placeholder {  
+	    	color: white !important;
+	    	font-size: 12px;  
 	    }
 		
+
+		#sponsorlogosa{
+			margin-top: -25px;
+		}
 
 
 /*************************/
