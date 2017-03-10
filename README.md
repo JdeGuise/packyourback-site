@@ -1,38 +1,32 @@
 # packyourback
 
-This is the custom site solution for Pack Your Back, a nonprofit located in Mount Pleasant, Michigan.
+This is the custom site solution for Pack Your Back, a nonprofit located in Mount Pleasant, Michigan.  If the file is not in this list, you will never need to change it.
 
-# File Structure
+# File Structure (customized files)
 
 
 pyb/
 
-	index.html
+	index.php
 
 	html/
-		leadership.html (Staff)
-		ourcause.html (Our Cause/Blog)
-		getinvolved.html (Get Involved)
-		login.php (Login)
-		contact.html (Contact Us)
-		financials.html
-		donationinfo.html
+		leadership.php (Staff)
+		ourcause.php (Our Cause)
+		getinvolved.php (Get Involved)
+		contact.php (Contact Us)
+		financials.php
+		donationinfo.php
 		
-		backend/
-			dashboard.html
-				file server links to .pdfs
-
-			bod.html
-			marketingcomm.html
-			fundraisingcomm.html
-			relationscomm.html
-			expansioncomm.html
-
 	css/
 		style.css (custom css)
-		foundation.css (Foundation framework)
-
+		
 	js/
 		main.js
-		vendor/
-			jquery.js
+			
+	php/
+	    blogmodule/
+	    subscribe.php (join our newsletter section)
+	    
+    blogmodule/
+        viewpost.php
+        index.php
