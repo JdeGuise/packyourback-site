@@ -1,0 +1,51 @@
+New developer docs
+
+	Go to https://gitlab.com/jrd120893/packyourback
+
+	1. Add new developer to Settings->Members
+
+	2. Add user to Slack
+
+	3. Download Dash and walkthrough purposes
+
+	4. Walk dev through downloading MAMP, XAMPP, or WAMP
+
+		a. Installation and configuring Apache, MySQL
+
+		b. Discussion of purpose, and bookmarking of htdocs/
+
+			i. hit why public_html exists
+
+		c. Verify localhost/packyourback/index.php and blogmodule/index.php load
+
+
+	5. Set up command line environment
+
+		a. Unix: Terminal
+
+		b. Windows: Git Bash
+
+		c. Basic questions for easy commands
+
+		d. Direction towards command line documentation for self-learning
+
+		e. git clone https://....
+
+
+	6. Walkthrough of project structure
+
+		a. General walkthrough
+
+		b. PHP-relevance
+
+		c. JavaScript-relevance
+
+		d. Foundation-relevance
+
+		e. assets/ structuring
+
+		f. Namecheap/production server instances
+
+	7. Answer any last questions
+
+	8. Assign new issues based on understanding of concepts
