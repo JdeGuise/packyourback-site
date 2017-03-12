@@ -1,0 +1,740 @@
+/*************************/
+/* START TEMPLATE STYLES */
+/*************************/
+
+ html, body{
+ 	padding: 0px;
+ 	margin: 0px;
+	width:100%;
+ }
+.body{
+	background-color: rgb(242, 242, 242);
+	font-family: Arial;
+}
+/* Change background color of links on hover */
+ul.menuitems li a:hover {
+	color: rgb(33, 65, 149);  /* dark blue */
+}
+
+/***************/
+/* START FONTS */
+/***************/
+
+		/* set h*, li, and p fonts */
+		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }
+		.who_we_are p, li, body p{
+			font-family: 'Raleway', sans-serif;
+		}
+
+/*************/
+/* END FONTS */
+/*************/
+
+		/* styling and formatting for logo/nav header */
+
+/****************************/
+/* START NAVHEADER STYLINGS */
+/****************************/
+
+		/* Hide the list item that contains the link that should open and close the topnav on small screens */
+		 	@media only screen and (max-width: 1200px){
+		 		.menuitem, #donatebutton{
+		 			visibility: hidden;
+		 		}
+		 		.icon{
+		 			visibility: hidden;
+		 		}
+		 		#hamburger{
+		 			visibility: visible;
+		 		}
+		 	}
+		 	@media screen and (min-width: 1201px){
+		 		#hamburger{
+		 			visibility: hidden;
+		 		}
+		 		#dropdownOverlay{
+		 			visibility: hidden;
+		 		}
+		 	}
+		/* set default header height */
+		header{
+			height: 75px;
+		}
+		/* set default header logo width and height */
+		header img{
+			height: 60px;
+		}
+		/*align our logo vertically with the box it sits in */
+		header #logo {
+		  position:relative;
+		  margin-top:7px;
+		}
+		/*align hamburger menu more closely with the right side of the screen, for aesthetic purposes*/
+		header #hamburger{
+			position: absolute;
+			/*transform: rotate(45deg);*/
+			right:12px;
+			top:12px;
+			width:50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+
+		header #donatebutton{
+			/*position: absolute;*/
+			float: right;
+			right: 9px;
+			top: 9px;
+			border-width: 2px;
+			border-color: rgb(255,255,255);
+			border-style: outset;
+			/*display: inline-block;*/
+		}
+
+		header #hamburger:hover{
+			background-color: rgb(250, 108, 51);
+			/*opacity: .8;*/
+			cursor: pointer;
+			/*transition: background-color .4s ease;*/
+		}
+		/* align header elements and move navbar into a row */
+		header ul {
+		  display: inline;
+		  list-style: none;
+		  top: 20px;
+		}
+		header li {
+		  vertical-align: middle;
+		  display: inline;
+		  cursor: pointer;
+		  padding-left: 30px;
+		  padding-right: 30px;
+		  margin-left: -20px;
+		}
+		/* remove hyperlink decoration from links */
+		header a {
+		  text-decoration: none;
+		}
+		.header{
+			position: fixed;
+			/*color: lightblue;*/
+			width: 100%;
+			top: 0;
+			background-color: rgb(242, 242, 242);
+			border-bottom: 4px solid rgb(246, 103, 56);
+
+		}
+		header{
+			z-index: 2;
+		}
+
+		.menuitem{
+
+			font-size: 18px;
+			left:65px;
+		  	top: 5px;
+		  	position: relative;
+		  	margin: 0 12px 12px 0;
+
+		  	/*disables selection of the menu text, for reasons*/
+		  	-webkit-user-select: none; /* Chrome/Safari */        
+			-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+ */
+
+			border-radius: 7%;
+			border-bottom: 7px;
+			border-color: rgb(242, 242, 242);
+			padding-bottom: 15px;
+			padding-top: 15px;
+			border-style: none none solid none;
+
+
+
+			/*border-width: 7px;
+    		border-style: none none solid none;
+   			-webkit-border-image: 
+		    -webkit-gradient(linear, 0 0, 0 100%, from(rgb(76, 206, 251)), to(rgb(50, 91, 170))) 1 100%;
+  			-webkit-border-image: 
+  		    -webkit-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
+ 			-moz-border-image:
+  		    -moz-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;    
+   			-o-border-image:
+   		    -o-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
+  			border-image:
+   		    linear-gradient(to bottom, rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;*/
+
+		}
+		/*.menuitem button{
+			color:white;
+			vertical-align: center;
+		  	transition: all 0.4s;
+		}*/
+		.menuitem button:hover{
+			color:black;
+		}
+		.login{
+			left:450px;
+		}
+		/* query is for when screen width is less than 775px
+			while it's true, we want to:
+				1 center our logo,
+				2 make the header taller, so that we can...
+				3 center the navbar links below the logo.
+		*/
+		@media only screen and (max-width: 775px){
+			/* make header taller */
+			header{
+				opacity: .8;
+			}
+			header li{
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+			.slideshow-container{
+				top:75px;
+				margin-bottom:75px;
+			}
+		}
+		/* this query is for when the screen is super small
+			basically we want the same thing as above but taller
+		*/
+		@media only screen and (max-width: 385px){
+			header li{
+				margin-left: 0px;
+				text-align: center;
+			}
+			header{
+				opacity: 1;
+			}
+		}
+/**************************/
+/* END NAVHEADER STYLINGS */
+/**************************/
+
+/***************************/
+/* START: HEADER ALIGNMENTS */
+/***************************/
+
+
+		#dropdown_donatebutton{
+			list-style:inherit;
+			display: fixed;
+			/*margin: 0 auto;*/
+			margin-top: 20px;
+			margin-left: 26px;
+
+			border-width: 2px;
+			/*border-collapse: 0px;*/
+			border-color: rgb(255,255,255);
+			border-style: outset;
+			/*box-sizing: border-box;*/
+			/*font-size: 10px;*/
+		}
+
+		.thedropdown{
+			display: table;
+			margin: 0 auto;
+		}
+
+		#dropdownOverlay{
+			display:none;
+			position:fixed;
+			z-index: 1;
+			margin-top: 75px;
+			top:75px;
+			margin:0;
+			width:100%;
+			background-color: rgb(242, 242, 242);
+			background-color: rgba(242, 242, 242, .8);
+			/*needs work*/
+			transition: .5s ease;
+		}
+
+ 		#myDropdown {
+ 			display: block;
+ 			list-style: none;
+ 			position:relative;
+ 			font-size: 26px;
+ 			transition: .5s ease;
+
+ 		}
+ 		.dropdown_menuitem {
+ 			list-style-type: none;
+ 			/*padding-left: 20px;*/
+ 			padding-top: 8px;
+ 			margin-top: 10px;
+ 			position: static;
+ 			text-align: center;
+
+ 			cursor: pointer;
+
+ 			border-bottom: 7px;
+			border-style: none none solid none;
+			width: 110%;
+			border-radius: 7%;
+
+			border-color: rgb(242, 242, 242);
+			border-color: rgba(242, 242, 242, 0);
+ 		}
+																	/*end dropdown items*/
+																			/*START: HEADER ALIGNMENTS */
+		/* align headers in center */
+		.row h3, .row h2, .row h1{
+			text-align: center;
+		}
+
+		.content{
+			position: relative;
+			top: 50px;
+			color:white;
+		}
+		.content p{
+		}
+		.content, .footer_buttons{
+		}
+		#about_us{
+			text-align: left;
+		}
+
+/*************************/
+/* END HEADER ALIGNMENTS */
+/*************************/
+
+/***************************/
+/* START FOOTER ALIGNMENTS */
+/***************************/
+
+	/* aligning our footer lists to the left,
+			removing their bullet points, and
+			giving them top and bottom margins for spacing */
+		footer li{
+			position: relative;
+			text-align: left;
+			list-style-type: none;
+			margin: 10px 0 10px 0;
+		}
+		footer h4{
+			position: relative;
+			text-align: left;
+			color: rgba(255, 255, 255, .6);
+		}
+		#social_media_footer img:hover{
+			opacity: .75;
+		}
+		#social_media_footer img, #footer1{
+		}
+		#footer1 img{
+			right:23px;
+		}
+		#social_media_footer h4, #footer1 h4, #footer2 h5{
+			color: rgb(222,222,222);
+		}
+		#footer1 h4{
+			font-size:13pt;
+		}
+
+		#footer2 h4, #footer2 h5{
+		}
+		#footer2 h5, .input_email_subscribe{
+			position:relative;
+
+		}
+		/* styling footer buttons/copyright text */
+		.footer_buttons button{
+			position: relative;
+			bottom:20px;
+		}
+		/* declare footer size and color */
+		footer .row{
+			width: 100%;
+		}
+		footer {
+			background-image: black;
+		}
+		#about_us{
+			min-width: 250px;
+		}
+		#terms_of_use{
+			top:11px;
+		}
+		.subscribe-pitch{
+			color:grey;
+		}
+
+/*************************/
+/* END FOOTER ALIGNMENTS */
+/*************************/
+
+/******************************************/
+/* START: GENERIC SOCIAL MEDIA ALIGNMENTS */
+/******************************************/
+
+
+	.sm_circles img{
+		height:50%;
+		width:50%;
+		margin-left:36px;
+		margin-top: 26px;
+
+	}
+	.sm_circles{
+		user-select:none;
+		position:relative;
+		margin: 0 auto;
+		cursor: pointer;
+
+	}
+	#social_media_icons{
+		height:40%;
+		width:40%;
+		margin-left:43px;
+		margin-top: 16px;
+	}
+	#social_media_text{
+		font-size: 16px;
+	}
+
+	.sm_circles h6{
+		padding: 3px;
+		text-align: center;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	}
+
+
+/****************************************/
+/* END: GENERIC SOCIAL MEDIA ALIGNMENTS */
+/****************************************/
+
+	/* all of our rows' paragraphs are
+		default aligned to center */
+	.row p{
+		text-align:center;
+	}
+	/* all of our articles acting as descriptions are aligned left */
+	.articles article{
+		text-align: left;
+	}
+	.after{
+		background: rgba(0,0,0,0.75);
+	}
+	footer img{
+		width: 25px;
+		height: 25px;
+	}
+	#org_p{
+		color:white;
+	}
+/******************/
+/* END TEMPLATING */
+/******************/
+
+/*********************/
+/* START: index.html */
+/*********************/
+
+	/***********************************/
+	/* START: Story Circles/Who We Are */
+	/***********************************/
+
+		/* declare story/mission/idea circles */
+		.story_circles{
+			/*make our box into circles */
+			border-radius: 50%;
+
+			/*initialize a box */
+			width: 140px;
+			height: 140px;
+			margin: 0 auto;
+		}
+		.story_p{
+		  	max-width: 500px;
+		  	margin: 0 auto;
+		}
+
+		#who_we_are_self{
+			max-width: 1000px;
+		}
+
+		/* we want to 'highlight' the circles on mouseover */
+		.story_circles:hover{
+			opacity:.5;
+		}
+
+
+		.sm_circles{
+			border-radius:50%;
+			border-width: 1px;
+			border-style: double;
+			border-color: rgb(48, 158, 203);
+			background-color: rgb(76, 206, 251);
+			width:150px;
+			height:150px;
+			margin:0 auto;
+			transition: .2s all;
+/*
+			-webkit-animation-name: fade;
+				-webkit-animation-duration: 1.5s;
+				animation-name: fade;
+				animation-duration: 1.5s;*/
+		}
+
+		#who_we_are_self{
+			max-width: 1000px;
+		}
+
+		/* we want to 'highlight' the circles on mouseover */
+		/*.sm_circles:hover{
+			background-color:black;
+			opacity:.8;
+		}*/
+
+	/*********************************/
+	/* END: Story Circles/Who We Are */
+	/*********************************/
+
+
+
+	/*******************/
+	/* START: Carousel */
+	/*******************/
+
+
+			/* Slideshow container */
+			.slideshow-container {
+				position: relative;
+				width: 100%;
+			}
+
+			#jumboimg{
+				width:100%;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+				height: 13px;
+				width: 13px;
+				margin: 0 2px;
+				background-color: #bbb;
+				border-radius: 50%;
+				display: inline-block;
+				transition: background-color 0.6s ease;
+			}
+
+			/* active dot color */
+			.active {
+				background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+				-webkit-animation-name: fade;
+				-webkit-animation-duration: 1.5s;
+				animation-name: fade;
+				animation-duration: 1.5s;
+			}
+
+			.mySlides{
+				width: 100%;
+			}
+	/*****************/
+	/* END: Carousel */
+	/*****************/
+
+	/*************************/
+	/* START: Featured Quote */
+	/*************************/
+
+			#index-quote{
+				text-align:center;
+				max-width: 1000px;
+			}
+			#index-quote #index-quote-self{
+				margin: 0 auto;
+			}
+			#index-quote-wrapper{
+				background-color: lightblue;
+			}
+
+	/***********************/
+	/* END: Featured Quote */
+	/***********************/
+
+	/*******************************/
+	/* START: Why Donate Container */
+	/*******************************/
+			#why_donate_container{
+				max-width: 1200px;
+			}
+
+	/*****************************/
+	/* END: Why Donate Container */
+	/*****************************/
+
+	/*************************/
+	/* START: Blog Previews; */
+	/*************************/
+
+			.row .blogbox img{
+				float:left;
+				clear:both;
+				margin: 0 10px 10px 10px;
+			}
+
+			.row .blogbox p{
+				display:block;
+				margin-left: 5px;
+				text-align:left;
+				margin-top: -5px;
+			}
+
+			.blogrow{
+				background-color: lightblue;
+			}
+
+
+	/***********************/
+	/* END: Blog Previews; */
+	/***********************/
+
+/*******************/
+/* END: index.html */
+/*******************/
+
+
+/*********************/
+/* START: ideas.html */
+/*********************/
+
+
+/******************/
+/*END: ideas.html */
+/******************/
+
+
+/********************/
+/* START: blog.html */
+/********************/
+
+	#blogpost p{
+		text-align:left;
+	}
+
+/******************/
+/* END: blog.html */
+/******************/
+
+
+/**************************/
+/* START: leadership.html */
+/**************************/
+
+
+	.leadership_circles{
+		border-radius: 50%;
+		width: 180px;
+		height: 180px;
+		background-color: lightblue;
+		margin:0 auto;
+	}
+
+	#leaderjumbo_wrapper{
+		background-color:black;
+		position:relative;
+		top:3px;
+	}
+
+	#ti_wrapper{
+		background-color:white;
+	}
+	#ti_content{
+		max-width: 950px;
+	}
+
+	.lead_article_wrapper{
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.lead_article_wrapper article p{
+		text-align: left;
+	}
+
+
+	#pyb_cmu_p{
+		max-width: 950px;
+	}
+
+	.p-image{
+		float:left;
+		margin:30px;
+	}
+
+	@media only screen and (max-width: 800px){
+		.p-image{
+			max-width: 300px;
+
+		}
+	}
+
+  .staff_name{
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .staff_title{
+    color: #454545;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  .staff_pics{
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  #staff_blurb{
+    text-align: left;
+    max-width: 420px;
+  }
+
+  .padding{
+    padding: 4vh 6vw;
+  }
+
+  .max-width-500{
+    max-width: 500px;
+  }
+
+  .flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .center-everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self:flex-start;
+    flex-grow: 2;
+    padding: 20px;
+    max-width: 560px;
+  }
+
+  .lead_headers{
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+
+  .directors{
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+/************************/
+/* END: leadership.html */
+/************************/
