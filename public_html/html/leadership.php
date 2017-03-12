@@ -27,8 +27,8 @@
           <a href="../index.php"><img id="logo" src="../assets/pyb_row_270x70px.png"></a>
           <li class="menuitem" onclick="location.href='../index.php';">
             <a href="../index.php">Home</a></li>
-<!--             <li class="menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
- -->          <li class="menuitem" onclick="location.href='leadership.php';">
+            <li class="menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
+          <li class="menuitem" onclick="location.href='leadership.php';">
             <a href="leadership.php">Leadership</a></li>
           <li class="menuitem" onclick="location.href='ourcause.php';">
             <a href="ourcause.php">Our Cause</a></li>
@@ -50,8 +50,8 @@
           <li class="dropdown_menuitem" onclick="location.href='../index.php';">
           <br>
             <a href="../index.php">Home</a></li>
-<!--             <li class="dropdown_menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
- -->          <li class="dropdown_menuitem" onclick="location.href='leadership.php';">
+            <li class="dropdown_menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>
+          <li class="dropdown_menuitem" onclick="location.href='leadership.php';">
             <a href="leadership.php">Leadership</a></li>
           <li class="dropdown_menuitem"onclick="location.href='ourcause.php';">
             <a href="ourcause.php">Our Cause</a></li>
@@ -126,14 +126,14 @@
 								<br>
 					</div>
 					<div class="columns small-12 medium-4 large-4">
-							<img src="../assets/leadership_pics/staff/kschweitzer.jpg" class="staff_pics">
+							<img src="../assets/leadership_pics/staff/ajohnson.jpg" class="staff_pics">
 							<br>
 						 <br>
-							<h4>Kayla Schweitzer</h4>
+							<h4>Amani Johnson</h4>
 							<h6>Vice President</h6>
 							<br>
 							<p style="max-width:75%; margin:0 auto;">
-								Kayla Schweitzer currently serves as the Vice President for Pack Your Back. She attended Saginaw Valley State University to study Communications and Political Science. Kayla has been involved in many nonprofit organizations, serving in a variety of leadership positions.
+								Amani Johnson currently serves as Vice President for Pack Your Back.  He is a junior at Central Michigan University studying Public &amp Nonprofit Administration.  Amani has been involved in many organizations at CMU and has experience with event planning as well as fundraising.
 							</p>
 							<br>
 					</div>

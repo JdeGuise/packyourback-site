@@ -73,16 +73,23 @@
 		<?php
 			try {
 
-				$res = $db->query('SELECT postID, postTitle, postDesc, postDate FROM blog_posts ORDER BY postID DESC');
+				$res = $db->query('SELECT postID, postTitle, postDesc, postDate, postImgPath FROM blog_posts ORDER BY postID DESC');
 				while($row = $res->fetch()){
-
-					echo '<br><div style="text-align:center;">';
+          echo'<div class="columns small-12 medium-12 large-8 viewpostblogpost" style="position:relative;right:5%;">';
+					echo '<br><br><br><div style="text-align:center;max-width:80%;margin:auto;">';
 						echo '<h1><a href="viewpost.php?id='.$row['postID'].'">'.$row['postTitle'].'</a></h1>';
 						echo '<p>Posted on '.date('jS M Y H:i:s', strtotime($row['postDate'])).'</p>';
 						echo '<p>'.$row['postDesc'].'</p>';
 						echo '<p><a href="viewpost.php?id='.$row['postID'].'">Read More</a></p>';
 					echo '</div>';
+          echo '</div>';
+          echo '<br><div class="columns small-12 medium-12 large-4" style="right:5%;position:relative;">';
+          echo '<img src="../../'.$row['postImgPath'].'">';
           echo '<br>';
+          echo '<br>';
+          echo '<br>';
+
+          echo '</div>';
           echo '<hr>';
 				}
 			}
