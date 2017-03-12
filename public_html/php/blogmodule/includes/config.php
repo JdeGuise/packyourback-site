@@ -4,16 +4,16 @@ session_start();
 
 //database credentials
 define('DBHOST','localhost');
-define('DBUSER','packecoe_root');
-define('DBPASS','Dug0Ng@kAManat3e?');
+define('DBUSER','root');
+define('DBPASS','');
 define('DBNAME','packecoe_packyourback');
 
-$db = new PDO("mysql:host=".DBHOST.";port=8889;dbname=".DBNAME, DBUSER, DBPASS);
+$db = new PDO("mysql:host=".DBHOST.";port=3306;dbname=".DBNAME, DBUSER, DBPASS);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
 //set timezone
-date_default_timezone_set('Europe/London');
+date_default_timezone_set('America/Detroit');
 
 //load classes as needed
 function __autoload($class) {
