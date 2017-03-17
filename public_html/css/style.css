@@ -137,7 +137,7 @@ ul.menuitems li a:hover {
 		  	margin: 0 12px 12px 0;
 
 		  	/*disables selection of the menu text, for reasons*/
-		  	-webkit-user-select: none; /* Chrome/Safari */        
+		  	-webkit-user-select: none; /* Chrome/Safari */
 			-moz-user-select: none; /* Firefox */
 			-ms-user-select: none; /* IE10+ */
 
@@ -152,12 +152,12 @@ ul.menuitems li a:hover {
 
 			/*border-width: 7px;
     		border-style: none none solid none;
-   			-webkit-border-image: 
+   			-webkit-border-image:
 		    -webkit-gradient(linear, 0 0, 0 100%, from(rgb(76, 206, 251)), to(rgb(50, 91, 170))) 1 100%;
-  			-webkit-border-image: 
+  			-webkit-border-image:
   		    -webkit-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
  			-moz-border-image:
-  		    -moz-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;    
+  		    -moz-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
    			-o-border-image:
    		    -o-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
   			border-image:
@@ -596,6 +596,31 @@ ul.menuitems li a:hover {
 	/***********************/
 	/* END: Blog Previews; */
 	/***********************/
+
+  /*****************/
+	/* START: Media; */
+	/*****************/
+    .parentcontain {
+      margin: auto;
+    }
+
+    #distrographic{
+      float: left;
+      width: 30%;
+      height: 40%;
+    }
+
+    #pybmp4 {
+
+      padding: 20px;
+      float: right;
+      left: 30%;
+      width:40%;
+      z-index: 1;
+    }
+  /***************/
+	/* END: Media; */
+	/***************/
 
 /*******************/
 /* END: index.html */

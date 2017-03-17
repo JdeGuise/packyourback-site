@@ -87,25 +87,8 @@
 				  <span class="dot"></span>
 				</div>
 		</div>
-		<div class="row" style="width: 1800px; height: 500px;">
-			<div class="columns small-12 medium-12 large-12" style="z-index: 0;">
-			<a href="/php/blogmodule/viewpost.php?id=2"><img src="assets/index_pics/distribution_locations_announcement_graphic.png" width="1800px" height="500px"></a>
-			<br>
-			<br>
-			<br>
 
-			</div>
-
-		</div>
-
-			<div>
-
-				<video src="assets/index_pics/pyb_promo.mp4" controls style="position: relative; left: 30%;width:40%; z-index: 1;"></video>
-				<br>
-				<br>
-				<br>
-			</div>				
-
+  
 
  <!-- 			<div class="row blogrow">
 			<br>
@@ -148,7 +131,7 @@
 			</div> -->
 
 		  <div class="row">
-				
+
 
 
 				</div>
@@ -162,7 +145,7 @@
 							  <br>
 								<p>
 								  Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
-								</p>						  		
+								</p>
 
 								<br>
 								<br>
@@ -189,8 +172,8 @@
 					<div class="columns small-12 medium-6 large-4">
 
 						<div class="columns small-12">
-							
-							<img src="assets/index_pics/kids.png" style="width:494px; height:240px; position:relative;">	
+
+							<img src="assets/index_pics/kids.png" style="width:494px; height:240px; position:relative;">
 							<br>
 						</div>
 						<div class="columns small-12">
@@ -200,7 +183,7 @@
 						</div>
 
 
-					</div>	
+					</div>
 
 					</div>
 				</div>
@@ -226,7 +209,7 @@
 					</div>
 
 					<div class="columns small-12 medium-4 large-4 story_feature">
-						
+
 									<br>
 						<div class="story_circles">
 						  <a href="html/leadership.php">
@@ -252,7 +235,7 @@
 						<p class="story_p">Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.</p>
 						<br>
 						<br>
-					</div>					
+					</div>
 				</div>
 
 				<div id="index-quote-wrapper">
