@@ -597,31 +597,6 @@ ul.menuitems li a:hover {
 	/* END: Blog Previews; */
 	/***********************/
 
-  /*****************/
-	/* START: Media; */
-	/*****************/
-    .parentcontain {
-      margin: auto;
-    }
-
-    #distrographic{
-      float: left;
-      width: 30%;
-      height: 40%;
-    }
-
-    #pybmp4 {
-
-      padding: 20px;
-      float: right;
-      left: 30%;
-      width:40%;
-      z-index: 1;
-    }
-  /***************/
-	/* END: Media; */
-	/***************/
-
 /*******************/
 /* END: index.html */
 /*******************/
