@@ -2,6 +2,13 @@
 /* START TEMPLATE STYLES */
 /*************************/
 
+<<<<<<< HEAD
+=======
+.subscribe-input[type=email]{
+	background-color: rgb(102, 102, 102);
+	border-style:none;
+}
+>>>>>>> bb6d12ffa7d11fb6d0ad9158c9983537df5c73ba
 
  html, body{
  	padding: 0px;
@@ -478,7 +485,7 @@ ul.menuitems li a:hover {
 			cursor: pointer;
 
 			left: 130px;
-			top: -47px;
+			top: -50px;
 			text-align: center;
 			font-size: 13px;
 			padding: 0px;
@@ -508,7 +515,6 @@ ul.menuitems li a:hover {
 			border-color: rgb(76, 206, 251);
 			transition:  border-style .6s;
 			color: white;
-			height: 31px;
 		}
 		.subscribe-input[type=email]:focus{
 			background-color: rgb(102, 102, 102);
@@ -533,7 +539,7 @@ ul.menuitems li a:hover {
 		}*/
 		.subscribe-form{
 			width: 120px;
-			height: 12px;
+			height: 16px;
 			color: white;
 		}
 		
@@ -585,23 +591,13 @@ ul.menuitems li a:hover {
 		}
 
 		.el1{
- 			/*margin-bottom: 2px;*/
- 			/*margin-top: -20px;*/
+ 			margin-bottom: -7px;
+ 			margin-top: -20px;
  		}
 
  		.el2{
- 			margin-top:5px;
- 			/*margin-bottom: -20px;*/
- 		}
-
- 		/*.footer_soc_media img{
-			float:right;
-			margin-left: 5px;
-			vertical-align: center; 		
-		}*/
-
- 		#undertoprow{
- 			margin-top: 10px;
+ 			margin-top:-15px;
+ 			margin-bottom: -14px;
  		}
 
  		/*.el3{
@@ -614,9 +610,6 @@ ul.menuitems li a:hover {
 
 		
 		@media only screen and (max-width: 1024px){
-				#undertoprow{
-					margin-top: 20px;
-				}
 		 		.floatright{
 		 			float: left;
 		 			/*padding-bottom: 15px;*/
@@ -624,8 +617,6 @@ ul.menuitems li a:hover {
 		 		footer .sidebar p{
 		 			font-size: 10px;
 		 			margin-left: -20px;
-		 			margin-top: 15px;
-		 			/*padding-bottom: 20px;*/
 		 		}
 
 		 		footer .sidebar{
@@ -646,8 +637,8 @@ ul.menuitems li a:hover {
 		 		}
 
 		 		.el2{
-		 			margin-top:-14px;
-		 			margin-bottom: -6px;
+		 			margin-top:-17px;
+		 			margin-bottom: -8px;
 		 		}
 		 		
 
@@ -663,34 +654,25 @@ ul.menuitems li a:hover {
 		 			margin-top: 55px;
 		 			padding-bottom: 40px;
 		 		}
-		 		.footer_sponsor{
-		 			padding-top: 20px;
-		 		}
-		 		#sponsorb{
-		 			margin-top: -2%;
-		 		}
-		 		
 
 		 	}
 
 		@media only screen and (max-width: 640px){
 				#sponsora{
-					width: 85%;
-					height: 85%;
-					left: 7%;
+					width: 70%;
+					height: 70%;
 					/*float: center;*/
 				}
 				#sponsorb{
-					width: 85%;
-					height: 85%;
+					width: 70%;
+					height: 70%;
 					margin-top: 20px;
-					right: 4%;
 					/*float: center;*/
 				}
-				/*#footer_pyb{
-					width: 80%;
-					height: 80%;
-				}*/
+				#footer_pyb{
+					width: 70%;
+					height: 70%;
+				}
 
 				footer .sidebar p{
 		 			font-size: 9px;
@@ -703,9 +685,6 @@ ul.menuitems li a:hover {
 		 		.sidebar{
 		 			margin-right: 10px;
 		 			padding-bottom: 20px;
-		 		}
-		 		.footer_sponsor{
-		 			padding-top: 10px
 		 		}
 		}
 		
