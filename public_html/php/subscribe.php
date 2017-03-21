@@ -10,7 +10,7 @@ if($link === false)
 $email = mysqli_real_escape_string($link, $_POST['email']);
 $ipaddr = $_SERVER['REMOTE_ADDR'];
 
-date_default_timezone_set('Detroit');
+date_default_timezone_set('America/Detroit');
 $datetime = date('Y/m/d h:i:s', time());
 
 // attempt insert query execution
