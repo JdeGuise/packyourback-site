@@ -90,17 +90,17 @@
                 <h4 style="margin-left:25px;">How did Pack Your Back start?</h4>
                 <br>
                 <br>
-                  <p id="ourcausetxt">Pack Your Back is a nonprofit organization that was started in a dorm room in Calkins Hall. It’s a few students at CMU who decided that they wanted to be hands on, they wanted to be proactive in helping the younger generation succeed. With that, Pack Your Back was born.</p>
+                  <p class="ourcausetxt">Pack Your Back is a nonprofit organization that was started in a dorm room in Calkins Hall. It’s a few students at CMU who decided that they wanted to be hands on, they wanted to be proactive in helping the younger generation succeed. With that, Pack Your Back was born.</p>
                   <br>
-                  <p id="ourcausetxt">In January 2016, Galen Miller was volunteering in Flint with his fraternity. As they continued to deliver water and other supplies to the residents suffering from the water crisis, Miller noticed that as the major media outlets began to leave, so did the help.</p>
+                  <p class="ourcausetxt">In January 2016, Galen Miller was volunteering in Flint with his fraternity. As they continued to deliver water and other supplies to the residents suffering from the water crisis, Miller noticed that as the major media outlets began to leave, so did the help.</p>
                   <br>
-                  <p id="ourcausetxt">
+                  <p class="ourcausetxt">
                   That night after the event in Flint, Miller got together a group of friends in his dorm room, and they discussed how they could continue to give back to the community in Flint. They settled on collecting and donating school supplies, as they realized that the water crisis had a massive impact on the development of young school-aged children.
                   </p>
-                  <p id="ourcausetxt">
+                  <p class="ourcausetxt">
                   A group of CMU students and alumni started Pack Your Back in March 2016 and were officially approved as a 501(c)(3) nonprofit in May. They set to work collecting funds and school supplies to donate to the children of Flint and beyond.
                   </p>
-                  <p id="ourcausetxt">
+                  <p class="ourcausetxt">
                   The organization plans to extend to the rest of the state and even the country in the following months and years and already has an expansion plan in place.
                   </p>
                   <br>
@@ -109,13 +109,13 @@
           <div class="columns small-12 medium-4 large-7">
                 <br>
                 <br>
-                <br id"brourcause">
-                <br id"brourcause">
-                <br id"brourcause">
-                <br id"brourcause">
-                <br id"brourcause">
-                <br id"brourcause">
-                <br id"brourcause">
+                <br class="brourcause">
+                <br class="brourcause">
+                <br class="brourcause">
+                <br class="brourcause">
+                <br class="brourcause">
+                <br class="brourcause">
+                <br class="brourcause">
                 <img src="../assets/ourcause/calkins.jpg" id="calkinsphoto"/>
           </div>
 
