@@ -309,92 +309,29 @@ ul.menuitems li a:hover {
 /* START FOOTER ALIGNMENTS */
 /***************************/
 
-	/* aligning our footer lists to the left,
-			removing their bullet points, and
-			giving them top and bottom margins for spacing */
-/*		footer li{
-			position: relative;
-			text-align: left;
-			list-style-type: none;
-			margin: 10px 0 10px 0;
-		}
-		*/
-		footer h4{
-			position: relative;
-			text-align: left;
-			color: rgba(255, 255, 255, .6);
-		}
-		
-		#social_media_footer img:hover{
-			opacity: .75;
-		}
-		/*#social_media_footer img, #footer1{
-			left:23px;
-		}
-		#footer1 img{
-			right:23px;
-		}
-		
-		#social_media_footer h4, #footer1 h4, #footer2 h5, #footer h2{
-			color: rgb(222,222,222);
-		}*/
-		/*
-		#footer1 h4{
-			font-size:13pt;
-		}
-
-		#footer2 h4, #footer2 h5{
-			left:50px;
-		}
-		#footer2 h5, .input_email_-{
-			position:relative;
-			left:50px;
-
-		}
-		/* styling footer buttons/copyright text *
-		.footer_buttons button{
-			position: relative;
-			bottom:20px;
-		}
-		/* declare footer size and color *
-		footer .row{
-			width: 100%;
-		}*/
 		footer {
 			color: #ffffff;
 			background-color: rgb(61, 61, 61);
-			/*height: 300px;*/
 			overflow: auto
 			min-height: 100%;
 			max-height: 100%;
-			/*margin-bottom: 120px;*/
-			/*margin-top:120px;*/
-			}
+		}
+
 		footer h4{
+			text-align: left;
 			color: white;
 			font-size: 20px;
 		}
-
-		footer h3{
-			/*these are the links. implement them*/
+		/*doesnt actually work*/
+		#social_media_footer img:hover{
+			opacity: .75;
 		}
-
-
 
 		footer h2, .sitelinks {
 			color: rgb(102,102,102);
 			font-size:14px;
-			margin-bottom: -10px;
-			margin-top: -8px;
-		}
-
-		footer .sidebar p{
-			text-align: left;
-			font-family: Roboto;
-
-			padding-left: 20px;
-			padding-bottom: 15px;
-			height: 100%;
+			margin-bottom: -12px;
+			margin-top: -10px;
 		}
 
 		footer img{
@@ -404,19 +341,11 @@ ul.menuitems li a:hover {
 		}
 
 		footer hr{
+			/*padding-top: -20px;*/
 			display: block;
 			border-color: rgb(102,102,102);
 		}
 
-
-
-		/*.sidebar img{
-			padding-left: 40px;
-		}*/
-
-		.f_top{
-			/*vertical-align: middle;*/
-		}
 
 		.footer_top{
 			display: inline;
@@ -427,52 +356,27 @@ ul.menuitems li a:hover {
 			margin-bottom: 10px;
 			margin-left: 40px;
 		}
-		.sidebar{
-			background-color: white;
-			padding-bottom: 15px;
-			border-radius: 15%;
-			margin-top: 10px;
-			margin-bottom: 10px;
-			margin-right: 40px;
-			margin-left: -30px;
 
-			min-height: 100%;
-			max-height: 100%
-		}
-		.sidebar p{
-			font-size: 14px;
-		}
-		/*
-		#about_us{
-			min-width: 250px;
-		}
-		#terms_of_use{
-			top:11px;
-		}
-		.subscribe-pitch{
-			color:grey;
-		}
-		
+		.footer_top b{
+ 			font-size: 16px;
+ 		}
 
+ 		.el1{
+			margin-bottom: -18px;
+ 		}
+ 		.el2{
+ 			margin-top:5px;
+ 		}
 
-*/
-		/*footer form button{
-			position: relative;
-			top: -40px;
-		}*/
 		footer button {
 			width: 75px;
 			height: 31px;
-
-
 			display: inline;
-			position: relative;
-			  /*right: 1000px;*/
+			/*position: relative;*/
 			bottom: 20px;
 			  /*background: white;*/
 			  /*color: #fff;*/
 			font-family: Tahoma, Geneva, sans-serif;
-			
 
 			border-style: none;
 			cursor: pointer;
@@ -484,31 +388,16 @@ ul.menuitems li a:hover {
 			padding: 0px;
 		}
 
-
-		/*footer input{
-			width: 50px;
-			height: 20px;
-			background-color: #444;
-		}*/
-
-		/*not working for whatever reason*/
-		/*input [type="email"]{
-			
-			
-			border-style: none;
-			background-color: white;
-		}*/
-		
-
 		.subscribe-input[type=email]{
 			background-color: rgb(102, 102, 102);
 			border-style:none;
 			/*border: none;*/
 			border-width: 2px;
 			border-color: rgb(76, 206, 251);
-			transition:  border-style .6s;
+			/*transition:  border-style .6s;*/
 			color: white;
 			height: 31px;
+			z-index: 100;
 		}
 		.subscribe-input[type=email]:focus{
 			background-color: rgb(102, 102, 102);
@@ -519,24 +408,36 @@ ul.menuitems li a:hover {
 			/*transition: border-style .6s fade;*/
 		}
 
-		/*input [type="email"]{
-			width: 500px;
-		}*/
-
-
-
-		/*.subscribe-submit{
-			display: inline-block;
-			position: relative;
-			top: -43px;
-			left: 2px;
-		}*/
 		.subscribe-form{
 			width: 120px;
-			height: 12px;
+			height: 31px;
 			color: white;
 		}
-		
+
+
+
+		.sidebar{
+			background-color: white;
+			padding-bottom: 15px;
+			border-radius: 15%;
+			margin-top: 30px;
+			margin-bottom: 10px;
+			margin-right: 40px;
+			margin-left: -30px;
+
+			min-height: 100%;
+			max-height: 100%
+		}
+
+		.sidebar p{
+			text-align: left;
+			font-family: Roboto;
+			font-size: 14px;
+			padding-left: 20px;
+			padding-bottom: 15px;
+			height: 100%;
+		}
+
 		#footer_pyb{
 			width: 270px; 
 			height: 80px;
@@ -547,121 +448,75 @@ ul.menuitems li a:hover {
 			width: 100%;
 			height: 100%;
 		}
-		.sitelinks{
-			/*margin: 0 auto;
-			padding-top: 00px;
-			padding-bottom: 0px;*/
-			/*padding-left: 15px;*/
-		}
 
-		/*.floatright h2, .sitelinks{
-			font-size: 14px;
-		}*/
-
-		.f_smalltext{
-			font-size: 20px;
-		}
-		.f_largetext{
-			font-size: 30px;
+		#sponsora{
+			margin-top: -25px;
 		}
 
 		.floatright{
 			float: right;
 			padding-bottom: 0px;
 		}
-		
 
-		
-
-		.footer_top{
-			/*margin-right: 20px;*/
-		}
+		.floatright h2{
+ 			margin-top: -10px;
+ 		}
 
 		.contactinfo h2{
 			text-align: left;
 			padding-left: 15px;
 			margin-top: -8px;
 			padding-bottom: 20px;
+			margin-bottom: 10%;
 		}
-
-		.el1{
- 			/*margin-bottom: 2px;*/
- 			/*margin-top: -20px;*/
- 		}
-
- 		.el2{
- 			margin-top:5px;
- 			/*margin-bottom: -20px;*/
- 		}
-
- 		/*.footer_soc_media img{
-			float:right;
-			margin-left: 5px;
-			vertical-align: center; 		
-		}*/
 
  		#undertoprow{
  			margin-top: 10px;
  		}
 
- 		/*.el3{
- 			margin-bottom: -20px;
- 		}*/
+ 		.lines_shift{
+	    	display: none;
+	    }
 
- 		.floatright h2{
- 			margin-top: -10px;
- 		}
-
-		
 		@media only screen and (max-width: 1024px){
+				.footer_top{
+		 			margin-bottom: 40px;
+		 		}
+		 		.el1{
+		 			margin-bottom: -29px;
+		 			margin-top: -20px;
+		 		}
+		 		.el2{
+		 			margin-top:-14px;
+		 			margin-bottom: -6px;
+		 		}
+
 				#undertoprow{
 					margin-top: 20px;
 				}
 		 		.floatright{
 		 			float: left;
-		 			/*padding-bottom: 15px;*/
-		 		}
-		 		footer .sidebar p{
-		 			font-size: 10px;
-		 			margin-left: -20px;
-		 			margin-top: 15px;
-		 			/*padding-bottom: 20px;*/
-		 		}
-
-		 		footer .sidebar{
-		 			height: 100%;
-		 		}
-		 		#footer_pyb{
-		 			width: 85%;
-					height: 85%;
+		 			/*lol, yes this is correct*/
 		 		}
 		 		.floatright h2{
 					margin-top: -8px;
 					margin-bottom: -15px;
 				}
 
-		 		.el1{
-		 			margin-bottom: -10px;
-		 			margin-top: -20px;
-		 		}
-
-		 		.el2{
-		 			margin-top:-14px;
-		 			margin-bottom: -6px;
-		 		}
-		 		
-
-		 		.sitelinks{
-		 			/*margin-bottom: 10pßx;*/
-		 		}
-
-		 		.footer_top{
-		 			margin-bottom: 40px;
-		 		}
 		 		.sidebar{
 		 			margin-right: 10px;
 		 			margin-top: 55px;
 		 			padding-bottom: 40px;
+		 		}
+		 		.sidebar p{
+		 			font-size: 10px;
+		 			margin-left: -20px;
+		 			margin-top: 15px;
+		 		}
+		 		
+		 		#footer_pyb{
+		 			width: 85%;
+					height: 85%;
 		 		}
 		 		.footer_sponsor{
 		 			padding-top: 20px;
@@ -670,56 +525,43 @@ ul.menuitems li a:hover {
 		 			margin-top: -2%;
 		 		}
 		 		
-
 		 	}
 
 		@media only screen and (max-width: 640px){
+				.footer_top{
+		 			margin-left: 0px;
+		 		}
+
+		 		.sidebar{
+		 			margin-right: 10px;
+		 			padding-bottom: 20px;
+		 		}
+		 		.sidebar p{
+		 			font-size: 9px;
+		 			margin-left: -20px;
+		 		}
+
 				#sponsora{
 					width: 85%;
 					height: 85%;
 					left: 7%;
-					/*float: center;*/
 				}
 				#sponsorb{
 					width: 85%;
 					height: 85%;
 					margin-top: 20px;
 					right: 4%;
-					/*float: center;*/
 				}
-				/*#footer_pyb{
-					width: 80%;
-					height: 80%;
-				}*/
-
-				footer .sidebar p{
-		 			font-size: 9px;
-		 			margin-left: -20px;
-		 		}
-
-		 		.footer_top{
-		 			margin-left: 0px;
-		 		}
-		 		.sidebar{
-		 			margin-right: 10px;
-		 			padding-bottom: 20px;
-		 		}
+				
 		 		.footer_sponsor{
 		 			padding-top: 10px
 		 		}
 		}
 		
 		/*has associated javascript*/
-	    .lines_shift{
-	    	display: none;
-	    	/*margin-top: -10px;*/
-	    	/*margin: 10px auto;*/
-	    	/*padding-top: -20px;*/
-	    	/*padding-bottom: 25px;*/
-	    	/*margin-left: 15px;*/
-	    	/*width: 94.54%;*/
-	    }
+	    
 
+	    /*controls the color of the typed text in the email box*/
 	    input::-webkit-input-placeholder {
 	    	color: white !important;
 	    	font-size: 12px;
@@ -739,11 +581,7 @@ ul.menuitems li a:hover {
 	    	color: white !important;
 	    	font-size: 12px;  
 	    }
-		
 
-		#sponsora{
-			margin-top: -25px;
-		}
 
 
 /*************************/
