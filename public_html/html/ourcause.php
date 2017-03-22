@@ -170,6 +170,5 @@ The organization plans to extend to the rest of the state and even the country i
   </body>
   <script src="../js/menu.js" ></script>
      <script src="../js/social_media_animation.js"></script>
-     <script src="../js/footer_ctrl.js"></script>
 
  </html>

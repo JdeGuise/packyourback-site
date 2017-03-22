@@ -1,5 +1,8 @@
 	<html>
-	<!-- Footer Section -->
+	<link rel="stylesheet" href="../../css/style.css" type="text/css">
+	<link rel="stylesheet" href="../../css/foundation.css" />
+	<body>
+
 	<footer class="footer">
 
 			<div class="row">
@@ -24,16 +27,16 @@
 								<!-- <div class="1st"> -->
 								<h4 >Find Us Elsewhere</h4>
 								<a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
-									<img src="assets/social_media/linkedin.png">
+									<img src="../../assets/social_media/linkedin.png">
 								</a>
 								<a href="https://twitter.com/packyourback">
-									<img src="assets/social_media/twitter.png">
+									<img src="../../assets/social_media/twitter.png">
 								</a>
 								<a href="https://www.facebook.com/PackYourBack/">
-									<img src="assets/social_media/facebook.png">
+									<img src="../../assets/social_media/facebook.png">
 								</a>
 								<a href="#">
-									<img src="assets/social_media/email_white.png">
+									<img src="../../assets/social_media/email_white.png">
 								</a>
 								<!-- </div> -->
 							</div>
@@ -43,10 +46,10 @@
 					<div class="row ">
 						<div class="columns large-7 medium-12">
 							<div class="sitelinks ">
-								<a href="html/leadership.html">Privacy Policy</a> <b>|</b> 
-									<a href="html/">Contact Us</a> <b>|</b>
-									<a href="html/">Site Map</a> <b>|</b>
-									<a href="html/">Donate</a>
+								<a href="../html/leadership.php">Privacy Policy</a> <b>|</b> 
+									<a href="../html/contact.php">Contact Us</a> <b>|</b>
+									<a href="../../index.php">Site Map</a> <b>|</b>
+									<a href="https://www.classy.org/campaign/pack-your-back/c114131/">Donate</a>
 
 							</div>
 						</div>
@@ -68,18 +71,18 @@
 				</div>
 				<div class="columns small-4 large-4 sidebar">
 					<br>
-					<img id="footer_pyb" src="assets/pyb_row_270x70px.png">
+					<img id="footer_pyb" src="../../assets/pyb_row_270x70px.png">
 					<br>
 
 					<p style="color: black"><b>2016/2017 Organizational Sponsors:</b></p>
 					      <div class="row footer_sponsor">
 						      <div class="columns medium-6 large-6" id="sponsora">
-							      <a href="http://www.cmufa.com/"><img src="assets/logos/cmufa_logo.png" /></a>
+							      <a href="http://www.cmufa.com/"><img src="../../assets/logos/cmufa_logo.png" /></a>
 						      </div>
 						  <!-- </div>
 						  <div class="row footer_sponsor"> -->
 						      <div class="columns medium-6 large-6" id="sponsorb">
-						      	<a href="http://www.fieldnotesbrand.com"><img src="assets/logos/FNlogo-nw.png" /></a>
+						      	<a href="http://www.fieldnotesbrand.com"><img src="../../assets/logos/FNlogo-nw.png" /></a>
 						      </div>
 
 					      </div>
@@ -88,5 +91,6 @@
 			</div>
 			
 	</footer> <!-- close footer content -->
-
+</body>
+<script src="../js/footer_ctrl.js"></script>
 	</html>
