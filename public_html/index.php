@@ -309,7 +309,7 @@
 			  <br>
 			</div>
 	  </div>
-	  <hr>
+	  <!-- <hr>
 		  <p style="text-align:center; font-family: Roboto;"><b>Our sincerest thanks to our 2016-17 organizational sponsors</b></p>
 		  <br>
 	  <div class="row">
@@ -321,7 +321,7 @@
 			<a href="http://www.fieldnotesbrand.com"><img src="assets/logos/FNlogo.png" width="50%" height="50%" style="margin-left: 15%; margin-top: 8%;" /></a>
 		  </div>
 
-	  </div>
+	  </div> -->
 
 			<br/>
 	<!-- Footer Section -->
