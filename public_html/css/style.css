@@ -326,8 +326,11 @@ ul.menuitems li a:hover {
 			color: rgb(102,102,102);
 			font-size:14px;
 			margin-bottom: -12px;
-			margin-top: -10px;
+			padding-bottom: -12px;
+			margin-top: -11px;
+			/*z-index: 100;*/
 		}
+		
 
 		footer img{
 			max-width: 100%;
@@ -451,6 +454,7 @@ ul.menuitems li a:hover {
 		.floatright{
 			float: right;
 			padding-bottom: 0px;
+			margin-top: 2px;
 		}
 
 		.floatright h2{
@@ -471,6 +475,7 @@ ul.menuitems li a:hover {
 
  		.lines_shift{
 	    	display: none;
+	    	/*padding-top: 0px;*/
 	    }
 
 		@media only screen and (max-width: 1024px){
@@ -485,17 +490,25 @@ ul.menuitems li a:hover {
 		 			margin-top:-14px;
 		 			margin-bottom: -6px;
 		 		}
+		 		.el4{
+		 			margin-top: 0px;
+		 		}
+		 		.sitelinks{
+		 			padding-bottom: 20px;
+		 		}
 
 				#undertoprow{
 					margin-top: 20px;
 				}
 		 		.floatright{
 		 			float: left;
+		 			/*margin-top: -20px;*/
 		 			/*lol, yes this is correct*/
 		 		}
 		 		.floatright h2{
-					margin-top: -8px;
-					margin-bottom: -15px;
+					margin-top: -11px;
+					margin-bottom: -14px;
+					/*padding-bottom: -2px;*/
 				}
 
 		 		.sidebar{
@@ -527,6 +540,10 @@ ul.menuitems li a:hover {
 		 			margin-left: 0px;
 		 		}
 
+		 		/*.subscribe-form{
+		 			width: 80px;
+		 		}*/
+
 		 		.sidebar{
 		 			margin-right: 10px;
 		 			padding-bottom: 20px;
@@ -551,6 +568,17 @@ ul.menuitems li a:hover {
 		 		.footer_sponsor{
 		 			padding-top: 10px
 		 		}
+		}
+		/*this is for the subscribe form, which was overlapping
+		with the sidebar on very small screens*/
+		@media only screen and (max-width: 420px){
+				.subscribe-form{
+					width: 100px;
+				}
+				footer button{
+					left: 110px;
+				}
+
 		}
 		
 		/*has associated javascript*/

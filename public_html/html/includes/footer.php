@@ -44,7 +44,7 @@
 					</div>
 					<hr id="undertoprow">
 					<div class="row ">
-						<div class="columns large-7 medium-12">
+						<div class="columns large-7 medium-12 el4">
 							<div class="sitelinks ">
 								<a href="../html/leadership.php">Privacy Policy</a> <b>|</b> 
 									<a href="../html/contact.php">Contact Us</a> <b>|</b>
@@ -53,11 +53,12 @@
 
 							</div>
 						</div>
-						<div class="columns medium-12">
-							<hr class="lines_shift">
+						<!-- <div style="display: none"></div> -->
+						<div class="columns medium-12 lines_shift">
+							<hr class="lines_shift el4">
 						</div>
 						<div class="columns large-5 medium-12">
-							<div class="floatright 2nd">
+							<div class="floatright">
 								<h2> ©2017 Pack Your Back </h2>
 							</div>
 						</div>
