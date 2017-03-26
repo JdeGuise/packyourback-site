@@ -318,8 +318,8 @@ ul.menuitems li a:hover {
 			font-size: 20px;
 		}
 		/*doesnt actually work*/
-		#social_media_footer img:hover{
-			opacity: .75;
+		#soc_med_foot:hover{
+			opacity: 75%;
 		}
 
 		footer h2, .sitelinks {

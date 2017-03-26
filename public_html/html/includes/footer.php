@@ -11,7 +11,7 @@
 					<div class="row el3">
 						<div class="columns large-7 medium-12 el1">
 							<h4>Join Our Newsletter</h4>
-							<form action="index.html" method="post" class="subscribe-form">
+							<form action="index.php" method="post" class="subscribe-form">
 								<input type="email" name="email" class="subscribe-input" placeholder="Email address">
 								<button type="submit" class="subscribe-submit">Subscribe</button>
 							</form>	
@@ -27,7 +27,7 @@
 								<!-- <div class="1st"> -->
 								<h4 >Find Us Elsewhere</h4>
 								<a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
-									<img src="../../assets/social_media/linkedin.png">
+									<img id="soc_med_foot" src="../../assets/social_media/linkedin.png">
 								</a>
 								<a href="https://twitter.com/packyourback">
 									<img src="../../assets/social_media/twitter.png">
@@ -46,7 +46,7 @@
 					<div class="row ">
 						<div class="columns large-7 medium-12 el4">
 							<div class="sitelinks ">
-								<a href="../html/leadership.php">Privacy Policy</a> <b>|</b> 
+								<a href="../../index.php">Privacy Policy</a> <b>|</b> 
 									<a href="../html/contact.php">Contact Us</a> <b>|</b>
 									<a href="../../index.php">Site Map</a> <b>|</b>
 									<a href="https://www.classy.org/campaign/pack-your-back/c114131/">Donate</a>
