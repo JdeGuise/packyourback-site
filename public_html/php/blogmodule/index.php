@@ -3,7 +3,7 @@
   <html lang="en">
   <head>
       <meta charset="utf-8">
-      <title>Blog - <?php echo $row['postTitle'];?></title>
+      <title>PY Blog</title>
       <link rel="stylesheet" href="style/normalize.css">
       <link rel="stylesheet" href="style/main.css">
       <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
@@ -33,8 +33,7 @@
                     <a href="../../html/ourcause.php">Our Cause</a></li>
                   <li class="menuitem" onclick="location.href='../../html/getinvolved.php';">
                     <a href="../../html/getinvolved.php">Get Involved</a></li>
-          <!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
-           -->      <li>
+                    <li>
                     <button id="donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
                   <ul>
                     <img id="hamburger" src="../../assets/hamburgermenu-blue.png">
@@ -55,8 +54,7 @@
             <a href="../../html/ourcause.php">Our Cause</a></li>
           <li class="dropdown_menuitem" onclick="location.href='../../html/getinvolved.php';">
             <a href="../../html/getinvolved.php">Get Involved</a></li>
-<!--                <li class="dropdown_menuitem"><a href="backend/index.php">Login</a></li>
--->         <li >
+          <li >
             <button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
         </ul>
       </div>
@@ -68,7 +66,7 @@
   <br>
     <br>
     <br>
-    <h1 style="left:4%; text-align:left; position: relative;">The PYB Blog</h1>
+    <h1 style="left:4%; text-align:left; position: relative;">PYBlog</h1>
     <hr />
 		<?php
 			try {
@@ -78,15 +76,15 @@
           <div class="columns small-12 medium-12 large-8 viewpostblogpost" style="position:relative;right:5%;">
             <br><br><br>
             <div style="text-align:center;max-width:80%;margin:auto;">
-              <h1><a href="viewpost.php?id="<?php print($row['postID'] . $row['postTitle']);?>></a></h1>;
-              <p>Posted on <?php print(date('jS M Y H:i:s', strtotime($row['postDate']))); ?></p>;
-              <p><?php print($row['postDesc']); ?></p>';
-              <p><a href="viewpost.php?id="<?php print($row['postID']); ?>>Read More</a></p>;
+              <h1><a href="viewpost.php?id=<?php print($row['postID'] . $row['postTitle']);?>"></a></h1>
+              <p>Posted on <?php print($row['postDate']); ?></p>
+              <p><?php print($row['postDesc']); ?></p>
+              <p><a href="viewpost.php?id=<?php print($row['postID']); ?>">Read More</a></p>
             </div>
           </div>
           <br>
           <div class="columns small-12 medium-12 large-4" style="right:5%;position:relative;">
-          <img src="../../"<?php print($row['postImgPath']); ?>>
+          <img src="../../<?php print($row['postImgPath']); ?>">
           <br>
           <br>
           <br>
