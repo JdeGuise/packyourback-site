@@ -45,8 +45,7 @@ if($row['postID'] == ''){
             <a href="../../html/ourcause.php">Our Cause</a></li>
           <li class="menuitem" onclick="location.href='../../html/getinvolved.php';">
             <a href="../../html/getinvolved.php">Get Involved</a></li>
-  <!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
-   -->      <li>
+            <li>
             <button id="donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
           <ul>
             <img id="hamburger" src="../../assets/hamburgermenu-blue.png">
@@ -67,8 +66,7 @@ if($row['postID'] == ''){
             <a href="../../html/ourcause.php">Our Cause</a></li>
           <li class="dropdown_menuitem" onclick="location.href='../../html/getinvolved.php';">
             <a href="../../html/getinvolved.php">Get Involved</a></li>
-<!--                <li class="dropdown_menuitem"><a href="backend/index.php">Login</a></li>
--->         <li >
+         <li >
             <button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
         </ul>
       </div>
@@ -79,18 +77,15 @@ if($row['postID'] == ''){
 
 		<h1>Blog</h1>
 		<hr />
-		<p><a href="./">Blog Index</a></p>
-
-
-		<?php
-			echo '<div>';
-				echo '<h1>'.$row['postTitle'].'</h1>';
-				echo '<p>Posted on '.date('jS M Y', strtotime($row['postDate'])).'</p>';
-				echo '<p>'.$row['postCont'].'</p>';
-			echo '</div>';
-		?>
-
+		<p><a href="./">Back to Blogs</a></p>
+			<div>
+				<h1><?php print($row['postTitle']); ?></h1>
+				<p>Posted on <?php print($row['postDate']); ?></p>
+				<p><?php print($row['postCont']); ?></p>
+			</div>
 	</div>
+  <br>
+  <br>
 
 </body>
     <script src="../../js/menu.js" ></script>
