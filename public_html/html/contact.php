@@ -99,9 +99,13 @@
 
 		</div>
 
-	</div>
+	</div
+  <br>
+  <br>  
+    <? include("includes/footer.php");?> 
 
 	</body>
 	<script src="../js/menu.js" ></script>
+  
 
 	</html>
