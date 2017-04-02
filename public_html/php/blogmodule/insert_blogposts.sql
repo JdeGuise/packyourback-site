@@ -1,0 +1,3 @@
+INSERT INTO blog_posts (`postTitle`, `postDesc`, `postCont`, `postDate`, `postImgPath`) VALUES ("");
+
+INSERT INTO blog_posts (`postTitle`, `postDesc`, `postCont`, `postDate`, `postImgPath`) VALUES ("New Year, New Faces, Same Mission", "As the first month of a new year draws to a close, Pack Your back began to work on their 2017 goals. The nonprofit held their first organizational meeting of the year at Central Michigan University on Sunday, January 22nd. ", "As the first month of a new year draws to a close, Pack Your back began to work on their 2017 goals. The nonprofit held their first organizational meeting of the year at Central Michigan University on Sunday, January 22nd. ", "2017-01-29", "assets/blog/bp2/bp2.png");
