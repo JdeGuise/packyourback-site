@@ -178,7 +178,7 @@
 
 				<br>
 		<!-- Footer Section -->
-   		<? include("includes/footer.php");?> 
+   		<?php include("includes/footer.php");?> 
 		<!-- close footer content -->
 		</body>
 		<script src="../js/menu.js" ></script>
