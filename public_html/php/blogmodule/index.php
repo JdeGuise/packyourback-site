@@ -74,24 +74,25 @@
 			try {
 
 				$res = $db->query('SELECT postID, postTitle, postDesc, postDate, postImgPath FROM blog_posts ORDER BY postID DESC');
-				while($row = $res->fetch()){
-          echo'<div class="columns small-12 medium-12 large-8 viewpostblogpost" style="position:relative;right:5%;">';
-					echo '<br><br><br><div style="text-align:center;max-width:80%;margin:auto;">';
-						echo '<h1><a href="viewpost.php?id='.$row['postID'].'">'.$row['postTitle'].'</a></h1>';
-						echo '<p>Posted on '.date('jS M Y H:i:s', strtotime($row['postDate'])).'</p>';
-						echo '<p>'.$row['postDesc'].'</p>';
-						echo '<p><a href="viewpost.php?id='.$row['postID'].'">Read More</a></p>';
-					echo '</div>';
-          echo '</div>';
-          echo '<br><div class="columns small-12 medium-12 large-4" style="right:5%;position:relative;">';
-          echo '<img src="../../'.$row['postImgPath'].'">';
-          echo '<br>';
-          echo '<br>';
-          echo '<br>';
-
-          echo '</div>';
-          echo '<hr>';
-				}
+				while($row = $res->fetch()){ ?>
+          <div class="columns small-12 medium-12 large-8 viewpostblogpost" style="position:relative;right:5%;">
+            <br><br><br>
+            <div style="text-align:center;max-width:80%;margin:auto;">
+              <h1><a href="viewpost.php?id="<?php print($row['postID'] . $row['postTitle']);?>></a></h1>;
+              <p>Posted on <?php print(date('jS M Y H:i:s', strtotime($row['postDate']))); ?></p>;
+              <p><?php print($row['postDesc']); ?></p>';
+              <p><a href="viewpost.php?id="<?php print($row['postID']); ?>>Read More</a></p>;
+            </div>
+          </div>
+          <br>
+          <div class="columns small-12 medium-12 large-4" style="right:5%;position:relative;">
+          <img src="../../"<?php print($row['postImgPath']); ?>>
+          <br>
+          <br>
+          <br>
+          </div>
+          <hr>
+        <?php }
 			}
       catch(PDOException $e) {
 			    echo $e->getMessage();
