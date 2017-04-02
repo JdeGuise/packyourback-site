@@ -81,15 +81,10 @@
 
 			</div>
 
-	<br>
-	<br>
-	<br>
-
-						<div class="container" id="jumboimg">
-									<img src="../assets/getinvolved/inspire.jpg" width="100%">
-						</div>
-						<br>
-
+			<br>
+			<br>
+			<br>
+			<br>
 				<div class="row">
 
 					<div class="columns small-12">
@@ -99,7 +94,6 @@
 					 </div>
 
 					<hr>
-					<br>
 				</div>
 
 		<div class="row">
