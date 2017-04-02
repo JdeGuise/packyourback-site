@@ -87,25 +87,8 @@
 				  <span class="dot"></span>
 				</div>
 		</div>
-		<div class="row" style="width: 1800px; height: 500px;">
-			<div class="columns small-12 medium-12 large-12" style="z-index: 0;">
-			<a href="/php/blogmodule/viewpost.php?id=2"><img src="assets/index_pics/distribution_locations_announcement_graphic.png" width="1800px" height="500px"></a>
-			<br>
-			<br>
-			<br>
 
-			</div>
-
-		</div>
-
-			<div>
-
-				<video src="assets/index_pics/pyb_promo.mp4" controls style="position: relative; left: 30%;width:40%; z-index: 1;"></video>
-				<br>
-				<br>
-				<br>
-			</div>				
-
+  
 
  <!-- 			<div class="row blogrow">
 			<br>
@@ -148,7 +131,7 @@
 			</div> -->
 
 		  <div class="row">
-				
+
 
 
 				</div>
@@ -162,7 +145,7 @@
 							  <br>
 								<p>
 								  Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
-								</p>						  		
+								</p>
 
 								<br>
 								<br>
@@ -189,8 +172,8 @@
 					<div class="columns small-12 medium-6 large-4">
 
 						<div class="columns small-12">
-							
-							<img src="assets/index_pics/kids.png" style="width:494px; height:240px; position:relative;">	
+
+							<img src="assets/index_pics/kids.png" style="width:494px; height:240px; position:relative;">
 							<br>
 						</div>
 						<div class="columns small-12">
@@ -200,7 +183,7 @@
 						</div>
 
 
-					</div>	
+					</div>
 
 					</div>
 				</div>
@@ -226,7 +209,7 @@
 					</div>
 
 					<div class="columns small-12 medium-4 large-4 story_feature">
-						
+
 									<br>
 						<div class="story_circles">
 						  <a href="html/leadership.php">
@@ -252,7 +235,7 @@
 						<p class="story_p">Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.</p>
 						<br>
 						<br>
-					</div>					
+					</div>
 				</div>
 
 				<div id="index-quote-wrapper">
@@ -309,124 +292,14 @@
 			  <br>
 			</div>
 	  </div>
-	  <hr>
-		  <p style="text-align:center; font-family: Roboto;"><b>Our sincerest thanks to our 2016-17 organizational sponsors</b></p>
-		  <br>
-	  <div class="row">
-		  <div class="columns small-6 medium-6 large-6">
-			  <a href="http://www.cmufa.com/"><img src="assets/logos/cmufa_logo.png" width="50%" height="50%" style="margin-left: 25%;" /></a>
-		  </div>
 
-		  <div class="columns small-6 medium-6 large-6">
-			<a href="http://www.fieldnotesbrand.com"><img src="assets/logos/FNlogo.png" width="50%" height="50%" style="margin-left: 15%; margin-top: 8%;" /></a>
-		  </div>
-
-	  </div>
 
 			<br/>
 	<!-- Footer Section -->
-	<footer class="footer">
-	  <div class="after">
-		<div class="row fwrapper">
-			<div class="columns small-12 medium-12 large-3" id="footer1">
-			  <div class="content">
-				<img src="assets/pyb_row.png" style="height:60px; width: 240px; right:23px;position: relative;">
-				<br>
-				<br>
-				<h4>(989) 975-8969</h4>
-				<br>
-				<h4>
-					Bad Axe, Michigan
-				</h4>
 
+	<?php include("html/includes/footer.php") ?>
 
-			  </div>
-			<br>
-			<br>
-			<br>
-			<br>
-			  <div class="content" id="social_media_footer">
-				<h4>Find Us Elsewhere</h4>
-				  <a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
-					<img src="assets/social_media/linkedin.png">
-				  </a>
-					<a href="https://twitter.com/packyourback">
-					<img src="assets/social_media/twitter.png">
-					</a>
-				   <a href="https://www.facebook.com/PackYourBack/">
-					<img src="assets/social_media/facebook.png">
-				   </a>
-					<a href="#">
-					  <img src="assets/social_media/email_white.png">
-					</a>
-			  </div>
-			</div>
-			<div class="columns small-12 medium-12 large-3" id="footer2">
-
-					<br>
-					<br>
-					<br>
-					<br>
-
-		  <section class="subscribe">
-			<div class="subscribe-pitch">
-			  <h4>Join Our Newsletter</h4>
-			  <p style="text-align: left; left: 55px;position: relative;">Get the latest developments straight to your inbox.<p>
-			</div>
-			<form style="max-width: 65%;left:55px;position: relative;" action="php/subscribe.php" method="post" class="subscribe-form" id="subscribe-form">
-			  <input type="email" name="email" class="subscribe-input" placeholder="Email address">
-			  <button type="submit" class="subscribe-submit">Subscribe</button>
-			</form>
-		  </section>
-
-			</div>
-			<div class="columns small-12 medium-12 large-3" id="footer3">
-			<br>
-			<br>
-			  <div class="content">
-				<h4>Who We Are</h4>
-				<ul>
-					<li><a href="html/leadership.php">Our People</a></li>
-<!--                     <li><a href="html/financials.html" >Financial Overview</a></li>
- -->                    <li><a href="html/contact.php">Contact Us</a></li>
-				</ul>
-			  </div>
-			<br/>
-			<br>
-			<br>
-<!--               <button class="footer_buttons">Privacy Policy</button>
- -->            <br/>
-			</div>
-
-		  <div class="columns small-12 medium-12 large-3" id="footer4">
-		  <br>
-		  <br>
-				<div class="content">
-				<h4>Get Involved</h4>
-				<ul>
-					<li><a href="html/getinvolved.php">Work With Us</a></li>
-					<li><a href="https://www.classy.org/campaign/pack-your-back/c114131">Donate</a></li>
-				</ul>
-				</div>
-				<br>
-				<br>
-				<br>
-				<br>
-<!--             	<button class="footer_buttons" id="terms_of_use">Terms of Use</button>
- -->          </div>
-		</div>
-		<br>
-		<br>
-		<br>
-		<div class="row" id="footer_legal">
-
-			<div class="columns small-12">
-			  <p id="org_p">PACK YOUR BACK IS A REGISTERED 501(C)(3) NONPROFIT ORGANIZATION. &copy;2017 &nbsp;&nbsp;<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g">Member Login</a></p>
-			</div>
-		</div>
-
-	  </div>  <!-- close container -->
-	</footer><!-- close footer content -->
+	<!-- close footer content -->
 	  </body><!-- close body -->
 	 <script>
 
@@ -495,4 +368,5 @@
 	</script>
 	 <script src="js/menu.js" ></script>
 	 <script src="js/social_media_animation.js"></script>
+
 </html>

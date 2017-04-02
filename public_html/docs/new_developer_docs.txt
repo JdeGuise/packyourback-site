@@ -1,0 +1,151 @@
+New developer docs (How to onboard a developer)
+
+	Go to https://gitlab.com/jrd120893/packyourback
+
+	1. Add new developer to Settings->Members
+
+	2. Add user to Slack
+
+	3. Download Dash and walkthrough purposes
+
+	4. Walk dev through downloading MAMP, XAMPP, or WAMP
+
+		a. Installation and configuring Apache, MySQL
+
+		b. Discussion of purpose, and bookmarking of htdocs/
+
+			i. hit why public_html exists
+
+		c. Verify localhost/packyourback/index.php and blogmodule/index.php load
+
+
+	5. Set up command line environment
+
+		a. Unix: Terminal
+
+		b. Windows: Git Bash
+
+		c. Basic questions for easy commands
+
+		d. Direction towards command line documentation for self-learning
+
+		e. git clone https://....
+
+			i. Wherever you clone it to is where the parent directory of the project file will be
+
+	6 Git Lesson
+
+		A. What is a VCS?
+
+			a.  What does that actually mean?
+
+		B. Versions of Git
+
+			a. Git Desktop
+
+			b. Git CLI
+
+		C. How Git works within a project structure
+
+			a. .git
+
+			b. what this means for your files that sit inside a project that has a .git?
+
+			c. what is recursion?
+
+		D. Branching
+
+			a.  Difference between remote and local git instances
+
+				i. `git clone` vs `git remote add origin ...` and populating
+
+			b. `git branch new_branch_name` to create a branch, based on the branch you're currently on -- YOU WILL ALMOST ALWAYS BRANCH FROM DEVELOP
+
+				i. ie, for issue 43documentation_love you would first make sure you're on the develop branch, and then `git branch 43documentation_love` to create that branch.
+
+				ii. Move between branches with `git checkout ...`
+
+			c.  `git pull`
+
+				i.  origin vs non
+
+			d. General Workflow for changing things (this is what you'll be doing)
+
+				i. 
+					1. Verify that your branch is up to date by pulling
+					2. make changes to your files within the git project structure
+					3. `git add` your files
+					3.5 `git status` to see what your staging area looks like (changed files, both unadded and added)
+					4. They will go to the staging area as "staged changes", ready to be committed
+					5. Bundle as a commit through `git commit -m 'commit message'`
+					6. Successfully `git commit'ed` changes are saved locally on your computer branch until you push the branch to the server
+					6. Push all of your successful commits simultaneously when you're ready through `git push origin branch_name`
+
+			e. Adding changed files (elaborated)
+
+				i. `git add path/to/file(s)/modified`
+
+				Q. "What files will be added if you recursively git add?"
+
+					A. Every changed file in that structure
+
+						Good if you wanted to do that, bad if you have a bunch of broken crap or miscellaneous changes that aren't ready for that branch commit.
+
+			f. Committing (elaborated)
+
+				i. `git commit -m 'Fixes/Work on #n; present-tense sentence describing changes'
+
+			g. Pushing (elaborated)
+
+				i. `git push origin your_branch_name`
+
+			h. Moving between issues with modified files
+
+				i. `git stash` / `git stash list` / `git stash apply stash@{n}`
+
+			i.  You will never need to change prod or develop branches in your remote instance.  Any changes pushed to those branches will be discarded.
+
+	7. Walkthrough of project structure
+
+		a. General walkthrough / HTML/CSS-relevance
+
+			i. Structure of pages
+			ii. Layouts
+			iii.  Need for design improvements
+				- Methods of design creation
+			iv. Color Schemes
+			v. Site functionality / purpose
+			vi. What improves the site?
+
+		b. PHP-relevance
+
+			i.  "Subscribe" section
+			ii. Blogging section
+
+		c. JavaScript-relevance
+
+			i. site interactivity
+			ii. responsive elements
+
+		d. Foundation-relevance
+
+			i. responsive resizing of website
+			ii. rows / structuring
+
+		e. assets/ structuring
+
+			i. pictures/videos
+			ii. all in a folder, according to their place
+
+		f. Namecheap/production server instances
+
+			i. git on shared hosting
+			ii. cPanel
+			iii. PYB emails
+			iv. making changes
+			v. support channels
+			vi. SSL
+
+	8. Answer any last questions
+
+	9. Assign new issues based on understanding of concepts

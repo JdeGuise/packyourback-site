@@ -1,0 +1,27 @@
+List of technologies
+
+	HTML
+	CSS
+	JavaScript
+	MySQL
+	PHP
+	Git / Github
+	Shared Hosting
+	CPanel / NameCheap
+
+
+Code Editors/IDE's
+
+	Notepad++
+	Sublime Text
+	Atom
+	Vim
+	TextEdit (OSX)
+
+
+Troubleshooting resources
+
+	Google
+	Dash / Velocity (Kapeli)
+	StackOverflow
+	W3C
