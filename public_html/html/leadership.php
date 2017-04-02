@@ -190,7 +190,7 @@
 			<br>
 
 		<!-- Footer Section -->
- 		<? include("includes/footer.php");?> 
+ 		<?php include("includes/footer.php");?> 
  		<!-- close footer content -->
 
 	</body>

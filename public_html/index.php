@@ -297,7 +297,7 @@
 			<br/>
 	<!-- Footer Section -->
 
-	<? include("html/includes/footer.php") ?>
+	<?php include("html/includes/footer.php") ?>
 
 	<!-- close footer content -->
 	  </body><!-- close body -->
