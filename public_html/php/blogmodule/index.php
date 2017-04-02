@@ -33,8 +33,7 @@
                     <a href="../../html/ourcause.php">Our Cause</a></li>
                   <li class="menuitem" onclick="location.href='../../html/getinvolved.php';">
                     <a href="../../html/getinvolved.php">Get Involved</a></li>
-          <!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
-           -->      <li>
+                    <li>
                     <button id="donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
                   <ul>
                     <img id="hamburger" src="../../assets/hamburgermenu-blue.png">
@@ -55,8 +54,7 @@
             <a href="../../html/ourcause.php">Our Cause</a></li>
           <li class="dropdown_menuitem" onclick="location.href='../../html/getinvolved.php';">
             <a href="../../html/getinvolved.php">Get Involved</a></li>
-<!--                <li class="dropdown_menuitem"><a href="backend/index.php">Login</a></li>
--->         <li >
+          <li >
             <button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
         </ul>
       </div>
@@ -79,7 +77,7 @@
             <br><br><br>
             <div style="text-align:center;max-width:80%;margin:auto;">
               <h1><a href="viewpost.php?id=<?php print($row['postID'] . $row['postTitle']);?>"></a></h1>
-              <p>Posted on <?php print(date('jS M Y H:i:s', strtotime($row['postDate']))); ?></p>
+              <p>Posted on <?php print($row['postDate']); ?></p>
               <p><?php print($row['postDesc']); ?></p>
               <p><a href="viewpost.php?id=<?php print($row['postID']); ?>">Read More</a></p>
             </div>
