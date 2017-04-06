@@ -16,8 +16,6 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
   </head>
 	<body class="body">
-
-
 		<header class="header">
   <!-- columns and small-12 are Foundation classes that split the browser window into 12 columns
 	  that can actively resize themselves -->
@@ -27,14 +25,13 @@
 					<a href="index.php"><img id="logo" src="assets/pyb_row_270x70px.png"></a>
 					<li class="menuitem" onclick="location.href='index.php';">
 						<a href="index.php">Home</a></li>
-<li class="menuitem" onclick="location.href='php/blogmodule/index.php';"><a href="php/blogmodule/index.php">Blog</a></li>					<li class="menuitem" onclick="location.href='html/leadership.php';">
+					<li class="menuitem" onclick="location.href='php/blogmodule/index.php';"><a href="php/blogmodule/index.php">Blog</a></li>					<li class="menuitem" onclick="location.href='html/leadership.php';">
 						<a href="html/leadership.php">Leadership</a></li>
 					<li class="menuitem" onclick="location.href='html/ourcause.php';">
 						<a href="html/ourcause.php">Our Cause</a></li>
 					<li class="menuitem" onclick="location.href='html/getinvolved.php';">
 						<a href="html/getinvolved.php">Get Involved</a></li>
-	<!--                     <li class="menuitem"><a href="html/login.php">Login</a></li>
-	 -->			<li>
+						<li>
 						<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button></li>
 					<ul>
 						<img id="hamburger" src="assets/hamburgermenu-blue.png">
@@ -60,8 +57,7 @@
 					<li class="dropdown_menuitem" onclick="location.href='html/getinvolved.php';">
 						<a href="html/getinvolved.php">Get Involved</a>
 					</li>
-<!-- 					   		<li class="dropdown_menuitem"><a href="backend/index.php">Login</a></li>
--->					<li >
+					<li>
 						<button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/pack-your-back/c114131'" style="background-color:crimson;">Donate</button>
 					</li>
 				</ul>
@@ -71,7 +67,7 @@
 		<br>
 		<br>
 		<br>
-		<div class="slideshow-container">
+		<div class="slideshow-container" style="background-color:lightblue;">
 			  <div class="mySlides fade" >
 						<img src="assets/index_pics/1.jpeg" id="jumboimg"/>
 			  </div>
@@ -81,63 +77,51 @@
 			  <div class="mySlides fade">
 					<img src="assets/index_pics/3.png" id="jumboimg">
 			  </div>
-				<div class="mySlideDots" style="position: relative; top: -35px; text-align:center">
+				<div class="mySlideDots" style="position: relative; top: -35px; text-align:center" style="background-color:lightblue;">
 				  <span class="dot"></span>
 				  <span class="dot"></span>
 				  <span class="dot"></span>
 				</div>
 		</div>
 
-  
-
- <!-- 			<div class="row blogrow">
-			<br>
-				<h2>Recent Blog Posts</h2>
-					<div class="columns small-12 medium-6 large-6 blogbox">
-						<br/>
-						<br>
-					   <img src="assets/blog/blog1.jpg"/>
-					   <p>
-						This is a paragraph discussing information about an event that the organization is throwing or already held.  Clicking on the 'more info' link at the end of this paragraph will take them to the full blog page comprehensively detailing one of our current events. <a href="#">[MORE INFO]</a></p>
-					</div>
-					<div class="columns small-12 medium-6 large-6 blogbox">
-						<br/>
-						<br>
-						<img src="assets/blog/blog2.jpg">
-						<p>This could be a paragraph talking about the originations of the organization, or even a spotlight for some of the initiatives that non-director members are involving themselves with.  Basically, this is a blog post preview about internals of the organization. <a href="#">[READ MORE]</a></p>
-					</div>
-			</div>
-			<div class="row blogrow">
-					<div class="columns small-12 medium-6 large-6 blogbox">
-
-						<br/>
-						<br>
-						<br>
-					  <img src="assets/blog/blog3.jpg">
-						<p>This paragraph should be something about a problem that many people don't know exists, or may be more of a problem than expected.  The descriptive paragraph can serve as a call to action for people, which inspires them to want to get involved. <a href="#">[LEARN MORE]</a></p>
-
-					</div>
-					<div class="columns small-12 medium-6 large-6 blogbox">
-					  <br/>
-					  <br>
-					  <br>
-					  <img src="assets/blog/blog4.jpg">
-						<p>Are things getting better?  This is a wildcard blog post spot, meaning that we can put whatever type of article we want here.  Speculative?  Something important to say?  Good PR opportunity?  Whatever shoe fits for the snapshot in time. <a href="#">[READ MORE]</a></p>
-					</div>
-			</div>
- 			<div style="background-color:lightblue;">
-
+<div class="row blogrow">
+				<h2 style="padding-top:2%;">Current Events</h2>
 				<br>
-			</div> -->
-
-		  <div class="row">
-
-
-
+				<hr>
+				<div class="columns large-12">
+					<div class="columns small-12 medium-6 large-6 blogbox">
+						<h3>Flint School Supply Distribution</h3>
+						<br>
+					   <p>
+						Pack Your Back will be holding a school supply distribution on August 6th from 2:00-5:00pm at Mott Community College. This event will take place in the Event Center on-campus. More information will be posted in the coming weeks regarding this distribution. <a href="#">[MORE INFO]</a></p>
+					</div>
+					<div class="columns small-12 medium-6 large-6 blogbox" width="100%">
+						<div width="100%">
+							<img src="assets/blog/blog1.jpg" width="40%"/>
+					   	</div>
+					</div>
 				</div>
-				<div class="row" style="max-width: 90%;">
+				<hr>
+				<div class="columns large-12">
+					<div class="columns small-12 medium-6 large-6 blogbox">
+						<h3>Detroit School Supply Distribution</h3>
+						<br>
+					   <p>
+						Pack Your Back will be holding a school supply distribution on August 12th from 1:00-5:00pm at the Detroit Public Library. More information will be posted in the coming weeks regarding this distribution.
+						<a href="#">[MORE INFO]</a></p>
+					</div>
+					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align:center;">
+						<img src="assets/blog/blog1.jpg" width="40%" />	
+					</div>
+				</div>
+					<hr>
 
-					<div class="columns small-12">
+			</div>
+
+
+<br>
+				<div class="donaterow row" style="width:95%; max-width: 95%;">
+
 					<div class="columns small-12 medium-6 large-8" id="why_donate_content">
 								<br>
 							  <h1>Why Donate?</h1>
@@ -185,7 +169,6 @@
 
 					</div>
 
-					</div>
 				</div>
 
 
@@ -239,7 +222,7 @@
 				</div>
 
 				<div id="index-quote-wrapper">
-					<div class="row" id="index-quote" style="max-width:70%;">
+					<div class="row" id="index-quote">
 						<br/>
 						<br/>
 						<div id="index-quote-self">
