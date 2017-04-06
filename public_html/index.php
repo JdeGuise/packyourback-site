@@ -87,17 +87,30 @@
 <div class="row blogrow">
 				<h2 style="padding-top:2%;">Current Events</h2>
 				<br>
+				<div class="columns large-12">
+					<div class="columns small-12 medium-6 large-6 blogbox">
+						<h3>Jog Your Dog by Pack Your Back</h3>
+						<p>Pack Your Back presents Jog Your Dog, a fun run to raise money to fulfill our mission: providing students in need with backpacks and school supplies. We need your help in order to support this amazing cause in the city of Detroit this summer.</p>
+						<p>Participants will have the opportunity to join us for a morning of fun with furry friends at Eastwood Beach, located at Stony Creek Metropark in Shelby Township, Michigan. Dogs are encouraged, but <b>must be on a leash.</b></p>
+						<br>
+						<br>
+						<button onclick="location.href='https://packyourback.regfox.com/jogyourdog'">Register Now</button>
+					</div>
+					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align: center;">
+						<img src="assets/blog/ce/dog.png" width="40%">
+					</div>
+				</div>				
 				<hr>
 				<div class="columns large-12">
 					<div class="columns small-12 medium-6 large-6 blogbox">
 						<h3>Flint School Supply Distribution</h3>
 						<br>
 					   <p>
-						Pack Your Back will be holding a school supply distribution on August 6th from 2:00-5:00pm at Mott Community College. This event will take place in the Event Center on-campus. More information will be posted in the coming weeks regarding this distribution. <a href="#">[MORE INFO]</a></p>
+						Pack Your Back will be holding a school supply distribution on August 6th from 2:00-5:00pm at Mott Community College. This event will take place in the Event Center on-campus. More information will be posted in the coming weeks regarding this distribution.</p>
 					</div>
 					<div class="columns small-12 medium-6 large-6 blogbox" width="100%">
 						<div width="100%">
-							<img src="assets/blog/blog1.jpg" width="40%"/>
+							<img src="assets/blog/ce/supplies.png" width="40%"/>
 					   	</div>
 					</div>
 				</div>
@@ -107,14 +120,13 @@
 						<h3>Detroit School Supply Distribution</h3>
 						<br>
 					   <p>
-						Pack Your Back will be holding a school supply distribution on August 12th from 1:00-5:00pm at the Detroit Public Library. More information will be posted in the coming weeks regarding this distribution.
-						<a href="#">[MORE INFO]</a></p>
+						Pack Your Back will be holding a school supply distribution on August 12th from 1:00-5:00pm at the Detroit Public Library. More information will be posted in the coming weeks regarding this distribution.</p>
 					</div>
 					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align:center;">
-						<img src="assets/blog/blog1.jpg" width="40%" />	
+						<img src="assets/blog/ce/dps.png" width="40%" />	
 					</div>
 				</div>
-					<hr>
+				<hr>
 
 			</div>
 
