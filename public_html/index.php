@@ -67,7 +67,7 @@
 		<br>
 		<br>
 		<br>
-		<div class="slideshow-container" style="background-color:lightblue;">
+		<div class="slideshow-container" style="background-color:rgb(242,242,245);">
 			  <div class="mySlides fade" >
 						<img src="assets/index_pics/1.jpeg" id="jumboimg"/>
 			  </div>
@@ -77,7 +77,7 @@
 			  <div class="mySlides fade">
 					<img src="assets/index_pics/3.png" id="jumboimg">
 			  </div>
-				<div class="mySlideDots" style="position: relative; top: -35px; text-align:center" style="background-color:lightblue;">
+				<div class="mySlideDots" style="position: relative; top: -35px; text-align:center">
 				  <span class="dot"></span>
 				  <span class="dot"></span>
 				  <span class="dot"></span>
@@ -100,9 +100,9 @@
 						<img src="assets/blog/ce/dog.png" width="40%">
 					</div>
 				</div>				
-				<hr>
 
 			</div>
+				<hr>
 
 
 <br>
