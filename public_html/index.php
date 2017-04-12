@@ -101,32 +101,6 @@
 					</div>
 				</div>				
 				<hr>
-				<div class="columns large-12">
-					<div class="columns small-12 medium-6 large-6 blogbox">
-						<h3>Flint School Supply Distribution</h3>
-						<br>
-					   <p>
-						Pack Your Back will be holding a school supply distribution on August 6th from 2:00-5:00pm at Mott Community College. This event will take place in the Event Center on-campus. More information will be posted in the coming weeks regarding this distribution.</p>
-					</div>
-					<div class="columns small-12 medium-6 large-6 blogbox" width="100%">
-						<div width="100%">
-							<img src="assets/blog/ce/supplies.png" width="40%"/>
-					   	</div>
-					</div>
-				</div>
-				<hr>
-				<div class="columns large-12">
-					<div class="columns small-12 medium-6 large-6 blogbox">
-						<h3>Detroit School Supply Distribution</h3>
-						<br>
-					   <p>
-						Pack Your Back will be holding a school supply distribution on August 12th from 1:00-5:00pm at the Detroit Public Library. More information will be posted in the coming weeks regarding this distribution.</p>
-					</div>
-					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align:center;">
-						<img src="assets/blog/ce/dps.png" width="40%" />	
-					</div>
-				</div>
-				<hr>
 
 			</div>
 
