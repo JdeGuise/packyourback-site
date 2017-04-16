@@ -94,7 +94,12 @@
 						<p>Participants will have the opportunity to join us for a morning of fun with furry friends at Eastwood Beach, located at Stony Creek Metropark in Shelby Township, Michigan. Dogs are encouraged, but <b>must be on a leash.</b></p>
 						<br>
 						<br>
-						<button onclick="location.href='https://packyourback.regfox.com/jogyourdog'">Register Now</button>
+					<div class="columns small-6 medium-6 large-6">
+						<button onclick="location.href='https://packyourback.regfox.com/jogyourdog'">Register Now</button>						
+					</div>					
+					<div class="columns small-6 medium-6 large-6">
+						<button onclick="location.href='https://www.google.com/maps/place/4300+Main+Park+Dr,+Shelby+Charter+Township,+MI+48316/@42.7105564,-83.0752789,16z/data=!4m5!3m4!1s0x8824e62278d72421:0xd51b7cba39e8c0e7!8m2!3d42.7110373!4d-83.0715023'">Directions</button>						
+					</div>
 					</div>
 					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align: center;">
 						<img src="assets/blog/ce/dog.png" width="40%">
