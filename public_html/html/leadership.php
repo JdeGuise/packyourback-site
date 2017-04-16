@@ -68,14 +68,8 @@
 		<br>
 		<br>
 
-
-
-						<div class="container">
-									<img src="../assets/leadership_pics/leadership_amazon.jpeg" id="jumboimg">
-						</div>
-
 <div id="who_we_are_container">
-			<div class="row" id="who_we_are_self">
+			<div class="row" id="who_we_are_self" style="max-width: 975px;">
 					<div class="columns small-12">
 					<br/>
 					<br>

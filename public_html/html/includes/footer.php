@@ -72,20 +72,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="columns small-4 large-4 sidebar">
+				<div class="columns small-4 large-4 sidebar" style="text-align: center;">
 					<br>
 					<img id="footer_pyb" src="../../assets/pyb_row_270x70px.png">
 					<br>
 
-					<p style="color: black"><b>2016/2017 Organizational Sponsors:</b></p>
-					      <div class="row footer_sponsor">
-						      <div class="columns medium-6 large-6" id="sponsora">
-							      <a href="http://www.cmufa.com/"><img src="../../assets/logos/cmufa_logo.png" /></a>
-						      </div>
-						  <!-- </div>
-						  <div class="row footer_sponsor"> -->
-						      <div class="columns medium-6 large-6" id="sponsorb">
-						      	<a href="http://www.fieldnotesbrand.com"><img src="../../assets/logos/FNlogo-nw.png" /></a>
+					<p style="color: black"><b>2017/2018 Organizational Sponsor:</b></p>
+					      <div class="row footer_sponsor" style="text-align:center;" >
+						      <div class="columns small-12 medium-12 large-12" id="sponsora">
+							      <a href="http://www.cmufa.com/"><img src="../../assets/logos/cmufa_logo.png"/></a>
 						      </div>
 
 					      </div>

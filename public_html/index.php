@@ -67,17 +67,17 @@
 		<br>
 		<br>
 		<br>
-		<div class="slideshow-container" style="background-color:lightblue;">
+		<div class="slideshow-container" style="background-color:rgb(242,242,245);">
 			  <div class="mySlides fade" >
-						<img src="assets/index_pics/1.jpeg" id="jumboimg"/>
+						<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/jyd_p1.png" id="jumboimg"/></a>
 			  </div>
 			  <div class="mySlides fade">
-					<img src="assets/index_pics/2.png" id="jumboimg">
+					<a href="http://packyourback.org/php/blogmodule/viewpost.php?id=6Pack%20Your%20Back%20on%20Ice"><img src="assets/index_pics/msk_p2.png" id="jumboimg"></a>
 			  </div>
 			  <div class="mySlides fade">
-					<img src="assets/index_pics/3.png" id="jumboimg">
+					<a href="http://packyourback.org/html/leadership.php"><img src="assets/index_pics/ldr_p3.png" id="jumboimg"></a>
 			  </div>
-				<div class="mySlideDots" style="position: relative; top: -35px; text-align:center" style="background-color:lightblue;">
+				<div class="mySlideDots" style="position: relative; top: -35px; text-align:center">
 				  <span class="dot"></span>
 				  <span class="dot"></span>
 				  <span class="dot"></span>
@@ -94,41 +94,20 @@
 						<p>Participants will have the opportunity to join us for a morning of fun with furry friends at Eastwood Beach, located at Stony Creek Metropark in Shelby Township, Michigan. Dogs are encouraged, but <b>must be on a leash.</b></p>
 						<br>
 						<br>
-						<button onclick="location.href='https://packyourback.regfox.com/jogyourdog'">Register Now</button>
+					<div class="columns small-6 medium-6 large-6">
+						<button onclick="location.href='https://packyourback.regfox.com/jogyourdog'">Register Now</button>						
+					</div>					
+					<div class="columns small-6 medium-6 large-6">
+						<button onclick="location.href='https://www.google.com/maps/place/4300+Main+Park+Dr,+Shelby+Charter+Township,+MI+48316/@42.7105564,-83.0752789,16z/data=!4m5!3m4!1s0x8824e62278d72421:0xd51b7cba39e8c0e7!8m2!3d42.7110373!4d-83.0715023'">Directions</button>						
+					</div>
 					</div>
 					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align: center;">
 						<img src="assets/blog/ce/dog.png" width="40%">
 					</div>
 				</div>				
-				<hr>
-				<div class="columns large-12">
-					<div class="columns small-12 medium-6 large-6 blogbox">
-						<h3>Flint School Supply Distribution</h3>
-						<br>
-					   <p>
-						Pack Your Back will be holding a school supply distribution on August 6th from 2:00-5:00pm at Mott Community College. This event will take place in the Event Center on-campus. More information will be posted in the coming weeks regarding this distribution.</p>
-					</div>
-					<div class="columns small-12 medium-6 large-6 blogbox" width="100%">
-						<div width="100%">
-							<img src="assets/blog/ce/supplies.png" width="40%"/>
-					   	</div>
-					</div>
-				</div>
-				<hr>
-				<div class="columns large-12">
-					<div class="columns small-12 medium-6 large-6 blogbox">
-						<h3>Detroit School Supply Distribution</h3>
-						<br>
-					   <p>
-						Pack Your Back will be holding a school supply distribution on August 12th from 1:00-5:00pm at the Detroit Public Library. More information will be posted in the coming weeks regarding this distribution.</p>
-					</div>
-					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align:center;">
-						<img src="assets/blog/ce/dps.png" width="40%" />	
-					</div>
-				</div>
-				<hr>
 
 			</div>
+				<hr>
 
 
 <br>
