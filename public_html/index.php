@@ -69,13 +69,13 @@
 		<br>
 		<div class="slideshow-container" style="background-color:rgb(242,242,245);">
 			  <div class="mySlides fade" >
-						<img src="assets/index_pics/1.jpeg" id="jumboimg"/>
+						<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/jyd_p1.png" id="jumboimg"/></a>
 			  </div>
 			  <div class="mySlides fade">
-					<img src="assets/index_pics/2.png" id="jumboimg">
+					<a href="http://packyourback.org/php/blogmodule/viewpost.php?id=6Pack%20Your%20Back%20on%20Ice"><img src="assets/index_pics/msk_p2.png" id="jumboimg"></a>
 			  </div>
 			  <div class="mySlides fade">
-					<img src="assets/index_pics/3.png" id="jumboimg">
+					<a href="http://packyourback.org/html/leadership.php"><img src="assets/index_pics/ldr_p3.png" id="jumboimg"></a>
 			  </div>
 				<div class="mySlideDots" style="position: relative; top: -35px; text-align:center">
 				  <span class="dot"></span>

@@ -190,10 +190,6 @@ ul.menuitems li a:hover {
 				padding-right: 20px;
 				padding-left: 20px;
 			}
-			.slideshow-container{
-				top:75px;
-				margin-bottom:75px;
-			}
 		}
 		/* this query is for when the screen is super small
 			basically we want the same thing as above but taller
@@ -870,8 +866,7 @@ ul.menuitems li a:hover {
 		text-align:left;
 	}
 
-  #ourcausetxt {
-    text-align:left;
+  .ourcausetxt p{
     margin-left: 25px;
     max-width: 90%;
   }
@@ -889,7 +884,7 @@ ul.menuitems li a:hover {
 
   @media only screen and (max-width: 1024px) {
 
-    #ourcausetxt{
+    .ourcausetxt{
       margin-left: -30px;
     }
 
@@ -904,7 +899,7 @@ ul.menuitems li a:hover {
   }
   @media only screen and (max-width: 640px) {
 
-    #ourcausetxt{
+    .ourcausetxt{
       max-width: 80%;
     }
 

@@ -117,16 +117,7 @@
 		</div>
 
 		<hr>
-		<br>
-			<h3 style="text-align: center;">Get involved with one of our events</h3>
 
-			<br>
-				<h4 style="text-align:center;">Calendar of events</h4>
-				<br>
-
-		<div style="position: relative; text-align:center; padding-left:30px; padding-right: 30px;">
-			<iframe src="https://calendar.google.com/calendar/embed?src=bu8cqfplisqq097flcfkh3ho20%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-		</div>
 
 <br>
 <br>
