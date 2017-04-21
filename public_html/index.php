@@ -69,7 +69,7 @@
 		<br>
 		<div class="slideshow-container" style="background-color:rgb(242,242,245);">
 			  <div class="mySlides fade" >
-						<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/jyd_p1.png" id="jumboimg"/></a>
+						<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/rte_p1.png" id="jumboimg"/></a>
 			  </div>
 			  <div class="mySlides fade">
 					<a href="http://packyourback.org/php/blogmodule/viewpost.php?id=6Pack%20Your%20Back%20on%20Ice"><img src="assets/index_pics/msk_p2.png" id="jumboimg"></a>
@@ -84,25 +84,25 @@
 				</div>
 		</div>
 
-<div class="row blogrow">
+<!-- <div class="row blogrow">
 				<h2 style="padding-top:2%;">Current Events</h2>
 				<br>
 				<div class="columns large-12">
 					<div class="columns small-12 medium-6 large-6 blogbox">
-						<h3>Jog Your Dog by Pack Your Back</h3>
-						<p>Pack Your Back presents Jog Your Dog, a fun run to raise money to fulfill our mission: providing students in need with backpacks and school supplies. We need your help in order to support this amazing cause in the city of Detroit this summer.</p>
-						<p>Participants will have the opportunity to join us for a morning of fun with furry friends at Eastwood Beach, located at Stony Creek Metropark in Shelby Township, Michigan. Dogs are encouraged, but <b>must be on a leash.</b></p>
+						<h3>Race to Educate by Pack Your Back</h3>
+						<p>Pack Your Back presents Race to Educate, a fun run to raise money to fulfill our mission: providing students in need with backpacks and school supplies. We need your help in order to support this amazing cause in the Detroit area this summer.</p>
+						<p>Participants will have the opportunity to join us for a morning of FUN at Eastwood Beach, which is located at Stony Creek Metropark in Shelby Township, Michigan. We are also welcoming dogs at the event (must be on a leash).</p>
 						<br>
 						<br>
 					<div class="columns small-6 medium-6 large-6">
-						<button onclick="location.href='https://packyourback.regfox.com/jogyourdog'">Register Now</button>						
+						<button onclick="location.href='https://packyourback.regfox.com/racetoeducate'">Register Now</button>						
 					</div>					
 					<div class="columns small-6 medium-6 large-6">
 						<button onclick="location.href='https://www.google.com/maps/place/4300+Main+Park+Dr,+Shelby+Charter+Township,+MI+48316/@42.7105564,-83.0752789,16z/data=!4m5!3m4!1s0x8824e62278d72421:0xd51b7cba39e8c0e7!8m2!3d42.7110373!4d-83.0715023'">Directions</button>						
 					</div>
 					</div>
 					<div class="columns small-12 medium-6 large-6 blogbox" style="text-align: center;">
-						<img src="assets/blog/ce/dog.png" width="40%">
+						<img src="assets/blog/ce/rte.png" width="60%" style="position: relative; top:20px;">
 					</div>
 				</div>				
 
@@ -111,7 +111,7 @@
 
 
 <br>
-				<div class="donaterow row" style="width:95%; max-width: 95%;">
+			 -->	<div class="donaterow row" style="width:95%; max-width: 95%;">
 
 					<div class="columns small-12 medium-6 large-8" id="why_donate_content">
 								<br>
