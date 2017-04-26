@@ -36,7 +36,7 @@
             <a href="getinvolved.php">Get Involved</a></li>
 <!--                       <li class="menuitem"><a href="html/login.php">Login</a></li>
  -->        <li>
-            <button id="donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
+            <button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button></li>
           <ul>
             <img id="hamburger" src="../assets/hamburgermenu-blue.png">
           </ul>
@@ -59,7 +59,7 @@
             <a href="getinvolved.php">Get Involved</a></li>
 <!--                <li class="dropdown_menuitem"><a href="backend/index.php">Login</a></li>
 -->         <li >
-            <button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
+            <button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button></li>
         </ul>
       </div>
     </div>
