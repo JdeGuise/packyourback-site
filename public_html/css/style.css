@@ -38,7 +38,7 @@ ul.menuitems li a:hover {
 
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
 		 	@media only screen and (max-width: 1200px){
-		 		.menuitem, #donatebutton{
+		 		.menuitem, .donatebuttons{
 		 			visibility: hidden;
 		 		}
 		 		.icon{
@@ -80,7 +80,7 @@ ul.menuitems li a:hover {
 			border-radius: 50%;
 		}
 
-		header #donatebutton{
+		header .donatebuttons{
 			/*position: absolute;*/
 			float: right;
 			right: 9px;
@@ -88,6 +88,7 @@ ul.menuitems li a:hover {
 			border-width: 2px;
 			border-color: rgb(255,255,255);
 			border-style: outset;
+			margin-right: 6px;
 			/*display: inline-block;*/
 		}
 
@@ -134,7 +135,6 @@ ul.menuitems li a:hover {
 			left:65px;
 		  	top: 5px;
 		  	position: relative;
-		  	margin: 0 12px 12px 0;
 
 		  	/*disables selection of the menu text, for reasons*/
 		  	-webkit-user-select: none; /* Chrome/Safari */

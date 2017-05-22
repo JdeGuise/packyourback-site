@@ -1,4 +1,4 @@
-$(".menuitem").hover(
+$(".menuitem a").hover(
 	function(){
 		$(this).css({"border-bottom" : "7px",
 					"border-color": "rgb(48, 88, 164)",
@@ -25,22 +25,6 @@ $(".dropdown_menuitem").hover(
 					"border-color" : "rgba(242, 242, 242, 0)",
 					'border-style': "none none solid none",
 					"transition" : ".2s all"});
-	}
-);
-
-$("#donatebutton").hover(
-	function(){
-		$(this).css({"border-width" : "2px",
-					"border-color": "rgb(48, 88, 164)",
-					"transition" : ".2s all",
-					'border-style': "outset"});
-	}, function(){
-		$(this).css({"border-width" : "2px",
-					"border-color" : "rgb(255, 255, 255)",
-					'border-style': "outset",
-					"transition" : ".2s all",
-					"top" : "9px",
-					"right" : "9px"});
 	}
 );
 
