@@ -31,8 +31,11 @@
 						<a href="html/ourcause.php">Our Cause</a></li>
 					<li class="menuitem" onclick="location.href='html/getinvolved.php';">
 						<a href="html/getinvolved.php">Get Involved</a></li>
-						<li>
-						<button id="donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button></li>
+						<li class="menuitem">
+							<button class="donatebuttons" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">FUNDRAISERS</button>
+						</li>
+		            <li class="menuitem">
+		            <button class="donatebuttons" onclick="location.href='https://www.paypal.me/PackYourBack'" style="background-color:crimson;">DONATE</button></li>
 					<ul>
 						<img id="hamburger" src="assets/hamburgermenu-blue.png">
 					</ul>
