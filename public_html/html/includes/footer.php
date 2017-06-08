@@ -77,12 +77,17 @@
 					<img id="footer_pyb" src="../../assets/pyb_row_270x70px.png">
 					<br>
 
-					<p style="color: black"><b>2017/2018 Organizational Sponsor:</b></p>
+					<p style="color: black"><b>2017/2018 Organizational Sponsors:</b></p>
 					      <div class="row footer_sponsor" style="text-align:center;" >
-						      <div class="columns small-12 medium-12 large-12" id="sponsora">
+						      <div class="columns small-4 medium-4 large-4" id="sponsora">
 							      <a href="http://www.cmufa.com/"><img src="../../assets/logos/cmufa_logo.png"/></a>
 						      </div>
-
+						      <div class="columns small-4 medium-4 large-4" id="sponsorb">
+						      		<a href="https://www.concentra.com"><img src="../../assets/logos/concentra.png"></a>
+						      </div>
+						      <div class="columns small-4 medium-4 large-4" id="sponsorc">
+						      		<a href="http://www.brightsidedental.com"><img src="../../assets/logos/brightsidedental.png"></a>
+						      </div>
 					      </div>
 				</div>
 				
