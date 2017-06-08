@@ -446,6 +446,12 @@ ul.menuitems li a:hover {
 		#sponsora{
 			margin-top: -25px;
 		}
+		#sponsorb{
+			margin-top: 20px;
+		}
+		#sponsorc{
+			margin-top: 25px;
+		}
 
 		.floatright{
 			float: right;
