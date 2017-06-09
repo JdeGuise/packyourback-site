@@ -45,13 +45,64 @@
 					<hr id="undertoprow">
 					<div class="row ">
 						<div class="columns large-7 medium-12 el4">
-							<div class="sitelinks ">
-								<a href="../../index.php">Privacy Policy</a> <b>|</b> 
+							<div class="sitelinks">
+								<a href="#" id="tos_btn">Terms of Service</a> <b>|</b>
+								<a href="#" id="pp_btn">Privacy Policy</a> <b>|</b> 
 									<a href="../html/contact.php">Contact Us</a> <b>|</b>
 									<a href="../../index.php">Site Map</a> <b>|</b>
 									<a href="https://www.classy.org/campaign/pack-your-back/c114131/">Donate</a>
-
 							</div>
+
+
+							<style type="text/css">
+								.modal {
+								    display: none; /* Hidden by default */
+								    position: fixed; /* Stay in place */
+								    z-index: 1; /* Sit on top */
+								    padding-top: 100px; /* Location of the box */
+								    left: 0;
+								    top: 0;
+								    width: 100%; /* Full width */
+								    height: 100%; /* Full height */
+								    overflow: auto; /* Enable scroll if needed */
+								    background-color: rgb(0,0,0); /* Fallback color */
+								    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+								}
+
+								/* The Close Button */
+								.tos_close, .pp_close{
+								    color: #aaaaaa;
+								    float: right;
+								    font-size: 28px;
+								    font-weight: bold;
+								}
+
+								.pp_close:hover, .tos_close:hover,
+								.pp_close:focus, .tos_close:focus {
+								    color: #000;
+								    text-decoration: none;
+								    cursor: pointer;
+								}
+								.modal div .pp_close, .modal div .tos_close{
+									position:relative;
+									right: 60px;
+								}
+							</style>
+
+							<!-- Can we refactor this down to load the message, whether TOS or privacy policy?-->
+							<div id="tos_modal" class="modal">
+								<div class="tos_modal_content">
+									<span class="tos_close">&times;</span>
+									<p><?php include('html/tos.html'); ?></p>
+								</div>
+							</div>
+							<div id="pp_modal" class="modal">
+								<div class="privacy_modal_content">
+									<span class="pp_close">&times;</span>
+									<p><?php include('html/pp.html'); ?></p>
+								</div>
+							</div>
+
 						</div>
 						<!-- <div style="display: none"></div> -->
 						<div class="columns medium-12 lines_shift">
@@ -95,5 +146,6 @@
 			
 	</footer> <!-- close footer content -->
 </body>
+<script src="../js/modal_ctrl.js"></script>
 <script src="../js/footer_ctrl.js"></script>
 	</html>

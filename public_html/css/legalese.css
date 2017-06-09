@@ -1,0 +1,18 @@
+#modal_paragraphs{
+	text-align:left;
+}
+.legalese_modal{
+	margin: auto;
+	width: 60%;
+	border: 3px solid rgb(246, 103, 56);
+	padding: 20px;
+}
+.legalese_modal h2, .legalese_modal p{
+	text-align:center;
+	color:white;
+}
+#modal_ul{
+	position:relative;
+	padding: 10px;
+	left:5px;
+}
