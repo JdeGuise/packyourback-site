@@ -75,7 +75,7 @@
 						<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/rte_p1.png" id="jumboimg"/></a>
 			  </div>
 			  <div class="mySlides fade">
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdh6jzy5NdV1VhpOp-151iJmgI6UsDZtayLunLfOlTlUs9-NQ/viewform"><img src="assets/index_pics/cco_p2.png" id="jumboimg"></a>
+					<img src="assets/index_pics/cco_p2.png" id="jumboimg">
 			  </div>
 			  <div class="mySlides fade">
 					<a href="http://packyourback.org/html/leadership.php"><img src="assets/index_pics/ldr_p3.png" id="jumboimg"></a>
