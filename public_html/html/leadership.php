@@ -90,13 +90,13 @@
 
 		<br>
 			<br/>
-		 <h2 style="text-align:center;">Board of Directors</h2>
+		 <h2 style="text-align:center;">Leadership</h2>
 		 <br>
 			<br/>
 
 
 			<div class="row" style="text-align: center;">
-					<div class="columns small-12 medium-4 large-4">
+					<div class="columns small-12 medium-3 large-3">
 							<img src="../assets/leadership_pics/staff/gmiller.jpg" class="staff_pics">
 							<br>
 							<br>
@@ -108,7 +108,7 @@
 							</p>
 							<br>
 					</div>
-			<div class="columns small-12 medium-4 large-4">
+			<div class="columns small-12 medium-3 large-3">
 							<img src="../assets/leadership_pics/staff/jborn.jpg" class="staff_pics">
 							<br>
 						<br>
@@ -121,7 +121,7 @@
 							</p>
 								<br>
 					</div>
-					<div class="columns small-12 medium-4 large-4">
+					<div class="columns small-12 medium-3 large-3">
 							<img src="../assets/leadership_pics/staff/ajohnson.jpg" class="staff_pics">
 							<br>
 						 <br>
@@ -133,9 +133,21 @@
 							</p>
 							<br>
 					</div>
+					<div class="columns small-12 medium-3 large-3">
+							<img src="../assets/leadership_pics/staff/jbelcher.png" class="staff_pics">
+							<br>
+							<br>
+							<h4>Joshua Belcher</h4>
+							<h6>Director of Outreach, Expansion, &amp Development</h6>
+							<br>
+							<p style="max-width: 75%; margin: 0 auto;">
+								Josh Belcher serves as the Director of Outreach, Expansion, & Development. He is currently a student at Central Michigan University studying mathematics and history. Outside of PYB, Josh is a Resident Assistant, Peer Involvement Adviser, Academic Orientation Mentor, and an Office Assistant at an on-campus Student Success Center.
+							</p>
+							<br>
+					</div>
 			</div>
 			<div class="row" style="text-align: center;">
-				<div class="columns small-12 medium-4 large-4">
+				<div class="columns small-12 medium-3 large-3">
 							<img src="../assets/leadership_pics/staff/mmariles.jpg" class="staff_pics">
 							<br>
 							<br>
@@ -149,7 +161,7 @@
 
 
 				</div>
-					<div class="columns small-12 medium-4 large-4">
+					<div class="columns small-12 medium-3 large-3">
 							<img src="../assets/leadership_pics/staff/kreed.jpg" class="staff_pics">
 							<br>
 						<br>
@@ -161,7 +173,7 @@
 								</p>
 								<br>
 					</div>
-	<div class="columns small-12 medium-4 large-4">
+	<div class="columns small-12 medium-3 large-3">
 							<img src="../assets/leadership_pics/staff/cfelton.jpg" class="staff_pics">
 							<br>
 				 <br>
@@ -173,6 +185,17 @@
 							</p>
 							<br>
 
+				</div>
+				<div class="columns small-12 medium-3 large-3">
+							<img src="../assets/leadership_pics/staff/kheller.png" class="staff_pics">
+							<br>
+							<br>
+							<h4 style="text-align:center;">Katie Heller</h4>
+							<h6 style="text-align:center;">Director of Human Resources</h6>
+							<br>
+							<p style="max-width: 75%; margin: 0 auto;">
+								Katie Heller currently serves as the Director of Human Resources for Pack Your Back. She is a freshman at Central Michigan University expected to graduate in May of 2020. She is studying Human Resource Management with minors in Business Information Systems and Leadership. Katie is a Leader Advancement Scholar and is also involved with Alpha Kappa Psi, Co-ed Professional Business Fraternity serving as the current Event Planning Chair.
+								</p>
 				</div>
 			</div>
 			</div>
