@@ -1,11 +1,35 @@
 <head>
 	<title>Get Involved - Pack Your Back</title>
-	<?php include('includes/head.php'); ?>
+	<?php include('includes/htmlhead.php'); ?>
 </head>
 
 <body class="body">
-	<?php include('includes/header.php'); ?>
+		<?php include('includes/htmlheader.php'); ?>
 
+
+		<div id="dropdownOverlay">
+			<div class="thedropdown">
+				<ul class="dropdown" id="myDropdown" >
+
+				<br>
+					<li class="dropdown_menuitem" onclick="location.href='index.php';">
+						<a href="index.php">Home</a>
+					</li>
+ 						<li class="dropdown_menuitem" onclick="location.href='php/blogmodule/index.php';"><a href="php/blogmodule/index.php">Blog</a></li>					<li class="dropdown_menuitem" onclick="location.href='html/leadership.php';">
+						<a href="html/leadership.php">Leadership</a>
+					</li>
+					<li class="dropdown_menuitem"onclick="location.href='html/ourcause.php';">
+						<a href="html/ourcause.php">Our Cause</a>
+					</li>
+					<li class="dropdown_menuitem" onclick="location.href='html/getinvolved.php';">
+						<a href="html/getinvolved.php">Get Involved</a>
+					</li>
+					<li>
+						<button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button>
+					</li>
+				</ul>
+			</div>
+		</div>
 
 	<br>
 	<br>
@@ -60,8 +84,8 @@
 	<div class="row">
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
-				<a href="html/contact.php">
-					<img id="social_media_icons" src="assets/social_media/email-icon.png">
+				<a href="contact.php">
+					<img id="social_media_icons" src="../assets/social_media/email-icon.png">
 					<br>
 					<h6 id="social_media_text">Send us an<br>Email</h6>
 				</a>
@@ -73,7 +97,7 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://twitter.com/PackYourBack">
-					<img id="social_media_icons" src="assets/social_media/circle-twitter-128.png">
+					<img id="social_media_icons" src="../assets/social_media/circle-twitter-128.png">
 					<br>
 					<h6 id="social_media_text">Follow us on Twitter</h6>
 				</a>
@@ -85,7 +109,7 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://www.facebook.com/PackYourBack">
-					<img id="social_media_icons" src="assets/social_media/circle-facebook-128.png">
+					<img id="social_media_icons" src="../assets/social_media/circle-facebook-128.png">
 					<br>
 					<h6 id="social_media_text">Like us on Facebook</h6>
 				</a>
@@ -97,7 +121,7 @@
 			<div class="columns small-6 medium-3 large-3">
 				<div class="sm_circles">
 					<a href="https://www.linkedin.com/company/pack-your-back">
-						<img id="social_media_icons" src="assets/social_media/circle-linkedin-128.png">
+						<img id="social_media_icons" src="../assets/social_media/circle-linkedin-128.png">
 						<br>
 						<h6 id="social_media_text">Follow us on LinkedIn</h6>
 					</a>
@@ -110,7 +134,7 @@
 
 	<br>
 	
-   	<?php include("includes/footer.php");?> 
+   	<?php include("includes/htmlfooter.php");?> 
 	
 </body>
 <script src="../js/menu.js" ></script>
