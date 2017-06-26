@@ -4,7 +4,7 @@
 </head>
 
 <body class="body">
-  	<?php include('html/includes/header.php'); ?>
+		<?php include('html/includes/header.php'); ?>
 
   	<br>
 	<br>

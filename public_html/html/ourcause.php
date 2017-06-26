@@ -1,10 +1,10 @@
 <head>
 	<title>Our Cause - Pack Your Back</title>
-	<?php include('includes/head.php'); ?>
+	<?php include('includes/htmlhead.php'); ?>
 </head>
 
 <body class="body">
-	<?php include('includes/header.php'); ?>
+	<?php include('includes/htmlheader.php'); ?>
 
 	<br>
 	<br>
@@ -67,7 +67,7 @@
 	<br>
 	<br>
 
-	<?php include("includes/footer.php");?>
+	<?php include("includes/htmlfooter.php");?>
 
 </body>
 <script src="../js/menu.js" ></script>

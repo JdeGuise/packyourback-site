@@ -1,11 +1,34 @@
 <head>
 	<title>Leadership - Pack Your Back</title>
-	<?php include('includes/head.php'); ?>
+	<?php include('includes/htmlhead.php'); ?>
 </head>
 
 <body class="body">
-	<?php include('includes/header.php'); ?>
+		<?php include('includes/htmlheader.php'); ?>
 
+		<div id="dropdownOverlay">
+			<div class="thedropdown">
+				<ul class="dropdown" id="myDropdown" >
+
+				<br>
+					<li class="dropdown_menuitem" onclick="location.href='index.php';">
+						<a href="index.php">Home</a>
+					</li>
+ 						<li class="dropdown_menuitem" onclick="location.href='php/blogmodule/index.php';"><a href="php/blogmodule/index.php">Blog</a></li>					<li class="dropdown_menuitem" onclick="location.href='html/leadership.php';">
+						<a href="html/leadership.php">Leadership</a>
+					</li>
+					<li class="dropdown_menuitem"onclick="location.href='html/ourcause.php';">
+						<a href="html/ourcause.php">Our Cause</a>
+					</li>
+					<li class="dropdown_menuitem" onclick="location.href='html/getinvolved.php';">
+						<a href="html/getinvolved.php">Get Involved</a>
+					</li>
+					<li>
+						<button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button>
+					</li>
+				</ul>
+			</div>
+		</div>
 	<br>
 	<br>
 	<br>
@@ -31,29 +54,11 @@
 
 	<br>
 	<br>
-	<h2 style="text-align:center;">Board of Directors</h2>
-		<br>
-		<br>
 
-		<div class="row" style="text-align: center;">
-			<div class="columns small-12 medium-4 large-4">
-				<img src="../assets/leadership_pics/staff/gmiller.jpg" class="staff_pics">
-					
-					<br>
-					<br>
-
-					</div>
-
-					<hr>
-			</div>
-		</div>
-
-		<br>
-			<br/>
 		 <h2 style="text-align:center;">Leadership</h2>
 		 <br>
-			<br/>
-
+		 <br>
+		 <br>
 
 			<div class="row" style="text-align: center;">
 					<div class="columns small-12 medium-3 large-3">
@@ -169,7 +174,7 @@
 			<br>
 
 		<!-- Footer Section -->
- 		<?php include("includes/footer.php");?> 
+ 		<?php include("includes/htmlfooter.php");?> 
  		<!-- close footer content -->
 
 	</body>

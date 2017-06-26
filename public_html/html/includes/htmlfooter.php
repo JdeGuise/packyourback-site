@@ -1,6 +1,6 @@
 	<html>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<link rel="stylesheet" href="../css/foundation.css" />
 	<body>
 
 	<footer class="footer">
@@ -29,16 +29,16 @@
 								<br>
 								<h4 >Find Us Elsewhere</h4>
 								<a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
-									<img id="soc_med_foot" src="assets/social_media/linkedin.png">
+									<img id="soc_med_foot" src="../assets/social_media/linkedin.png">
 								</a>
 								<a href="https://twitter.com/packyourback">
-									<img src="assets/social_media/twitter.png">
+									<img src="../assets/social_media/twitter.png">
 								</a>
 								<a href="https://www.facebook.com/PackYourBack/">
-									<img src="assets/social_media/facebook.png">
+									<img src="../assets/social_media/facebook.png">
 								</a>
 								<a href="#">
-									<img src="assets/social_media/email_white.png">
+									<img src="../assets/social_media/email_white.png">
 								</a>
 								<!-- </div> -->
 							</div>
@@ -50,8 +50,8 @@
 							<div class="sitelinks">
 								<a href="#" id="tos_btn">Terms of Service</a> <b>|</b>
 								<a href="#" id="pp_btn">Privacy Policy</a> <b>|</b> 
-									<a href="html/contact.php">Contact Us</a> <b>|</b>
-									<a href="index.php">Site Map</a> <b>|</b>
+									<a href="contact.php">Contact Us</a> <b>|</b>
+									<a href="../index.php">Site Map</a> <b>|</b>
 									<a href="https://www.classy.org/campaign/pack-your-back/c114131/">Donate</a>
 							</div>
 
@@ -95,13 +95,13 @@
 							<div id="tos_modal" class="modal">
 								<div class="tos_modal_content">
 									<span class="tos_close">&times;</span>
-									<p><?php include('html/tos.html'); ?></p>
+									<p><?php include('tos.html'); ?></p>
 								</div>
 							</div>
 							<div id="pp_modal" class="modal">
 								<div class="privacy_modal_content">
 									<span class="pp_close">&times;</span>
-									<p><?php include('html/pp.html'); ?></p>
+									<p><?php include('pp.html'); ?></p>
 								</div>
 							</div>
 
@@ -127,19 +127,19 @@
 				</div>
 				<div class="columns small-4 large-4 sidebar" style="text-align: center;">
 					<br>
-					<img id="footer_pyb" src="assets/pyb_row_270x70px.png">
+					<img id="footer_pyb" src="../assets/pyb_row_270x70px.png">
 					<br>
 
 					<p style="color: black"><b>2017/2018 Organizational Sponsors:</b></p>
 					      <div class="row footer_sponsor" style="text-align:center;" >
 						      <div class="columns small-4 medium-4 large-4" id="sponsora">
-							      <a href="http://www.cmufa.com/"><img src="assets/logos/cmufa_logo.png"/></a>
+							      <a href="http://www.cmufa.com/"><img src="../assets/logos/cmufa_logo.png"/></a>
 						      </div>
 						      <div class="columns small-4 medium-4 large-4" id="sponsorb">
-						      		<a href="https://www.concentra.com"><img src="assets/logos/concentra.png"></a>
+						      		<a href="https://www.concentra.com"><img src="../assets/logos/concentra.png"></a>
 						      </div>
 						      <div class="columns small-4 medium-4 large-4" id="sponsorc">
-						      		<a href="http://www.brightsidedental.com"><img src="assets/logos/brightsidedental.png"></a>
+						      		<a href="http://www.brightsidedental.com"><img src="../assets/logos/brightsidedental.png"></a>
 						      </div>
 					      </div>
 				</div>
@@ -148,5 +148,5 @@
 			
 	</footer> <!-- close footer content -->
 </body>
-<script src="js/modal_ctrl.js"></script>
+<script src="../js/modal_ctrl.js"></script>
 	</html>
