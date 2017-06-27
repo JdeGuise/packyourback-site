@@ -84,8 +84,7 @@
 	
 		<hr>
 	
-		<br>
-		
+		<br>		
 		<div class="columns small-12 medium-4 large-4 story_feature">
 	
 			<br>
