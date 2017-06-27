@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-	
+<head>
 	<title>Pack Your Back - Supplying Success</title>
-
 	<?php include('html/includes/head.php'); ?>
+</head>
 
-  </head>
-
-  <body class="body">
+<body class="body">
   	<?php include('html/includes/header.php'); ?>
 
   	<br>
@@ -223,48 +218,57 @@
 
 	<?php include("html/includes/footer.php") ?>
 
-	</body>
+</body>
 
-	<script>
+<script>
 
-			// This function controls the paneling and transition of our slide show.
-			//	Without it, the pictures will all display in a column and the transition will break
-			 function showSlides() {
-				var i;
-				//divs that hold each mySlide class
-				var slides = document.getElementsByClassName("mySlides");
-				//spans that hold each dot class
-				var dots = document.getElementsByClassName("dot");
+	// This function controls the paneling and transition of our slide show.
+	//	Without it, the pictures will all display in a column and the transition will break
 
-				//set none of them to display, so that we can unhide them in the proper time
-				for (i = 0; i < slides.length; i++) {
-				   slides[i].style.display = "none";
-				}
-				slideIndex++;
+	function showSlides() {
+		var i;
+		
+		//divs that hold each mySlide class
+		var slides = document.getElementsByClassName("mySlides");
+		
+		//spans that hold each dot class
+		var dots = document.getElementsByClassName("dot");
 
-				//if we go too far, transition back to our first slide
-				if (slideIndex > slides.length) {
-				  slideIndex = 1;
-				}
+		//set none of them to display, so that we can unhide them in the proper time
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
 
-				//control the highlighting of the dots below the carousel
-				for (i = 0; i < dots.length; i++) {
-					dots[i].className = dots[i].className.replace(" active", "");
-				}
-				// correspond display:block to the right slide
-				slides[slideIndex-1].style.display = "block";
+		// ++, aka result = result + 1
+		slideIndex++;
 
-				// corresponsed the active dot to the active slide
-				dots[slideIndex-1].className += " active";
-				// change image every 10 seconds
-				setTimeout(showSlides, 5000);
-			}
+		//if we go too far, transition back to our first slide
+		if (slideIndex > slides.length) {
+			slideIndex = 1;
+		}
 
-			//start the slide index at 0
-			var slideIndex = 0;
+		//control the highlighting of the dots below the carousel
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		
+		// correspond display:block to the right slide
+		slides[slideIndex-1].style.display = "block";
 
-			//run our function
-			showSlides();
-	 </script>
-	 <script src="js/menu.js" ></script>
-	 <script src="js/social_media_animation.js"></script>
+		// corresponsed the active dot to the active slide
+		dots[slideIndex-1].className += " active";
+		
+		// change image every 10 seconds
+		setTimeout(showSlides, 5000);
+	}
+
+	//start the slide index at 0
+	var slideIndex = 0;
+
+	//run our function
+	showSlides();
+
+</script>
+
+<script src="js/menu.js" ></script>
+<script src="js/social_media_animation.js"></script>
