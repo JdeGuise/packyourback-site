@@ -16,6 +16,11 @@ ul.menuitems li a:hover {
 	color: rgb(33, 65, 149);  /* dark blue */
 }
 
+hr.hrstyle{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 /***************/
 /* START FONTS */
 /***************/
@@ -122,7 +127,7 @@ ul.menuitems li a:hover {
 			width: 100%;
 			top: 0;
 			background-color: rgb(242, 242, 242);
-			border-bottom: 4px solid rgb(246, 103, 56);
+			border-bottom: 4px solid rgb(250,130,30);
 
 		}
 		header{
@@ -410,7 +415,7 @@ ul.menuitems li a:hover {
 
 
 
-		.sidebar{
+/*		.sidebar{
 			background-color: white;
 			padding-bottom: 15px;
 			border-radius: 15%;
@@ -430,7 +435,7 @@ ul.menuitems li a:hover {
 			padding-left: 20px;
 			padding-bottom: 15px;
 			height: 100%;
-		}
+		}*/
 
 		#footer_pyb{
 			width: 270px; 
@@ -513,7 +518,7 @@ ul.menuitems li a:hover {
 					/*padding-bottom: -2px;*/
 				}
 
-		 		.sidebar{
+/*		 		.sidebar{
 		 			margin-right: 10px;
 		 			margin-top: 55px;
 		 			padding-bottom: 40px;
@@ -522,7 +527,7 @@ ul.menuitems li a:hover {
 		 			font-size: 10px;
 		 			margin-left: -20px;
 		 			margin-top: 15px;
-		 		}
+		 		}*/
 		 		
 		 		#footer_pyb{
 		 			width: 85%;
@@ -546,14 +551,14 @@ ul.menuitems li a:hover {
 		 			width: 80px;
 		 		}*/
 
-		 		.sidebar{
+/*		 		.sidebar{
 		 			margin-right: 10px;
 		 			padding-bottom: 20px;
 		 		}
 		 		.sidebar p{
 		 			font-size: 9px;
 		 			margin-left: -20px;
-		 		}
+		 		}*/
 
 				#sponsora{
 					width: 85%;
@@ -571,6 +576,8 @@ ul.menuitems li a:hover {
 		 			padding-top: 10px
 		 		}
 		}
+
+
 		/*this is for the subscribe form, which was overlapping
 		with the sidebar on very small screens*/
 		@media only screen and (max-width: 420px){
@@ -741,16 +748,35 @@ ul.menuitems li a:hover {
 	/* START: Carousel */
 	/*******************/
 
+			/* Carousel media queries */
+
+			/* large, certain height */
+			@media only screen and (max-width: 100%){
+				.jumboimg{
+					height: 100%;
+				}
+
+			/* medium, certain height */
+			@media only screen and (max-width: 66%){
+				.jumboimg{
+					height: 66%;
+				}
+			}
+
+			/* small, certain height */
+			@media only screen and (max-width: 33%){
+				.jumboimg{
+					height: 33%;
+				}
+			}
 
 			/* Slideshow container */
 			.slideshow-container {
 				position: relative;
+				margin: 0 auto;
 				width: 100%;
 			}
 
-			#jumboimg{
-				width:100%;
-			}
 
 			/* The dots/bullets/indicators */
 			.dot {
@@ -787,15 +813,14 @@ ul.menuitems li a:hover {
 	/* START: Featured Quote */
 	/*************************/
 
-			#index-quote{
+			#index-quote-self h4{
+				position:relative;
 				text-align:center;
-				max-width: 70%;
-			}
-			#index-quote #index-quote-self{
-				margin: 0 auto;
 			}
 			#index-quote-wrapper{
 				background-color: lightblue;
+				max-width: 75%;
+				text-align:center;
 			}
 
 	/***********************/
@@ -852,16 +877,6 @@ ul.menuitems li a:hover {
 /*******************/
 /* END: index.html */
 /*******************/
-
-
-/*********************/
-/* START: ideas.html */
-/*********************/
-
-
-/******************/
-/*END: ideas.html */
-/******************/
 
 
 /********************/

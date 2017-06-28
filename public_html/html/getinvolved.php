@@ -44,7 +44,7 @@
 			<br>
 		</div>
 
-		<hr>
+		<hr class="hrstyle">
 	</div>
 
 	<div class="row">
@@ -59,7 +59,7 @@
 			
 			<p>We are currently accepting applications for membership and volunteer positions. We accept applicants on a rolling basis.  All membership and volunteer applicants will be contacted after submitting their application.  New applicants will be interviewed before being accepted.</p>
 			<p>Volunteers must be at least 16 years of age upon the time of becoming a member or a volunteer.</p>
-			<p>Questions? Please contact info@packyourback.org or contact us at (989) 975-8969.</p>
+			<p>Questions? Please contact info@packyourback.org or contact us at (877) 932-5277.</p>
 			
 			<br>
 
@@ -71,7 +71,7 @@
 		</div>
 	</div>
 
-	<hr>
+	<hr class="hrstyle">
 
 	<br>
 	<br>

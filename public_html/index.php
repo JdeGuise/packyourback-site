@@ -4,31 +4,39 @@
 </head>
 
 <body class="body">
-		<?php include('html/includes/header.php'); ?>
-
-  	<br>
+	<?php include('html/includes/header.php'); ?>
 	<br>
 	<br>
+	<br>
 
-	<div class="slideshow-container" style="background-color:rgb(242,242,245);">
-	  	<div class="mySlides fade" >
-	  		<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/rte_p1.png" id="jumboimg"/></a>
-	  	</div>
-		<div class="mySlides fade">
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdh6jzy5NdV1VhpOp-151iJmgI6UsDZtayLunLfOlTlUs9-NQ/viewform"><img src="assets/index_pics/cco_p2.png" id="jumboimg"></a>
-		</div>
-		<div class="mySlides fade">
-			<a href="http://packyourback.org/html/leadership.php"><img src="assets/index_pics/ldr_p3.png" id="jumboimg"></a>
-		</div>
-		<div class="mySlideDots" style="position: relative; top: -35px; text-align:center">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
+	<div class="row">
+		<div class="slideshow-container columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 5px solid #000000; margin-top: 2px;">
+			<div class="mySlides fade" >
+				<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/1.png" id="jumboimg"/></a>
+			</div>
+			<div class="mySlides fade">
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdh6jzy5NdV1VhpOp-151iJmgI6UsDZtayLunLfOlTlUs9-NQ/viewform"><img src="assets/index_pics/2.png" id="jumboimg"></a>
+			</div>
+			<div class="mySlides fade">
+				<a href="http://packyourback.org/html/leadership.php"><img src="assets/index_pics/3.png" id="jumboimg"></a>
+			</div>
+			<div class="mySlideDots" style="position: relative; text-align:center">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
 		</div>
 	</div>
 
-	<div class="donaterow row" style="width:95%; max-width: 95%;">
+	<br>
+	<hr class="hrstyle">
 
+
+
+	<br>
+
+	<div class="row" style="top: 50px; width:100%; max-width: 100%; border: 5px solid rgb(44,84,165);">
+	<br>
 		<div class="columns small-12 medium-6 large-8" id="why_donate_content">
 		
 			<br>
@@ -51,13 +59,6 @@
 				<a href="https://www.classy.org/campaign/Pack-Your-Back/c128367"><button>More Info</button></a>
 			</div>
 
-
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-
 		</div>
 		
 		<div class="columns small-12 medium-6 large-4">
@@ -72,21 +73,28 @@
 				
 				<br>
 				<img src="assets/index_pics/1.jpeg" style="height:240px; position: relative;">
+				<br>
+				<br>
 			</div>
 
 		</div>
 	</div>
-
-
-	<div class="row">
 		
+	<br>
+	<div class="row" id="index-quote-wrapper" style="border: 5px solid rgb(242,242,255); margin: 0 auto; background-color: rgb(0,0,0); ">
+
 		<br>
+		<div id="index-quote-self" style="text-align:center;">
+			<h4 style="color: rgb(242,242,246); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;">23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
+		</div>
+		<br>
+
+	</div>
 	
-		<hr>
-	
-		<br>		
+	<br>
+	<div class="story_circle_container row" style="border: 4px solid rgb(246, 103, 56);">
+		<br>
 		<div class="columns small-12 medium-4 large-4 story_feature">
-	
 			<br>
 			<div class="story_circles">
 				<a href="html/getinvolved.php">
@@ -94,10 +102,8 @@
 				</a>
 			</div>
 			<br>
-			
 			<h2>Our Needs</h2>
 			<p class="story_p">Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
-			
 			<br>
 			<br>
 		</div>
@@ -111,10 +117,8 @@
 				</a>
 			</div>
 			<br>
-			
 			<h2>Our Leaders</h2>
 			<p class="story_p">Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to build a system for helping younger generations receive the education they need.</p>
-			
 			<br>
 			<br>
 		</div>
@@ -126,7 +130,6 @@
 					<img src='assets/story_pics/paints.png'>
 				</a>
 			</div>
-						
 			<br>
 			<h2>Our Story</h2>
 			<p class="story_p">Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.</p>
@@ -136,32 +139,13 @@
 		</div>
 	</div>
 
-	<div id="index-quote-wrapper">
-		<div class="row" id="index-quote">
-	
-			<br>
-			<br>
-		
-			<div id="index-quote-self">
-				<h4>23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
-			</div>
-			
-			<br>
-			<br>
+	<div class="row" style="border: 4px solid rgb(44,84,168);">
+		<br>
+		<br>
+		<h3 style="text-align: center;">Keep up with Pack Your Back</h3>
+		<br>
+		<br>
 
-		</div>
-	</div>
-
-
-	<br>
-	<br>
-
-	<h3 style="text-align: center;">Keep up with Pack Your Back</h3>
-
-	<br>
-	<br>
-
-	<div class="row">
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="html/contact.php">
@@ -170,7 +154,7 @@
 					<h6 id="social_media_text">Send us an<br>Email</h6>
 				</a>
 			</div>
-			
+			<br>
 			<br>
 		</div>
 
@@ -182,7 +166,7 @@
 					<h6 id="social_media_text">Follow us on Twitter</h6>
 				</a>
 			</div>
-			
+			<br>
 			<br>
 		</div>
 
@@ -193,26 +177,23 @@
 					<br>
 					<h6 id="social_media_text">Like us on Facebook</h6>
 				</a>
-			  </div>
-
-			  <br>
 			</div>
+			<br>
+			<br>
+		</div>
 
-			<div class="columns small-6 medium-3 large-3">
-				<div class="sm_circles">
-					<a href="https://www.linkedin.com/company/pack-your-back">
-						<img id="social_media_icons" src="assets/social_media/circle-linkedin-128.png">
-						<br>
-						<h6 id="social_media_text">Follow us on LinkedIn</h6>
-					</a>
-			  	</div>
-
-			  	<br>
+		<div class="columns small-6 medium-3 large-3">
+			<div class="sm_circles">
+				<a href="https://www.linkedin.com/company/pack-your-back">
+					<img id="social_media_icons" src="assets/social_media/circle-linkedin-128.png">
+					<br>
+					<h6 id="social_media_text">Follow us on LinkedIn</h6>
+				</a>
 			</div>
+			<br>
+			<br>
+		</div>
 	</div>
-
-	<br>
-
 	<!-- Footer Section -->
 
 	<?php include("html/includes/footer.php") ?>
