@@ -92,7 +92,7 @@
 	</div>
 	
 	<br>
-	<div class="story_circle_container row" style="border: 4px solid rgb(246, 103, 56);">
+	<div class="story_circle_container row" style="border: 4px solid rgb(246, 103, 56);text-align: center;">
 		<br>
 		<div class="columns small-12 medium-4 large-4 story_feature">
 			<br>
