@@ -3,8 +3,6 @@
 /*************************/
 
  html, body{
- 	padding: 0px;
- 	margin: 0px;
 	width:100%;
  }
 .body{
@@ -12,16 +10,22 @@
 	font-family: Arial;
 }
 /* Change background color of links on hover */
-ul.menuitems li a:hover {
+.menuitems li a:hover {
 	color: rgb(33, 65, 149);  /* dark blue */
+}
+
+.hrstyle{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /***************/
 /* START FONTS */
 /***************/
-
+		h1, h2, h3, h4, h5, h6{
+			font-family: 'Roboto', sans-serif;
+		}
 		/* set h*, li, and p fonts */
-		body h1, body h2, body h3, body h4, body h5, body h6{ font-family: 'Roboto', sans-serif; }
 		.who_we_are p, li, body p{
 			font-family: 'Raleway', sans-serif;
 		}
@@ -44,18 +48,19 @@ ul.menuitems li a:hover {
 		 		.icon{
 		 			visibility: hidden;
 		 		}
-		 		#hamburger{
+		 		.hamburger{
 		 			visibility: visible;
 		 		}
 		 	}
 		 	@media screen and (min-width: 1201px){
-		 		#hamburger{
+		 		.hamburger{
 		 			visibility: hidden;
 		 		}
-		 		#dropdownOverlay{
+		 		.dropdownOverlay{
 		 			visibility: hidden;
 		 		}
 		 	}
+
 		/* set default header height */
 		header{
 			height: 75px;
@@ -65,12 +70,12 @@ ul.menuitems li a:hover {
 			height: 60px;
 		}
 		/*align our logo vertically with the box it sits in */
-		header #logo {
+		header .logo {
 		  position:relative;
 		  margin-top:7px;
 		}
 		/*align hamburger menu more closely with the right side of the screen, for aesthetic purposes*/
-		header #hamburger{
+		header .hamburger{
 			position: absolute;
 			/*transform: rotate(45deg);*/
 			right:12px;
@@ -92,7 +97,7 @@ ul.menuitems li a:hover {
 			/*display: inline-block;*/
 		}
 
-		header #hamburger:hover{
+		header .hamburger:hover{
 			background-color: rgb(250, 108, 51);
 			/*opacity: .8;*/
 			cursor: pointer;
@@ -122,7 +127,7 @@ ul.menuitems li a:hover {
 			width: 100%;
 			top: 0;
 			background-color: rgb(242, 242, 242);
-			border-bottom: 4px solid rgb(246, 103, 56);
+			border-bottom: 4px solid rgb(250,130,30);
 
 		}
 		header{
@@ -139,6 +144,7 @@ ul.menuitems li a:hover {
 		  	/*disables selection of the menu text, for reasons*/
 		  	-webkit-user-select: none; /* Chrome/Safari */
 			-moz-user-select: none; /* Firefox */
+		  	user-select: none;
 			-ms-user-select: none; /* IE10+ */
 
 			border-radius: 7%;
@@ -196,7 +202,6 @@ ul.menuitems li a:hover {
 		*/
 		@media only screen and (max-width: 385px){
 			header li{
-				margin-left: 0px;
 				text-align: center;
 			}
 			header{
@@ -212,9 +217,8 @@ ul.menuitems li a:hover {
 /***************************/
 
 
-		#dropdown_donatebutton{
+		.dropdown_donatebutton{
 			list-style:inherit;
-			display: fixed;
 			/*margin: 0 auto;*/
 			margin-top: 20px;
 			margin-left: 26px;
@@ -232,7 +236,7 @@ ul.menuitems li a:hover {
 			margin: 0 auto;
 		}
 
-		#dropdownOverlay{
+		.dropdownOverlay{
 			display:none;
 			position:fixed;
 			z-index: 1;
@@ -246,7 +250,7 @@ ul.menuitems li a:hover {
 			transition: .5s ease;
 		}
 
- 		#myDropdown {
+ 		.myDropdown {
  			display: block;
  			list-style: none;
  			position:relative;
@@ -273,23 +277,14 @@ ul.menuitems li a:hover {
 			border-color: rgba(242, 242, 242, 0);
  		}
 																	/*end dropdown items*/
-																			/*START: HEADER ALIGNMENTS */
-		/* align headers in center */
-		.row h3, .row h2, .row h1{
-			text-align: center;
-		}
+/****************************/																			
+/* START: HEADER ALIGNMENTS */
+/****************************/
 
 		.content{
 			position: relative;
 			top: 50px;
 			color:white;
-		}
-		.content p{
-		}
-		.content, .footer_buttons{
-		}
-		#about_us{
-			text-align: left;
 		}
 
 /*************************/
@@ -300,22 +295,19 @@ ul.menuitems li a:hover {
 /* START FOOTER ALIGNMENTS */
 /***************************/
 
+		.footer{
+			height: 250px;
+		}
+
 		footer {
 			color: #ffffff;
 			background-color: rgb(61, 61, 61);
-			overflow: auto
-			min-height: 100%;
-			max-height: 100%;
 		}
 
 		footer h4{
 			text-align: left;
 			color: white;
 			font-size: 20px;
-		}
-		/*doesnt actually work*/
-		#soc_med_foot:hover{
-			opacity: 75%;
 		}
 
 		footer h2, .sitelinks {
@@ -382,6 +374,11 @@ ul.menuitems li a:hover {
 			padding: 0px;
 		}
 
+		footer .footer_soc_media img{
+			width: 25px;
+			height: 25px;
+		}
+
 		.subscribe-input[type=email]{
 			background-color: rgb(102, 102, 102);
 			border-style:none;
@@ -408,49 +405,22 @@ ul.menuitems li a:hover {
 			color: white;
 		}
 
-
-
 		.sidebar{
 			background-color: white;
-			padding-bottom: 15px;
 			border-radius: 15%;
-			margin-top: 30px;
-			margin-bottom: 10px;
-			margin-right: 40px;
-			margin-left: -30px;
-
-			min-height: 100%;
-			max-height: 100%
+			width: 100%;
 		}
 
 		.sidebar p{
 			text-align: left;
 			font-family: Roboto;
 			font-size: 14px;
-			padding-left: 20px;
-			padding-bottom: 15px;
-			height: 100%;
 		}
 
 		#footer_pyb{
 			width: 270px; 
 			height: 80px;
-			margin-top: -10px;
-		}
-
-		.footer_sponsor{
-			width: 100%;
-			height: 100%;
-		}
-
-		#sponsora{
-			margin-top: -25px;
-		}
-		#sponsorb{
-			margin-top: 20px;
-		}
-		#sponsorc{
-			margin-top: 25px;
+			margin-top: 10px;
 		}
 
 		.floatright{
@@ -480,7 +450,13 @@ ul.menuitems li a:hover {
 	    	/*padding-top: 0px;*/
 	    }
 
-		@media only screen and (max-width: 1024px){
+	    @media only screen and (min-width: 1024px){
+	    	.footer{
+	    		height: 70%;
+	    	}
+	    }
+
+		@media only screen and (max-width: 1024px) and (min-width: 640px){
 				.footer_top{
 		 			margin-bottom: 40px;
 		 		}
@@ -512,35 +488,23 @@ ul.menuitems li a:hover {
 					margin-bottom: -14px;
 					/*padding-bottom: -2px;*/
 				}
-
-		 		.sidebar{
-		 			margin-right: 10px;
-		 			margin-top: 55px;
-		 			padding-bottom: 40px;
-		 		}
-		 		.sidebar p{
-		 			font-size: 10px;
-		 			margin-left: -20px;
-		 			margin-top: 15px;
-		 		}
 		 		
 		 		#footer_pyb{
-		 			width: 85%;
-					height: 85%;
+		 			width: 60%;
 		 		}
 		 		.footer_sponsor{
-		 			padding-top: 20px;
+		 			padding-top: 10px;
 		 		}
 		 		#sponsorb{
 		 			margin-top: -2%;
 		 		}
-		 		
+		 		.footer{
+		 			height: 55%;
+		 		}
 		 	}
 
 		@media only screen and (max-width: 640px){
-				.footer_top{
-		 			margin-left: 0px;
-		 		}
+
 
 		 		/*.subscribe-form{
 		 			width: 80px;
@@ -548,29 +512,21 @@ ul.menuitems li a:hover {
 
 		 		.sidebar{
 		 			margin-right: 10px;
-		 			padding-bottom: 20px;
 		 		}
 		 		.sidebar p{
 		 			font-size: 9px;
 		 			margin-left: -20px;
 		 		}
-
-				#sponsora{
-					width: 85%;
-					height: 85%;
-					left: 8%;
-				}
-				#sponsorb{
-					width: 85%;
-					height: 85%;
-					margin-top: 20px;
-					right: 4%;
-				}
 				
 		 		.footer_sponsor{
 		 			padding-top: 10px
 		 		}
+		 		.footer{
+		 			height:120%;
+		 		}
 		}
+
+
 		/*this is for the subscribe form, which was overlapping
 		with the sidebar on very small screens*/
 		@media only screen and (max-width: 420px){
@@ -588,22 +544,22 @@ ul.menuitems li a:hover {
 
 		/*controls the color of the typed text in the email box*/
 		input::-webkit-input-placeholder {
-			color: white !important;
+			color: white;
 			font-size: 12px;
 		}
 
 		input:-moz-placeholder { /* Firefox 18- */
-			color: white !important;
+			color: white;
 			font-size: 12px;  
 		}
 
 		input::-moz-placeholder {  /* Firefox 19+ */
-			color: white !important;
+			color: white;
 			font-size: 12px;  
 		}
 
 		input:-ms-input-placeholder {  
-			color: white !important;
+			color: white;
 			font-size: 12px;  
 		}
 
@@ -630,23 +586,18 @@ ul.menuitems li a:hover {
 		cursor: pointer;
 
 	}
-	#social_media_icons{
+	.social_media_icons{
 		height:40%;
 		width:40%;
 		margin-left:43px;
 		margin-top: 16px;
 	}
-	#social_media_text{
+	.social_media_text{
 		font-size: 16px;
-	}
-
-	.sm_circles h6{
 		padding: 3px;
 		text-align: center;
 		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
 	}
-
 
 /****************************************/
 /* END: GENERIC SOCIAL MEDIA ALIGNMENTS */
@@ -663,13 +614,6 @@ ul.menuitems li a:hover {
 	}
 	.after{
 		background: rgba(0,0,0,0.75);
-	}
-	footer .footer_soc_media img{
-		width: 25px;
-		height: 25px;
-	}
-	#org_p{
-		color:white;
 	}
 /******************/
 /* END TEMPLATING */
@@ -698,7 +642,7 @@ ul.menuitems li a:hover {
 		  	margin: 0 auto;
 		}
 
-		#who_we_are_self{
+		.who_we_are_self{
 			max-width: 1000px;
 		}
 
@@ -718,11 +662,6 @@ ul.menuitems li a:hover {
 			height:150px;
 			margin:0 auto;
 			transition: .2s all;
-/*
-			-webkit-animation-name: fade;
-				-webkit-animation-duration: 1.5s;
-				animation-name: fade;
-				animation-duration: 1.5s;*/
 		}
 
 		/* we want to 'highlight' the circles on mouseover */
@@ -741,16 +680,36 @@ ul.menuitems li a:hover {
 	/* START: Carousel */
 	/*******************/
 
+			/* Carousel media queries */
+
+			/* large, certain height */
+			@media screen and (max-width: 100%) and (min-width: 66%) {
+				.jumboimg {
+					height: 100%;
+				}
+			}
+
+			/* medium, certain height */
+			@media screen and (max-width: 66%) and (min-width: 33%) {
+				.jumboimg {
+					height: 66%;
+				}
+			}
+
+			/* small, certain height */
+			@media screen and (max-width: 33%) {
+				.jumboimg {
+					height: 33%;
+				}
+			}
 
 			/* Slideshow container */
 			.slideshow-container {
 				position: relative;
+				margin: 0 auto;
 				width: 100%;
 			}
 
-			#jumboimg{
-				width:100%;
-			}
 
 			/* The dots/bullets/indicators */
 			.dot {
@@ -772,6 +731,8 @@ ul.menuitems li a:hover {
 			.fade {
 				-webkit-animation-name: fade;
 				-webkit-animation-duration: 1.5s;
+				-moz-animation-name: fade;
+				-moz-animation-duration: 1.5s;
 				animation-name: fade;
 				animation-duration: 1.5s;
 			}
@@ -787,15 +748,14 @@ ul.menuitems li a:hover {
 	/* START: Featured Quote */
 	/*************************/
 
-			#index-quote{
+			.index-quote-h4{
+				position:relative;
 				text-align:center;
-				max-width: 70%;
 			}
-			#index-quote #index-quote-self{
-				margin: 0 auto;
-			}
-			#index-quote-wrapper{
+			.index-quote-wrapper{
 				background-color: lightblue;
+				max-width: 75%;
+				text-align:center;
 			}
 
 	/***********************/
@@ -811,77 +771,26 @@ ul.menuitems li a:hover {
 	/* END: Why Donate Container */
 	/*****************************/
 
-	/*************************/
-	/* START: Blog Previews; */
-	/*************************/
-
-			.row .blogbox img{
-				clear:both;
-				margin: 0 10px 10px 10px;
-			}
-
-			.row .blogbox p{
-				display:block;
-				margin-left: 5px;
-				text-align:left;
-				margin-top: -5px;
-				padding-top:5%;
-				width:100%;
-				left:8%;
-				position: relative;
-			}
-
-			.row .blogbox {
-				text-align: center;
-			}
-
-			.blogbox h3{
-				text-align:center;
-				padding-top:4%;
-			}
-
-			.blogrow{
-				background-color: rgb(242,242,245);
-			}
-
-
-	/***********************/
-	/* END: Blog Previews; */
-	/***********************/
 
 /*******************/
 /* END: index.html */
 /*******************/
 
 
-/*********************/
-/* START: ideas.html */
-/*********************/
-
-
-/******************/
-/*END: ideas.html */
-/******************/
-
-
 /********************/
 /* START: ourcause.html */
 /********************/
-
-	#blogpost p{
-		text-align:left;
-	}
 
   .ourcausetxt p{
     margin-left: 25px;
     max-width: 90%;
   }
 
-  #brourcause {
+  .brourcause {
     display: none;
   }
 
-  #calkinsphoto {
+  .calkinsphoto {
     top: -95px;
     left: 235px;
     position: relative;
@@ -894,13 +803,9 @@ ul.menuitems li a:hover {
       margin-left: -30px;
     }
 
-    #calkinsphoto {
+    .calkinsphoto {
       left: 30px;
       width: 450%;
-    }
-
-    #brourcause{
-      display: static;
     }
   }
   @media only screen and (max-width: 640px) {
@@ -909,12 +814,16 @@ ul.menuitems li a:hover {
       max-width: 80%;
     }
 
-    #calkinsphoto{
+    .calkinsphoto{
       width: 70%;
       top: -100px;
       left: 80px;
     }
   }
+
+	.pyb_cmu_p{
+		max-width: 950px;
+	}
 
 /******************/
 /* END: ourcause.html */
@@ -924,53 +833,6 @@ ul.menuitems li a:hover {
 /**************************/
 /* START: leadership.html */
 /**************************/
-
-
-	.leadership_circles{
-		border-radius: 50%;
-		width: 180px;
-		height: 180px;
-		background-color: lightblue;
-		margin:0 auto;
-	}
-
-	#leaderjumbo_wrapper{
-		background-color:black;
-		position:relative;
-		top:3px;
-	}
-
-	#ti_wrapper{
-		background-color:white;
-	}
-	#ti_content{
-		max-width: 950px;
-	}
-
-	.lead_article_wrapper{
-		max-width: 600px;
-		margin: 0 auto;
-	}
-	.lead_article_wrapper article p{
-		text-align: left;
-	}
-
-
-	#pyb_cmu_p{
-		max-width: 950px;
-	}
-
-	.p-image{
-		float:left;
-		margin:30px;
-	}
-
-	@media only screen and (max-width: 800px){
-		.p-image{
-			max-width: 300px;
-
-		}
-	}
 
   .staff_name{
     text-align: center;
@@ -986,39 +848,13 @@ ul.menuitems li a:hover {
   }
 
   .staff_pics{
-    border-radius: 50%;
-    max-width: 150px;
-    max-height: 150px;
-  }
-
-  #staff_blurb{
-    text-align: left;
-    max-width: 420px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
   }
 
   .padding{
-    padding: 4vh 6vw;
-  }
-
-  .max-width-500{
-    max-width: 500px;
-  }
-
-  .flex-row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .center-everything{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self:flex-start;
-    flex-grow: 2;
-    padding: 20px;
-    max-width: 560px;
+    padding: inherit inherit;
   }
 
   .lead_headers{
@@ -1027,8 +863,8 @@ ul.menuitems li a:hover {
   }
 
   .directors{
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-left: inherit;
+    padding-right: inherit;
   }
 
 /************************/

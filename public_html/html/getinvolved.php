@@ -7,7 +7,7 @@
 		<?php include('includes/htmlheader.php'); ?>
 
 
-		<div id="dropdownOverlay">
+		<div class="dropdownOverlay">
 			<div class="thedropdown">
 				<ul class="dropdown" id="myDropdown" >
 
@@ -44,7 +44,7 @@
 			<br>
 		</div>
 
-		<hr>
+		<hr class="hrstyle">
 	</div>
 
 	<div class="row">
@@ -59,7 +59,7 @@
 			
 			<p>We are currently accepting applications for membership and volunteer positions. We accept applicants on a rolling basis.  All membership and volunteer applicants will be contacted after submitting their application.  New applicants will be interviewed before being accepted.</p>
 			<p>Volunteers must be at least 16 years of age upon the time of becoming a member or a volunteer.</p>
-			<p>Questions? Please contact info@packyourback.org or contact us at (989) 975-8969.</p>
+			<p>Questions? Please contact info@packyourback.org or contact us at (877) 932-5277.</p>
 			
 			<br>
 
@@ -71,7 +71,7 @@
 		</div>
 	</div>
 
-	<hr>
+	<hr class="hrstyle">
 
 	<br>
 	<br>
@@ -85,9 +85,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="contact.php">
-					<img id="social_media_icons" src="../assets/social_media/email-icon.png">
+					<img class="social_media_icons" src="../assets/social_media/email-icon.png">
 					<br>
-					<h6 id="social_media_text">Send us an<br>Email</h6>
+					<h6 class="social_media_text">Send us an<br>Email</h6>
 				</a>
 			</div>
 			
@@ -97,9 +97,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://twitter.com/PackYourBack">
-					<img id="social_media_icons" src="../assets/social_media/circle-twitter-128.png">
+					<img class="social_media_icons" src="../assets/social_media/circle-twitter-128.png">
 					<br>
-					<h6 id="social_media_text">Follow us on Twitter</h6>
+					<h6 class="social_media_text">Follow us on Twitter</h6>
 				</a>
 			</div>
 			
@@ -109,9 +109,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://www.facebook.com/PackYourBack">
-					<img id="social_media_icons" src="../assets/social_media/circle-facebook-128.png">
+					<img class="social_media_icons" src="../assets/social_media/circle-facebook-128.png">
 					<br>
-					<h6 id="social_media_text">Like us on Facebook</h6>
+					<h6 class="social_media_text">Like us on Facebook</h6>
 				</a>
 			  </div>
 
@@ -121,9 +121,9 @@
 			<div class="columns small-6 medium-3 large-3">
 				<div class="sm_circles">
 					<a href="https://www.linkedin.com/company/pack-your-back">
-						<img id="social_media_icons" src="../assets/social_media/circle-linkedin-128.png">
+						<img class="social_media_icons" src="../assets/social_media/circle-linkedin-128.png">
 						<br>
-						<h6 id="social_media_text">Follow us on LinkedIn</h6>
+						<h6 class="social_media_text">Follow us on LinkedIn</h6>
 					</a>
 			  	</div>
 
