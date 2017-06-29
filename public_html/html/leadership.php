@@ -111,7 +111,7 @@
 					<h4 style="text-align:center;">Caroline Murray</h4>
 					<h6 style="text-align:center;">Marketing &amp; Public Relations</h6>
 					<br>
-					<p style="max-width:75%; margin:0 auto;">Madison Mariles is currently the Director of Marketing &amp; Public Relations at Pack Your Back. She is a Leader Advancement Scholar at Central Michigan University and is expected to graduate in May 2020. She is pursuing a major in Integrative Public Relations with minors in Marketing and Leadership. Aside from working with Pack Your Back, Madison is also very involved on campus, serving as a deskie for her residence hall and an active member of Program Board and PRSSA.</p>
+					<p style="max-width:75%; margin:0 auto;">Caroline Murray serves as the Director of Marketing and Public Relations. She is currently a student at Central Michigan University studying economics and applied business communications. Outside of Pack Your Back, Caroline is a Resident Assistant, Peer Involvement Advisor, member of the Chippewa Marching Band, and works for the Student Government Association as a senator and chair of the RSO Growth &amp; Development Committee.</p>
 					<br>
 				</div>
 				<div class="columns small-12 medium-3 large-3">
