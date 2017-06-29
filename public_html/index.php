@@ -4,59 +4,89 @@
 </head>
 
 <body class="body">
-		<?php include('html/includes/header.php'); ?>
-
-  	<br>
+	<?php include('html/includes/header.php'); ?>
 	<br>
 	<br>
+	<br>
 
-	<div class="slideshow-container" style="background-color:rgb(242,242,245);">
-	  	<div class="mySlides fade" >
-	  		<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/rte_p1.png" id="jumboimg"/></a>
-	  	</div>
-		<div class="mySlides fade">
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdh6jzy5NdV1VhpOp-151iJmgI6UsDZtayLunLfOlTlUs9-NQ/viewform"><img src="assets/index_pics/cco_p2.png" id="jumboimg"></a>
-		</div>
-		<div class="mySlides fade">
-			<a href="http://packyourback.org/html/leadership.php"><img src="assets/index_pics/ldr_p3.png" id="jumboimg"></a>
-		</div>
-		<div class="mySlideDots" style="position: relative; top: -35px; text-align:center">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
+	<div class="row">
+		<div class="slideshow-container columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 1px solid #000000; margin-top: 2px;">
+			<div class="mySlides fade" >
+				<a href="html/mpe.php"><img src="assets/index_pics/1.png" id="jumboimg"/ width="100%"></a>
+			</div>
+			<div class="mySlides fade">
+				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" id="jumboimg"></a>
+			</div>
+			<div class="mySlides fade">
+				<a href="html/leadership.php"><img src="assets/index_pics/3.png" id="jumboimg"></a>
+			</div>
+			<div class="mySlideDots" style="position: relative; text-align:center">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
 		</div>
 	</div>
 
-	<div class="donaterow row" style="width:95%; max-width: 95%;">
 
+	<div class="row" style="top: 50px; width:100%; border: 3px solid rgb(246, 103, 56);" id="distribution_section">
+	<br>
+		<div class="columns small-12 medium-6 large-4">
+			<div class="columns small-12 medium-12 large-12">
+				<img src="assets/logos/flmcc.png" style="height:240px; position: relative;">
+				<br>
+			</div>
+			
+			<div class="columns small-12 medium-12 large-12">
+				<br>
+				<img src="assets/logos/mpe.png" style="height:240px; position: relative;">
+				<br>
+				<br>
+				<br>
+			</div>
+		</div>
+		<div class="columns small-12 medium-6 large-8" style="margin: 0 auto;">
+			
+			<h1 style="text-align: center;"><b><u>Upcoming School Distributions</u></b></h1>
+			<br>
+			<br>
+			<br>
+			<div class="columns small-12 medium-12 large-12" style="text-align: center;"">
+				<a href="html/distributions.php"><h3 class="distribution_h3">Mott Community College</h3></a>
+			</div>
+			<br>
+
+			<div class="columns small-12 medium-12 large-12" style="text-align: center; top: 170px;">
+				<a href="html/distributions.php"><h3 class="distribution_h3">Detroit Public Library</h3></a>			
+			</div>
+		</div>
+	</div>
+	<div class="row" style="width: 100%; max-width: 100%; border: 3px solid rgb(22,22,148);">
+		<br>
 		<div class="columns small-12 medium-6 large-8" id="why_donate_content">
 		
 			<br>
-			<h1>Why Donate?</h1>
+			<h1 style="text-align: center;">Why Donate?</h1>
 			<br>
 			<br>
-			
-			<p>Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.</p>
+			<div>
+				<p style="margin: 0 auto; max-width: 900px;">Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.</p>
+			</div>
 
 			<br>
 			<br>
-			<p>In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.</p>
+			<p style="margin: 0 auto; max-width: 900px;">In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.</p>
 			<br>
 			<br>
 			
+			<br>
+			<br>
 			<div class="columns small-6" style="text-align:center;">
 				<a href="https://www.classy.org/campaign/Pack-Your-Back/c128367"><button>Donate Now</button></a>
 			</div>
 			<div class="columns small-6" style="text-align:center;">
 				<a href="https://www.classy.org/campaign/Pack-Your-Back/c128367"><button>More Info</button></a>
 			</div>
-
-
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
 
 		</div>
 		
@@ -72,21 +102,27 @@
 				
 				<br>
 				<img src="assets/index_pics/1.jpeg" style="height:240px; position: relative;">
+				<br>
+				<br>
 			</div>
 
 		</div>
 	</div>
-
-
-	<div class="row">
 		
+	<div class="row" class="index-quote-wrapper" style="margin: 0 auto; background-color: rgb(0,0,0); ">
+
 		<br>
+		<div class="index-quote-self" style="text-align:center;">
+			<h4 style="color: rgb(242,242,246); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;" class="index-quote-h4">23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
+		</div>
+		<br>
+
+	</div>
 	
-		<hr>
-	
-		<br>		
+	<div class="story_circle_container row" style="border: 4px solid rgb(44,84,165); text-align: center;">
+		<br>
+		<br>
 		<div class="columns small-12 medium-4 large-4 story_feature">
-	
 			<br>
 			<div class="story_circles">
 				<a href="html/getinvolved.php">
@@ -94,10 +130,9 @@
 				</a>
 			</div>
 			<br>
-			
 			<h2>Our Needs</h2>
 			<p class="story_p">Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
-			
+			<br>
 			<br>
 			<br>
 		</div>
@@ -111,10 +146,9 @@
 				</a>
 			</div>
 			<br>
-			
 			<h2>Our Leaders</h2>
 			<p class="story_p">Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to build a system for helping younger generations receive the education they need.</p>
-			
+			<br>
 			<br>
 			<br>
 		</div>
@@ -126,93 +160,70 @@
 					<img src='assets/story_pics/paints.png'>
 				</a>
 			</div>
-						
 			<br>
 			<h2>Our Story</h2>
 			<p class="story_p">Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.</p>
 			<br>
 			<br>
-
+			<br>
 		</div>
 	</div>
 
-	<div id="index-quote-wrapper">
-		<div class="row" id="index-quote">
-	
-			<br>
-			<br>
-		
-			<div id="index-quote-self">
-				<h4>23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
-			</div>
-			
-			<br>
-			<br>
+	<div class="row" style="border: 4px solid rgb(250,130,30);">
+		<br>
+		<br>
+		<h3 style="text-align: center;">Keep up with Pack Your Back</h3>
+		<br>
+		<br>
 
-		</div>
-	</div>
-
-
-	<br>
-	<br>
-
-	<h3 style="text-align: center;">Keep up with Pack Your Back</h3>
-
-	<br>
-	<br>
-
-	<div class="row">
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="html/contact.php">
-					<img id="social_media_icons" src="assets/social_media/email-icon.png">
+					<img class="social_media_icons" src="assets/social_media/email-icon.png">
 					<br>
-					<h6 id="social_media_text">Send us an<br>Email</h6>
+					<h6 class="social_media_text">Send us an<br>Email</h6>
 				</a>
 			</div>
-			
+			<br>
 			<br>
 		</div>
 
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://twitter.com/PackYourBack">
-					<img id="social_media_icons" src="assets/social_media/circle-twitter-128.png">
+					<img class="social_media_icons" src="assets/social_media/circle-twitter-128.png">
 					<br>
-					<h6 id="social_media_text">Follow us on Twitter</h6>
+					<h6 class="social_media_text">Follow us on Twitter</h6>
 				</a>
 			</div>
-			
+			<br>
 			<br>
 		</div>
 
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://www.facebook.com/PackYourBack">
-					<img id="social_media_icons" src="assets/social_media/circle-facebook-128.png">
+					<img class="social_media_icons" src="assets/social_media/circle-facebook-128.png">
 					<br>
-					<h6 id="social_media_text">Like us on Facebook</h6>
+					<h6 class="social_media_text">Like us on Facebook</h6>
 				</a>
-			  </div>
-
-			  <br>
 			</div>
+			<br>
+			<br>
+		</div>
 
-			<div class="columns small-6 medium-3 large-3">
-				<div class="sm_circles">
-					<a href="https://www.linkedin.com/company/pack-your-back">
-						<img id="social_media_icons" src="assets/social_media/circle-linkedin-128.png">
-						<br>
-						<h6 id="social_media_text">Follow us on LinkedIn</h6>
-					</a>
-			  	</div>
-
-			  	<br>
+		<div class="columns small-6 medium-3 large-3">
+			<div class="sm_circles">
+				<a href="https://www.linkedin.com/company/pack-your-back">
+					<img class="social_media_icons" src="assets/social_media/circle-linkedin-128.png">
+					<br>
+					<h6 class="social_media_text">Follow us on LinkedIn</h6>
+				</a>
 			</div>
+			<br>
+			<br>
+		</div>
 	</div>
-
-	<br>
-
 	<!-- Footer Section -->
 
 	<?php include("html/includes/footer.php") ?>
@@ -268,6 +279,15 @@
 	showSlides();
 
 </script>
+<script type="text/javascript">
+	
+$("#distribution_slide").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".mySlideDots").offset().top},
+        'slow');
+});
 
+
+</script>
 <script src="js/menu.js" ></script>
 <script src="js/social_media_animation.js"></script>
