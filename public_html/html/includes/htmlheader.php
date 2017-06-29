@@ -7,12 +7,13 @@
 					<a href="../index.php"><img class="logo" src="../assets/pyb_row_270x70px.png"></a>
 					<li class="menuitem" onclick="location.href='../index.php';">
 						<a href="../index.php">Home</a></li>
-					<li class="menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>					<li class="menuitem" onclick="location.href='leadership.php';">
+					<li class="menuitem" onclick="location.href='leadership.php';">
 						<a href="leadership.php">Leadership</a></li>
 					<li class="menuitem" onclick="location.href='ourcause.php';">
 						<a href="ourcause.php">Our Cause</a></li>
 					<li class="menuitem" onclick="location.href='getinvolved.php';">
 						<a href="getinvolved.php">Get Involved</a></li>
+					<li class="menuitem"><a href="https://shop.spreadshirt.com/PackYourBack/">Shop</a></li>
 						<li class="menuitem">
 							<button class="donatebuttons" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">FUNDRAISERS</button>
 						</li>
@@ -33,7 +34,7 @@
 					<li class="dropdown_menuitem" onclick="location.href='../index.php';">
 						<a href="../index.php">Home</a>
 					</li>
- 						<li class="dropdown_menuitem" onclick="location.href='../php/blogmodule/index.php';"><a href="../php/blogmodule/index.php">Blog</a></li>					<li class="dropdown_menuitem" onclick="location.href='leadership.php';">
+ 					<li class="dropdown_menuitem" onclick="location.href='leadership.php';">
 						<a href="leadership.php">Leadership</a>
 					</li>
 					<li class="dropdown_menuitem"onclick="location.href='ourcause.php';">
@@ -41,6 +42,9 @@
 					</li>
 					<li class="dropdown_menuitem" onclick="location.href='getinvolved.php';">
 						<a href="getinvolved.php">Get Involved</a>
+					</li>
+					<li class="dropdown_menuitem">
+						<a href="https://shop.spreadshirt.com/PackYourBack/">Shop</a>
 					</li>
 					<li>
 						<button class="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button>

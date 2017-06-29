@@ -297,6 +297,7 @@
 
 		.footer{
 			height: 250px;
+			border: 5px solid rgb(55,55,55);
 		}
 
 		footer {
@@ -707,7 +708,7 @@
 			.slideshow-container {
 				position: relative;
 				margin: 0 auto;
-				width: 100%;
+				width: 105%;
 			}
 
 
@@ -738,7 +739,9 @@
 			}
 
 			.mySlides{
-				width: 100%;
+				position: relative;
+				right: 14px;
+				width: 101.5%;
 			}
 	/*****************/
 	/* END: Carousel */
@@ -771,6 +774,10 @@
 	/* END: Why Donate Container */
 	/*****************************/
 
+
+	.distribution_h3:hover {
+		color: rgb(200,200,200);
+	}
 
 /*******************/
 /* END: index.html */
@@ -850,7 +857,8 @@
   .staff_pics{
     height: 150px;
     width: 150px;
-    border-radius: 15%;
+    border-radius: 20%;
+    border: 2px solid #000000;
   }
 
   .padding{
