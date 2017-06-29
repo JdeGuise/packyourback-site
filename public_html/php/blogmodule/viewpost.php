@@ -35,7 +35,7 @@ if($row['postID'] == ''){
       <div class="columns small-12">
 
         <ul class="topnav" id="myTopNav">
-          <a href="../../index.php"><img id="logo" src="../../assets/pyb_row_270x70px.png"></a>
+          <a href="../../index.php"><img class="logo" src="../../assets/pyb_row_270x70px.png"></a>
           <li class="menuitem" onclick="location.href='../../index.php';">
             <a href="../../index.php">Home</a></li>
           <li class="menuitem" onclick="location.href='index.php';"><a href="index.php">Blog</a></li>

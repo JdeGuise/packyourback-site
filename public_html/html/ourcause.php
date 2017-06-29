@@ -14,7 +14,7 @@
 		<img src="../assets/project_Flint.jpeg" id="jumboimg">
 	</div>
 
-	<div class="row" id="pyb_cmu_p">
+	<div class="row" class="pyb_cmu_p">
 		<br>
 		<br>
 		<div class="columns small-12 medium-12 large-12">
@@ -58,7 +58,7 @@
 			<br class="brourcause">
 			<br class="brourcause">
 			<br class="brourcause">
-			<img src="../assets/ourcause/calkins.jpg" id="calkinsphoto"/>
+			<img src="../assets/ourcause/calkins.jpg" class="calkinsphoto"/>
 		</div>
 
 	</div>

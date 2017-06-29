@@ -7,7 +7,7 @@
 		<?php include('includes/htmlheader.php'); ?>
 
 
-		<div id="dropdownOverlay">
+		<div class="dropdownOverlay">
 			<div class="thedropdown">
 				<ul class="dropdown" id="myDropdown" >
 
@@ -85,9 +85,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="contact.php">
-					<img id="social_media_icons" src="../assets/social_media/email-icon.png">
+					<img class="social_media_icons" src="../assets/social_media/email-icon.png">
 					<br>
-					<h6 id="social_media_text">Send us an<br>Email</h6>
+					<h6 class="social_media_text">Send us an<br>Email</h6>
 				</a>
 			</div>
 			
@@ -97,9 +97,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://twitter.com/PackYourBack">
-					<img id="social_media_icons" src="../assets/social_media/circle-twitter-128.png">
+					<img class="social_media_icons" src="../assets/social_media/circle-twitter-128.png">
 					<br>
-					<h6 id="social_media_text">Follow us on Twitter</h6>
+					<h6 class="social_media_text">Follow us on Twitter</h6>
 				</a>
 			</div>
 			
@@ -109,9 +109,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://www.facebook.com/PackYourBack">
-					<img id="social_media_icons" src="../assets/social_media/circle-facebook-128.png">
+					<img class="social_media_icons" src="../assets/social_media/circle-facebook-128.png">
 					<br>
-					<h6 id="social_media_text">Like us on Facebook</h6>
+					<h6 class="social_media_text">Like us on Facebook</h6>
 				</a>
 			  </div>
 
@@ -121,9 +121,9 @@
 			<div class="columns small-6 medium-3 large-3">
 				<div class="sm_circles">
 					<a href="https://www.linkedin.com/company/pack-your-back">
-						<img id="social_media_icons" src="../assets/social_media/circle-linkedin-128.png">
+						<img class="social_media_icons" src="../assets/social_media/circle-linkedin-128.png">
 						<br>
-						<h6 id="social_media_text">Follow us on LinkedIn</h6>
+						<h6 class="social_media_text">Follow us on LinkedIn</h6>
 					</a>
 			  	</div>
 

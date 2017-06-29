@@ -12,10 +12,10 @@
 	<div class="row">
 		<div class="slideshow-container columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 5px solid #000000; margin-top: 2px;">
 			<div class="mySlides fade" >
-				<a href="https://packyourback.regfox.com/jogyourdog"><img src="assets/index_pics/1.png" id="jumboimg"/></a>
+				<a href="#"><img src="assets/index_pics/1.png" id="jumboimg"/></a>
 			</div>
 			<div class="mySlides fade">
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdh6jzy5NdV1VhpOp-151iJmgI6UsDZtayLunLfOlTlUs9-NQ/viewform"><img src="assets/index_pics/2.png" id="jumboimg"></a>
+				<a href="#"><img src="assets/index_pics/2.png" id="jumboimg"></a>
 			</div>
 			<div class="mySlides fade">
 				<a href="http://packyourback.org/html/leadership.php"><img src="assets/index_pics/3.png" id="jumboimg"></a>
@@ -81,11 +81,11 @@
 	</div>
 		
 	<br>
-	<div class="row" id="index-quote-wrapper" style="border: 5px solid rgb(242,242,255); margin: 0 auto; background-color: rgb(0,0,0); ">
+	<div class="row" class="index-quote-wrapper" style="border: 5px solid rgb(242,242,255); margin: 0 auto; background-color: rgb(0,0,0); ">
 
 		<br>
-		<div id="index-quote-self" style="text-align:center;">
-			<h4 style="color: rgb(242,242,246); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;">23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
+		<div class="index-quote-self" style="text-align:center;">
+			<h4 style="color: rgb(242,242,246); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;" class="index-quote-h4">23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
 		</div>
 		<br>
 
@@ -149,9 +149,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="html/contact.php">
-					<img id="social_media_icons" src="assets/social_media/email-icon.png">
+					<img class="social_media_icons" src="assets/social_media/email-icon.png">
 					<br>
-					<h6 id="social_media_text">Send us an<br>Email</h6>
+					<h6 class="social_media_text">Send us an<br>Email</h6>
 				</a>
 			</div>
 			<br>
@@ -161,9 +161,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://twitter.com/PackYourBack">
-					<img id="social_media_icons" src="assets/social_media/circle-twitter-128.png">
+					<img class="social_media_icons" src="assets/social_media/circle-twitter-128.png">
 					<br>
-					<h6 id="social_media_text">Follow us on Twitter</h6>
+					<h6 class="social_media_text">Follow us on Twitter</h6>
 				</a>
 			</div>
 			<br>
@@ -173,9 +173,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://www.facebook.com/PackYourBack">
-					<img id="social_media_icons" src="assets/social_media/circle-facebook-128.png">
+					<img class="social_media_icons" src="assets/social_media/circle-facebook-128.png">
 					<br>
-					<h6 id="social_media_text">Like us on Facebook</h6>
+					<h6 class="social_media_text">Like us on Facebook</h6>
 				</a>
 			</div>
 			<br>
@@ -185,9 +185,9 @@
 		<div class="columns small-6 medium-3 large-3">
 			<div class="sm_circles">
 				<a href="https://www.linkedin.com/company/pack-your-back">
-					<img id="social_media_icons" src="assets/social_media/circle-linkedin-128.png">
+					<img class="social_media_icons" src="assets/social_media/circle-linkedin-128.png">
 					<br>
-					<h6 id="social_media_text">Follow us on LinkedIn</h6>
+					<h6 class="social_media_text">Follow us on LinkedIn</h6>
 				</a>
 			</div>
 			<br>

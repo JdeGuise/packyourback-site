@@ -46,10 +46,11 @@
 
 	<footer class="footer">
 
-		<div class="row">
-			<div class="columns small-7 medium-7 large-7 footer_top">			
+			<div class="columns small-12 medium-6 large-6 footer_top">
+
 				<div class="row el3">
-					<div class="columns large-7 medium-12 el1">
+
+					<div class="columns small-12 medium-12 large-7 el1">
 
 						<br>
 						<h4>Join Our Newsletter</h4>
@@ -64,8 +65,7 @@
 						<hr class="lines_shift">
 					</div>
 					
-					<div class="columns large-5 medium-12 footer_soc_media el2">
-						<div class="floatright">
+					<div class="columns small-12 medium-12 large-5 footer_soc_media el2">
 
 							<br>
 							<h4>Find Us Elsewhere</h4>
@@ -81,13 +81,14 @@
 								<img src="assets/social_media/email_white.png">
 							</a>
 				
-						</div>
 					</div>
 				</div>
 
 				<hr id="undertoprow">
-					<div class="row ">
-						<div class="columns large-7 medium-12 el4">
+
+			<div class="row">
+						<div class="columns small-7 medium-7 large-7 el4">
+
 							<div class="sitelinks">
 
 								<a href="#" id="tos_btn">Terms of Service</a> <b>|</b>
@@ -96,10 +97,6 @@
 									<a href="index.php">Site Map</a> <b>|</b>
 									<a href="https://www.classy.org/campaign/pack-your-back/c114131/">Donate</a>
 
-							</div>
-
-
-
 							<!-- Can we refactor this down to load the message, whether TOS or privacy policy?-->
 							<div id="tos_modal" class="modal">
 								<div class="tos_modal_content">
@@ -107,51 +104,56 @@
 									<p><?php include('html/tos.html'); ?></p>
 								</div>
 							</div>
+
 							<div id="pp_modal" class="modal">
 								<div class="privacy_modal_content">
 									<span class="pp_close">&times;</span>
 									<p><?php include('html/pp.html'); ?></p>
 								</div>
 							</div>
+							</div>
+
 
 						</div>
 						<!-- <div style="display: none"></div> -->
 						<div class="columns medium-12 lines_shift">
 							<hr class="lines_shift el4">
 						</div>
-						<div class="columns large-5 medium-12">
-							<div class="floatright">
-								<h2> ©2017 Pack Your Back </h2>
-							</div>
-						</div>
-					</div>
-					<hr class="hrstyle">
-					<div class="row">
-						<div class="contactinfo">
-							<h2>Pack Your Back <b>|</b> (877) 932-5277 <b>|</b> Bad Axe, Michigan</h2>
-							<br>
-							<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g">Member Login</a>
-						</div>
-					</div>
-				</div>
-				<div class="columns small-5 medium-5 large-5 sidebar" style="text-align: center;">
-					<br>
-					<img id="footer_pyb" src="assets/pyb_row_270x70px.png">
-					<br>
 
-					<p style="color: black"><b>2017/2018 Organizational Sponsors:</b></p>
-					      <div class="row footer_sponsor" style="text-align:center;" >
-						      <div class="columns small-4 medium-4 large-4" id="sponsora">
-							      <a href="http://www.cmufa.com/"><img src="assets/logos/cmufa_logo.png"/></a>
-						      </div>
-						      <div class="columns small-4 medium-4 large-4" id="sponsorb">
-						      		<a href="https://www.concentra.com"><img src="assets/logos/concentra.png"></a>
-						      </div>
-						      <div class="columns small-4 medium-4 large-4" id="sponsorc">
-						      		<a href="http://www.brightsidedental.com"><img src="assets/logos/brightsidedental.png"></a>
-						      </div>
-					      </div>
+						<div class="columns small-5 medium-5 large-5">
+
+								<h2> ©2017 Pack Your Back </h2>
+						</div>
 				</div>
+
+				<hr class="hrstyle">
+
+				<div class="contactinfo row">
+						<h2>Pack Your Back <b>|</b> (877) 932-5277 <b>|</b> Bad Axe, Michigan</h2>
+						<br>
+						<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g" style="left: 15px; position:relative;">Member Login</a>
+				</div>
+			</div>
+			<div class="columns small-12 medium-4 large-4" style="text-align: center;">
+					
+				<br>
+
+				<div class="footer_sponsor sidebar" style="text-align:center; border: 5px solid black;" >
+
+					<p style="color: black; top:20px; position:relative; text-align:center;">Our sincerest thanks to our 2017/2018 organizational sponsors.</p>
+
+					<img src="assets/logos/concentra.png">
+					<br>
+					<img src="assets/logos/cmufa_logo.png">
+					<br>
+					<br>
+					<img src="assets/logos/brightsidedental.png" style="width: 75%;">
+					<br>
+					<br>
+					<img src="assets/logos/mottcc.png">
+
+				</div>
+
 			</div>
 	</footer> <!-- close footer content -->
 	<script src="js/modal_ctrl.js"></script>

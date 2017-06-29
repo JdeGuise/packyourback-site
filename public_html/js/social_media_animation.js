@@ -23,10 +23,10 @@ $(".sm_circles").hover(
   }, function(){
     // $(this).css("opacity", "1");
 
-    jQuery(this).find("#social_media_text").css({"font-size": "16px",
+    jQuery(this).find(".social_media_text").css({"font-size": "16px",
                                                  "font-weight": "normal"});
 
-    jQuery(this).find("#social_media_icons").css({"height": "40%", 
+    jQuery(this).find(".social_media_icons").css({"height": "40%", 
                                                   "width": "40%", 
                                                   "margin-left" :"42px",
                                                   "margin-top": "16px",
