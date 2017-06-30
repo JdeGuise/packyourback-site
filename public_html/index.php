@@ -75,7 +75,7 @@
 				<br>
 				<br>
 
-				<a href="https://www.eventbrite.com/e/flint-school-supply-distribution-registration-32788153249"><button style="bottom: 60px;">Register Now</button></a>
+				<a href="https://www.eventbrite.com/e/detroit-school-supply-distribution-registration-35747758508"><button style="bottom: 60px;">Register Now</button></a>
 			</div>
 		</div>
 		<div class="columns small-12 medium-12 large-6" style="text-align: center;">
