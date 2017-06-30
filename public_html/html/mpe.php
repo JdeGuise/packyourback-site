@@ -23,7 +23,7 @@
 	<div class="row">
 		<div class="columns small-12 medium-12 large-12">
 
-			<div class="columns small-12 medium-8 large-8">
+			<div class="columns small-12 medium-12 large-8">
 				<h4 style="text-align: center;">Pack Your Back Announces Partnership with the March for Public Education – Detroit</h4>
 
 				<br>
@@ -40,16 +40,16 @@
 				</div>
 	
 			</div>
-			<div class="columns small-12 medium-4 large-4" style="text-align: left;">
+			<div class="columns small-12 medium-12 large-4" style="text-align: left;">
 				<br>
 				<br>
-				<img src="../assets/index_pics/1.png" style="text-align: left;">
+				<img src="../assets/index_pics/1.png" style="text-align: left; border: 1px solid rgb(55,55,55);">
 				<br>
 				<br>
 				<br>
 				<br>
 				<br>
-				<img src="../assets/logos/mpe.png" style="text-align: left;">
+				<img src="../assets/logos/mpe.png" style="text-align: left; border: 1px solid rgb(55,55,55);">
 			</div>
 
 		</div>
