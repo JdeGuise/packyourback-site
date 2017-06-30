@@ -9,25 +9,21 @@
 	<br>
 	<br>
 	<br>
-
-	<div class="container">
-		<img src="../assets/project_Flint.jpeg" id="jumboimg">
-	</div>
-
-	<div class="row" class="pyb_cmu_p">
-		<br>
-		<br>
-		<div class="columns small-12 medium-12 large-12">
-			<a href="https://www.cmich.edu/stamp/Pages/pack-your-back.aspx"><h1>Pack Your Back at CMU</h1></a>
+	<div class="row" style="width: 100%;">
+		<div class="columns small-12 medium-12 large-12" style="margin: 0 auto; text-align: center; border: 2px solid #000000; background-color: rgb(242,242,242);">
+			<img src="../assets/project_Flint.jpeg" id="jumboimg" width="100%">
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" class="pyb_cmu_p" style="border: 2px solid rgb(69,110,184);">
+		<br>
+		<br>
+		<div class="columns small-12 medium-12 large-12">
+			<a href="https://www.cmich.edu/stamp/Pages/pack-your-back.aspx"><h1 style="text-align:center;">Pack Your Back at CMU</h1></a>
+		</div>
 
-		<div class="columns small-12 medium-8 large-5" style="left:80px; top:65px;" >
-			<br>
-			<br>
-			<h4 style="margin-left:25px;">How did Pack Your Back start?</h4>
+		<div class="columns small-12 medium-8 large-5" style="left:80px; top:65px;">
+			<h4>How did Pack Your Back start?</h4>
 			<br>
 			<br>
 		
@@ -47,25 +43,10 @@
 		</div>
 
 		<div class="columns small-12 medium-4 large-7">
-		
-			<br>
-			<br>
-		
-			<br class="brourcause">
-			<br class="brourcause">
-			<br class="brourcause">
-			<br class="brourcause">
-			<br class="brourcause">
-			<br class="brourcause">
-			<br class="brourcause">
-			<img src="../assets/ourcause/calkins.jpg" class="calkinsphoto"/>
+			<img src="../assets/ourcause/calkins.jpg" class="calkinsphoto" style="top: 50px; margin-bottom: 100px; border: 2px solid rgb(100,100,100);" />
 		</div>
 
 	</div>
-	
-
-	<br>
-	<br>
 
 	<?php include("includes/htmlfooter.php");?>
 
