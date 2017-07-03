@@ -39,6 +39,7 @@
 		<br>
 		<br>
 		<div class="columns small-12 medium-12 large-7" style="text-align: center;">
+
 			<br>
 			<br>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0214024582697!2d-83.67468904849547!3d43.01993667904583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8823818c8849e1e9%3A0xcfc2b7565e13459a!2sMott+Community+College!5e0!3m2!1sen!2sus!4v1498780899121" width="600" height="450" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px;position: relative;" allowfullscreen></iframe>
@@ -82,7 +83,7 @@
 
 			<br>
 			<br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" width="600" height="450" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px; position: relative;text-align: center;" allowfullscreen></iframe>			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" width="600" height="450" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px; position: relative;text-align: center;" allowfullscreen></iframe>
 		</div>
 	</div>
 
@@ -90,7 +91,7 @@
 	<div class="row" style="width: 100%; max-width: 100%; border: 3px solid rgb(22,22,148);">
 		<br>
 		<div class="columns small-12 medium-6 large-8" id="why_donate_content">
-		
+
 			<br>
 			<h1 style="text-align: center;">Why Donate?</h1>
 			<br>
@@ -104,7 +105,7 @@
 			<p style="margin: 0 auto; max-width: 900px;">In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.</p>
 			<br>
 			<br>
-			
+
 			<br>
 			<br>
 			<div class="columns small-6" style="text-align:center;">
@@ -115,7 +116,7 @@
 			</div>
 
 		</div>
-		
+
 		<div class="columns small-12 medium-6 large-4">
 
 			<div class="columns small-12">
@@ -123,9 +124,9 @@
 				<img src="assets/index_pics/kids.png" style="width:494px; height:240px; position:relative; border: 1px solid rgb(55,55,55);">
 				<br>
 			</div>
-			
+
 			<div class="columns small-12">
-				
+
 				<br>
 				<img src="assets/index_pics/1.jpeg" style="height:240px; position: relative; border: 1px solid rgb(55,55,55);">
 				<br>
@@ -134,7 +135,7 @@
 
 		</div>
 	</div>
-		
+
 	<div class="row" class="index-quote-wrapper" style="margin: 0 auto; background-color: rgb(0,0,0); ">
 
 		<br>
@@ -144,7 +145,7 @@
 		<br>
 
 	</div>
-	
+
 	<div class="story_circle_container row" style="border: 4px solid rgb(44,84,165); text-align: center;">
 		<br>
 		<br>
@@ -253,7 +254,7 @@
 	<!-- Footer Section -->
 
 	<?php include("html/includes/footer.php") ?>
-
+	<script type="text/javascript" src="js/menu.js"></script>
 </body>
 
 <script>
@@ -263,10 +264,10 @@
 
 	function showSlides() {
 		var i;
-		
+
 		//divs that hold each mySlide class
 		var slides = document.getElementsByClassName("mySlides");
-		
+
 		//spans that hold each dot class
 		var dots = document.getElementsByClassName("dot");
 
@@ -287,13 +288,13 @@
 		for (i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(" active", "");
 		}
-		
+
 		// correspond display:block to the right slide
 		slides[slideIndex-1].style.display = "block";
 
 		// corresponsed the active dot to the active slide
 		dots[slideIndex-1].className += " active";
-		
+
 		// change image every 10 seconds
 		setTimeout(showSlides, 5000);
 	}
@@ -306,7 +307,7 @@
 
 </script>
 <script type="text/javascript">
-	
+
 $("#distribution_slide").click(function() {
     $('html,body').animate({
         scrollTop: $(".mySlideDots").offset().top},
@@ -315,5 +316,4 @@ $("#distribution_slide").click(function() {
 
 
 </script>
-<script src="js/menu.js" ></script>
 <script src="js/social_media_animation.js"></script>

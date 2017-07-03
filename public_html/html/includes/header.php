@@ -20,15 +20,15 @@
 		            <li class="menuitem">
 		            <button class="donatebuttons" onclick="location.href='https://www.paypal.me/PackYourBack'" style="background-color:crimson;">DONATE</button></li>
 					<ul>
-						<img class="hamburger" src="assets/hamburgermenu-blue.png">
+						<img class="hamburger" id="hamburger" src="assets/hamburgermenu-blue.png">
 					</ul>
 				</ul>
 			</div>
 		</header>
 
-		<div class="dropdownOverlay">
-			<div class="thedropdown">
-				<ul class="dropdown" class="myDropdown" >
+		<div class="dropdownOverlay" id="dropdownOverlay">
+			<div class="thedropdown" id="thedropdown">
+				<ul class="dropdown myDropdown" id="myDropdown" >
 
 				<br>
 					<li class="dropdown_menuitem" onclick="location.href='index.php';">
@@ -45,7 +45,10 @@
 					</li>
 					<li class="dropdown_menuitem"><a href="https://shop.spreadshirt.com/PackYourBack/">Shop</a></li>
 					<li>
-						<button class="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button>
+						<button class="dropdown_donatebutton" onclick="location.href='https://www.paypal.me/PackYourBack'" style="background-color:crimson; left: 12px;">DONATE</button>
+					</li>
+					<li><button class="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color: crimson; right: 12px;">FUNDRAISERS</button>
+
 					</li>
 				</ul>
 			</div>

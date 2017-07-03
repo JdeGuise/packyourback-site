@@ -7,4 +7,3 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
 
 	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
