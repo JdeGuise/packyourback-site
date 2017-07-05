@@ -639,7 +639,7 @@
 			margin: 0 auto;
 		}
 		.story_p{
-		  	max-width: 500px;
+			max-width: 650px;
 		  	margin: 0 auto;
 		}
 
@@ -681,52 +681,6 @@
 	/* START: Carousel */
 	/*******************/
 
-			/* Carousel media queries */
-
-			/* large, certain height */
-			@media screen and (max-width: 100%) and (min-width: 66%) {
-				.jumboimg {
-					height: 100%;
-				}
-			}
-
-			/* medium, certain height */
-			@media screen and (max-width: 66%) and (min-width: 33%) {
-				.jumboimg {
-					height: 66%;
-				}
-			}
-
-			/* small, certain height */
-			@media screen and (max-width: 33%) {
-				.jumboimg {
-					height: 33%;
-				}
-			}
-
-			/* Slideshow container */
-			.slideshow-container {
-				position: relative;
-				margin: 0 auto;
-				width: 105%;
-			}
-
-
-			/* The dots/bullets/indicators */
-			.dot {
-				height: 13px;
-				width: 13px;
-				margin: 0 2px;
-				background-color: #bbb;
-				border-radius: 50%;
-				display: inline-block;
-				transition: background-color 0.6s ease;
-			}
-
-			/* active dot color */
-			.active {
-				background-color: #717171;
-			}
 
 			/* Fading animation */
 			.fade {
@@ -739,13 +693,46 @@
 			}
 
 			.mySlides{
-				position: relative;
-				right: 14px;
-				width: 101.5%;
+				margin: 10px 0px;
+				border: 1px solid #000000;
 			}
+
 	/*****************/
 	/* END: Carousel */
 	/*****************/
+
+
+
+	/******************************/
+	/* START: Sponsorship Section */
+	/******************************/
+
+		.sponsorship_container{
+			background-color: rgb(228,228,232);
+			border: 1px solid #000000;
+			margin-top: 40px;
+			height: 150px;
+		}
+
+		.sponsorship_container img{
+			position: relative;
+			vertical-align: middle;
+			max-height: 400px;
+			margin: 0 auto;
+			height: 100%;
+		}
+
+		.sponsorship_container div{
+			display: inline-block;
+			width: 100%;
+		}
+		.sponsorship_container div img:hover {
+			opacity: .25;
+		}
+
+	/****************************/
+	/* END: Sponsorship Section */
+	/****************************/
 
 	/*************************/
 	/* START: Featured Quote */
