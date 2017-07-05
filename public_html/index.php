@@ -11,20 +11,13 @@
 
 	<div class="row">
 		<div class="slideshow-container columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 1px solid #000000; margin-top: 2px;">
-			<div class="mySlides fade" >
-				<a href="html/mpe.php"><img src="assets/index_pics/1.png" id="jumboimg"/ width="100%"></a>
-			</div>
-			<div class="mySlides fade">
-				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" id="jumboimg"></a>
-			</div>
-			<div class="mySlides fade">
-				<a href="html/leadership.php"><img src="assets/index_pics/3.png" id="jumboimg"></a>
-			</div>
-			<div class="mySlideDots" style="position: relative; text-align:center">
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
-			</div>
+				<a href="html/mpe.php"><img src="assets/index_pics/1.png" class="mySlides fade" id="jumboimg"/ style="width: 100%;"></a>
+				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" class="mySlides fade" id="jumboimg"></a>
+				<a href="html/leadership.php"><img src="assets/index_pics/3.png" class="mySlides fade" id="jumboimg"></a>
+
+				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
 		</div>
 	</div>
 
@@ -258,53 +251,35 @@
 
 <script>
 
-	// This function controls the paneling and transition of our slide show.
-	//	Without it, the pictures will all display in a column and the transition will break
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
-	function showSlides() {
-		var i;
-		
-		//divs that hold each mySlide class
-		var slides = document.getElementsByClassName("mySlides");
-		
-		//spans that hold each dot class
-		var dots = document.getElementsByClassName("dot");
+function showDivs(sIndex) {
+	var i;
+	var mySlides = document.getElementsByClassName("mySlides");
 
-		//set none of them to display, so that we can unhide them in the proper time
-		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-		}
+	for (i = 0; i < mySlides.length; i++) {
+		mySlides[i].style.display = "none";
+	}
+	slideIndex++;
 
-		// ++, aka result = result + 1
-		slideIndex++;
-
-		//if we go too far, transition back to our first slide
-		if (slideIndex > slides.length) {
-			slideIndex = 1;
-		}
-
-		//control the highlighting of the dots below the carousel
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
-		}
-		
-		// correspond display:block to the right slide
-		slides[slideIndex-1].style.display = "block";
-
-		// corresponsed the active dot to the active slide
-		dots[slideIndex-1].className += " active";
-		
-		// change image every 10 seconds
-		setTimeout(showSlides, 5000);
+	if (slideIndex > mySlides.length) {
+		slideIndex = 1;
 	}
 
-	//start the slide index at 0
-	var slideIndex = 0;
+	mySlides[slideIndex-1].style.display = "block";
 
-	//run our function
-	showSlides();
+	setTimeout(showDivs, 5000);
+}
+
+var slideIndex = 0;
+
+showDivs(slideIndex);
 
 </script>
+
+
 <script type="text/javascript">
 	
 $("#distribution_slide").click(function() {
