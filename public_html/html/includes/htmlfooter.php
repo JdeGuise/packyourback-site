@@ -126,27 +126,6 @@
 						<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g" style="left: 15px; position:relative;">Member Login</a>
 				</div>
 			</div>
-			<div class="columns small-12 medium-4 large-4" style="text-align: center;">
-					
-				<br>
-
-				<div class="footer_sponsor sidebar" style="text-align:center; border: 5px solid black;" >
-
-					<p style="color: black; top:20px; position:relative; text-align:center;">Our sincerest thanks to our 2017/2018 organizational sponsors.</p>
-
-					<img src="../assets/logos/concentra.png">
-					<br>
-					<img src="../assets/logos/cmufa_logo.png">
-					<br>
-					<br>
-					<img src="../assets/logos/brightsidedental.png" style="width: 75%;">
-					<br>
-					<br>
-					<img src="../assets/logos/mottcc.png">
-
-				</div>
-
-			</div>
 	</footer> <!-- close footer content -->
 </body>
 <script src="../js/modal_ctrl.js"></script>

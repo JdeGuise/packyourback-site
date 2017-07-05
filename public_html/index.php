@@ -1,6 +1,8 @@
 <head>
 	<title>Pack Your Back - Supplying Success</title>
 	<?php include('html/includes/head.php'); ?>
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css">
 </head>
 
 <body class="body">
@@ -10,26 +12,17 @@
 	<br>
 
 	<div class="row">
-		<div class="slideshow-container columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 1px solid #000000; margin-top: 2px;">
-			<div class="mySlides fade" >
-				<a href="html/mpe.php"><img src="assets/index_pics/1.png" id="jumboimg"/ width="100%"></a>
-			</div>
-			<div class="mySlides fade">
-				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" id="jumboimg"></a>
-			</div>
-			<div class="mySlides fade">
-				<a href="html/leadership.php"><img src="assets/index_pics/3.png" id="jumboimg"></a>
-			</div>
-			<div class="mySlideDots" style="position: relative; text-align:center">
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
-			</div>
+		<div class="columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 3px solid rgb(248,152,72); margin-top: 3px;">
+				<a href="html/mpe.php"><img src="assets/index_pics/1.png" class="mySlides fade jumboimg" style="width: 100%;"></a>
+				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" class="mySlides fade jumboimg"></a>
+				<a href="html/leadership.php"><img src="assets/index_pics/3.png" class="mySlides fade jumboimg"></a>
+
+				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 		</div>
 	</div>
 
-
-	<div class="row" style="top: 50px; width:100%; border: 3px solid rgb(246, 103, 56);" id="distribution_section">
+	<div class="row" style="top: 50px; width:100%; border: 3px solid rgb(22,22,148);" id="distribution_section">
 		<br>
 		<br>
 		<br>
@@ -60,7 +53,7 @@
 			</div>
 		</div>
 
-		<hr>
+		<hr class="hrstyle">
 		<br>
 		<br>
 		<div class="columns small-12 medium-12 large-6" style="text-align: center;left: 40px;">
@@ -87,8 +80,38 @@
 		</div>
 	</div>
 
+	<div class="row" style="border: 3px solid rgb(111,111,111);">
+		<div class="columns small-12 medium-12 large-12" style="margin-bottom: 15px; width: 100%;">
+			<br>
+			<br>
+			<h4 style="text-align: center;"><b>Our sincerest thanks to our 2017/2018 organizational sponsors.</h4>
 
-	<div class="row" style="width: 100%; max-width: 100%; border: 3px solid rgb(22,22,148);">
+			<section class="sponsorship_container center slider">
+				<a href="https://www.concentra.com/"><div class="small-12">
+					<img src="assets/logos/concentra.png" style="left: 30px; width: 90%;">
+				</div></a>
+				<a href="http://www.cmufa.com/"><div class="small-12">
+					<img src="assets/logos/cmufa_logo.png" style="width: 50%;">
+				</div></a>
+				<a href="http://www.brightsidedental.com/"><div class="small-12">
+					<img src="assets/logos/brightsidedental.png" style="position: relative;">
+				</div></a>
+				<a href="http://www.detroitpubliclibrary.org/"><div class="small-12">
+				    <img src="assets/logos/dpl.png" style="width: 65%; left: 10px;">
+				</div></a>
+				<a href="https://www.facebook.com/groups/1101122606660880/"><div class="small-12">
+					<img src="assets/logos/mpe.png" style="right: 20px;">
+				</div></a>
+				<a href="http://www.mcc.edu/"><div class="small-12">
+					<img src="assets/logos/mottcc.png" style="height: 100%; width: 100%;">					
+				</div></a>
+			</section>
+			<br>
+		</div>
+	</div>
+
+	<div class="row" style="width: 100%; max-width: 100%; border: 3px solid rgb(248, 112, 69); ">
+		<br>
 		<br>
 		<div class="columns small-12 medium-6 large-8" id="why_donate_content">
 
@@ -97,12 +120,12 @@
 			<br>
 			<br>
 			<div>
-				<p style="margin: 0 auto; max-width: 900px;">Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.</p>
+				<p style="margin: 0 auto; max-width: 900px; text-align: left;">Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.</p>
 			</div>
 
 			<br>
 			<br>
-			<p style="margin: 0 auto; max-width: 900px;">In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.</p>
+			<p style="margin: 0 auto; max-width: 900px; text-align: left;">In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.</p>
 			<br>
 			<br>
 
@@ -131,41 +154,42 @@
 				<img src="assets/index_pics/1.jpeg" style="height:240px; position: relative; border: 1px solid rgb(55,55,55);">
 				<br>
 				<br>
+				<br>
 			</div>
-
 		</div>
 	</div>
 
 	<div class="row" class="index-quote-wrapper" style="margin: 0 auto; background-color: rgb(0,0,0); ">
 
 		<br>
-		<div class="index-quote-self" style="text-align:center;">
+		<div class="index-quote-self" style="text-align:left; margin: 0 auto;">
 			<h4 style="color: rgb(242,242,246); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;" class="index-quote-h4">23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.</h4>
 		</div>
 		<br>
 
 	</div>
+	
+	<div class="story_circle_container row" style="border: 4px solid rgb(44,84,165); text-align: center; height: auto;">
 
-	<div class="story_circle_container row" style="border: 4px solid rgb(44,84,165); text-align: center;">
-		<br>
-		<br>
-		<div class="columns small-12 medium-4 large-4 story_feature">
+		<div class="columns small-12 medium-12 large-4 story_feature" style="border: 2px solid rgb(44,84,165); margin-left: ">
+			<br>
 			<br>
 			<div class="story_circles">
 				<a href="html/getinvolved.php">
 					<img src='assets/story_pics/supplies.png'>
 				</a>
 			</div>
-			<br>
+			<br style="margin-top: 1px;">
 			<h2>Our Needs</h2>
-			<p class="story_p">Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
+			<p class="story_p" style="text-align: left; margin: 0 auto;">Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.</p>
+			<br>
 			<br>
 			<br>
 			<br>
 		</div>
 
-		<div class="columns small-12 medium-4 large-4 story_feature">
-
+		<div class="columns small-12 medium-12 large-4 story_feature" style="border: 2px solid rgb(44,84,165);">
+			<br>
 			<br>
 			<div class="story_circles">
 				<a href="html/leadership.php">
@@ -174,13 +198,13 @@
 			</div>
 			<br>
 			<h2>Our Leaders</h2>
-			<p class="story_p">Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to build a system for helping younger generations receive the education they need.</p>
+			<p class="story_p" style="text-align: left; margin: 0 auto;">Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to build a system for helping younger generations receive the education they need.</p>
 			<br>
 			<br>
 			<br>
 		</div>
-		<div class="columns small-12 medium-4 large-4 story_feature">
-
+		<div class="columns small-12 medium-12 large-4 story_feature" style="border: 2px solid rgb(44,84,165);">
+			<br>
 			<br>
 			<div class="story_circles">
 				<a href="https://www.cmich.edu/stamp/Pages/pack-your-back.aspx">
@@ -189,7 +213,7 @@
 			</div>
 			<br>
 			<h2>Our Story</h2>
-			<p class="story_p">Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.</p>
+			<p class="story_p" style="text-align: left; margin: 0 auto;">Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.</p>
 			<br>
 			<br>
 			<br>
@@ -213,6 +237,7 @@
 			</div>
 			<br>
 			<br>
+			<br>
 		</div>
 
 		<div class="columns small-6 medium-3 large-3">
@@ -223,6 +248,7 @@
 					<h6 class="social_media_text">Follow us on Twitter</h6>
 				</a>
 			</div>
+			<br>
 			<br>
 			<br>
 		</div>
@@ -237,6 +263,7 @@
 			</div>
 			<br>
 			<br>
+			<br>
 		</div>
 
 		<div class="columns small-6 medium-3 large-3">
@@ -249,71 +276,71 @@
 			</div>
 			<br>
 			<br>
+			<br>
 		</div>
 	</div>
 	<!-- Footer Section -->
 
 	<?php include("html/includes/footer.php") ?>
-	<script type="text/javascript" src="js/menu.js"></script>
-</body>
 
 <script>
 
-	// This function controls the paneling and transition of our slide show.
-	//	Without it, the pictures will all display in a column and the transition will break
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
-	function showSlides() {
-		var i;
+function showDivs(sIndex) {
+	var i;
+	var mySlides = document.getElementsByClassName("mySlides");
 
-		//divs that hold each mySlide class
-		var slides = document.getElementsByClassName("mySlides");
+	for (i = 0; i < mySlides.length; i++) {
+		mySlides[i].style.display = "none";
+	}
+	slideIndex++;
 
-		//spans that hold each dot class
-		var dots = document.getElementsByClassName("dot");
-
-		//set none of them to display, so that we can unhide them in the proper time
-		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-		}
-
-		// ++, aka result = result + 1
-		slideIndex++;
-
-		//if we go too far, transition back to our first slide
-		if (slideIndex > slides.length) {
-			slideIndex = 1;
-		}
-
-		//control the highlighting of the dots below the carousel
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
-		}
-
-		// correspond display:block to the right slide
-		slides[slideIndex-1].style.display = "block";
-
-		// corresponsed the active dot to the active slide
-		dots[slideIndex-1].className += " active";
-
-		// change image every 10 seconds
-		setTimeout(showSlides, 5000);
+	if (slideIndex > mySlides.length) {
+		slideIndex = 1;
 	}
 
-	//start the slide index at 0
-	var slideIndex = 0;
+	mySlides[slideIndex-1].style.display = "block";
 
-	//run our function
-	showSlides();
+	setTimeout(showDivs, 5000);
+}
+
+var slideIndex = 0;
+
+showDivs(slideIndex);
 
 </script>
+
+
 <script type="text/javascript">
 
 $("#distribution_slide").click(function() {
     $('html,body').animate({
-        scrollTop: $(".mySlideDots").offset().top},
+        scrollTop: $("#distribution_section").offset().top},
         'slow');
 });
 
 
 </script>
+<script src="js/menu.js" ></script>
 <script src="js/social_media_animation.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick-1.6.0/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+    });
+  </script>
+
+</body>
