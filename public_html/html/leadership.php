@@ -6,7 +6,7 @@
 <body class="body">
 		<?php include('includes/htmlheader.php'); ?>
 
-		<!-- overlay button code --> 
+		<!-- overlay button code -->
 		<div class="dropdownOverlay" style="display:none;">
 			<div class="thedropdown">
 				<ul class="dropdown" class="myDropdown" >
@@ -37,15 +37,15 @@
 	<div class="who_we_are_container">
 		<div class="row" class="who_we_are_self" style="max-width: 975px;">
 			<div class="columns small-12 medium-12 large-12">
-	
+
 				<br>
 				<br>
-				
+
 				<h1 style="text-align:center;">Who We Are</h1>
-				
+
 				<br>
 				<p>In 2016, Central Michigan University students identified the financial burdens faced by families due to the recent economic downturns, and the underfunding of the Michigan public education system.  Pack Your Back was created by those CMU students to help supply younger students living in underprivileged locations with the proper resources to succeed in the classroom.</p>
-				
+
 				<br>
 				<br>
 			</div>
@@ -155,7 +155,7 @@
 			<br>
 
 		<!-- Footer Section -->
- 		<?php include("includes/htmlfooter.php");?> 
+ 		<?php include("includes/htmlfooter.php");?>
  		<!-- close footer content -->
-	<script src="../js/menu.js" ></script>
+		<script src="../js/menu.js" ></script>
 </body>

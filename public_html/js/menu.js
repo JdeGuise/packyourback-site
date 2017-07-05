@@ -28,7 +28,7 @@ $(".dropdown_menuitem").hover(
 	}
 );
 
-$("#dropdown_donatebutton").hover(
+$(".dropdown_donatebutton").hover(
 	function(){
 		$(this).css({"border-width" : "2px",
 					"border-color": "rgb(48, 88, 164)",
@@ -42,11 +42,11 @@ $("#dropdown_donatebutton").hover(
 	}
 );
 $(document).ready( function() {
-	$('#hamburger').on('click', function(){ 
+	$('#hamburger').on('click', function(){
 		var dropdown = document.getElementById("myDropdown");
+		console.log(dropdown);
 		var dropdown_overlay = document.getElementById("dropdownOverlay");
 		var display = dropdown.style.display;
-
 
 		if (display == "block"){
 			// dropdown.css("display","none")
@@ -58,7 +58,7 @@ $(document).ready( function() {
 		else {
 			dropdown.style.display = "block";
 			dropdown_overlay.style.display = "block";
-			
+
 			$(this).css({"transform" : "rotate(-90deg)", "opacity" : ".8"});
 		}
 	});
