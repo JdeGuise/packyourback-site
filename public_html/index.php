@@ -36,7 +36,7 @@
 			<br>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0214024582697!2d-83.67468904849547!3d43.01993667904583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8823818c8849e1e9%3A0xcfc2b7565e13459a!2sMott+Community+College!5e0!3m2!1sen!2sus!4v1498780899121" width="600" height="450" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px;position: relative;" allowfullscreen></iframe>
 		</div>
-		<div class="columns small-12 medium-12 large-5">
+		<div class="columns small-12 medium-12 large-5" style="position: relative; left: 20px;">
 			<h3 style="text-align: left;">Mott Community College - August 6th, 2017</h3>
 			<h5 style="text-align: left;">Flint, Michigan</h5>
 			<br>
@@ -55,7 +55,7 @@
 		<hr class="hrstyle">
 		<br>
 		<br>
-		<div class="columns small-12 medium-12 large-6" style="text-align: center;left: 40px;">
+		<div class="columns small-12 medium-12 large-6" style="text-align: center;left: 20px;">
 			<h3 style="text-align: left;">Detroit Public Library - August 12th, 2017</h3>
 			<h5 style="text-align: left;">Detroit, Michigan</h5>
 			<br>
@@ -332,13 +332,30 @@ $("#distribution_slide").click(function() {
 
   <script type="text/javascript">
     $(document).on('ready', function() {
-      $(".center").slick({
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 5,
-        slidesToScroll: 3
-      });
+
+	    $(".center").slick({
+	    	dots: true,
+	   		infinite: true,
+	    	centerMode: true,
+	    	slidesToShow: 5,
+	    	slidesToScroll: 3,
+	    	responsive: [
+	    	{
+	    		breakpoint: 1280,
+	    		settings: {
+	    			slidesToShow: 3,
+	    			slidesToScroll: 4
+	    		}
+	    	},
+	    	{
+	    		breakpoint: 680,
+	    		settings: {
+	    			slidesToShow: 1,
+	    			slidesToScroll: 5
+	    		}
+	    	}
+	    	]
+	   	});
     });
   </script>
 
