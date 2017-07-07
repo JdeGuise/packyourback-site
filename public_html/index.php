@@ -87,7 +87,7 @@
 			<h4 style="text-align: center;"><b>Our sincerest thanks to our 2017/2018 organizational sponsors.</h4>
 
 			<section class="sponsorship_container center slider" style="width: 100%;">
-				<a href="https://www.concentra.com/"><div class="small-12" style="width: 100%; background-color: blue;">
+				<a href="https://www.concentra.com/"><div class="small-12" style="width: 100%;">
 					<img src="assets/logos/concentra.png" style="width: 100%;">
 				</div></a>
 				<a href="http://www.cmufa.com/"><div class="small-12">
