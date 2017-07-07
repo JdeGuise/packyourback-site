@@ -277,7 +277,7 @@
 			border-color: rgba(242, 242, 242, 0);
  		}
 																	/*end dropdown items*/
-/****************************/																			
+/****************************/
 /* START: HEADER ALIGNMENTS */
 /****************************/
 
@@ -319,7 +319,7 @@
 			margin-top: -11px;
 			/*z-index: 100;*/
 		}
-		
+
 
 		footer img{
 			max-width: 100%;
@@ -419,7 +419,7 @@
 		}
 
 		#footer_pyb{
-			width: 270px; 
+			width: 270px;
 			height: 80px;
 			margin-top: 10px;
 		}
@@ -489,7 +489,7 @@
 					margin-bottom: -14px;
 					/*padding-bottom: -2px;*/
 				}
-		 		
+
 		 		#footer_pyb{
 		 			width: 60%;
 		 		}
@@ -518,7 +518,7 @@
 		 			font-size: 9px;
 		 			margin-left: -20px;
 		 		}
-				
+
 		 		.footer_sponsor{
 		 			padding-top: 10px
 		 		}
@@ -539,7 +539,7 @@
 				}
 
 		}
-		
+
 		/*has associated javascript*/
 
 
@@ -551,17 +551,17 @@
 
 		input:-moz-placeholder { /* Firefox 18- */
 			color: white;
-			font-size: 12px;  
+			font-size: 12px;
 		}
 
 		input::-moz-placeholder {  /* Firefox 19+ */
 			color: white;
-			font-size: 12px;  
+			font-size: 12px;
 		}
 
-		input:-ms-input-placeholder {  
+		input:-ms-input-placeholder {
 			color: white;
-			font-size: 12px;  
+			font-size: 12px;
 		}
 
 /*************************/
@@ -663,6 +663,16 @@
 			height:150px;
 			margin:0 auto;
 			transition: .2s all;
+		}
+
+		@media only screen and (max-width: 640px) {
+			.distribution_map1, .distribution_map2{
+				width: 300px;
+				height: 300px;
+			}
+		}
+		@media only screen and (min-width: medium LB) and (max-width: medium UB) {
+
 		}
 
 		/* we want to 'highlight' the circles on mouseover */
