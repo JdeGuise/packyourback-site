@@ -1,7 +1,7 @@
 <head>
 	<title>Pack Your Back - Supplying Success</title>
 	<?php include('html/includes/head.php'); ?>
-	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css">
 </head>
 
@@ -35,7 +35,7 @@
 
 			<br>
 			<br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0214024582697!2d-83.67468904849547!3d43.01993667904583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8823818c8849e1e9%3A0xcfc2b7565e13459a!2sMott+Community+College!5e0!3m2!1sen!2sus!4v1498780899121" width="600" height="450" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px;position: relative;" allowfullscreen></iframe>
+				<iframe class="distribution_map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0214024582697!2d-83.67468904849547!3d43.01993667904583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8823818c8849e1e9%3A0xcfc2b7565e13459a!2sMott+Community+College!5e0!3m2!1sen!2sus!4v1498780899121" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px;position: relative;" allowfullscreen></iframe>
 		</div>
 		<div class="columns small-12 medium-12 large-5" style="position: relative; left: 20px;">
 			<h3 style="text-align: left;">Mott Community College - August 6th, 2017</h3>
@@ -76,7 +76,7 @@
 
 			<br>
 			<br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" width="600" height="450" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px; position: relative;text-align: center;" allowfullscreen></iframe>
+				<iframe class="distribution_map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" width="600" height="450" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px; position: relative;text-align: center;" allowfullscreen></iframe>
 		</div>
 	</div>
 
@@ -86,24 +86,24 @@
 			<br>
 			<h4 style="text-align: center;"><b>Our sincerest thanks to our 2017/2018 organizational sponsors.</h4>
 
-			<section class="sponsorship_container center slider">
-				<a href="https://www.concentra.com/"><div class="small-12">
-					<img src="assets/logos/concentra.png" style="left: 30px; width: 90%;">
+			<section class="sponsorship_container center slider" style="width: 100%;">
+				<a href="https://www.concentra.com/"><div class="small-12" style="width: 100%; background-color: blue;">
+					<img src="assets/logos/concentra.png" style="width: 100%;">
 				</div></a>
 				<a href="http://www.cmufa.com/"><div class="small-12">
-					<img src="assets/logos/cmufa_logo.png" style="width: 50%;">
+					<img src="assets/logos/cmufa_logo.png" style="width: 60%;">
 				</div></a>
 				<a href="http://www.brightsidedental.com/"><div class="small-12">
-					<img src="assets/logos/brightsidedental.png" style="position: relative;">
+					<img src="assets/logos/brightsidedental.png" style="position: relative;width: 100%;">
 				</div></a>
 				<a href="http://www.detroitpubliclibrary.org/"><div class="small-12">
-				    <img src="assets/logos/dpl.png" style="width: 65%; left: 10px;">
+				    <img src="assets/logos/dpl.png" style="width: 80%;">
 				</div></a>
 				<a href="https://www.facebook.com/groups/1101122606660880/"><div class="small-12">
-					<img src="assets/logos/mpe.png" style="right: 20px;">
+					<img src="assets/logos/mpe.png" style="width: 100%;">
 				</div></a>
 				<a href="http://www.mcc.edu/"><div class="small-12">
-					<img src="assets/logos/mottcc.png" style="height: 100%; width: 100%;">					
+					<img src="assets/logos/mottcc.png" style="width: 100%;">
 				</div></a>
 			</section>
 			<br>
@@ -168,7 +168,6 @@
 		<br>
 
 	</div>
-	
 	<div class="story_circle_container row" style="border: 4px solid rgb(44,84,165); text-align: center; height: auto;">
 
 		<div class="columns small-12 medium-12 large-4 story_feature" style="border: 2px solid rgb(44,84,165); margin-left: ">
@@ -338,13 +337,13 @@ $("#distribution_slide").click(function() {
 	    	dots: true,
 	    	infinite: true,
 	    	centerMode: true,
-	    	slidesToShow: 5,
+	    	slidesToShow: 4,
 	    	slidesToScroll: 3,
 	    	responsive: [
 	    	{
 	    		breakpoint: 1280,
 	    		settings: {
-	    			slidesToShow: 3,
+	    			slidesToShow: 2,
 	    			slidesToScroll: 4
 	    		}
 	    	},
