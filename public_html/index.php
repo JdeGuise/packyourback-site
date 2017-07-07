@@ -170,7 +170,7 @@
 	</div>
 	<div class="story_circle_container row" style="border: 4px solid rgb(44,84,165); text-align: center; height: auto;">
 
-		<div class="columns small-12 medium-12 large-4 story_feature" style="border: 2px solid rgb(44,84,165); margin-left: ">
+		<div class="columns small-12 medium-12 large-4 story_feature">
 			<br>
 			<br>
 			<div class="story_circles">
@@ -187,7 +187,7 @@
 			<br>
 		</div>
 
-		<div class="columns small-12 medium-12 large-4 story_feature" style="border: 2px solid rgb(44,84,165);">
+		<div class="columns small-12 medium-12 large-4 story_feature">
 			<br>
 			<br>
 			<div class="story_circles">
@@ -202,7 +202,7 @@
 			<br>
 			<br>
 		</div>
-		<div class="columns small-12 medium-12 large-4 story_feature" style="border: 2px solid rgb(44,84,165);">
+		<div class="columns small-12 medium-12 large-4 story_feature">
 			<br>
 			<br>
 			<div class="story_circles">
