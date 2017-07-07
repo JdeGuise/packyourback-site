@@ -668,11 +668,14 @@
 		@media only screen and (max-width: 640px) {
 			.distribution_map1, .distribution_map2{
 				width: 300px;
-				height: 300px;
+				height: 225px;
 			}
 		}
-		@media only screen and (min-width: medium LB) and (max-width: medium UB) {
-
+		@media only screen and (min-width: 640px) and (max-width: 10000px) {
+			.distribution_map1, .distribution_map2{
+				width: 500px;
+				height: 375px;
+			}
 		}
 
 		/* we want to 'highlight' the circles on mouseover */
