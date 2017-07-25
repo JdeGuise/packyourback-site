@@ -13,7 +13,7 @@
 
 	<div class="row">
 		<div class="columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 3px solid rgb(248,152,72); margin-top: 3px;">
-				<a href="html/mpe.php"><img src="assets/index_pics/1.png" class="mySlides fade jumboimg" style="width: 100%;"></a>
+				<a href="#"><img src="assets/index_pics/pyb_graphic.png" class="mySlides fade jumboimg" style="width: 100%;"></a>
 				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" class="mySlides fade jumboimg"></a>
 				<a href="html/leadership.php"><img src="assets/index_pics/3.png" class="mySlides fade jumboimg"></a>
 
@@ -98,9 +98,6 @@
 				</div></a>
 				<a href="http://www.detroitpubliclibrary.org/"><div class="small-12">
 				    <img src="assets/logos/dpl.png" style="width: 80%;">
-				</div></a>
-				<a href="https://www.facebook.com/groups/1101122606660880/"><div class="small-12">
-					<img src="assets/logos/mpe.png" style="width: 100%;">
 				</div></a>
 				<a href="http://www.mcc.edu/"><div class="small-12">
 					<img src="assets/logos/mottcc.png" style="width: 100%;">
