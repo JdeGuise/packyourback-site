@@ -874,3 +874,18 @@
 /************************/
 /* END: leadership.html */
 /************************/
+
+
+
+/******************/
+/* START: distributions.php */
+/******************/
+
+	.distribution_p {
+		max-width: 800px;
+		text-align: left;
+	}
+
+/****************/
+/* END: distributions.php */
+/****************/
