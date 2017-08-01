@@ -36,7 +36,7 @@
                     <li>
                     <button id="donatebutton" onclick="location.href='https://www.classy.org/checkout/donation?eid=81983'" style="background-color:crimson;">Donate</button></li>
                   <ul>
-                    <img id="hamburger" src="../../assets/hamburgermenu-blue.png">
+                    <img id="hamburger" src="../../assets/icons/hamburgermenu-blue.png">
                   </ul>
                 </ul>
               </div>

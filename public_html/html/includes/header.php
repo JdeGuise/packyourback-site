@@ -20,7 +20,7 @@
 		            <li class="menuitem">
 		            <button class="donatebuttons" onclick="location.href='https://www.paypal.me/PackYourBack'" style="background-color:crimson;">DONATE</button></li>
 					<ul>
-						<img class="hamburger" id="hamburger" src="assets/hamburgermenu-blue.png">
+						<img class="hamburger" id="hamburger" src="../assets/icons/hamburgermenu-blue.png">
 					</ul>
 				</ul>
 			</div>
