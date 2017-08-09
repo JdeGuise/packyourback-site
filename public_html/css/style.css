@@ -717,23 +717,23 @@
 	/******************************/
 
 		.sponsorship_container{
-			background-color: rgb(228,228,232);
-			border: 1px solid #000000;
+			border: 2px solid rgb(155,155,170);
 			margin-top: 40px;
-			height: 150px;
+			height: 200px;
 		}
 
 		.sponsorship_container img{
 			position: relative;
 			vertical-align: middle;
-			max-height: 400px;
 			margin: 0 auto;
+			padding: 5px;
 			height: 100%;
 		}
 
 		.sponsorship_container div{
 			display: inline-block;
 			width: 100%;
+			position: relative;
 		}
 		.sponsorship_container div img:hover {
 			opacity: .25;
