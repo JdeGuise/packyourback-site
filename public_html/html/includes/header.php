@@ -37,7 +37,7 @@
  						<li class="dropdown_menuitem" onclick="location.href='html/leadership.php';">
 						<a href="html/leadership.php">Leadership</a>
 					</li>
-					<li class="dropdown_menuitem"onclick="location.href='html/ourcause.php';">
+					<li class="dropdown_menuitem" onclick="location.href='html/ourcause.php';">
 						<a href="html/ourcause.php">Our Cause</a>
 					</li>
 					<li class="dropdown_menuitem" onclick="location.href='html/getinvolved.php';">
