@@ -80,27 +80,34 @@
 		</div>
 	</div>
 
-	<div class="row" style="border: 3px solid rgb(111,111,111);">
+	<div class="row" style="border: 3px solid rgb(111,111,111); margin: 0 auto;">
 		<div class="columns small-12 medium-12 large-12" style="margin-bottom: 15px; width: 100%;">
 			<br>
 			<br>
 			<h4 style="text-align: center;"><b>Our sincerest thanks to our 2017/2018 organizational sponsors.</h4>
-
-			<section class="sponsorship_container center slider" style="width: 100%;">
+			<br>
+			<br>
+			<section class="sponsorship_container center slider" style="width: 85%; margin: 0 auto;">
 				<a href="https://www.concentra.com/"><div class="small-12" style="width: 100%;">
-					<img src="assets/logos/concentra.png" style="width: 100%;">
+					<img src="assets/logos/concentra.png" style="width: auto;">
 				</div></a>
 				<a href="http://www.cmufa.com/"><div class="small-12">
-					<img src="assets/logos/cmufa_logo.png" style="width: 60%;">
+					<img src="assets/logos/cmufa_logo.png" style="width: auto;">
 				</div></a>
 				<a href="http://www.brightsidedental.com/"><div class="small-12">
-					<img src="assets/logos/brightsidedental.png" style="position: relative;width: 100%;">
+					<img src="assets/logos/brightsidedental.png" style="width: auto;">
 				</div></a>
 				<a href="http://www.detroitpubliclibrary.org/"><div class="small-12">
-				    <img src="assets/logos/dpl.png" style="width: 80%;">
+				    <img src="assets/logos/dpl.png" style="width: auto;">
 				</div></a>
 				<a href="http://www.mcc.edu/"><div class="small-12">
-					<img src="assets/logos/mottcc.png" style="width: 100%;">
+					<img src="assets/logos/mottcc.png" style="width: 85%;">
+				</div></a>
+				<a href="http://www.nthconsultants.com/"><div class="small-12">
+					<img src="assets/logos/nth_consultants.png" style="width: auto;">
+				</div></a>
+				<a href="http://www.masco.com"><div class="small-12">
+					<img src="assets/logos/masco.png" style="width: 95%;">
 				</div></a>
 			</section>
 			<br>
@@ -331,24 +338,23 @@ $("#distribution_slide").click(function() {
     $(document).on('ready', function() {
 
 	    $(".center").slick({
-	    	dots: true,
+	    	dots: false,
 	    	infinite: true,
 	    	centerMode: true,
-	    	slidesToShow: 4,
-	    	slidesToScroll: 3,
+	    	slidesToShow: 1,
+	    	slidesToScroll: 1,
+	    	fade: true,
 	    	responsive: [
 	    	{
 	    		breakpoint: 1280,
 	    		settings: {
-	    			slidesToShow: 2,
-	    			slidesToScroll: 4
+	    			slidesToShow: 1
 	    		}
 	    	},
 	    	{
 	    		breakpoint: 680,
 	    		settings: {
-	    			slidesToShow: 1,
-	    			slidesToScroll: 5
+	    			slidesToShow: 1
 	    		}
 	    	}
 	    	]
