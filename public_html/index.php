@@ -344,6 +344,7 @@ $("#distribution_slide").click(function() {
 	    	slidesToShow: 1,
 	    	slidesToScroll: 1,
 	    	fade: true,
+	    	autoplay: true,
 	    	responsive: [
 	    	{
 	    		breakpoint: 1280,
