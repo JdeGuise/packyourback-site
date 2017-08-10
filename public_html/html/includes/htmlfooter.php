@@ -87,7 +87,7 @@
 								<a href="#" id="pp_btn">Privacy Policy</a> <b>|</b>
 									<a href="contact.php">Contact Us</a> <b>|</b>
 									<a href="../index.php">Site Map</a> <b>|</b>
-									<a href="https://www.classy.org/campaign/pack-your-back/c114131/">Donate</a>
+									<a href="https://www.paypal.me/PackYourBack">Donate</a>
 
 							<!-- Can we refactor this down to load the message, whether TOS or privacy policy?-->
 							<div id="tos_modal" class="modal">
@@ -127,6 +127,9 @@
 					<h2 style="left: 50px; position: relative;"> ©2017 Pack Your Back </h2>
 					<br>
 					<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g" style="left: 50px; position:relative;">Member Login</a>
+				</div>
+				<div class="columns small-12 medium-12 large-12" style="text-align: center; top: 100px;">
+					<h6 style="color: rgb(220, 220, 220);">Site by <a href="mailto:jrdwebsolutions@gmail.com" class="mail">John deGuise</a></h6>
 				</div>
 			</div>
 	</footer> <!-- close footer content -->
