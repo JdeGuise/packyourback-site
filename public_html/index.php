@@ -13,12 +13,9 @@
 
 	<div class="row">
 		<div class="columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 3px solid rgb(248,152,72); margin-top: 3px;">
-				<a href="#"><img src="assets/index_pics/pyb_graphic.png" class="mySlides fade jumboimg" style="width: 100%;"></a>
+				<a href="https://www.paypal.me/PackYourBack"><img src="assets/index_pics/donatebanner.png" class="mySlides fade jumboimg" style="width: auto;"></a>
 				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" class="mySlides fade jumboimg"></a>
 				<a href="html/leadership.php"><img src="assets/index_pics/3.png" class="mySlides fade jumboimg"></a>
-
-				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 		</div>
 	</div>
 
@@ -26,12 +23,10 @@
 		<br>
 		<br>
 		<br>
-		<br>
 		<h1 style="text-align: center;"><b><u>Upcoming School Distributions</u></b></h1>
 		<br>
 		<br>
-		<br>
-		<div class="columns small-12 medium-12 large-6" style="text-align: center;">
+<!-- 		<div class="columns small-12 medium-12 large-6" style="text-align: center;">
 
 			<br>
 			<br>
@@ -51,11 +46,13 @@
 
 				<a href="html/fps.php"><button style="bottom: 60px;">Read More</button></a>
 			</div>
-		</div>
+		</div> -->
 
 		<hr class="hrstyle">
 		<br>
 		<br>
+
+
 		<div class="columns small-12 medium-12 large-6" style="text-align: center;left: 20px;">
 			<h3 style="text-align: left;">Detroit Public Library - August 12th, 2017</h3>
 			<h5 style="text-align: left;">Detroit, Michigan</h5>
@@ -78,6 +75,23 @@
 			<br>
 				<iframe class="distribution_map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px; position: relative;text-align: center;" allowfullscreen></iframe>
 		</div>
+		<hr class="hrstyle">
+		<div class="columns small-12 medium-6 large-6">
+			<br>
+			<h3 style="text-align: center;">Little Miss Flint</h3>
+			<br>
+			<p style="padding-left: 35px; position: relative; text-align: left;">Pack Your Back would like to thank Mari Copeny, also known as "Little Miss Flint” for assisting our organization in raising funds to purchase over 1,000 for students in Flint, Michigan. "We need to help kids in Flint that can't afford a backpack or school supplies so the people can go to school," she said. "School is important. Education is life.” - Mari Copeny</p>
+			<br>
+			<p style="left: 35px; position: relative; text-align: left;">To donate to Mari’s 2018 Pack Your Back campaign, please visit her fundraising page, located <a href="https://www.classy.org/team/129320">here</a>.</p>
+			<br>
+		</div>
+		<div class="columns small-12 medium-6 large-6" style="text-align:center;">
+			<img src="assets/index_pics/lmf.png" width="80%" height="80%" style="border: 1px solid black;">
+			<br>
+			<br>
+		</div>
+		<br>
+		<br>
 	</div>
 
 	<div class="row" style="border: 3px solid rgb(111,111,111); margin: 0 auto;">
