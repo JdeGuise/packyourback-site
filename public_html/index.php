@@ -1,11 +1,19 @@
 <head>
 	<title>Pack Your Back - Supplying Success</title>
-	<?php include('html/includes/head.php'); ?>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css">
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 </head>
 
-<body class="body">
+<body>
 	<?php include('html/includes/header.php'); ?>
 	<br>
 	<br>
@@ -13,9 +21,9 @@
 
 	<div class="row">
 		<div class="columns small-12 medium-12 large-12" style="background-color:rgb(250,250,252); border: 3px solid rgb(248,152,72); margin-top: 3px;">
-				<a href="https://www.paypal.me/PackYourBack"><img src="assets/index_pics/donatebanner.png" class="mySlides fade jumboimg" style="width: auto;"></a>
-				<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" class="mySlides fade jumboimg"></a>
-				<a href="html/leadership.php"><img src="assets/index_pics/3.png" class="mySlides fade jumboimg"></a>
+			<a href="https://www.paypal.me/PackYourBack"><img src="assets/index_pics/donatebanner.png" class="mySlides fade jumboimg" style="width: auto;"></a>
+			<a href="#" id="distribution_slide"><img src="assets/index_pics/2.png" class="mySlides fade jumboimg"></a>
+			<a href="html/leadership.php"><img src="assets/index_pics/3.png" class="mySlides fade jumboimg"></a>
 		</div>
 	</div>
 
@@ -330,51 +338,11 @@ showDivs(slideIndex);
 
 </script>
 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-
-$("#distribution_slide").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#distribution_section").offset().top},
-        'slow');
-});
-
-
-</script>
-<script src="js/menu.js" ></script>
-<script src="js/social_media_animation.js"></script>
-
-
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick-1.6.0/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-
-	    $(".center").slick({
-	    	dots: false,
-	    	infinite: true,
-	    	centerMode: true,
-	    	slidesToShow: 1,
-	    	slidesToScroll: 1,
-	    	fade: true,
-	    	autoplay: true,
-	    	responsive: [
-	    	{
-	    		breakpoint: 1280,
-	    		settings: {
-	    			slidesToShow: 1
-	    		}
-	    	},
-	    	{
-	    		breakpoint: 680,
-	    		settings: {
-	    			slidesToShow: 1
-	    		}
-	    	}
-	    	]
-	   	});
-    });
-  </script>
-
+	<script type="text/javascript" src="js/scrollScript.js"></script>
+	<script type="text/javascript" src="js/menu.js" ></script>
+	<script type="text/javascript" src="js/socialMediaAnimation.js"></script>
+	<script type="text/javascript" src="js/slickScript.js"></script>
+	<script type="text/javascript" src="./slick-1.6.0/slick/slick.js" charset="utf-8"></script>
 </body>

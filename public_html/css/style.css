@@ -5,10 +5,12 @@
  html, body{
 	width:100%;
  }
-.body{
+
+body {
 	background-color: rgb(242, 242, 242);
-	font-family: Arial;
+	font-family: Arial;	
 }
+
 /* Change background color of links on hover */
 .menuitems li a:hover {
 	color: rgb(33, 65, 149);  /* dark blue */
@@ -42,7 +44,7 @@
 
 		/* Hide the list item that contains the link that should open and close the topnav on small screens */
 		 	@media only screen and (max-width: 1200px){
-		 		.menuitem, .donatebuttons{
+		 		.menuitem, .topNavDonateButtons{
 		 			visibility: hidden;
 		 		}
 		 		.icon{
@@ -85,7 +87,7 @@
 			border-radius: 50%;
 		}
 
-		header .donatebuttons{
+		header .topNavDonateButtons{
 			/*position: absolute;*/
 			float: right;
 			right: 9px;
@@ -94,6 +96,7 @@
 			border-color: rgb(255,255,255);
 			border-style: outset;
 			margin-right: 6px;
+			background-color: crimson;
 			/*display: inline-block;*/
 		}
 
@@ -217,7 +220,7 @@
 /***************************/
 
 
-		.dropdown_donatebutton{
+		.dropdownButtons{
 			list-style:inherit;
 			/*margin: 0 auto;*/
 			margin-top: 20px;
@@ -889,3 +892,57 @@
 /****************/
 /* END: distributions.php */
 /****************/
+
+
+/**************/
+/* START: menu.js .hover conversions */
+/*************************************/
+
+
+.menuitem a:hover {
+	border-bottom: 7px;
+	border-color: rgb(48, 88, 164);
+	transition : .2s all;
+	border-style: none none solid none;
+}
+
+.menuitem a:not(:hover) {
+	border-bottom : 7px;
+	border-color : rgb(242, 242, 242);
+	border-style: none none solid none;
+	transition : .2s all;
+}
+
+.dropdown_menuitem:hover {
+	border-bottom : 7px;
+	border-color: rgb(48, 88, 164);
+	border-color: rgba(48, 88, 164, 1);
+	transition : .2s all;
+	border-style: none none solid none;
+}
+
+.dropdown_menuitem:not(:hover) {
+	border-bottom" : 7px;
+	border-color" : rgb(242, 242, 242);
+	border-color" : rgba(242, 242, 242, 0);
+	border-style': none none solid none;
+	transition" : .2s all;
+}
+
+.dropdownButtons:hover {
+	border-width: 2px;
+	border-color: rgb(48, 88, 164);
+	transition: .2s all;
+	border-style: outset;
+}
+
+.dropdownButtons:not(:hover) {
+	border-width : 2px;
+	border-color : rgb(255, 255, 255);
+	border-style: outset;
+	transition : .2s all;
+}
+
+/**************/
+/* END: menu.js .hover conversions */
+/*************************************/

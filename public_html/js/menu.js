@@ -1,46 +1,48 @@
-$(".menuitem a").hover(
-	function(){
-		$(this).css({"border-bottom" : "7px",
-					"border-color": "rgb(48, 88, 164)",
-					"transition" : ".2s all",
-					'border-style': "none none solid none"});
-	}, function(){
-		$(this).css({"border-bottom" : "7px",
-					"border-color" : "rgb(242, 242, 242)",
-					'border-style': "none none solid none",
-					"transition" : ".2s all"});
-	}
-);
+// $(".menuitem a").hover(
+// 	function(){
+// 		$(this).css({"border-bottom" : "7px",
+// 					"border-color": "rgb(48, 88, 164)",
+// 					"transition" : ".2s all",
+// 					'border-style': "none none solid none"});
+// 	}, function(){
+// 		$(this).css({"border-bottom" : "7px",
+// 					"border-color" : "rgb(242, 242, 242)",
+// 					'border-style': "none none solid none",
+// 					"transition" : ".2s all"});
+// 	}
+// );
 
-$(".dropdown_menuitem").hover(
-	function(){
-		$(this).css({"border-bottom" : "7px",
-					"border-color": "rgb(48, 88, 164)",
-					"border-color": "rgba(48, 88, 164, 1)",
-					"transition" : ".2s all",
-					'border-style': "none none solid none"});
-	}, function(){
-		$(this).css({"border-bottom" : "7px",
-					"border-color" : "rgb(242, 242, 242)",
-					"border-color" : "rgba(242, 242, 242, 0)",
-					'border-style': "none none solid none",
-					"transition" : ".2s all"});
-	}
-);
+// $(".dropdown_menuitem").hover(
+// 	function(){
+// 		$(this).css({"border-bottom" : "7px",
+// 					"border-color": "rgb(48, 88, 164)",
+// 					"border-color": "rgba(48, 88, 164, 1)",
+// 					"transition" : ".2s all",
+// 					'border-style': "none none solid none"});
+// 	}, function(){
+// 		$(this).css({"border-bottom" : "7px",
+// 					"border-color" : "rgb(242, 242, 242)",
+// 					"border-color" : "rgba(242, 242, 242, 0)",
+// 					'border-style': "none none solid none",
+// 					"transition" : ".2s all"});
+// 	}
+// );
 
-$(".dropdown_donatebutton").hover(
-	function(){
-		$(this).css({"border-width" : "2px",
-					"border-color": "rgb(48, 88, 164)",
-					"transition" : ".2s all",
-					'border-style': "outset"});
-	}, function(){
-		$(this).css({"border-width" : "2px",
-					"border-color" : "rgb(255, 255, 255)",
-					'border-style': "outset",
-					"transition" : ".2s all",});
-	}
-);
+// $(".dropdownButtons").hover(
+// 	function(){
+// 		$(this).css({"border-width" : "2px",
+// 					"border-color": "rgb(48, 88, 164)",
+// 					"transition" : ".2s all",
+// 					'border-style': "outset"});
+// 	}, function(){
+// 		$(this).css({"border-width" : "2px",
+// 					"border-color" : "rgb(255, 255, 255)",
+// 					'border-style': "outset",
+// 					"transition" : ".2s all",});
+// 	}
+// );
+
+
 $(document).ready( function() {
 	$('#hamburger').on('click', function(){
 		var dropdown = document.getElementById("myDropdown");
@@ -78,9 +80,3 @@ $("#hamburger").hover(
     	$(this).css({"opacity" : "1", "transform" : "rotate(0deg)"});
     }
   });
-
-
-// $modalOpen.click(function(){
-//   $modalOverlay.stop().fadeTo(500,1);
-// });
-
