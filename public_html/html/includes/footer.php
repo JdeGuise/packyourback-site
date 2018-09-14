@@ -136,7 +136,7 @@
 						<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g" style="left: 50px; position:relative;">Member Login</a>
 				</div>
 				<div class="columns small-12 medium-12 large-12" style="text-align: center; top: 100px;">
-				<h6 style="color: rgb(220, 220, 220);">Site by <a href="mailto:jrdwebsolutions@gmail.com" class="mail">John deGuise</a></h6>
+				<h6 style="color: rgb(220, 220, 220);">Site by <a href="mailto:john.r.deguise@gmail.com" class="mail">John deGuise</a></h6>
 				</div>
 			</div>
 	</footer> <!-- close footer content -->
