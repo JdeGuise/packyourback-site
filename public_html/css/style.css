@@ -2,293 +2,263 @@
 /* START TEMPLATE STYLES */
 /*************************/
 
- html, body{
-	width:100%;
- }
+	html, body{
+		width:100%;
+	}
 
-body {
-	background-color: rgb(242, 242, 242);
-	font-family: Arial;	
-}
+	body {
+		background-color: rgb(242, 242, 242);
+		font-family: Arial;	
+	}
 
-/* Change background color of links on hover */
-.menuitems li a:hover {
-	color: rgb(33, 65, 149);  /* dark blue */
-}
+	/* Change background color of links on hover */
+	.menuitems li a:hover {
+		color: rgb(33, 65, 149);  /* dark blue */
+	}
 
-.hrstyle{
-	margin-left: 10px;
-	margin-right: 10px;
-}
+	.hrstyle{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+/*************************/
+/* END TEMPLATE STYLES */
+/*************************/
+
 
 /***************/
 /* START FONTS */
 /***************/
-		h1, h2, h3, h4, h5, h6{
-			font-family: 'Roboto', sans-serif;
-		}
-		/* set h*, li, and p fonts */
-		.who_we_are p, li, body p{
-			font-family: 'Raleway', sans-serif;
-		}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.who_we_are p, li, body p {
+		font-family: 'Raleway', sans-serif;
+	}
 
 /*************/
 /* END FONTS */
 /*************/
 
-		/* styling and formatting for logo/nav header */
 
 /****************************/
 /* START NAVHEADER STYLINGS */
 /****************************/
 
-		/* Hide the list item that contains the link that should open and close the topnav on small screens */
-		 	@media only screen and (max-width: 1200px){
-		 		.menuitem, .topNavDonateButtons{
-		 			visibility: hidden;
-		 		}
-		 		.icon{
-		 			visibility: hidden;
-		 		}
-		 		.hamburger{
-		 			visibility: visible;
-		 		}
-		 	}
-		 	@media screen and (min-width: 1201px){
-		 		.hamburger{
-		 			visibility: hidden;
-		 		}
-		 		.dropdownOverlay{
-		 			visibility: hidden;
-		 		}
-		 	}
+	/* Hide the list item that contains the link that should open and close the topnav on small screens */
+	@media only screen and (max-width: 1200px){
+		.menuitem, .topNavDonateButtons{
+			visibility: hidden;
+		}
+		.icon{
+			visibility: hidden;
+		}
+		.hamburger{
+			visibility: visible;
+		}
+	}
+	@media screen and (min-width: 1201px){
+		.hamburger{
+			visibility: hidden;
+		}
+		.dropdownOverlay{
+			visibility: hidden;
+		}
+	}
 
-		/* set default header height */
+	/* set default header height */
+	header{
+		height: 75px;
+		z-index: 2;		
+	}
+
+	/* set default header logo width and height */
+	header img{
+		height: 60px;
+	}
+	
+	/* align logo vertically with the box it sits in */
+	header .logo {
+	  position:relative;
+	  margin-top:7px;
+	}
+	
+	/* align hamburger menu more closely with the right side of the screen */
+	header .hamburger{
+		position: absolute;
+		right:12px;
+		top:12px;
+		width:50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+
+	header .topNavDonateButtons{
+		float: right;
+		right: 9px;
+		top: 9px;
+		border-width: 2px;
+		border-color: rgb(255,255,255);
+		border-style: outset;
+		margin-right: 6px;
+		background-color: crimson;
+	}
+
+	header .hamburger:hover{
+		background-color: rgb(250, 108, 51);
+		cursor: pointer;
+	}
+	
+	/* align header elements and move navbar into a row */
+	header ul {
+	  display: inline;
+	  list-style: none;
+	  top: 20px;
+	}
+
+	header li {
+	  vertical-align: middle;
+	  display: inline;
+	  cursor: pointer;
+	  padding-left: 30px;
+	  padding-right: 30px;
+	  margin-left: -20px;
+	}
+
+	/* remove hyperlink decoration from links */
+	header a {
+		text-decoration: none;
+	}
+
+	.header{
+		position: fixed;
+		width: 100%;
+		top: 0;
+		background-color: rgb(242, 242, 242);
+		border-bottom: 4px solid rgb(250,130,30);
+	}
+
+	.menuitem{
+		font-size: 18px;
+		left:65px;
+	  	top: 5px;
+	  	position: relative;
+
+	  	/* disables selection of the menu text */
+	  	-webkit-user-select: none; /* Chrome/Safari */
+		-moz-user-select: none; /* Firefox */
+	  	user-select: none;
+		-ms-user-select: none; /* IE10+ */
+
+		border-radius: 7%;
+		border-bottom: 7px;
+		border-color: rgb(242, 242, 242);
+		padding-bottom: 15px;
+		padding-top: 15px;
+		border-style: none none solid none;
+	}
+
+	.menuitem button:hover{
+		color:black;
+	}
+	
+	/* query is for when screen width is less than 775px
+		while it's true, we want to:
+			1 center our logo,
+			2 make the header taller, so that we can...
+			3 center the navbar links below the logo.
+	*/
+	@media only screen and (max-width: 775px){
+		/* make header taller */
 		header{
-			height: 75px;
+			opacity: .8;
 		}
-		/* set default header logo width and height */
-		header img{
-			height: 60px;
+		header li{
+			padding-right: 20px;
+			padding-left: 20px;
 		}
-		/*align our logo vertically with the box it sits in */
-		header .logo {
-		  position:relative;
-		  margin-top:7px;
-		}
-		/*align hamburger menu more closely with the right side of the screen, for aesthetic purposes*/
-		header .hamburger{
-			position: absolute;
-			/*transform: rotate(45deg);*/
-			right:12px;
-			top:12px;
-			width:50px;
-			height: 50px;
-			border-radius: 50%;
-		}
+	}
 
-		header .topNavDonateButtons{
-			/*position: absolute;*/
-			float: right;
-			right: 9px;
-			top: 9px;
-			border-width: 2px;
-			border-color: rgb(255,255,255);
-			border-style: outset;
-			margin-right: 6px;
-			background-color: crimson;
-			/*display: inline-block;*/
-		}
-
-		header .hamburger:hover{
-			background-color: rgb(250, 108, 51);
-			/*opacity: .8;*/
-			cursor: pointer;
-			/*transition: background-color .4s ease;*/
-		}
-		/* align header elements and move navbar into a row */
-		header ul {
-		  display: inline;
-		  list-style: none;
-		  top: 20px;
-		}
-		header li {
-		  vertical-align: middle;
-		  display: inline;
-		  cursor: pointer;
-		  padding-left: 30px;
-		  padding-right: 30px;
-		  margin-left: -20px;
-		}
-		/* remove hyperlink decoration from links */
-		header a {
-		  text-decoration: none;
-		}
-		.header{
-			position: fixed;
-			/*color: lightblue;*/
-			width: 100%;
-			top: 0;
-			background-color: rgb(242, 242, 242);
-			border-bottom: 4px solid rgb(250,130,30);
-
-		}
+	/* When the screen is super small we want the same thing as above but taller
+	*/
+	@media only screen and (max-width: 385px){
 		header{
-			z-index: 2;
+			opacity: 1;
 		}
-
-		.menuitem{
-
-			font-size: 18px;
-			left:65px;
-		  	top: 5px;
-		  	position: relative;
-
-		  	/*disables selection of the menu text, for reasons*/
-		  	-webkit-user-select: none; /* Chrome/Safari */
-			-moz-user-select: none; /* Firefox */
-		  	user-select: none;
-			-ms-user-select: none; /* IE10+ */
-
-			border-radius: 7%;
-			border-bottom: 7px;
-			border-color: rgb(242, 242, 242);
-			padding-bottom: 15px;
-			padding-top: 15px;
-			border-style: none none solid none;
-
-
-
-			/*border-width: 7px;
-    		border-style: none none solid none;
-   			-webkit-border-image:
-		    -webkit-gradient(linear, 0 0, 0 100%, from(rgb(76, 206, 251)), to(rgb(50, 91, 170))) 1 100%;
-  			-webkit-border-image:
-  		    -webkit-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
- 			-moz-border-image:
-  		    -moz-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
-   			-o-border-image:
-   		    -o-linear-gradient(rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;
-  			border-image:
-   		    linear-gradient(to bottom, rgb(76, 206, 251), rgb(50, 91, 170)) 1 100%;*/
-
+		header li{
+			text-align: center;
 		}
-		/*.menuitem button{
-			color:white;
-			vertical-align: center;
-		  	transition: all 0.4s;
-		}*/
-		.menuitem button:hover{
-			color:black;
-		}
-		.login{
-			left:450px;
-		}
-		/* query is for when screen width is less than 775px
-			while it's true, we want to:
-				1 center our logo,
-				2 make the header taller, so that we can...
-				3 center the navbar links below the logo.
-		*/
-		@media only screen and (max-width: 775px){
-			/* make header taller */
-			header{
-				opacity: .8;
-			}
-			header li{
-				padding-right: 20px;
-				padding-left: 20px;
-			}
-		}
-		/* this query is for when the screen is super small
-			basically we want the same thing as above but taller
-		*/
-		@media only screen and (max-width: 385px){
-			header li{
-				text-align: center;
-			}
-			header{
-				opacity: 1;
-			}
-		}
+	}
+
 /**************************/
 /* END NAVHEADER STYLINGS */
 /**************************/
 
-/***************************/
-/* START: HEADER ALIGNMENTS */
-/***************************/
-
-
-		.dropdownButtons{
-			list-style:inherit;
-			/*margin: 0 auto;*/
-			margin-top: 20px;
-			margin-left: 26px;
-
-			border-width: 2px;
-			/*border-collapse: 0px;*/
-			border-color: rgb(255,255,255);
-			border-style: outset;
-			/*box-sizing: border-box;*/
-			/*font-size: 10px;*/
-		}
-
-		.thedropdown{
-			display: table;
-			margin: 0 auto;
-		}
-
-		.dropdownOverlay{
-			display:none;
-			position:fixed;
-			z-index: 1;
-			margin-top: 75px;
-			top:75px;
-			margin:0;
-			width:100%;
-			background-color: rgb(242, 242, 242);
-			background-color: rgba(242, 242, 242, .8);
-			/*needs work*/
-			transition: .5s ease;
-		}
-
- 		.myDropdown {
- 			display: block;
- 			list-style: none;
- 			position:relative;
- 			font-size: 26px;
- 			transition: .5s ease;
-
- 		}
- 		.dropdown_menuitem {
- 			list-style-type: none;
- 			/*padding-left: 20px;*/
- 			padding-top: 8px;
- 			margin-top: 10px;
- 			position: static;
- 			text-align: center;
-
- 			cursor: pointer;
-
- 			border-bottom: 7px;
-			border-style: none none solid none;
-			width: 100%;
-			border-radius: 7%;
-
-			border-color: rgb(242, 242, 242);
-			border-color: rgba(242, 242, 242, 0);
- 		}
-																	/*end dropdown items*/
 /****************************/
 /* START: HEADER ALIGNMENTS */
 /****************************/
 
-		.content{
-			position: relative;
-			top: 50px;
-			color:white;
-		}
+	.dropdownButtons{
+		list-style:inherit;
+		margin-top: 20px;
+		margin-left: 26px;
+
+		border-width: 2px;
+		border-color: rgb(255,255,255);
+		border-style: outset;
+	}
+
+	.thedropdown{
+		display: table;
+		margin: 0 auto;
+	}
+
+	.dropdownOverlay{
+		display:none;
+		position:fixed;
+		z-index: 1;
+		margin-top: 75px;
+		top:75px;
+		margin:0;
+		width:100%;
+		background-color: rgb(242, 242, 242);
+		background-color: rgba(242, 242, 242, .8);
+		transition: .5s ease;
+	}
+
+	.myDropdown {
+		display: block;
+		list-style: none;
+		position:relative;
+		font-size: 26px;
+		transition: .5s ease;
+
+	}
+	.dropdown_menuitem {
+		list-style-type: none;
+		padding-top: 8px;
+		margin-top: 10px;
+		position: static;
+		text-align: center;
+
+		cursor: pointer;
+
+		border-bottom: 7px;
+		border-style: none none solid none;
+		width: 100%;
+		border-radius: 7%;
+
+		border-color: rgb(242, 242, 242);
+		border-color: rgba(242, 242, 242, 0);
+	}
+
+	.content{
+		position: relative;
+		top: 50px;
+		color:white;
+	}
 
 /*************************/
 /* END HEADER ALIGNMENTS */
@@ -457,73 +427,69 @@ body {
 	    }
 
 		@media only screen and (max-width: 1024px) and (min-width: 640px){
-				.footer_top{
-		 			margin-bottom: 40px;
-		 		}
-		 		.el1{
-		 			margin-bottom: -29px;
-		 			margin-top: -20px;
-		 		}
-		 		.el2{
-		 			margin-top:-14px;
-		 			margin-bottom: -6px;
-		 		}
-		 		.el4{
-		 			margin-top: 0px;
-		 		}
-		 		.sitelinks{
-		 			padding-bottom: 20px;
-		 		}
+			.footer_top{
+	 			margin-bottom: 40px;
+	 		}
+	 		.el1{
+	 			margin-bottom: -29px;
+	 			margin-top: -20px;
+	 		}
+	 		.el2{
+	 			margin-top:-14px;
+	 			margin-bottom: -6px;
+	 		}
+	 		.el4{
+	 			margin-top: 0px;
+	 		}
+	 		.sitelinks{
+	 			padding-bottom: 20px;
+	 		}
 
-				#undertoprow{
-					margin-top: 20px;
-				}
-		 		.floatright{
-		 			float: left;
-		 			/*margin-top: -20px;*/
-		 			/*lol, yes this is correct*/
-		 		}
-		 		.floatright h2{
-					margin-top: -11px;
-					margin-bottom: -14px;
-					/*padding-bottom: -2px;*/
-				}
+			#undertoprow{
+				margin-top: 20px;
+			}
+	 		.floatright{
+	 			float: left;
+	 		}
+	 		.floatright h2{
+				margin-top: -11px;
+				margin-bottom: -14px;
+				/*padding-bottom: -2px;*/
+			}
 
-		 		#footer_pyb{
-		 			width: 60%;
-		 		}
-		 		.footer_sponsor{
-		 			padding-top: 10px;
-		 		}
-		 		#sponsorb{
-		 			margin-top: -2%;
-		 		}
-		 		.footer{
-		 			height: 55%;
-		 		}
-		 	}
+	 		#footer_pyb{
+	 			width: 60%;
+	 		}
+	 		.footer_sponsor{
+	 			padding-top: 10px;
+	 		}
+	 		#sponsorb{
+	 			margin-top: -2%;
+	 		}
+	 		.footer{
+	 			height: 55%;
+	 		}
+	 	}
 
 		@media only screen and (max-width: 640px){
+	 		/*.subscribe-form{
+	 			width: 80px;
+	 		}*/
 
+	 		.sidebar{
+	 			margin-right: 10px;
+	 		}
+	 		.sidebar p{
+	 			font-size: 9px;
+	 			margin-left: -20px;
+	 		}
 
-		 		/*.subscribe-form{
-		 			width: 80px;
-		 		}*/
-
-		 		.sidebar{
-		 			margin-right: 10px;
-		 		}
-		 		.sidebar p{
-		 			font-size: 9px;
-		 			margin-left: -20px;
-		 		}
-
-		 		.footer_sponsor{
-		 			padding-top: 10px
-		 		}
-		 		.footer{
-		 			height:120%;
-		 		}
+	 		.footer_sponsor{
+	 			padding-top: 10px
+	 		}
+	 		.footer{
+	 			height:120%;
+	 		}
 		}
 
 
@@ -623,6 +589,58 @@ body {
 /* START: index.html */
 /*********************/
 
+	/********************/
+	/* START: Jumbotron */
+	/********************/
+
+		#jumbotron {
+			background-color: rgb(250,250,252); 
+			border: 3px solid rgb(248,152,72); 
+			margin-top: 3px;
+		}
+
+	/********/
+	/* END: Jumbotron */
+	/******************/
+
+	/*************************************/
+	/* START: Distribution Event Styling */
+	/*************************************/
+
+	 	.distribution_section {
+	 		top: 50px;
+	 		width: 100%; 
+	 		border: 3px solid rgb(22,22,148);
+	 	}
+
+	 	.distribution_section h1, .distribution_section div div{
+	 		text-align: center;
+	 	}
+
+	 	.distribution_section div {
+	 		text-align: center; 
+	 		left: 20px;
+	 	}
+
+	 	.distribution_section h3, .distribution_section h5 {
+	 		text-align: left; 
+	 	}
+
+	 	.distribution_section div div p {
+	 		text-align: left; 
+	 		max-width: 800px; 
+	 		margin-right: 40px;
+	 	}
+
+		.distribution_section div div a button{
+			bottom: 30px;
+		}
+
+	/***********************************/
+	/* END: Distribution Event Styling */
+	/***********************************/
+
+
 	/***********************************/
 	/* START: Story Circles/Who We Are */
 	/***********************************/
@@ -677,43 +695,33 @@ body {
 			}
 		}
 
-		/* we want to 'highlight' the circles on mouseover */
-		/*.sm_circles:hover{
-			background-color:black;
-			opacity:.8;
-		}*/
-
 	/*********************************/
 	/* END: Story Circles/Who We Are */
 	/*********************************/
-
 
 
 	/*******************/
 	/* START: Carousel */
 	/*******************/
 
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			-moz-animation-name: fade;
+			-moz-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
 
-			/* Fading animation */
-			.fade {
-				-webkit-animation-name: fade;
-				-webkit-animation-duration: 1.5s;
-				-moz-animation-name: fade;
-				-moz-animation-duration: 1.5s;
-				animation-name: fade;
-				animation-duration: 1.5s;
-			}
-
-			.mySlides{
-				margin: 10px 0px;
-				border: 1px solid #000000;
-			}
+		.mySlides{
+			margin: 10px 0px;
+			border: 1px solid #000000;
+		}
 
 	/*****************/
 	/* END: Carousel */
 	/*****************/
-
-
 
 	/******************************/
 	/* START: Sponsorship Section */
