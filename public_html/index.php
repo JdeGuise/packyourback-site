@@ -1,27 +1,21 @@
 <head>
 	<title>Pack Your Back - Supplying Success</title>
 	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="css/foundation.css" />
-	<link rel="stylesheet" type="text/css" href="css/w3.css">
-	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/foundation.css" />
+	<link rel="stylesheet" type="text/css" href="css/w3.css"/>
 	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css">
-
-	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
 </head>
 
 <body>
 	<?php include('html/includes/header.php'); ?>
 
-	<br>
-	<br>
-	<br>
-
-	<div class="row">
+	<div class="row" id="jumbotron-container">
 		<div class="columns small-12 medium-12 large-12" id="jumbotron">
 			<a href="https://www.paypal.me/PackYourBack">
 				<img class="mySlides fade jumboimg" src="assets/index_pics/donatebanner.png">
@@ -36,70 +30,43 @@
 	</div>
 
 	<div class="row distribution_section">
-
-		<br>
-		<br>
-		<br>
-		
 		<h1>
 			<b><u>Upcoming School Distributions</u></b>
 		</h1>
-		
-		<br>
-		<br>
 
 		<hr class="hrstyle">
-
-		<br>
-		<br>
 
 		<div class="columns small-12 medium-12 large-6">
 			<h3>Detroit Public Library - August 12th, 2017</h3>
 			<h5>Detroit, Michigan</h5>
 			
-			<br>
-
 			<div class="columns small-12 medium-12 large-12">
 
-				<br>
+				<p>
+					Pack Your Back is proud to be in Detroit, Michigan this year for a school supply distribution. After providing school supplies to over 500 students in Flint, Michigan, we are ready to do it again. Our 2017 Detroit distribution will take place at the Detroit Public Library – Main Branch on August 12th from 1:00-5:00pm. We are proud to partner with the March for Public Education and the Detroit Public Library to make this distribution possible.
+				</p>
 
-				<p>Pack Your Back is proud to be in Detroit, Michigan this year for a school supply distribution. After providing school supplies to over 500 students in Flint, Michigan, we are ready to do it again. Our 2017 Detroit distribution will take place at the Detroit Public Library – Main Branch on August 12th from 1:00-5:00pm. We are proud to partner with the March for Public Education and the Detroit Public Library to make this distribution possible.</p>
-
-				<br>
-				<br>
-				<br>
-
-				<a href="html/dps.php"><button>Read More</button></a>
+				<a href="html/dps.php">
+					<button>Read More</button>
+				</a>
 			</div>
 		</div>
 		<div class="columns small-12 medium-12 large-6">
-
-			<br>
-			<br>
-
 			<iframe class="distribution_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<hr class="hrstyle">
-		<div class="columns small-12 medium-6 large-6">
-			
-			<br>
-			
+		<div class="columns small-12 medium-6 large-6" id="distribution-spotlight-lmf">
+						
 			<h3>Little Miss Flint</h3>
-			
-			<br>
-			
+						
 			<p>
 				Pack Your Back would like to thank Mari Copeny, also known as "Little Miss Flint” for assisting our organization in raising funds to purchase over 1,000 for students in Flint, Michigan. "We need to help kids in Flint that can't afford a backpack or school supplies so the people can go to school," she said. "School is important. Education is life.” - Mari Copeny
 			</p>
-			
-			<br>
-			
+
 			<p>
 				To donate to Mari’s 2018 Pack Your Back campaign, please visit her fundraising page, located <a href="https://www.classy.org/team/129320">here</a>.
 			</p>
 			
-			<br>
-
 		</div>
 		<div class="columns small-12 medium-6 large-6">
 			<img src="assets/index_pics/lmf.png" width="80%" height="80%">
@@ -265,7 +232,7 @@
 				</a>
 			</div>
 
-			<br style="margin-top: 1px;">
+			<br>
 
 			<h2>Our Needs</h2>
 			<p class="story_p">
