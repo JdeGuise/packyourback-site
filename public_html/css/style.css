@@ -622,6 +622,20 @@
 	 		left: 20px;
 	 	}
 
+	 	.distribution_section div img {
+	 		border: 1px solid black;
+	 	}
+
+	 	.distribution_section div h3 {
+	 		text-align: center;
+	 	}
+
+	 	.distribution_section div p {
+	 		padding-left: 35px; 
+	 		position: relative; 
+	 		text-align: left;
+	 	}
+
 	 	.distribution_section h3, .distribution_section h5 {
 	 		text-align: left; 
 	 	}
@@ -636,11 +650,33 @@
 			bottom: 30px;
 		}
 
+		.distribution_map {
+			border: 1px solid rgb(55,55,55); 
+			bottom: 45px; 
+			position: relative;
+			text-align: center;		
+		}
 	/***********************************/
 	/* END: Distribution Event Styling */
 	/***********************************/
 
+	/****************************/
+	/* START: Sponsor Container */
+	/****************************/
 
+		#sponsor-container {
+			border: 3px solid rgb(111,111,111); 
+			margin: 0 auto;		
+		}
+
+		#sponsor-container div {
+			margin-bottom: 15px; 
+			width: 100%;
+		}
+
+		#sponsor-container div h4 {
+			text-align: center;
+		}
 	/***********************************/
 	/* START: Story Circles/Who We Are */
 	/***********************************/
@@ -683,13 +719,13 @@
 		}
 
 		@media only screen and (max-width: 640px) {
-			.distribution_map1, .distribution_map2{
+			.distribution_map{
 				width: 300px;
 				height: 225px;
 			}
 		}
 		@media only screen and (min-width: 640px) and (max-width: 10000px) {
-			.distribution_map1, .distribution_map2{
+			.distribution_map{
 				width: 500px;
 				height: 375px;
 			}
@@ -727,13 +763,14 @@
 	/* START: Sponsorship Section */
 	/******************************/
 
-		.sponsorship_container{
+		.sponsorship-container-section{
 			border: 2px solid rgb(155,155,170);
-			margin-top: 40px;
 			height: 200px;
+			width: 85%; 
+			margin: 0 auto;			
 		}
 
-		.sponsorship_container img{
+		.sponsorship-container-section img{
 			position: relative;
 			vertical-align: middle;
 			margin: 0 auto;
@@ -741,13 +778,17 @@
 			height: 100%;
 		}
 
-		.sponsorship_container div{
+		.sponsorship-container-section div{
 			display: inline-block;
-			width: 100%;
+			width: auto;
 			position: relative;
 		}
-		.sponsorship_container div img:hover {
+		.sponsorship-container-section div img:hover {
 			opacity: .25;
+		}
+
+		#concentra-logo {
+			width: 100%;
 		}
 
 	/****************************/
@@ -775,6 +816,12 @@
 	/*******************************/
 	/* START: Why Donate Container */
 	/*******************************/
+
+	#why-donate-container {
+		width: 100%; 
+		max-width: 100%; 
+		border: 3px solid rgb(248, 112, 69);
+	}
 
 
 	/*****************************/
