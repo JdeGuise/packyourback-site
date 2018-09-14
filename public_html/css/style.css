@@ -681,6 +681,12 @@
 	/* START: Story Circles/Who We Are */
 	/***********************************/
 
+		#story_circle_container {
+			border: 4px solid rgb(44,84,165);
+			text-align: center; 
+			height: auto;
+		}
+
 		/* declare story/mission/idea circles */
 		.story_circles{
 			/*make our box into circles */
@@ -694,6 +700,7 @@
 		.story_p{
 			max-width: 650px;
 		  	margin: 0 auto;
+		  	text-align: left;
 		}
 
 		.who_we_are_self{
@@ -799,16 +806,23 @@
 	/* START: Featured Quote */
 	/*************************/
 
-			.index-quote-h4{
-				position:relative;
-				text-align:center;
-			}
-			.index-quote-wrapper{
-				background-color: lightblue;
-				max-width: 75%;
-				text-align:center;
-			}
+		#index-quote-wrapper{
+			background-color: black;
+			text-align:center;
+			margin: 0 auto;
+		}
 
+		#index-quote-self {
+			text-align:left; 
+			margin: 0 auto;
+		}
+
+		#index-quote-self h4 {
+			position: relative;
+			text-align: center;	
+			color: rgb(242,242,246); 
+			text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;			
+		}
 	/***********************/
 	/* END: Featured Quote */
 	/***********************/
@@ -817,12 +831,32 @@
 	/* START: Why Donate Container */
 	/*******************************/
 
-	#why-donate-container {
-		width: 100%; 
-		max-width: 100%; 
-		border: 3px solid rgb(248, 112, 69);
-	}
+		#why-donate-container {
+			width: 100%; 
+			max-width: 100%; 
+			border: 3px solid rgb(248, 112, 69);
+		}
 
+		#why-donate-content h1{
+			text-align: center;
+		}
+
+		#why-donate-content p, #why-donate-content div p {
+			margin: 0 auto; 
+			max-width: 900px; 
+			text-align: left;
+		}
+
+		.donateButtons {
+			text-align: center;
+		}
+
+		.photoContainer img {
+			width:494px; 
+			height:240px; 
+			position:relative; 
+			border: 1px solid rgb(55,55,55);
+		}
 
 	/*****************************/
 	/* END: Why Donate Container */

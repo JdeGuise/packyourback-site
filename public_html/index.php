@@ -175,17 +175,17 @@
 		<br>
 		<br>
 
-		<div class="columns small-12 medium-6 large-8" id="why_donate_content">
+		<div class="columns small-12 medium-6 large-8" id="why-donate-content">
 
 			<br>
 
-			<h1 style="text-align: center;">Why Donate?</h1>
+			<h1>Why Donate?</h1>
 
 			<br>
 			<br>
 
 			<div>
-				<p style="margin: 0 auto; max-width: 900px; text-align: left;">
+				<p>
 					Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
 				</p>
 			</div>
@@ -193,7 +193,7 @@
 			<br>
 			<br>
 
-			<p style="margin: 0 auto; max-width: 900px; text-align: left;">
+			<p>
 				In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
 			</p>
 
@@ -203,12 +203,12 @@
 			<br>
 			<br>
 
-			<div class="columns small-6" style="text-align:center;">
+			<div class="columns small-6 donateButtons">
 				<a href="https://www.classy.org/campaign/Pack-Your-Back/c128367">
 					<button>Donate Now</button>
 				</a>
 			</div>
-			<div class="columns small-6" style="text-align:center;">
+			<div class="columns small-6 donateButtons">
 				<a href="https://www.classy.org/campaign/Pack-Your-Back/c128367">
 					<button>More Info</button>
 				</a>
@@ -217,19 +217,19 @@
 		</div>
 
 		<div class="columns small-12 medium-6 large-4">
-			<div class="columns small-12">
+			<div class="columns small-12 photoContainer">
 
-				<img src="assets/index_pics/kids.png" style="width:494px; height:240px; position:relative; border: 1px solid rgb(55,55,55);">
+				<img src="assets/index_pics/kids.png">
 
 				<br>
 
 			</div>
 
-			<div class="columns small-12">
+			<div class="columns small-12 photoContainer">
 
 				<br>
 
-				<img src="assets/index_pics/1.jpeg" style="height:240px; position: relative; border: 1px solid rgb(55,55,55);">
+				<img src="assets/index_pics/1.jpeg">
 
 				<br>
 				<br>
@@ -239,12 +239,12 @@
 		</div>
 	</div>
 
-	<div class="row" class="index-quote-wrapper" style="margin: 0 auto; background-color: rgb(0,0,0); ">
+	<div class="row" id="index-quote-wrapper">
 
 		<br>
 
-		<div class="index-quote-self" style="text-align:left; margin: 0 auto;">
-			<h4 style="color: rgb(242,242,246); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;" class="index-quote-h4">
+		<div id="index-quote-self">
+			<h4>
 				23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.
 			</h4>
 		</div>
@@ -252,7 +252,7 @@
 		<br>
 
 	</div>
-	<div class="story_circle_container row" style="border: 4px solid rgb(44,84,165); text-align: center; height: auto;">
+	<div class="row" id="story_circle_container">
 
 		<div class="columns small-12 medium-12 large-4 story_feature">
 
@@ -268,7 +268,7 @@
 			<br style="margin-top: 1px;">
 
 			<h2>Our Needs</h2>
-			<p class="story_p" style="text-align: left; margin: 0 auto;">
+			<p class="story_p">
 				Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.
 			</p>
 
@@ -293,7 +293,7 @@
 			<br>
 
 			<h2>Our Leaders</h2>
-			<p class="story_p" style="text-align: left; margin: 0 auto;">
+			<p class="story_p">
 				Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to build a system for helping younger generations receive the education they need.
 			</p>
 
@@ -316,7 +316,7 @@
 			<br>
 
 			<h2>Our Story</h2>
-			<p class="story_p" style="text-align: left; margin: 0 auto;">
+			<p class="story_p">
 				Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.
 			</p>
 
