@@ -38,7 +38,7 @@
             </li>
 			
 			<ul>
-				<img class="hamburger" id="hamburger" src="../assets/icons/hamburgermenu-blue.png">
+				<img class="hamburger" id="hamburger" src="assets/icons/hamburgermenu-blue.png">
 			</ul>
 		</ul>
 	</div>
