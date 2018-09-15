@@ -11,7 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
 </head>
-
 <body>
 	<?php include('html/includes/header.php'); ?>
 
@@ -28,8 +27,7 @@
 			</a>
 		</div>
 	</div>
-
-	<div class="row distribution_section">
+	<div class="row" id="distribution_section">
 		<h1>
 			<b><u>Upcoming School Distributions</u></b>
 		</h1>
@@ -56,43 +54,23 @@
 		</div>
 		<hr class="hrstyle">
 		<div class="columns small-12 medium-6 large-6" id="distribution-spotlight-lmf">
-						
-			<h3>Little Miss Flint</h3>
-						
+			<h3>Little Miss Flint</h3>		
 			<p>
-				Pack Your Back would like to thank Mari Copeny, also known as "Little Miss Flint” for assisting our organization in raising funds to purchase over 1,000 for students in Flint, Michigan. "We need to help kids in Flint that can't afford a backpack or school supplies so the people can go to school," she said. "School is important. Education is life.” - Mari Copeny
+				Pack Your Back would like to thank Mari Copeny, also known as &quot;Little Miss Flint&quot; for assisting our organization in raising funds to purchase over 1,000 for students in Flint, Michigan. &quot;We need to help kids in Flint that can't afford a backpack or school supplies so the people can go to school,&quot; she said. &quot;School is important. Education is life.&quot; - Mari Copeny
 			</p>
-
 			<p>
 				To donate to Mari’s 2018 Pack Your Back campaign, please visit her fundraising page, located <a href="https://www.classy.org/team/129320">here</a>.
 			</p>
-			
 		</div>
-		<div class="columns small-12 medium-6 large-6">
+		<div class="columns small-12 medium-6 large-6" id="distribution-spotlight-lmf-img">
 			<img src="assets/index_pics/lmf.png" width="80%" height="80%">
-			
-			<br>
-			<br>
-
 		</div>
-
-		<br>
-		<br>
-
 	</div>
-
 	<div class="row" id="sponsor-container">
 		<div class="columns small-12 medium-12 large-12">
-
-			<br>
-			<br>
-
 			<h4>
 				<b>Our sincerest thanks to our 2017/2018 organizational sponsors.</b>
 			</h4>
-
-			<br>
-			<br>
 
 			<section class="sponsorship-container-section center slider">
 				<a href="https://www.concentra.com/">
@@ -131,44 +109,20 @@
 					</div>
 				</a>
 			</section>
-
-			<br>
-
 		</div>
 	</div>
-
 	<div class="row" id="why-donate-container">
-
-		<br>
-		<br>
-
 		<div class="columns small-12 medium-6 large-8" id="why-donate-content">
-
-			<br>
-
 			<h1>Why Donate?</h1>
-
-			<br>
-			<br>
 
 			<div>
 				<p>
 					Pack Your Back relies on the kind donations from the community and various businesses in order to provide resources for children to succeed in the classroom. Since there are always more children in need, Pack Your Back is always in need of donations to continue providing students with resources.
 				</p>
 			</div>
-
-			<br>
-			<br>
-
 			<p>
 				In addition to donations of backpacks and other school supplies, the Pack Your Back movement is relying on sponsorships from local businesses and organizations to fund the cause. Click the link below for more information.
 			</p>
-
-			<br>
-			<br>
-
-			<br>
-			<br>
 
 			<div class="columns small-6 donateButtons">
 				<a href="https://www.classy.org/campaign/Pack-Your-Back/c128367">
@@ -180,47 +134,26 @@
 					<button>More Info</button>
 				</a>
 			</div>
-
 		</div>
 
 		<div class="columns small-12 medium-6 large-4">
 			<div class="columns small-12 photoContainer">
-
-				<img src="assets/index_pics/kids.png">
-
-				<br>
-
+				<img src="assets/index_pics/kids.png" id="whyDonatePhoto1">
 			</div>
 
 			<div class="columns small-12 photoContainer">
-
-				<br>
-
-				<img src="assets/index_pics/1.jpeg">
-
-				<br>
-				<br>
-				<br>
-
+				<img src="assets/index_pics/1.jpeg" id="whyDonatePhoto2">
 			</div>
 		</div>
 	</div>
-
 	<div class="row" id="index-quote-wrapper">
-
-		<br>
-
 		<div id="index-quote-self">
 			<h4>
 				23% of Michigan residents fall below the poverty line.  There is a constant need for education supplies to help children succeed.
 			</h4>
 		</div>
-
-		<br>
-
 	</div>
 	<div class="row" id="story_circle_container">
-
 		<div class="columns small-12 medium-12 large-4 story_feature">
 
 			<br>
@@ -243,9 +176,7 @@
 			<br>
 			<br>
 			<br>
-
 		</div>
-
 		<div class="columns small-12 medium-12 large-4 story_feature">
 
 			<br>

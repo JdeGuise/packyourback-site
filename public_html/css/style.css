@@ -493,50 +493,50 @@
 	/* START: Distribution Event */
 	/*****************************/
 
-		.distribution_section {
+		#distribution_section {
 			top: 50px;
 			width: 100%; 
 			border: 3px solid rgb(22,22,148);
 		}
-		.distribution_section h1 {
+		#distribution_section h1 {
 			margin-top: 70px;
 			margin-bottom: 48px;
 		}
-		.distribution_section h1, .distribution_section div div {
+		#distribution_section h1, #distribution_section div div {
 			text-align: center;
 		}
-		.distribution_section iframe {
+		#distribution_section iframe {
 			margin-top: 48px;
 		}
-		.distribution_section div div {
+		#distribution_section div div {
 			margin-top: 24px;
 		}
-		.distribution_section div {
+		#distribution_section div {
 			text-align: center; 
 			left: 20px;
 		}
-		.distribution_section div img {
+		#distribution_section div img {
 			border: 1px solid black;
 		}
-		.distribution_section div h3 {
+		#distribution_section div h3 {
 			text-align: center;
 		}
-		.distribution_section div p {
+		#distribution_section div p {
 			padding-left: 35px; 
 			position: relative; 
 			text-align: left;
 		}
-		.distribution_section h3, .distribution_section h5 {
+		#distribution_section h3, #distribution_section h5 {
 			text-align: left; 
 		}
-		.distribution_section div div p {
+		#distribution_section div div p {
 			text-align: left; 
 			max-width: 800px; 
 			margin-right: 40px;
 			margin-top: 24px;
 			margin-bottom: 70px;
 		}
-		.distribution_section div div a button {
+		#distribution_section div div a button {
 			bottom: 30px;
 		}
 		.distribution_map {
@@ -548,6 +548,9 @@
 		#distribution-spotlight-lmf h3, #distribution-spotlight-lmf p {
 			margin-top: 24px;
 			margin-bottom: 24px;
+		}
+		#distribution-spotlight-lmf-img img, #distribution-spotlight-lmf-img {
+			margin-bottom: 48px;
 		}
 
 	/***************************/
@@ -569,6 +572,35 @@
 		}
 		#sponsor-container div h4 {
 			text-align: center;
+			margin-top: 48px;
+			margin-bottom: 48px;
+		}
+		.sponsorship-container-section {
+			border: 2px solid rgb(155,155,170);
+			height: 200px;
+			width: 85%; 
+			margin-top: 0px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 24px;	
+		}
+		.sponsorship-container-section img {
+			position: relative;
+			vertical-align: middle;
+			margin: 0 auto;
+			padding: 5px;
+			height: 100%;
+		}
+		.sponsorship-container-section div {
+			display: inline-block;
+			width: auto;
+			position: relative;
+		}
+		.sponsorship-container-section div img:hover {
+			opacity: .25;
+		}
+		#concentra-logo {
+			width: 100%;
 		}
 
 	/**************************/
@@ -689,40 +721,6 @@
 	/*****************/
 
 
-	/******************************/
-	/* START: Sponsorship Section */
-	/******************************/
-
-		.sponsorship-container-section {
-			border: 2px solid rgb(155,155,170);
-			height: 200px;
-			width: 85%; 
-			margin: 0 auto;			
-		}
-		.sponsorship-container-section img {
-			position: relative;
-			vertical-align: middle;
-			margin: 0 auto;
-			padding: 5px;
-			height: 100%;
-		}
-		.sponsorship-container-section div {
-			display: inline-block;
-			width: auto;
-			position: relative;
-		}
-		.sponsorship-container-section div img:hover {
-			opacity: .25;
-		}
-		#concentra-logo {
-			width: 100%;
-		}
-
-	/****************************/
-	/* END: Sponsorship Section */
-	/****************************/
-
-
 	/*************************/
 	/* START: Featured Quote */
 	/*************************/
@@ -734,7 +732,7 @@
 		}
 		#index-quote-self {
 			text-align:left; 
-			margin: 0 auto;
+			margin: 24px auto;
 		}
 		#index-quote-self h4 {
 			position: relative;
@@ -757,13 +755,24 @@
 			max-width: 100%; 
 			border: 3px solid rgb(248, 112, 69);
 		}
+		#why-donate-content {
+			margin-top: 48px;
+		}
 		#why-donate-content h1 {
 			text-align: center;
+			margin-top: 24px;
+			margin-bottom: 48px;
 		}
 		#why-donate-content p, #why-donate-content div p {
 			margin: 0 auto; 
 			max-width: 900px; 
 			text-align: left;
+		}
+		#why-donate-content div:first-child {
+			margin-bottom: 48px;
+		}
+		#why-donate-content > p {
+			margin-bottom: 70px;
 		}
 		.donateButtons {
 			text-align: center;
@@ -773,6 +782,13 @@
 			height:240px; 
 			position:relative; 
 			border: 1px solid rgb(55,55,55);
+		}
+		#whyDonatePhoto1 {
+			margin-bottom: 24px;
+		}
+		#whyDonatePhoto2 {
+			margin-top: 24px;
+			margin-bottom: 72px;
 		}
 
 	/*****************************/
