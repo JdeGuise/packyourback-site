@@ -2,23 +2,32 @@
 /* START TEMPLATE STYLES */
 /*************************/
 
-	html, body{
+	html, body {
 		width:100%;
 	}
-
 	body {
 		background-color: rgb(242, 242, 242);
 		font-family: Arial;	
 	}
-
 	/* Change background color of links on hover */
 	.menuitems li a:hover {
 		color: rgb(33, 65, 149);  /* dark blue */
 	}
-
-	.hrstyle{
+	.hrstyle {
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+	/* all of our rows' paragraphs are
+		default aligned to center */
+	.row p {
+		text-align:center;
+	}
+	/* all of our articles acting as descriptions are aligned left */
+	.articles article {
+		text-align: left;
+	}
+	.after {
+		background: rgba(0,0,0,0.75);
 	}
 
 /*************************/
@@ -26,67 +35,64 @@
 /*************************/
 
 
-/***************/
-/* START FONTS */
-/***************/
+/****************/
+/* START: Fonts */
+/****************/
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Roboto', sans-serif;
 	}
-
 	.who_we_are p, li, body p {
 		font-family: 'Raleway', sans-serif;
 	}
 
-/*************/
-/* END FONTS */
-/*************/
+/**************/
+/* END: Fonts */
+/**************/
 
 
 /****************************/
-/* START NAVHEADER STYLINGS */
+/* START: Navheader Styling */
 /****************************/
 
 	/* Hide the list item that contains the link that should open and close the topnav on small screens */
-	@media only screen and (max-width: 1200px){
-		.menuitem, .topNavDonateButtons{
+	@media only screen and (max-width: 1200px) {
+		.menuitem, .topNavDonateButtons {
 			visibility: hidden;
 		}
-		.icon{
+		.icon {
 			visibility: hidden;
 		}
-		.hamburger{
+		.hamburger {
 			visibility: visible;
 		}
 	}
-	@media screen and (min-width: 1201px){
-		.hamburger{
+
+	@media screen and (min-width: 1201px) {
+		.hamburger {
 			visibility: hidden;
 		}
-		.dropdownOverlay{
+		.dropdownOverlay {
 			visibility: hidden;
 		}
 	}
 
 	/* set default header height */
-	header{
+	header {
 		height: 75px;
 		z-index: 2;		
 	}
-
 	/* set default header logo width and height */
-	header img{
+	header img {
 		height: 60px;
 	}
-	
 	/* align logo vertically with the box it sits in */
 	header .logo {
-	  position:relative;
-	  margin-top:7px;
+		position:relative;
+		margin-top:7px;
 	}
-	
 	/* align hamburger menu more closely with the right side of the screen */
-	header .hamburger{
+	header .hamburger {
 		position: absolute;
 		right:12px;
 		top:12px;
@@ -94,8 +100,7 @@
 		height: 50px;
 		border-radius: 50%;
 	}
-
-	header .topNavDonateButtons{
+	header .topNavDonateButtons {
 		float: right;
 		right: 9px;
 		top: 9px;
@@ -105,53 +110,45 @@
 		margin-right: 6px;
 		background-color: crimson;
 	}
-
-	header .hamburger:hover{
+	header .hamburger:hover {
 		background-color: rgb(250, 108, 51);
 		cursor: pointer;
 	}
-	
 	/* align header elements and move navbar into a row */
 	header ul {
-	  display: inline;
-	  list-style: none;
-	  top: 20px;
+		display: inline;
+		list-style: none;
+		top: 20px;
 	}
-
 	header li {
-	  vertical-align: middle;
-	  display: inline;
-	  cursor: pointer;
-	  padding-left: 30px;
-	  padding-right: 30px;
-	  margin-left: -20px;
+		vertical-align: middle;
+		display: inline;
+		cursor: pointer;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-left: -20px;
 	}
-
 	/* remove hyperlink decoration from links */
 	header a {
 		text-decoration: none;
 	}
-
-	.header{
+	.header {
 		position: fixed;
 		width: 100%;
 		top: 0;
 		background-color: rgb(242, 242, 242);
 		border-bottom: 4px solid rgb(250,130,30);
 	}
-
-	.menuitem{
+	.menuitem {
 		font-size: 18px;
 		left:65px;
-	  	top: 5px;
-	  	position: relative;
-
-	  	/* disables selection of the menu text */
-	  	-webkit-user-select: none; /* Chrome/Safari */
+		top: 5px;
+		position: relative;
+		/* disables selection of the menu text */
+		-webkit-user-select: none; /* Chrome/Safari */
 		-moz-user-select: none; /* Firefox */
-	  	user-select: none;
+		user-select: none;
 		-ms-user-select: none; /* IE10+ */
-
 		border-radius: 7%;
 		border-bottom: 7px;
 		border-color: rgb(242, 242, 242);
@@ -159,23 +156,21 @@
 		padding-top: 15px;
 		border-style: none none solid none;
 	}
-
-	.menuitem button:hover{
+	.menuitem button:hover {
 		color:black;
 	}
-	
 	/* query is for when screen width is less than 775px
 		while it's true, we want to:
 			1 center our logo,
 			2 make the header taller, so that we can...
 			3 center the navbar links below the logo.
 	*/
-	@media only screen and (max-width: 775px){
+	@media only screen and (max-width: 775px) {
 		/* make header taller */
-		header{
+		header {
 			opacity: .8;
 		}
-		header li{
+		header li {
 			padding-right: 20px;
 			padding-left: 20px;
 		}
@@ -183,39 +178,37 @@
 
 	/* When the screen is super small we want the same thing as above but taller
 	*/
-	@media only screen and (max-width: 385px){
-		header{
+	@media only screen and (max-width: 385px) {
+		header {
 			opacity: 1;
 		}
-		header li{
+		header li {
 			text-align: center;
 		}
 	}
 
 /**************************/
-/* END NAVHEADER STYLINGS */
+/* END: Navheader Styling */
 /**************************/
 
+
 /****************************/
-/* START: HEADER ALIGNMENTS */
+/* START: Header Alignments */
 /****************************/
 
-	.dropdownButtons{
+	.dropdownButtons {
 		list-style:inherit;
 		margin-top: 20px;
 		margin-left: 26px;
-
 		border-width: 2px;
 		border-color: rgb(255,255,255);
 		border-style: outset;
 	}
-
-	.thedropdown{
+	.thedropdown {
 		display: table;
 		margin: 0 auto;
 	}
-
-	.dropdownOverlay{
+	.dropdownOverlay {
 		display:none;
 		position:fixed;
 		z-index: 1;
@@ -227,14 +220,12 @@
 		background-color: rgba(242, 242, 242, .8);
 		transition: .5s ease;
 	}
-
 	.myDropdown {
 		display: block;
 		list-style: none;
 		position:relative;
 		font-size: 26px;
 		transition: .5s ease;
-
 	}
 	.dropdown_menuitem {
 		list-style-type: none;
@@ -242,348 +233,240 @@
 		margin-top: 10px;
 		position: static;
 		text-align: center;
-
 		cursor: pointer;
-
 		border-bottom: 7px;
 		border-style: none none solid none;
 		width: 100%;
 		border-radius: 7%;
-
 		border-color: rgb(242, 242, 242);
 		border-color: rgba(242, 242, 242, 0);
 	}
-
-	.content{
+	.content {
 		position: relative;
 		top: 50px;
 		color:white;
 	}
 
 /*************************/
-/* END HEADER ALIGNMENTS */
+/* END: Header Alignment */
 /*************************/
 
+
 /***************************/
-/* START FOOTER ALIGNMENTS */
+/* START: Footer Alignment */
 /***************************/
 
-		.footer{
-			height: 250px;
-			border: 5px solid rgb(55,55,55);
+	.footer {
+		height: 250px;
+		border: 5px solid rgb(55,55,55);
+	}
+	footer {
+		color: #ffffff;
+		background-color: rgb(61, 61, 61);
+	}
+	footer h4 {
+		text-align: left;
+		color: white;
+		font-size: 20px;
+	}
+	footer h2, .sitelinks {
+		color: rgb(102,102,102);
+		font-size:14px;
+		margin-bottom: -12px;
+		padding-bottom: -12px;
+		margin-top: -11px;
+	}
+	footer img {
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+	footer hr {
+		display: block;
+		border-color: rgb(102,102,102);
+	}
+	.footer_top {
+		display: inline;
+		vertical-align: middle;
+		margin-top: 70px;
+		margin-bottom: 10px;
+		margin-left: 40px;
+	}
+	.footer_top b {
+		font-size: 16px;
+	}
+	.el1 {
+		margin-bottom: -18px;
+	}
+	.el2 {
+		margin-top:5px;
+	}
+	footer button {
+		width: 75px;
+		height: 31px;
+		display: inline;
+		bottom: 20px;
+		font-family: Tahoma, Geneva, sans-serif;
+		border-style: none;
+		cursor: pointer;
+		left: 130px;
+		top: -47px;
+		text-align: center;
+		font-size: 13px;
+		padding: 0px;
+	}
+	footer .footer_soc_media img {
+		width: 25px;
+		height: 25px;
+	}
+	.subscribe-input[type=email] {
+		background-color: rgb(102, 102, 102);
+		border-style:none;
+		border-width: 2px;
+		border-color: rgb(76, 206, 251);
+		color: white;
+		height: 31px;
+		z-index: 100;
+	}
+	.subscribe-input[type=email]:focus {
+		background-color: rgb(102, 102, 102);
+		border-style:dashed;
+		border-width: 2px;
+		border-color: #008CBA;
+	}
+	.subscribe-form {
+		width: 120px;
+		height: 31px;
+		color: white;
+	}
+	.sidebar {
+		background-color: white;
+		border-radius: 15%;
+		width: 100%;
+	}
+	.sidebar p {
+		text-align: left;
+		font-family: Roboto;
+		font-size: 14px;
+	}
+	#footer_pyb {
+		width: 270px;
+		height: 80px;
+		margin-top: 10px;
+	}
+	.floatright {
+		float: right;
+		padding-bottom: 0px;
+		margin-top: 2px;
+	}
+	.floatright h2 {
+		margin-top: -10px;
+	}
+	.contactinfo h2 {
+		text-align: left;
+	}
+	#undertoprow {
+		margin-top: 10px;
+	}
+	.lines_shift {
+		display: none;
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.footer {
+			height: 70%;
+		}
+	}
+	@media only screen and (max-width: 1024px) and (min-width: 640px) {
+		.footer_top {
+			margin-bottom: 40px;
+		}
+		.el1 {
+			margin-bottom: -29px;
+			margin-top: -20px;
+		}
+		.el2 {
+			margin-top:-14px;
+			margin-bottom: -6px;
+		}
+		.el4 {
+			margin-top: 0px;
+		}
+		.sitelinks {
+			padding-bottom: 20px;
 		}
 
-		footer {
-			color: #ffffff;
-			background-color: rgb(61, 61, 61);
+		#undertoprow {
+			margin-top: 20px;
 		}
-
-		footer h4{
-			text-align: left;
-			color: white;
-			font-size: 20px;
+		.floatright {
+			float: left;
 		}
-
-		footer h2, .sitelinks {
-			color: rgb(102,102,102);
-			font-size:14px;
-			margin-bottom: -12px;
-			padding-bottom: -12px;
+		.floatright h2 {
 			margin-top: -11px;
-			/*z-index: 100;*/
+			margin-bottom: -14px;
 		}
-
-
-		footer img{
-			max-width: 100%;
-			height: auto;
-			width: auto;
+		#footer_pyb {
+			width: 60%;
 		}
-
-		footer hr{
-			/*padding-top: -20px;*/
-			display: block;
-			border-color: rgb(102,102,102);
+		.footer_sponsor {
+			padding-top: 10px;
 		}
-
-
-		.footer_top{
-			display: inline;
-			vertical-align: middle;
-			margin-top: 70px;
-			/*margin-left: 10%;*/
-			/*margin-right: 10%;*/
-			margin-bottom: 10px;
-			margin-left: 40px;
+		#sponsorb {
+			margin-top: -2%;
 		}
-
-		.footer_top b{
- 			font-size: 16px;
- 		}
-
- 		.el1{
-			margin-bottom: -18px;
- 		}
- 		.el2{
- 			margin-top:5px;
- 		}
-
+		.footer {
+			height: 55%;
+		}
+	}
+	@media only screen and (max-width: 640px) {
+		.sidebar {
+			margin-right: 10px;
+		}
+		.sidebar p {
+			font-size: 9px;
+			margin-left: -20px;
+		}
+		.footer_sponsor {
+			padding-top: 10px
+		}
+		.footer {
+			height:120%;
+		}
+	}
+	/*this is for the subscribe form, which was overlapping
+	with the sidebar on very small screens*/
+	@media only screen and (max-width: 420px) {
+		.subscribe-form {
+			width: 100px;
+		}
 		footer button {
-			width: 75px;
-			height: 31px;
-			display: inline;
-			/*position: relative;*/
-			bottom: 20px;
-			  /*background: white;*/
-			  /*color: #fff;*/
-			font-family: Tahoma, Geneva, sans-serif;
-
-			border-style: none;
-			cursor: pointer;
-
-			left: 130px;
-			top: -47px;
-			text-align: center;
-			font-size: 13px;
-			padding: 0px;
+			left: 110px;
 		}
+	}
 
-		footer .footer_soc_media img{
-			width: 25px;
-			height: 25px;
-		}
-
-		.subscribe-input[type=email]{
-			background-color: rgb(102, 102, 102);
-			border-style:none;
-			/*border: none;*/
-			border-width: 2px;
-			border-color: rgb(76, 206, 251);
-			/*transition:  border-style .6s;*/
-			color: white;
-			height: 31px;
-			z-index: 100;
-		}
-		.subscribe-input[type=email]:focus{
-			background-color: rgb(102, 102, 102);
-			border-style:dashed;
-			border-width: 2px;
-			border-color: #008CBA;
-			/*-webkit-transition: border-style .6s;*/
-			/*transition: border-style .6s fade;*/
-		}
-
-		.subscribe-form{
-			width: 120px;
-			height: 31px;
-			color: white;
-		}
-
-		.sidebar{
-			background-color: white;
-			border-radius: 15%;
-			width: 100%;
-		}
-
-		.sidebar p{
-			text-align: left;
-			font-family: Roboto;
-			font-size: 14px;
-		}
-
-		#footer_pyb{
-			width: 270px;
-			height: 80px;
-			margin-top: 10px;
-		}
-
-		.floatright{
-			float: right;
-			padding-bottom: 0px;
-			margin-top: 2px;
-		}
-
-		.floatright h2{
- 			margin-top: -10px;
- 		}
-
-		.contactinfo h2{
-			text-align: left;
-		}
-
- 		#undertoprow{
- 			margin-top: 10px;
- 		}
-
- 		.lines_shift{
-	    	display: none;
-	    	/*padding-top: 0px;*/
-	    }
-
-	    @media only screen and (min-width: 1024px){
-	    	.footer{
-	    		height: 70%;
-	    	}
-	    }
-
-		@media only screen and (max-width: 1024px) and (min-width: 640px){
-			.footer_top{
-	 			margin-bottom: 40px;
-	 		}
-	 		.el1{
-	 			margin-bottom: -29px;
-	 			margin-top: -20px;
-	 		}
-	 		.el2{
-	 			margin-top:-14px;
-	 			margin-bottom: -6px;
-	 		}
-	 		.el4{
-	 			margin-top: 0px;
-	 		}
-	 		.sitelinks{
-	 			padding-bottom: 20px;
-	 		}
-
-			#undertoprow{
-				margin-top: 20px;
-			}
-	 		.floatright{
-	 			float: left;
-	 		}
-	 		.floatright h2{
-				margin-top: -11px;
-				margin-bottom: -14px;
-				/*padding-bottom: -2px;*/
-			}
-
-	 		#footer_pyb{
-	 			width: 60%;
-	 		}
-	 		.footer_sponsor{
-	 			padding-top: 10px;
-	 		}
-	 		#sponsorb{
-	 			margin-top: -2%;
-	 		}
-	 		.footer{
-	 			height: 55%;
-	 		}
-	 	}
-
-		@media only screen and (max-width: 640px){
-	 		/*.subscribe-form{
-	 			width: 80px;
-	 		}*/
-
-	 		.sidebar{
-	 			margin-right: 10px;
-	 		}
-	 		.sidebar p{
-	 			font-size: 9px;
-	 			margin-left: -20px;
-	 		}
-
-	 		.footer_sponsor{
-	 			padding-top: 10px
-	 		}
-	 		.footer{
-	 			height:120%;
-	 		}
-		}
-
-
-		/*this is for the subscribe form, which was overlapping
-		with the sidebar on very small screens*/
-		@media only screen and (max-width: 420px){
-				.subscribe-form{
-					width: 100px;
-				}
-				footer button{
-					left: 110px;
-				}
-
-		}
-
-		/*has associated javascript*/
-
-
-		/*controls the color of the typed text in the email box*/
-		input::-webkit-input-placeholder {
-			color: white;
-			font-size: 12px;
-		}
-
-		input:-moz-placeholder { /* Firefox 18- */
-			color: white;
-			font-size: 12px;
-		}
-
-		input::-moz-placeholder {  /* Firefox 19+ */
-			color: white;
-			font-size: 12px;
-		}
-
-		input:-ms-input-placeholder {
-			color: white;
-			font-size: 12px;
-		}
+	/*controls the color of the typed text in the email box*/
+	input::-webkit-input-placeholder {
+		color: white;
+		font-size: 12px;
+	}
+	input:-moz-placeholder { /* Firefox 18- */
+		color: white;
+		font-size: 12px;
+	}
+	input::-moz-placeholder {  /* Firefox 19+ */
+		color: white;
+		font-size: 12px;
+	}
+	input:-ms-input-placeholder {
+		color: white;
+		font-size: 12px;
+	}
 
 /*************************/
 /* END FOOTER ALIGNMENTS */
 /*************************/
 
-/******************************************/
-/* START: GENERIC SOCIAL MEDIA ALIGNMENTS */
-/******************************************/
-
-
-	.sm_circles img{
-		height:50%;
-		width:50%;
-		margin-left:36px;
-		margin-top: 26px;
-
-	}
-	.sm_circles{
-		user-select:none;
-		position:relative;
-		margin: 0 auto;
-		cursor: pointer;
-
-	}
-	.social_media_icons{
-		height:40%;
-		width:40%;
-		margin-left:43px;
-		margin-top: 16px;
-	}
-	.social_media_text{
-		font-size: 16px;
-		padding: 3px;
-		text-align: center;
-		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	}
-
-/****************************************/
-/* END: GENERIC SOCIAL MEDIA ALIGNMENTS */
-/****************************************/
-
-	/* all of our rows' paragraphs are
-		default aligned to center */
-	.row p{
-		text-align:center;
-	}
-	/* all of our articles acting as descriptions are aligned left */
-	.articles article{
-		text-align: left;
-	}
-	.after{
-		background: rgba(0,0,0,0.75);
-	}
-/******************/
-/* END TEMPLATING */
-/******************/
 
 /*********************/
 /* START: index.html */
@@ -593,84 +476,199 @@
 	/* START: Jumbotron */
 	/********************/
 
+		#jumbotron-container {
+			margin-top: 70px;
+		}
 		#jumbotron {
 			background-color: rgb(250,250,252); 
 			border: 3px solid rgb(248,152,72); 
 			margin-top: 3px;
 		}
 
-	/********/
+	/******************/
 	/* END: Jumbotron */
 	/******************/
 
-	/*************************************/
-	/* START: Distribution Event Styling */
-	/*************************************/
+	/*****************************/
+	/* START: Distribution Event */
+	/*****************************/
 
-	 	.distribution_section {
-	 		top: 50px;
-	 		width: 100%; 
-	 		border: 3px solid rgb(22,22,148);
-	 	}
-
-	 	.distribution_section h1, .distribution_section div div{
-	 		text-align: center;
-	 	}
-
-	 	.distribution_section div {
-	 		text-align: center; 
-	 		left: 20px;
-	 	}
-
-	 	.distribution_section h3, .distribution_section h5 {
-	 		text-align: left; 
-	 	}
-
-	 	.distribution_section div div p {
-	 		text-align: left; 
-	 		max-width: 800px; 
-	 		margin-right: 40px;
-	 	}
-
-		.distribution_section div div a button{
+		#distribution_section {
+			top: 50px;
+			width: 100%; 
+			border: 3px solid rgb(22,22,148);
+		}
+		#distribution_section h1 {
+			margin-top: 70px;
+			margin-bottom: 48px;
+		}
+		#distribution_section h1, #distribution_section div div {
+			text-align: center;
+		}
+		#distribution_section iframe {
+			margin-top: 48px;
+		}
+		#distribution_section div div {
+			margin-top: 24px;
+		}
+		#distribution_section div {
+			text-align: center; 
+			left: 20px;
+		}
+		#distribution_section div img {
+			border: 1px solid black;
+		}
+		#distribution_section div h3 {
+			text-align: center;
+		}
+		#distribution_section div p {
+			padding-left: 35px; 
+			position: relative; 
+			text-align: left;
+		}
+		#distribution_section h3, #distribution_section h5 {
+			text-align: left; 
+		}
+		#distribution_section div div p {
+			text-align: left; 
+			max-width: 800px; 
+			margin-right: 40px;
+			margin-top: 24px;
+			margin-bottom: 70px;
+		}
+		#distribution_section div div a button {
 			bottom: 30px;
 		}
+		.distribution_map {
+			border: 1px solid rgb(55,55,55); 
+			bottom: 45px; 
+			position: relative;
+			text-align: center;		
+		}
+		#distribution-spotlight-lmf h3, #distribution-spotlight-lmf p {
+			margin-top: 24px;
+			margin-bottom: 24px;
+		}
+		#distribution-spotlight-lmf-img img, #distribution-spotlight-lmf-img {
+			margin-bottom: 48px;
+		}
 
-	/***********************************/
-	/* END: Distribution Event Styling */
-	/***********************************/
+	/***************************/
+	/* END: Distribution Event */
+	/***************************/
+
+
+	/****************************/
+	/* START: Sponsor Container */
+	/****************************/
+
+		#sponsor-container {
+			border: 3px solid rgb(111,111,111); 
+			margin: 0 auto;		
+		}
+		#sponsor-container div {
+			margin-bottom: 15px; 
+			width: 100%;
+		}
+		#sponsor-container div h4 {
+			text-align: center;
+			margin-top: 48px;
+			margin-bottom: 48px;
+		}
+		.sponsorship-container-section {
+			border: 2px solid rgb(155,155,170);
+			height: 200px;
+			width: 85%; 
+			margin-top: 0px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 24px;	
+		}
+		.sponsorship-container-section img {
+			position: relative;
+			vertical-align: middle;
+			margin: 0 auto;
+			padding: 5px;
+			height: 100%;
+		}
+		.sponsorship-container-section div {
+			display: inline-block;
+			width: auto;
+			position: relative;
+		}
+		.sponsorship-container-section div img:hover {
+			opacity: .25;
+		}
+		#concentra-logo {
+			width: 100%;
+		}
+
+	/**************************/
+	/* END: Sponsor Container */
+	/**************************/
+
+
+	/******************************************/
+	/* START: Generic Social Media Alignments */
+	/******************************************/
+
+		.sm_circles img {
+			height:50%;
+			width:50%;
+			margin-left:36px;
+			margin-top: 26px;
+		}
+		.sm_circles {
+			user-select:none;
+			position:relative;
+			margin: 0 auto;
+			cursor: pointer;
+		}
+		.social_media_icons {
+			height:40%;
+			width:40%;
+			margin-left:43px;
+			margin-top: 16px;
+		}
+		.social_media_text {
+			font-size: 16px;
+			padding: 3px;
+			text-align: center;
+			font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+
+	/****************************************/
+	/* END: Generic Social Media Alignments */
+	/****************************************/
 
 
 	/***********************************/
 	/* START: Story Circles/Who We Are */
 	/***********************************/
 
-		/* declare story/mission/idea circles */
-		.story_circles{
-			/*make our box into circles */
+		#story_circle_container {
+			border: 4px solid rgb(44,84,165);
+			text-align: center; 
+			height: auto;
+		}
+		.story_circles {
 			border-radius: 50%;
-
-			/*initialize a box */
 			width: 140px;
 			height: 140px;
 			margin: 0 auto;
 		}
-		.story_p{
+		.story_p {
 			max-width: 650px;
-		  	margin: 0 auto;
+			margin: 0 auto;
+			text-align: left;
 		}
-
-		.who_we_are_self{
+		.who_we_are_self {
 			max-width: 1000px;
 		}
-
-		/* we want to 'highlight' the circles on mouseover */
-		.story_circles:hover{
+		.story_circles:hover {
 			opacity:.5;
 		}
-
-
-		.sm_circles{
+		.sm_circles {
 			border-radius:50%;
 			border-width: 1px;
 			border-style: double;
@@ -683,13 +681,13 @@
 		}
 
 		@media only screen and (max-width: 640px) {
-			.distribution_map1, .distribution_map2{
+			.distribution_map{
 				width: 300px;
 				height: 225px;
 			}
 		}
 		@media only screen and (min-width: 640px) and (max-width: 10000px) {
-			.distribution_map1, .distribution_map2{
+			.distribution_map{
 				width: 500px;
 				height: 375px;
 			}
@@ -713,8 +711,7 @@
 			animation-name: fade;
 			animation-duration: 1.5s;
 		}
-
-		.mySlides{
+		.mySlides {
 			margin: 10px 0px;
 			border: 1px solid #000000;
 		}
@@ -723,69 +720,80 @@
 	/* END: Carousel */
 	/*****************/
 
-	/******************************/
-	/* START: Sponsorship Section */
-	/******************************/
-
-		.sponsorship_container{
-			border: 2px solid rgb(155,155,170);
-			margin-top: 40px;
-			height: 200px;
-		}
-
-		.sponsorship_container img{
-			position: relative;
-			vertical-align: middle;
-			margin: 0 auto;
-			padding: 5px;
-			height: 100%;
-		}
-
-		.sponsorship_container div{
-			display: inline-block;
-			width: 100%;
-			position: relative;
-		}
-		.sponsorship_container div img:hover {
-			opacity: .25;
-		}
-
-	/****************************/
-	/* END: Sponsorship Section */
-	/****************************/
 
 	/*************************/
 	/* START: Featured Quote */
 	/*************************/
 
-			.index-quote-h4{
-				position:relative;
-				text-align:center;
-			}
-			.index-quote-wrapper{
-				background-color: lightblue;
-				max-width: 75%;
-				text-align:center;
-			}
+		#index-quote-wrapper {
+			background-color: black;
+			text-align:center;
+			margin: 0 auto;
+		}
+		#index-quote-self {
+			text-align:left; 
+			margin: 24px auto;
+		}
+		#index-quote-self h4 {
+			position: relative;
+			text-align: center;	
+			color: rgb(242,242,246); 
+			text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;			
+		}
 
 	/***********************/
 	/* END: Featured Quote */
 	/***********************/
 
+
 	/*******************************/
 	/* START: Why Donate Container */
 	/*******************************/
 
+		#why-donate-container {
+			width: 100%; 
+			max-width: 100%; 
+			border: 3px solid rgb(248, 112, 69);
+		}
+		#why-donate-content {
+			margin-top: 48px;
+		}
+		#why-donate-content h1 {
+			text-align: center;
+			margin-top: 24px;
+			margin-bottom: 48px;
+		}
+		#why-donate-content p, #why-donate-content div p {
+			margin: 0 auto; 
+			max-width: 900px; 
+			text-align: left;
+		}
+		#why-donate-content div:first-child {
+			margin-bottom: 48px;
+		}
+		#why-donate-content > p {
+			margin-bottom: 70px;
+		}
+		.donateButtons {
+			text-align: center;
+		}
+		.photoContainer img {
+			width:494px; 
+			height:240px; 
+			position:relative; 
+			border: 1px solid rgb(55,55,55);
+		}
+		#whyDonatePhoto1 {
+			margin-bottom: 24px;
+		}
+		#whyDonatePhoto2 {
+			margin-top: 24px;
+			margin-bottom: 72px;
+		}
 
 	/*****************************/
 	/* END: Why Donate Container */
 	/*****************************/
-
-
-	.distribution_h3:hover {
-		color: rgb(200,200,200);
-	}
-
 /*******************/
 /* END: index.html */
 /*******************/
@@ -795,48 +803,41 @@
 /* START: ourcause.html */
 /********************/
 
-  .ourcausetxt p{
-    margin-left: 25px;
-    max-width: 90%;
-  }
-
-  .brourcause {
-    display: none;
-  }
-
-  .calkinsphoto {
-    top: -95px;
-    left: 235px;
-    position: relative;
-    width: 60%;
-  }
-
-  @media only screen and (max-width: 1024px) {
-
-    .ourcausetxt{
-      margin-left: -30px;
-    }
-
-    .calkinsphoto {
-      left: 30px;
-      width: 450%;
-    }
-  }
-  @media only screen and (max-width: 640px) {
-
-    .ourcausetxt{
-      max-width: 80%;
-    }
-
-    .calkinsphoto{
-      width: 70%;
-      top: -100px;
-      left: 80px;
-    }
-  }
-
+	.ourcausetxt p {
+		margin-left: 25px;
+		max-width: 90%;
+	}
+	.brourcause {
+		display: none;
+	}
+	.calkinsphoto {
+		top: -95px;
+		left: 235px;
+		position: relative;
+		width: 60%;
+	}
 	.pyb_cmu_p{
 		max-width: 950px;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.ourcausetxt{
+		  	margin-left: -30px;
+		}
+		.calkinsphoto {
+		  	left: 30px;
+		  	width: 450%;
+		}
+	}
+	@media only screen and (max-width: 640px) {
+		.ourcausetxt {
+			max-width: 80%;
+		}
+		.calkinsphoto {
+			width: 70%;
+			top: -100px;
+			left: 80px;
+		}
 	}
 
 /******************/
@@ -848,109 +849,97 @@
 /* START: leadership.html */
 /**************************/
 
-  .staff_name{
-    text-align: center;
-    padding-top: 15px;
-  }
-
-  .staff_title{
-    color: #454545;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 12px;
-    padding-bottom: 20px;
-  }
-
-  .staff_pics{
-    height: 150px;
-    width: 150px;
-    border-radius: 20%;
-    border: 2px solid #000000;
-  }
-
-  .padding{
-    padding: inherit inherit;
-  }
-
-  .lead_headers{
-    padding-top: 40px;
-    padding-bottom: 25px;
-  }
-
-  .directors{
-    padding-left: inherit;
-    padding-right: inherit;
-  }
+	.staff_name {
+		text-align: center;
+		padding-top: 15px;
+	}
+	.staff_title {
+		color: #454545;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 12px;
+		padding-bottom: 20px;
+	}
+	.staff_pics {
+		height: 150px;
+		width: 150px;
+		border-radius: 20%;
+		border: 2px solid #000000;
+	}
+	.padding {
+		padding: inherit inherit;
+	}
+	.lead_headers {
+		padding-top: 40px;
+		padding-bottom: 25px;
+	}
+	.directors {
+		padding-left: inherit;
+		padding-right: inherit;
+	}
 
 /************************/
 /* END: leadership.html */
 /************************/
 
 
-
-/******************/
+/****************************/
 /* START: distributions.php */
-/******************/
+/****************************/
 
 	.distribution_p {
 		max-width: 800px;
 		text-align: left;
 	}
 
-/****************/
+/**************************/
 /* END: distributions.php */
-/****************/
+/**************************/
 
 
-/**************/
+/*************************************/
 /* START: menu.js .hover conversions */
 /*************************************/
 
+	.menuitem a:hover {
+		border-bottom: 7px;
+		border-color: rgb(48, 88, 164);
+		transition : .2s all;
+		border-style: none none solid none;
+	}
+	.menuitem a:not(:hover) {
+		border-bottom : 7px;
+		border-color : rgb(242, 242, 242);
+		border-style: none none solid none;
+		transition : .2s all;
+	}
+	.dropdown_menuitem:hover {
+		border-bottom : 7px;
+		border-color: rgb(48, 88, 164);
+		border-color: rgba(48, 88, 164, 1);
+		transition : .2s all;
+		border-style: none none solid none;
+	}
+	.dropdown_menuitem:not(:hover) {
+		border-bottom" : 7px;
+		border-color" : rgb(242, 242, 242);
+		border-color" : rgba(242, 242, 242, 0);
+		border-style': none none solid none;
+		transition" : .2s all;
+	}
+	.dropdownButtons:hover {
+		border-width: 2px;
+		border-color: rgb(48, 88, 164);
+		transition: .2s all;
+		border-style: outset;
+	}
+	.dropdownButtons:not(:hover) {
+		border-width : 2px;
+		border-color : rgb(255, 255, 255);
+		border-style: outset;
+		transition : .2s all;
+	}
 
-.menuitem a:hover {
-	border-bottom: 7px;
-	border-color: rgb(48, 88, 164);
-	transition : .2s all;
-	border-style: none none solid none;
-}
-
-.menuitem a:not(:hover) {
-	border-bottom : 7px;
-	border-color : rgb(242, 242, 242);
-	border-style: none none solid none;
-	transition : .2s all;
-}
-
-.dropdown_menuitem:hover {
-	border-bottom : 7px;
-	border-color: rgb(48, 88, 164);
-	border-color: rgba(48, 88, 164, 1);
-	transition : .2s all;
-	border-style: none none solid none;
-}
-
-.dropdown_menuitem:not(:hover) {
-	border-bottom" : 7px;
-	border-color" : rgb(242, 242, 242);
-	border-color" : rgba(242, 242, 242, 0);
-	border-style': none none solid none;
-	transition" : .2s all;
-}
-
-.dropdownButtons:hover {
-	border-width: 2px;
-	border-color: rgb(48, 88, 164);
-	transition: .2s all;
-	border-style: outset;
-}
-
-.dropdownButtons:not(:hover) {
-	border-width : 2px;
-	border-color : rgb(255, 255, 255);
-	border-style: outset;
-	transition : .2s all;
-}
-
-/**************/
+/***********************************/
 /* END: menu.js .hover conversions */
-/*************************************/
+/***********************************/
