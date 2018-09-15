@@ -2,9 +2,7 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/foundation.css" />
 </head>
-
 <body>
-
 	<!-- START: ToS/PP CSS -->
 		<style type="text/css">
 
@@ -21,7 +19,6 @@
 			    background-color: rgb(0,0,0); /* Fallback color */
 			    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 			}
-
 			/* The Close Button */
 			.tos_close, .pp_close{
 			    color: #aaaaaa;
@@ -29,7 +26,6 @@
 			    font-size: 28px;
 			    font-weight: bold;
 			}
-
 			.pp_close:hover, .tos_close:hover,
 			.pp_close:focus, .tos_close:focus {
 			    color: #000;
@@ -45,13 +41,9 @@
 	<!-- END: ToS/PP CSS -->
 
 	<footer class="footer">
-
 			<div class="columns small-12 medium-8 large-8 footer_top">
-
 				<div class="row el3">
-
 					<div class="columns small-12 medium-12 large-7 el1">
-
 						<br>
 						<h4>Join Our Newsletter</h4>
 						<form action="index.php" method="post" class="subscribe-form">
@@ -64,9 +56,7 @@
 					<div class="columns medium-12 lines_shift">
 						<hr class="lines_shift">
 					</div>
-
 					<div class="columns small-12 medium-12 large-5 footer_soc_media el2">
-
 							<br>
 							<h4>Find Us Elsewhere</h4>
 							<a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1"><img id="soc_med_foot" src="assets/social_media/linkedin.png"></a>
@@ -80,17 +70,13 @@
 							<a href="#">
 								<img src="assets/social_media/email_white.png">
 							</a>
-
 					</div>
 				</div>
 
 				<hr id="undertoprow">
-
 				<div class="row">
 						<div class="columns small-12 medium-12 large-12 el4">
-
 							<div class="sitelinks">
-
 								<a href="#" id="tos_btn">Terms of Service</a> <b>|</b>
 								<a href="#" id="pp_btn">Privacy Policy</a> <b>|</b>
 									<a href="html/contact.php">Contact Us</a> <b>|</b>
@@ -112,8 +98,6 @@
 								</div>
 							</div>
 							</div>
-
-
 						</div>
 						<!-- <div style="display: none"></div> -->
 						<div class="columns medium-12 lines_shift">
@@ -131,7 +115,7 @@
 			</div>
 			<div class="row">
 				<div class="columns small-12 medium-12 large-12">
-						<h2 style="left: 50px; position: relative;"> ©2017 Pack Your Back </h2>
+						<h2 style="left: 50px; position: relative;"> ©2018 Pack Your Back </h2>
 						<br>
 						<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g" style="left: 50px; position:relative;">Member Login</a>
 				</div>
