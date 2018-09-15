@@ -155,76 +155,42 @@
 	</div>
 	<div class="row" id="story_circle_container">
 		<div class="columns small-12 medium-12 large-4 story_feature">
-
-			<br>
-			<br>
-
 			<div class="story_circles">
 				<a href="html/getinvolved.php">
 					<img src='assets/story_pics/supplies.png'>
 				</a>
 			</div>
 
-			<br>
-
 			<h2>Our Needs</h2>
 			<p class="story_p">
 				Pack Your Back relies on the charitable donations from the community members to help supply students with resources for the classroom.
 			</p>
-
-			<br>
-			<br>
-			<br>
-			<br>
 		</div>
 		<div class="columns small-12 medium-12 large-4 story_feature">
-
-			<br>
-			<br>
-
 			<div class="story_circles">
 				<a href="html/leadership.php">
 					<img src='assets/story_pics/swinging.png'>
 				</a>
 			</div>
 
-			<br>
-
 			<h2>Our Leaders</h2>
 			<p class="story_p">
 				Pack Your Back is proud to be led by a young generation, and we believe it's our responsibility to build a system for helping younger generations receive the education they need.
 			</p>
-
-			<br>
-			<br>
-			<br>
-
 		</div>
 		<div class="columns small-12 medium-12 large-4 story_feature">
-
-			<br>
-			<br>
-
 			<div class="story_circles">
 				<a href="https://www.cmich.edu/stamp/Pages/pack-your-back.aspx">
 					<img src='assets/story_pics/paints.png'>
 				</a>
 			</div>
 
-			<br>
-
 			<h2>Our Story</h2>
 			<p class="story_p">
 				Working for the benefit of the underprivileged in the public education system through distribution events and community get-togethers, helping to give students opportunities to interact and grow.
 			</p>
-
-			<br>
-			<br>
-			<br>
-
 		</div>
 	</div>
-
 	<?php include("./html/includes/socialmedia.php") ?>
 	<?php include("./html/includes/footer.php") ?>
 
