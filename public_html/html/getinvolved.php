@@ -25,7 +25,7 @@
 						<a href="html/getinvolved.php">Get Involved</a>
 					</li>
 					<li>
-						<button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button>
+						<button id="dropdownButtons" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button>
 					</li>
 				</ul>
 			</div>
@@ -73,63 +73,9 @@
 		</div>
 	</div>
 
-	<div class="row" style="border: 4px solid rgb(250,130,30);">
-		<br>
-		<h2 style="text-align: center;">Join the Conversation</h2>
+	<?php include("html/includes/socialmedia.php"); ?>
+	<?php include("includes/htmlfooter.php"); ?>
 
-		<br>
-		<br>
-
-		<div class="columns small-6 medium-3 large-3">
-			<div class="sm_circles">
-				<a href="contact.php">
-					<img class="social_media_icons" src="../assets/social_media/email-icon.png">
-					<br>
-					<h6 class="social_media_text">Send us an<br>Email</h6>
-				</a>
-			</div>
-
-			<br>
-		</div>
-
-		<div class="columns small-6 medium-3 large-3">
-			<div class="sm_circles">
-				<a href="https://twitter.com/PackYourBack">
-					<img class="social_media_icons" src="../assets/social_media/circle-twitter-128.png">
-					<br>
-					<h6 class="social_media_text">Follow us on Twitter</h6>
-				</a>
-			</div>
-
-			<br>
-		</div>
-
-		<div class="columns small-6 medium-3 large-3">
-			<div class="sm_circles">
-				<a href="https://www.facebook.com/PackYourBack">
-					<img class="social_media_icons" src="../assets/social_media/circle-facebook-128.png">
-					<br>
-					<h6 class="social_media_text">Like us on Facebook</h6>
-				</a>
-			  </div>
-
-			  <br>
-			</div>
-
-			<div class="columns small-6 medium-3 large-3">
-				<div class="sm_circles">
-					<a href="https://www.linkedin.com/company/pack-your-back">
-						<img class="social_media_icons" src="../assets/social_media/circle-linkedin-128.png">
-						<br>
-						<h6 class="social_media_text">Follow us on LinkedIn</h6>
-					</a>
-			  	</div>
-
-			  	<br>
-			  	<br>
-			</div>
-	</div>
-	<?php include("includes/htmlfooter.php");?>
 	<script src="../js/menu.js" ></script>
+	<script src="../js/socialMediaAnimation.js"></script>
 </body>
-<script src="../js/social_media_animation.js"></script>
