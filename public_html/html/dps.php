@@ -39,7 +39,7 @@
 	<div class="columns small-12 medium-12 large-6" style="text-align: center;">
 			<br>
 			<br>
-				<iframe class="distribution_map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px; position: relative;text-align: center;" allowfullscreen></iframe>
+				<iframe class="distribution-map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.248518823795!2d-83.06880814851169!3d42.35854267908491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bcfe73c635%3A0xc56df4d96dd2790a!2s5201+Woodward+Ave%2C+Detroit%2C+MI+48202!5e0!3m2!1sen!2sus!4v1498781104910" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px; position: relative;text-align: center;" allowfullscreen></iframe>
 	</div>
 	<div class="columns small-12 medium-12 large-6">
 			<h3 style="text-align: left;">Detroit School Supply Distribution</h3>
