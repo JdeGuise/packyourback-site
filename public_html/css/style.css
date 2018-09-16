@@ -99,6 +99,7 @@
 		width:50px;
 		height: 50px;
 		border-radius: 50%;
+		transition: .4s ease;
 	}
 	header .topNavDonateButtons {
 		float: right;
@@ -168,7 +169,7 @@
 	@media only screen and (max-width: 775px) {
 		/* make header taller */
 		header {
-			opacity: .8;
+			opacity: 1;
 		}
 		header li {
 			padding-right: 20px;
@@ -217,7 +218,7 @@
 		margin:0;
 		width:100%;
 		background-color: rgb(242, 242, 242);
-		background-color: rgba(242, 242, 242, .8);
+		background-color: rgba(242, 242, 242, 1);
 		transition: .5s ease;
 	}
 	.myDropdown {
@@ -493,57 +494,57 @@
 	/* START: Distribution Event */
 	/*****************************/
 
-		#distribution_section {
+		#distribution-section {
 			top: 50px;
-			width: 100%; 
+			width: 100%;
 			border: 3px solid rgb(22,22,148);
 		}
-		#distribution_section h1 {
+		#distribution-section h1 {
 			margin-top: 70px;
 			margin-bottom: 48px;
 		}
-		#distribution_section h1, #distribution_section div div {
+		#distribution-section h1, #distribution-section div div {
 			text-align: center;
 		}
-		#distribution_section iframe {
+		#distribution-section iframe {
 			margin-top: 48px;
 		}
-		#distribution_section div div {
+		#distribution-section div div {
 			margin-top: 24px;
 		}
-		#distribution_section div {
-			text-align: center; 
+		#distribution-section div {
+			text-align: center;
 			left: 20px;
 		}
-		#distribution_section div img {
+		#distribution-section div img {
 			border: 1px solid black;
 		}
-		#distribution_section div h3 {
+		#distribution-section div h3 {
 			text-align: center;
 		}
-		#distribution_section div p {
-			padding-left: 35px; 
-			position: relative; 
+		#distribution-section div p {
+			padding-left: 35px;
+			position: relative;
 			text-align: left;
 		}
-		#distribution_section h3, #distribution_section h5 {
-			text-align: left; 
+		#distribution-section h3, #distribution-section h5 {
+			text-align: left;
 		}
-		#distribution_section div div p {
-			text-align: left; 
-			max-width: 800px; 
+		#distribution-section div div p {
+			text-align: left;
+			max-width: 800px;
 			margin-right: 40px;
 			margin-top: 24px;
 			margin-bottom: 70px;
 		}
-		#distribution_section div div a button {
+		#distribution-section div div a button {
 			bottom: 30px;
 		}
-		.distribution_map {
-			border: 1px solid rgb(55,55,55); 
-			bottom: 45px; 
+		.distribution-map {
+			border: 1px solid rgb(55,55,55);
+			bottom: 45px;
 			position: relative;
-			text-align: center;		
+			text-align: center;
 		}
 		#distribution-spotlight-lmf h3, #distribution-spotlight-lmf p {
 			margin-top: 24px;
@@ -612,13 +613,13 @@
 	/* START: Generic Social Media Alignments */
 	/******************************************/
 
-		.sm_circles img {
+		.sm-circles img {
 			height:50%;
 			width:50%;
 			margin-left:36px;
 			margin-top: 26px;
 		}
-		.sm_circles {
+		.sm-circles {
 			user-select:none;
 			position:relative;
 			margin: 0 auto;
@@ -646,12 +647,12 @@
 	/* START: Story Circles/Who We Are */
 	/***********************************/
 
-		#story_circle_container {
+		#story-circle-container {
 			border: 4px solid rgb(44,84,165);
-			text-align: center; 
+			text-align: center;
 			height: auto;
 		}
-		.story_circles {
+		.story-circles {
 			border-radius: 50%;
 			width: 140px;
 			height: 140px;
@@ -660,7 +661,7 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.story_p {
+		.story-p {
 			max-width: 650px;
 			text-align: left;
 			margin-top: 0px;
@@ -671,10 +672,10 @@
 		.who_we_are_self {
 			max-width: 1000px;
 		}
-		.story_circles:hover {
+		.story-circles:hover {
 			opacity:.5;
 		}
-		.sm_circles {
+		.sm-circles {
 			border-radius:50%;
 			border-width: 1px;
 			border-style: double;
@@ -687,13 +688,13 @@
 		}
 
 		@media only screen and (max-width: 640px) {
-			.distribution_map{
+			.distribution-map{
 				width: 300px;
 				height: 225px;
 			}
 		}
 		@media only screen and (min-width: 640px) and (max-width: 10000px) {
-			.distribution_map{
+			.distribution-map{
 				width: 500px;
 				height: 375px;
 			}
