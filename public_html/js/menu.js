@@ -1,49 +1,34 @@
 const hamburger = document.getElementById('hamburger');
+const myDropdown = document.getElementById('myDropdown');
 
 hamburger.addEventListener('click', function() {
 	const dropdown = document.getElementById("myDropdown");
-	const dropdown_overlay = document.getElementById("dropdownOverlay");
-	const display = dropdown.style.display;
+	const dropdownOverlay = document.getElementById("dropdownOverlay");
 
-	if (display == "block"){
-		dropdown.style.display= "none";
-		dropdown_overlay.style.display = "none";
-		$(this).css({"transform" : "rotate(12deg)", "opacity" : "1"});
+	if (dropdown.style.display === "block"){
+		dropdown.style.display = "none";
+		dropdownOverlay.style.display = "none";
+		hamburger.style.transform = "rotate(12deg)";
 	}
 	else {
 		dropdown.style.display = "block";
-		dropdown_overlay.style.display = "block";
-
-		$(this).css({"transform" : "rotate(-90deg)", "opacity" : "1"});
+		dropdownOverlay.style.display = "block";
+		hamburger.style.transform = "rotate(-90deg)";
 	}
 });
 
 hamburger.addEventListener('mouseover', function() {
-	if (document.getElementById("myDropdown").style.display == "block"){
-		$(this).css({
-			"opacity" : "1",
-			"transform" : "rotate(-90deg)",
-			"transition" : ".3s ease"
-		});
+	if (myDropdown.style.display === "block"){
+		hamburger.style.transform = "rotate(-90deg)";
 	} else {
-		$(this).css({
-			"opacity" : "1",
-			"transform" : "rotate(12deg)",
-			"transition" : ".3s ease"
-		});
+		hamburger.style.transform = "rotate(12deg)";
 	}
 });
 
 hamburger.addEventListener('mouseout', function() {
-	if (document.getElementById("myDropdown").style.display == "block"){
-		$(this).css({
-			"opacity" : "1",
-			"transform" : "rotate(-90deg)"
-		});
+	if (myDropdown.style.display === "block"){
+		hamburger.style.transform = "rotate(-90deg)";
 	} else {
-		$(this).css({
-			"opacity" : "1",
-			"transform" : "rotate(0deg)"
-		});
+		hamburger.style.transform = "rotate(0deg)";
 	}
 });
