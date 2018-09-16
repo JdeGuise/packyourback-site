@@ -39,7 +39,7 @@
 	<div class="columns small-12 medium-12 large-6" style="text-align: center;">
 			<br>
 			<br>
-				<iframe class="distribution_map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0214024582697!2d-83.67468904849547!3d43.01993667904583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8823818c8849e1e9%3A0xcfc2b7565e13459a!2sMott+Community+College!5e0!3m2!1sen!2sus!4v1498780899121" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px;position: relative;" allowfullscreen></iframe>
+				<iframe class="distribution-map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0214024582697!2d-83.67468904849547!3d43.01993667904583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8823818c8849e1e9%3A0xcfc2b7565e13459a!2sMott+Community+College!5e0!3m2!1sen!2sus!4v1498780899121" frameborder="0" style="border: 1px solid rgb(55,55,55); bottom: 45px;position: relative;" allowfullscreen></iframe>
 	</div>
 	<div class="columns small-12 medium-12 large-6">
 			<h3 style="text-align: left;">Flint School Supply Distribution</h3>
