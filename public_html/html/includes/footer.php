@@ -43,26 +43,24 @@
 							<div class="sitelinks">
 								<a href="#" id="tos_btn">Terms of Service</a> <b>|</b>
 								<a href="#" id="pp_btn">Privacy Policy</a> <b>|</b>
-									<a href="html/contact.php">Contact Us</a> <b>|</b>
-									<a href="https://www.paypal.me/PackYourBack">Donate</a>
+								<a href="html/contact.php">Contact Us</a> <b>|</b>
+								<a href="https://www.paypal.me/PackYourBack">Donate</a>
 
-							<!-- Can we refactor this down to load the message, whether TOS or privacy policy?-->
-							<div id="tos_modal" class="modal">
-								<div class="tos_modal_content">
-									<span class="tos_close">&times;</span>
-									<p><?php include('html/tos.html'); ?></p>
+								<div id="tos_modal" class="modal">
+									<div class="tos_modal_content">
+										<span class="tos_close">&times;</span>
+										<p><?php include('html/tos.html'); ?></p>
+									</div>
 								</div>
-							</div>
 
-							<div id="pp_modal" class="modal">
-								<div class="privacy_modal_content">
-									<span class="pp_close">&times;</span>
-									<p><?php include('html/pp.html'); ?></p>
+								<div id="pp_modal" class="modal">
+									<div class="privacy_modal_content">
+										<span class="pp_close">&times;</span>
+										<p><?php include('html/pp.html'); ?></p>
+									</div>
 								</div>
-							</div>
 							</div>
 						</div>
-						<!-- <div style="display: none"></div> -->
 						<div class="columns medium-12 lines_shift">
 							<hr class="lines_shift el4">
 						</div>
@@ -79,8 +77,6 @@
 			<div class="row">
 				<div class="columns small-12 medium-12 large-12">
 						<h2 style="left: 50px; position: relative;"> ©2018 Pack Your Back </h2>
-						<br>
-						<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g" style="left: 50px; position:relative;">Member Login</a>
 						<h6 style="color: rgb(110, 110, 110); text-align: center;">Site by <a href="mailto:john.r.deguise@gmail.com" class="mail">John deGuise</a></h6>
 				</div>
 			</div>
