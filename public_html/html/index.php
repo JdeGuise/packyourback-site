@@ -1,6 +1,6 @@
 <?php include('includes/head.php'); ?>
 <body>
-	<?php include('includes/htmlheader.php'); ?>
+	<?php include('includes/header.php'); ?>
 
 	<div class="row" id="jumbotron-container">
 		<div class="columns small-12 medium-12 large-12" id="jumbotron">
