@@ -1,5 +1,6 @@
 <head>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/foundation.css" />
 	<link rel="stylesheet" href="css/tos_pp.css">
 </head>

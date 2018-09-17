@@ -1,5 +1,4 @@
 function showDivs() {
-	console.log(slideIndex);
 	const mySlides = document.getElementsByClassName("mySlides");
 
 	for (var i = 0; i < mySlides.length; i++) {
@@ -15,5 +14,6 @@ function showDivs() {
 
 	setTimeout(showDivs, 4500);
 }
+
 var slideIndex = 0;
 showDivs();
