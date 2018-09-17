@@ -605,21 +605,55 @@
 /* START: ourcause.html */
 /********************/
 
-	.ourcausetxt p {
-		margin-left: 25px;
-		max-width: 90%;
-	}
 	.brourcause {
 		display: none;
 	}
-	.calkinsphoto {
-		top: -95px;
+	#calkins-photo {
 		left: 235px;
 		position: relative;
 		width: 60%;
+		top: 50px;
+		margin-bottom: 100px;
+		border: 2px solid rgb(100,100,100);
 	}
-	.pyb-cmu-p{
+	#pyb-at-cmu-container {
+		margin-top: 48px;
+	}
+	#pyb-cmu {
 		max-width: 950px;
+		border: 2px solid rgb(69,110,184);
+	}
+	#pyb-at-cmu {
+		text-align: center;
+	}
+	#pyb-origin {
+		left: 80px;
+		top: 65px;
+	}
+	#pyb-origin > p {
+		text-align:left;
+		margin-left: 25px;
+		max-width: 90%;
+	}
+	#pyb-origin > h4 {
+		margin-bottom: 48px;
+	}
+	#pyb-origin-spacer-p {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+	#pyb-origin-last-p {
+		margin-bottom: 24px;
+	}
+	#photo-row {
+		width: 100%;
+		margin-top: 72px;
+	}
+	#photo-row > div {
+		margin: 0 auto;
+		text-align: center;
+		border: 2px solid #000000;
+		background-color: rgb(242,242,242);
 	}
 
 	@media only screen and (max-width: 1024px) {
@@ -651,10 +685,6 @@
 /* START: leadership.html */
 /**************************/
 
-	.staff-name {
-		text-align: center;
-		padding-top: 15px;
-	}
 	.staff-title {
 		color: #454545;
 		text-align: center;
@@ -679,24 +709,115 @@
 		padding-left: inherit;
 		padding-right: inherit;
 	}
-
+	.staff-row {
+		text-align: center;
+		margin-top: 72px;
+	}
+	.staff-row > div > p {
+		max-width: 75%;
+		margin: 24px auto;
+	}
+	.staff-row > div > h4 {
+		text-align: center;
+		padding-top: 15px;
+		margin-top: 48px;
+	}
+	.staff-row > div > h6 {
+		text-align: center;
+	}
+	#who-we-are-self {
+		max-width: 975px;
+	}
+	#who-we-are-self > div > h1 {
+		text-align: center;
+		margin-top: 48px;
+	}
+	#who-we-are-self > div > p {
+		margin-top: 24px;
+		margin-bottom: 48px;
+	}
+	#who-we-are-container {
+		margin-top: 72px;
+		margin-bottom: 48px;
+	}
+	#leadership-h1 {
+		text-align: center;
+	}
+	#chalk-photo {
+		margin-top: 48px;
+		margin-bottom: 24px;
+	}
 /************************/
 /* END: leadership.html */
 /************************/
 
 
-/****************************/
-/* START: distributions.php */
-/****************************/
+/***************************/
+/* START: getinvolved.html */
+/***************************/
 
-	.distribution-p {
-		max-width: 800px;
-		text-align: left;
+	#get-involved-container {
+		border: 4px solid rgb(43,89,173);
+	}
+	#get-involved-container > h2 {
+		text-align: center;
+		margin-top: 24px;
+		margin-bottom: 48px;
+	}
+	#get-involved-explanation {
+		margin: 0 auto;
+		max-width: 1100px;
+	}
+	#get-involved-link {
+		text-align: center;
+		margin: 24px auto;
+	}
+	#get-involved-prompt h5 {
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	#get-involved-prompt-container {
+		margin-top: 48px;
+	}
+	#get-involved-prompt-container hr {
+		margin-bottom: 24px;
 	}
 
-/**************************/
-/* END: distributions.php */
-/**************************/
+/*************************/
+/* END: getinvolved.html */
+/*************************/
+
+
+/**********************/
+/* START: contact.php */
+/**********************/
+
+	#contact-wrapper-container {
+		margin-top: 72px;
+		margin-bottom: 48px;
+	}
+	#contact-wrapper {
+		background-color: lightgray;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 48px;
+		max-width: 600px;
+		min-height: 200px;
+	}
+	#contact-form > div {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#contact-form .button {
+		left: 20px;
+		width:180px;
+		height:80px;
+	}
+
+/********************/
+/* END: contact.php */
+/********************/
 
 
 /*************************************/

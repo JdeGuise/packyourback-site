@@ -6,7 +6,7 @@
 
 	<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="../css/foundation.css" />
+	<link rel="stylesheet" type="text/css" href="../css/foundation.min.css" />
 	<link rel="stylesheet" type="text/css" href="../css/w3.css"/>
 	<link rel="stylesheet" type="text/css" href="../slick-1.6.0/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="../slick-1.6.0/slick/slick-theme.css"/>
