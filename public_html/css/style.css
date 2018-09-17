@@ -42,7 +42,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Roboto', sans-serif;
 	}
-	.who_we_are p, li, body p {
+	.who-we-are p, li, body p {
 		font-family: 'Raleway', sans-serif;
 	}
 
@@ -228,7 +228,7 @@
 		font-size: 26px;
 		transition: .5s ease;
 	}
-	.dropdown_menuitem {
+	.dropdown-menuitem {
 		list-style-type: none;
 		padding-top: 8px;
 		margin-top: 10px;
@@ -464,7 +464,7 @@
 			margin-bottom: 96px;
 			margin-left: auto;
 		}
-		.who_we_are_self {
+		.who-we-are_self {
 			max-width: 1000px;
 		}
 		.story-circles:hover {
@@ -618,7 +618,7 @@
 		position: relative;
 		width: 60%;
 	}
-	.pyb_cmu_p{
+	.pyb-cmu-p{
 		max-width: 950px;
 	}
 
@@ -651,18 +651,18 @@
 /* START: leadership.html */
 /**************************/
 
-	.staff_name {
+	.staff-name {
 		text-align: center;
 		padding-top: 15px;
 	}
-	.staff_title {
+	.staff-title {
 		color: #454545;
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 12px;
 		padding-bottom: 20px;
 	}
-	.staff_pics {
+	.staff-pics {
 		height: 150px;
 		width: 150px;
 		border-radius: 20%;
@@ -671,7 +671,7 @@
 	.padding {
 		padding: inherit inherit;
 	}
-	.lead_headers {
+	.lead-headers {
 		padding-top: 40px;
 		padding-bottom: 25px;
 	}
@@ -689,7 +689,7 @@
 /* START: distributions.php */
 /****************************/
 
-	.distribution_p {
+	.distribution-p {
 		max-width: 800px;
 		text-align: left;
 	}
@@ -715,14 +715,14 @@
 		border-style: none none solid none;
 		transition : .2s all;
 	}
-	.dropdown_menuitem:hover {
+	.dropdown-menuitem:hover {
 		border-bottom : 7px;
 		border-color: rgb(48, 88, 164);
 		border-color: rgba(48, 88, 164, 1);
 		transition : .2s all;
 		border-style: none none solid none;
 	}
-	.dropdown_menuitem:not(:hover) {
+	.dropdown-menuitem:not(:hover) {
 		border-bottom" : 7px;
 		border-color" : rgb(242, 242, 242);
 		border-color" : rgba(242, 242, 242, 0);
