@@ -3,30 +3,6 @@
 <body class="body">
 		<?php include('includes/header.php'); ?>
 
-		<!-- overlay button code -->
-		<div class="dropdownOverlay" style="display:none;">
-			<div class="thedropdown">
-				<ul class="dropdown" class="myDropdown" >
-
-				<br>
-					<li class="dropdown_menuitem" onclick="location.href='index.php';">
-						<a href="index.php">Home</a>
-					</li>
- 						<li class="dropdown_menuitem" onclick="location.href='php/blogmodule/index.php';"><a href="php/blogmodule/index.php">Blog</a></li>					<li class="dropdown_menuitem" onclick="location.href='html/leadership.php';">
-						<a href="html/leadership.php">Leadership</a>
-					</li>
-					<li class="dropdown_menuitem"onclick="location.href='html/ourcause.php';">
-						<a href="html/ourcause.php">Our Cause</a>
-					</li>
-					<li class="dropdown_menuitem" onclick="location.href='html/getinvolved.php';">
-						<a href="html/getinvolved.php">Get Involved</a>
-					</li>
-					<li>
-						<button id="dropdown_donatebutton" onclick="location.href='https://www.classy.org/campaign/Pack-Your-Back/c128367'" style="background-color:crimson;">Donate</button>
-					</li>
-				</ul>
-			</div>
-		</div>
 	<br>
 	<br>
 	<br>
