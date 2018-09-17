@@ -5,10 +5,10 @@
 	<link rel="stylesheet" href="../css/tos_pp.css">
 </head>
 <body>
-	<footer class="footer">
-			<div class="columns small-12 medium-8 large-8 footer_top">
+	<footer id="footer">
+			<div class="columns small-12 medium-8 large-8" id="footer-top">
 				<div class="row el3">
-					<div class="columns small-12 medium-12 large-7 el1">
+					<div class="columns small-12 medium-12 large-7" id="el1">
 						<br>
 						<h4>Join Our Newsletter</h4>
 						<form action="index.php" method="post" class="subscribe-form">

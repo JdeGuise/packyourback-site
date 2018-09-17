@@ -2,52 +2,56 @@
 /* START: Footer Alignment */
 /***************************/
 
-	.footer {
+	#footer {
 		height: 250px;
 		border: 5px solid rgb(55,55,55);
 	}
-	footer {
+	#footer {
 		color: #ffffff;
 		background-color: rgb(61, 61, 61);
 	}
-	footer h4 {
+	#footer h4 {
 		text-align: left;
 		color: white;
 		font-size: 20px;
 	}
-	footer h2, .sitelinks {
+	#footer h2, .sitelinks {
 		color: rgb(102,102,102);
 		font-size:14px;
 		margin-bottom: -12px;
 		padding-bottom: -12px;
 		margin-top: -11px;
 	}
-	footer img {
+	#footer img {
 		max-width: 100%;
 		height: auto;
 		width: auto;
 	}
-	footer hr {
+	#footer hr {
 		display: block;
 		border-color: rgb(102,102,102);
 	}
-	.footer_top {
+	#footer-top {
 		display: inline;
 		vertical-align: middle;
 		margin-top: 70px;
 		margin-bottom: 10px;
 		margin-left: 40px;
 	}
-	.footer_top b {
+	#footer-top b {
 		font-size: 16px;
 	}
-	.el1 {
+	#el1 {
 		margin-bottom: -18px;
 	}
+	#el1 h4 {
+		margin-top: 24px;
+	}
+	
 	.el2 {
 		margin-top:5px;
 	}
-	footer button {
+	#footer button {
 		width: 75px;
 		height: 31px;
 		display: inline;
@@ -61,7 +65,7 @@
 		font-size: 13px;
 		padding: 0px;
 	}
-	footer .footer_soc_media img {
+	#footer .footer_soc_media img {
 		width: 25px;
 		height: 25px;
 	}
@@ -127,15 +131,15 @@
 	}
 
 	@media only screen and (min-width: 1024px) {
-		.footer {
+		#footer {
 			height: 70%;
 		}
 	}
 	@media only screen and (max-width: 1024px) and (min-width: 640px) {
-		.footer_top {
+		#footer-top {
 			margin-bottom: 40px;
 		}
-		.el1 {
+		#el1 {
 			margin-bottom: -29px;
 			margin-top: -20px;
 		}
@@ -169,7 +173,7 @@
 		#sponsorb {
 			margin-top: -2%;
 		}
-		.footer {
+		#footer {
 			height: 55%;
 		}
 	}
@@ -184,7 +188,7 @@
 		.footer_sponsor {
 			padding-top: 10px
 		}
-		.footer {
+		#footer {
 			height:120%;
 		}
 	}
@@ -194,7 +198,7 @@
 		.subscribe-form {
 			width: 100px;
 		}
-		footer button {
+		#footer button {
 			left: 110px;
 		}
 	}
