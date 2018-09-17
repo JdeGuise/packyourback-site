@@ -1,0 +1,214 @@
+/***************************/
+/* START: Footer Alignment */
+/***************************/
+
+	.footer {
+		height: 250px;
+		border: 5px solid rgb(55,55,55);
+	}
+	footer {
+		color: #ffffff;
+		background-color: rgb(61, 61, 61);
+	}
+	footer h4 {
+		text-align: left;
+		color: white;
+		font-size: 20px;
+	}
+	footer h2, .sitelinks {
+		color: rgb(102,102,102);
+		font-size:14px;
+		margin-bottom: -12px;
+		padding-bottom: -12px;
+		margin-top: -11px;
+	}
+	footer img {
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+	footer hr {
+		display: block;
+		border-color: rgb(102,102,102);
+	}
+	.footer_top {
+		display: inline;
+		vertical-align: middle;
+		margin-top: 70px;
+		margin-bottom: 10px;
+		margin-left: 40px;
+	}
+	.footer_top b {
+		font-size: 16px;
+	}
+	.el1 {
+		margin-bottom: -18px;
+	}
+	.el2 {
+		margin-top:5px;
+	}
+	footer button {
+		width: 75px;
+		height: 31px;
+		display: inline;
+		bottom: 20px;
+		font-family: Tahoma, Geneva, sans-serif;
+		border-style: none;
+		cursor: pointer;
+		left: 130px;
+		top: -47px;
+		text-align: center;
+		font-size: 13px;
+		padding: 0px;
+	}
+	footer .footer_soc_media img {
+		width: 25px;
+		height: 25px;
+	}
+	.subscribe-input[type=email] {
+		background-color: rgb(102, 102, 102);
+		border-style:none;
+		border-width: 2px;
+		border-color: rgb(76, 206, 251);
+		color: white;
+		height: 31px;
+		z-index: 100;
+	}
+	.subscribe-input[type=email]:focus {
+		background-color: rgb(102, 102, 102);
+		border-style:dashed;
+		border-width: 2px;
+		border-color: #008CBA;
+	}
+	.subscribe-form {
+		width: 120px;
+		height: 31px;
+		color: white;
+	}
+	.sidebar {
+		background-color: white;
+		border-radius: 15%;
+		width: 100%;
+	}
+	.sidebar p {
+		text-align: left;
+		font-family: Roboto;
+		font-size: 14px;
+	}
+	#footer_pyb {
+		width: 270px;
+		height: 80px;
+		margin-top: 10px;
+	}
+	.floatright {
+		float: right;
+		padding-bottom: 0px;
+		margin-top: 2px;
+	}
+	.floatright h2 {
+		margin-top: -10px;
+	}
+	.contactinfo h2 {
+		text-align: left;
+	}
+	#undertoprow {
+		margin-top: 10px;
+	}
+	.lines_shift {
+		display: none;
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.footer {
+			height: 70%;
+		}
+	}
+	@media only screen and (max-width: 1024px) and (min-width: 640px) {
+		.footer_top {
+			margin-bottom: 40px;
+		}
+		.el1 {
+			margin-bottom: -29px;
+			margin-top: -20px;
+		}
+		.el2 {
+			margin-top:-14px;
+			margin-bottom: -6px;
+		}
+		.el4 {
+			margin-top: 0px;
+		}
+		.sitelinks {
+			padding-bottom: 20px;
+		}
+
+		#undertoprow {
+			margin-top: 20px;
+		}
+		.floatright {
+			float: left;
+		}
+		.floatright h2 {
+			margin-top: -11px;
+			margin-bottom: -14px;
+		}
+		#footer_pyb {
+			width: 60%;
+		}
+		.footer_sponsor {
+			padding-top: 10px;
+		}
+		#sponsorb {
+			margin-top: -2%;
+		}
+		.footer {
+			height: 55%;
+		}
+	}
+	@media only screen and (max-width: 640px) {
+		.sidebar {
+			margin-right: 10px;
+		}
+		.sidebar p {
+			font-size: 9px;
+			margin-left: -20px;
+		}
+		.footer_sponsor {
+			padding-top: 10px
+		}
+		.footer {
+			height:120%;
+		}
+	}
+	/*this is for the subscribe form, which was overlapping
+	with the sidebar on very small screens*/
+	@media only screen and (max-width: 420px) {
+		.subscribe-form {
+			width: 100px;
+		}
+		footer button {
+			left: 110px;
+		}
+	}
+
+	/*controls the color of the typed text in the email box*/
+	input::-webkit-input-placeholder {
+		color: white;
+		font-size: 12px;
+	}
+	input:-moz-placeholder { /* Firefox 18- */
+		color: white;
+		font-size: 12px;
+	}
+	input::-moz-placeholder {  /* Firefox 19+ */
+		color: white;
+		font-size: 12px;
+	}
+	input:-ms-input-placeholder {
+		color: white;
+		font-size: 12px;
+	}
+
+/*************************/
+/* END FOOTER ALIGNMENTS */
+/*************************/

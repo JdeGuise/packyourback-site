@@ -1,45 +1,10 @@
 <head>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/tos_pp.css">
 </head>
 <body>
-	<!-- START: ToS/PP CSS -->
-		<style type="text/css">
-
-			.modal {
-			    display: none; /* Hidden by default */
-			    position: fixed; /* Stay in place */
-			    z-index: 1; /* Sit on top */
-			    padding-top: 100px; /* Location of the box */
-			    left: 0;
-			    top: 0;
-			    width: 100%; /* Full width */
-			    height: 100%; /* Full height */
-			    overflow: auto; /* Enable scroll if needed */
-			    background-color: rgb(0,0,0); /* Fallback color */
-			    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-			}
-			/* The Close Button */
-			.tos_close, .pp_close{
-			    color: #aaaaaa;
-			    float: right;
-			    font-size: 28px;
-			    font-weight: bold;
-			}
-			.pp_close:hover, .tos_close:hover,
-			.pp_close:focus, .tos_close:focus {
-			    color: #000;
-			    text-decoration: none;
-			    cursor: pointer;
-			}
-			.modal div .pp_close, .modal div .tos_close{
-				position:relative;
-				right: 60px;
-			}
-
-		</style>
-	<!-- END: ToS/PP CSS -->
-
 	<footer class="footer">
 			<div class="columns small-12 medium-8 large-8 footer_top">
 				<div class="row el3">
@@ -79,27 +44,24 @@
 							<div class="sitelinks">
 								<a href="#" id="tos_btn">Terms of Service</a> <b>|</b>
 								<a href="#" id="pp_btn">Privacy Policy</a> <b>|</b>
-									<a href="html/contact.php">Contact Us</a> <b>|</b>
-									<a href="index.php">Site Map</a> <b>|</b>
-									<a href="https://www.paypal.me/PackYourBack">Donate</a>
+								<a href="html/contact.php">Contact Us</a> <b>|</b>
+								<a href="https://www.paypal.me/PackYourBack">Donate</a>
 
-							<!-- Can we refactor this down to load the message, whether TOS or privacy policy?-->
-							<div id="tos_modal" class="modal">
-								<div class="tos_modal_content">
-									<span class="tos_close">&times;</span>
-									<p><?php include('html/tos.html'); ?></p>
+								<div id="tos_modal" class="modal">
+									<div class="tos_modal_content">
+										<span class="tos_close">&times;</span>
+										<p><?php include('html/tos.html'); ?></p>
+									</div>
 								</div>
-							</div>
 
-							<div id="pp_modal" class="modal">
-								<div class="privacy_modal_content">
-									<span class="pp_close">&times;</span>
-									<p><?php include('html/pp.html'); ?></p>
+								<div id="pp_modal" class="modal">
+									<div class="privacy_modal_content">
+										<span class="pp_close">&times;</span>
+										<p><?php include('html/pp.html'); ?></p>
+									</div>
 								</div>
-							</div>
 							</div>
 						</div>
-						<!-- <div style="display: none"></div> -->
 						<div class="columns medium-12 lines_shift">
 							<hr class="lines_shift el4">
 						</div>
@@ -116,11 +78,7 @@
 			<div class="row">
 				<div class="columns small-12 medium-12 large-12">
 						<h2 style="left: 50px; position: relative;"> ©2018 Pack Your Back </h2>
-						<br>
-						<a href="https://server228.web-hosting.com:2096/cpsess1169873824/horde/imp/dynamic.php?page=mailbox#mbox:SU5CT1g" style="left: 50px; position:relative;">Member Login</a>
-				</div>
-				<div class="columns small-12 medium-12 large-12" style="text-align: center; top: 100px;">
-				<h6 style="color: rgb(220, 220, 220);">Site by <a href="mailto:john.r.deguise@gmail.com" class="mail">John deGuise</a></h6>
+						<h6 style="color: rgb(110, 110, 110); text-align: center;">Site by <a href="mailto:john.r.deguise@gmail.com" class="mail">John deGuise</a></h6>
 				</div>
 			</div>
 	</footer> <!-- close footer content -->

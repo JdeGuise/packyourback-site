@@ -7,7 +7,7 @@
 	}
 	body {
 		background-color: rgb(242, 242, 242);
-		font-family: Arial;	
+		font-family: Arial;
 	}
 	/* Change background color of links on hover */
 	.menuitems li a:hover {
@@ -42,7 +42,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Roboto', sans-serif;
 	}
-	.who_we_are p, li, body p {
+	.who-we-are p, li, body p {
 		font-family: 'Raleway', sans-serif;
 	}
 
@@ -80,7 +80,7 @@
 	/* set default header height */
 	header {
 		height: 75px;
-		z-index: 2;		
+		z-index: 2;
 	}
 	/* set default header logo width and height */
 	header img {
@@ -99,6 +99,7 @@
 		width:50px;
 		height: 50px;
 		border-radius: 50%;
+		transition: .4s ease;
 	}
 	header .topNavDonateButtons {
 		float: right;
@@ -168,7 +169,7 @@
 	@media only screen and (max-width: 775px) {
 		/* make header taller */
 		header {
-			opacity: .8;
+			opacity: 1;
 		}
 		header li {
 			padding-right: 20px;
@@ -217,7 +218,7 @@
 		margin:0;
 		width:100%;
 		background-color: rgb(242, 242, 242);
-		background-color: rgba(242, 242, 242, .8);
+		background-color: rgba(242, 242, 242, 1);
 		transition: .5s ease;
 	}
 	.myDropdown {
@@ -227,7 +228,7 @@
 		font-size: 26px;
 		transition: .5s ease;
 	}
-	.dropdown_menuitem {
+	.dropdown-menuitem {
 		list-style-type: none;
 		padding-top: 8px;
 		margin-top: 10px;
@@ -252,222 +253,6 @@
 /*************************/
 
 
-/***************************/
-/* START: Footer Alignment */
-/***************************/
-
-	.footer {
-		height: 250px;
-		border: 5px solid rgb(55,55,55);
-	}
-	footer {
-		color: #ffffff;
-		background-color: rgb(61, 61, 61);
-	}
-	footer h4 {
-		text-align: left;
-		color: white;
-		font-size: 20px;
-	}
-	footer h2, .sitelinks {
-		color: rgb(102,102,102);
-		font-size:14px;
-		margin-bottom: -12px;
-		padding-bottom: -12px;
-		margin-top: -11px;
-	}
-	footer img {
-		max-width: 100%;
-		height: auto;
-		width: auto;
-	}
-	footer hr {
-		display: block;
-		border-color: rgb(102,102,102);
-	}
-	.footer_top {
-		display: inline;
-		vertical-align: middle;
-		margin-top: 70px;
-		margin-bottom: 10px;
-		margin-left: 40px;
-	}
-	.footer_top b {
-		font-size: 16px;
-	}
-	.el1 {
-		margin-bottom: -18px;
-	}
-	.el2 {
-		margin-top:5px;
-	}
-	footer button {
-		width: 75px;
-		height: 31px;
-		display: inline;
-		bottom: 20px;
-		font-family: Tahoma, Geneva, sans-serif;
-		border-style: none;
-		cursor: pointer;
-		left: 130px;
-		top: -47px;
-		text-align: center;
-		font-size: 13px;
-		padding: 0px;
-	}
-	footer .footer_soc_media img {
-		width: 25px;
-		height: 25px;
-	}
-	.subscribe-input[type=email] {
-		background-color: rgb(102, 102, 102);
-		border-style:none;
-		border-width: 2px;
-		border-color: rgb(76, 206, 251);
-		color: white;
-		height: 31px;
-		z-index: 100;
-	}
-	.subscribe-input[type=email]:focus {
-		background-color: rgb(102, 102, 102);
-		border-style:dashed;
-		border-width: 2px;
-		border-color: #008CBA;
-	}
-	.subscribe-form {
-		width: 120px;
-		height: 31px;
-		color: white;
-	}
-	.sidebar {
-		background-color: white;
-		border-radius: 15%;
-		width: 100%;
-	}
-	.sidebar p {
-		text-align: left;
-		font-family: Roboto;
-		font-size: 14px;
-	}
-	#footer_pyb {
-		width: 270px;
-		height: 80px;
-		margin-top: 10px;
-	}
-	.floatright {
-		float: right;
-		padding-bottom: 0px;
-		margin-top: 2px;
-	}
-	.floatright h2 {
-		margin-top: -10px;
-	}
-	.contactinfo h2 {
-		text-align: left;
-	}
-	#undertoprow {
-		margin-top: 10px;
-	}
-	.lines_shift {
-		display: none;
-	}
-
-	@media only screen and (min-width: 1024px) {
-		.footer {
-			height: 70%;
-		}
-	}
-	@media only screen and (max-width: 1024px) and (min-width: 640px) {
-		.footer_top {
-			margin-bottom: 40px;
-		}
-		.el1 {
-			margin-bottom: -29px;
-			margin-top: -20px;
-		}
-		.el2 {
-			margin-top:-14px;
-			margin-bottom: -6px;
-		}
-		.el4 {
-			margin-top: 0px;
-		}
-		.sitelinks {
-			padding-bottom: 20px;
-		}
-
-		#undertoprow {
-			margin-top: 20px;
-		}
-		.floatright {
-			float: left;
-		}
-		.floatright h2 {
-			margin-top: -11px;
-			margin-bottom: -14px;
-		}
-		#footer_pyb {
-			width: 60%;
-		}
-		.footer_sponsor {
-			padding-top: 10px;
-		}
-		#sponsorb {
-			margin-top: -2%;
-		}
-		.footer {
-			height: 55%;
-		}
-	}
-	@media only screen and (max-width: 640px) {
-		.sidebar {
-			margin-right: 10px;
-		}
-		.sidebar p {
-			font-size: 9px;
-			margin-left: -20px;
-		}
-		.footer_sponsor {
-			padding-top: 10px
-		}
-		.footer {
-			height:120%;
-		}
-	}
-	/*this is for the subscribe form, which was overlapping
-	with the sidebar on very small screens*/
-	@media only screen and (max-width: 420px) {
-		.subscribe-form {
-			width: 100px;
-		}
-		footer button {
-			left: 110px;
-		}
-	}
-
-	/*controls the color of the typed text in the email box*/
-	input::-webkit-input-placeholder {
-		color: white;
-		font-size: 12px;
-	}
-	input:-moz-placeholder { /* Firefox 18- */
-		color: white;
-		font-size: 12px;
-	}
-	input::-moz-placeholder {  /* Firefox 19+ */
-		color: white;
-		font-size: 12px;
-	}
-	input:-ms-input-placeholder {
-		color: white;
-		font-size: 12px;
-	}
-
-/*************************/
-/* END FOOTER ALIGNMENTS */
-/*************************/
-
-
 /*********************/
 /* START: index.html */
 /*********************/
@@ -480,8 +265,8 @@
 			margin-top: 70px;
 		}
 		#jumbotron {
-			background-color: rgb(250,250,252); 
-			border: 3px solid rgb(248,152,72); 
+			background-color: rgb(250,250,252);
+			border: 3px solid rgb(248,152,72);
 			margin-top: 3px;
 		}
 
@@ -493,57 +278,57 @@
 	/* START: Distribution Event */
 	/*****************************/
 
-		#distribution_section {
+		#distribution-section {
 			top: 50px;
-			width: 100%; 
+			width: 100%;
 			border: 3px solid rgb(22,22,148);
 		}
-		#distribution_section h1 {
+		#distribution-section h1 {
 			margin-top: 70px;
 			margin-bottom: 48px;
 		}
-		#distribution_section h1, #distribution_section div div {
+		#distribution-section h1, #distribution-section div div {
 			text-align: center;
 		}
-		#distribution_section iframe {
+		#distribution-section iframe {
 			margin-top: 48px;
 		}
-		#distribution_section div div {
+		#distribution-section div div {
 			margin-top: 24px;
 		}
-		#distribution_section div {
-			text-align: center; 
+		#distribution-section div {
+			text-align: center;
 			left: 20px;
 		}
-		#distribution_section div img {
+		#distribution-section div img {
 			border: 1px solid black;
 		}
-		#distribution_section div h3 {
+		#distribution-section div h3 {
 			text-align: center;
 		}
-		#distribution_section div p {
-			padding-left: 35px; 
-			position: relative; 
+		#distribution-section div p {
+			padding-left: 35px;
+			position: relative;
 			text-align: left;
 		}
-		#distribution_section h3, #distribution_section h5 {
-			text-align: left; 
+		#distribution-section h3, #distribution-section h5 {
+			text-align: left;
 		}
-		#distribution_section div div p {
-			text-align: left; 
-			max-width: 800px; 
+		#distribution-section div div p {
+			text-align: left;
+			max-width: 800px;
 			margin-right: 40px;
 			margin-top: 24px;
 			margin-bottom: 70px;
 		}
-		#distribution_section div div a button {
+		#distribution-section div div a button {
 			bottom: 30px;
 		}
-		.distribution_map {
-			border: 1px solid rgb(55,55,55); 
-			bottom: 45px; 
+		.distribution-map {
+			border: 1px solid rgb(55,55,55);
+			bottom: 45px;
 			position: relative;
-			text-align: center;		
+			text-align: center;
 		}
 		#distribution-spotlight-lmf h3, #distribution-spotlight-lmf p {
 			margin-top: 24px;
@@ -563,11 +348,11 @@
 	/****************************/
 
 		#sponsor-container {
-			border: 3px solid rgb(111,111,111); 
-			margin: 0 auto;		
+			border: 3px solid rgb(111,111,111);
+			margin: 0 auto;
 		}
 		#sponsor-container div {
-			margin-bottom: 15px; 
+			margin-bottom: 15px;
 			width: 100%;
 		}
 		#sponsor-container div h4 {
@@ -578,11 +363,11 @@
 		.sponsorship-container-section {
 			border: 2px solid rgb(155,155,170);
 			height: 200px;
-			width: 85%; 
+			width: 85%;
 			margin-top: 0px;
 			margin-right: auto;
 			margin-left: auto;
-			margin-bottom: 24px;	
+			margin-bottom: 24px;
 		}
 		.sponsorship-container-section img {
 			position: relative;
@@ -612,29 +397,40 @@
 	/* START: Generic Social Media Alignments */
 	/******************************************/
 
-		.sm_circles img {
-			height:50%;
-			width:50%;
-			margin-left:36px;
-			margin-top: 26px;
-		}
-		.sm_circles {
-			user-select:none;
-			position:relative;
-			margin: 0 auto;
-			cursor: pointer;
-		}
-		.social_media_icons {
+		.sm-circles img {
 			height:40%;
 			width:40%;
-			margin-left:43px;
-			margin-top: 16px;
 		}
-		.social_media_text {
+		.sm-circles {
+			user-select:none;
+			position:relative;
+			margin-top: 0px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 72px;
+			cursor: pointer;
+		}
+		.social-media-icons {
+			height: 40%;
+			width: 40%;
+			margin-left :42px;
+			margin-top: 16px;
+			margin-bottom:24px;
+		}
+		.social-media-text {
 			font-size: 16px;
+			font-weight: normal;
 			padding: 3px;
 			text-align: center;
 			font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+		#social-media-container {
+			border: 4px solid rgb(250,130,30);
+		}
+		#social-media-container > h3 {
+			text-align: center;
+			margin-top: 48px;
+			margin-bottom: 48px;
 		}
 
 	/****************************************/
@@ -646,12 +442,12 @@
 	/* START: Story Circles/Who We Are */
 	/***********************************/
 
-		#story_circle_container {
+		#story-circle-container {
 			border: 4px solid rgb(44,84,165);
-			text-align: center; 
+			text-align: center;
 			height: auto;
 		}
-		.story_circles {
+		.story-circles {
 			border-radius: 50%;
 			width: 140px;
 			height: 140px;
@@ -660,7 +456,7 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.story_p {
+		.story-p {
 			max-width: 650px;
 			text-align: left;
 			margin-top: 0px;
@@ -668,13 +464,13 @@
 			margin-bottom: 96px;
 			margin-left: auto;
 		}
-		.who_we_are_self {
+		.who-we-are_self {
 			max-width: 1000px;
 		}
-		.story_circles:hover {
+		.story-circles:hover {
 			opacity:.5;
 		}
-		.sm_circles {
+		.sm-circles {
 			border-radius:50%;
 			border-width: 1px;
 			border-style: double;
@@ -687,13 +483,13 @@
 		}
 
 		@media only screen and (max-width: 640px) {
-			.distribution_map{
+			.distribution-map{
 				width: 300px;
 				height: 225px;
 			}
 		}
 		@media only screen and (min-width: 640px) and (max-width: 10000px) {
-			.distribution_map{
+			.distribution-map{
 				width: 500px;
 				height: 375px;
 			}
@@ -737,14 +533,14 @@
 			margin: 0 auto;
 		}
 		#index-quote-self {
-			text-align:left; 
+			text-align:left;
 			margin: 24px auto;
 		}
 		#index-quote-self h4 {
 			position: relative;
-			text-align: center;	
-			color: rgb(242,242,246); 
-			text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;			
+			text-align: center;
+			color: rgb(242,242,246);
+			text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 		}
 
 	/***********************/
@@ -757,8 +553,8 @@
 	/*******************************/
 
 		#why-donate-container {
-			width: 100%; 
-			max-width: 100%; 
+			width: 100%;
+			max-width: 100%;
 			border: 3px solid rgb(248, 112, 69);
 		}
 		#why-donate-content {
@@ -770,8 +566,8 @@
 			margin-bottom: 48px;
 		}
 		#why-donate-content p, #why-donate-content div p {
-			margin: 0 auto; 
-			max-width: 900px; 
+			margin: 0 auto;
+			max-width: 900px;
 			text-align: left;
 		}
 		#why-donate-content div:first-child {
@@ -784,9 +580,9 @@
 			text-align: center;
 		}
 		.photoContainer img {
-			width:494px; 
-			height:240px; 
-			position:relative; 
+			width:494px;
+			height:240px;
+			position:relative;
 			border: 1px solid rgb(55,55,55);
 		}
 		#whyDonatePhoto1 {
@@ -822,7 +618,7 @@
 		position: relative;
 		width: 60%;
 	}
-	.pyb_cmu_p{
+	.pyb-cmu-p{
 		max-width: 950px;
 	}
 
@@ -855,18 +651,18 @@
 /* START: leadership.html */
 /**************************/
 
-	.staff_name {
+	.staff-name {
 		text-align: center;
 		padding-top: 15px;
 	}
-	.staff_title {
+	.staff-title {
 		color: #454545;
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 12px;
 		padding-bottom: 20px;
 	}
-	.staff_pics {
+	.staff-pics {
 		height: 150px;
 		width: 150px;
 		border-radius: 20%;
@@ -875,7 +671,7 @@
 	.padding {
 		padding: inherit inherit;
 	}
-	.lead_headers {
+	.lead-headers {
 		padding-top: 40px;
 		padding-bottom: 25px;
 	}
@@ -893,7 +689,7 @@
 /* START: distributions.php */
 /****************************/
 
-	.distribution_p {
+	.distribution-p {
 		max-width: 800px;
 		text-align: left;
 	}
@@ -919,14 +715,14 @@
 		border-style: none none solid none;
 		transition : .2s all;
 	}
-	.dropdown_menuitem:hover {
+	.dropdown-menuitem:hover {
 		border-bottom : 7px;
 		border-color: rgb(48, 88, 164);
 		border-color: rgba(48, 88, 164, 1);
 		transition : .2s all;
 		border-style: none none solid none;
 	}
-	.dropdown_menuitem:not(:hover) {
+	.dropdown-menuitem:not(:hover) {
 		border-bottom" : 7px;
 		border-color" : rgb(242, 242, 242);
 		border-color" : rgba(242, 242, 242, 0);

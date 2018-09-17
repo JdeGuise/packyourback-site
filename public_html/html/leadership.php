@@ -1,8 +1,5 @@
-<head>
-	<title>Leadership - Pack Your Back</title>
-	<?php include('includes/htmlhead.php'); ?>
-</head>
-
+<title>Leadership - Pack Your Back</title>
+<?php include('includes/head.php'); ?>
 <body class="body">
 		<?php include('includes/htmlheader.php'); ?>
 
@@ -34,8 +31,8 @@
 	<br>
 	<br>
 
-	<div class="who_we_are_container">
-		<div class="row" class="who_we_are_self" style="max-width: 975px;">
+	<div class="who-we-are-container">
+		<div class="row" class="who-we-are-self" style="max-width: 975px;">
 			<div class="columns small-12 medium-12 large-12">
 
 				<br>
