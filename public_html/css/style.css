@@ -750,6 +750,32 @@
 /*************************/
 
 
+/**********************/
+/* START: contact.php */
+/**********************/
+
+	#contact-wrapper {
+		background-color: lightgray;
+		margin: 0 auto;
+		max-width: 600px;
+		min-height: 200px;
+	}
+	#contact-form > div {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#contact-form .button {
+		left: 20px;
+		width:180px;
+		height:80px;
+	}
+
+
+/********************/
+/* END: contact.php */
+/********************/
+
+
 /*************************************/
 /* START: menu.js .hover conversions */
 /*************************************/

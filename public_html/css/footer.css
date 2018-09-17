@@ -117,6 +117,14 @@
 	.lines_shift {
 		display: none;
 	}
+	#footer-signoff h2 {
+		left: 50px;
+		position: relative;
+	}
+	#footer-signoff h6 {
+		color: rgb(110, 110, 110);
+		text-align: center;
+	}
 
 	@media only screen and (min-width: 1024px) {
 		.footer {
