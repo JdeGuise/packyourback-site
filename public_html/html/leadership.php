@@ -1,7 +1,7 @@
 <title>Leadership - Pack Your Back</title>
 <?php include('includes/head.php'); ?>
 <body class="body">
-		<?php include('includes/htmlheader.php'); ?>
+		<?php include('includes/header.php'); ?>
 
 		<!-- overlay button code -->
 		<div class="dropdownOverlay" style="display:none;">
