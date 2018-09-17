@@ -2,16 +2,8 @@
 <?php include('includes/head.php'); ?>
 <body class="body">
 	<?php include('includes/header.php'); ?>
-
-	<br>
-	<br>
-	<br>
-
-	<div class="columns small-12 medium-12 large-12">
-
-		<br>
-		<br>
-
+	
+	<div class="columns small-12 medium-12 large-12" id="contact-wrapper-container">
 		<div id="contact-wrapper">
 		  <form method="post" id="contact-form">
 			  <div>
@@ -33,9 +25,6 @@
 		  </form>
 		</div>
 	</div>
-
-  <br>
-  <br>
 
 	<? include("includes/footer.php");?>
 	<script src="../js/menu.js" ></script>

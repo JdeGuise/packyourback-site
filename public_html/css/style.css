@@ -616,6 +616,9 @@
 		margin-bottom: 100px;
 		border: 2px solid rgb(100,100,100);
 	}
+	#pyb-at-cmu-container {
+		margin-top: 48px;
+	}
 	#pyb-cmu {
 		max-width: 950px;
 		border: 2px solid rgb(69,110,184);
@@ -632,8 +635,19 @@
 		margin-left: 25px;
 		max-width: 90%;
 	}
+	#pyb-origin > h4 {
+		margin-bottom: 48px;
+	}
+	#pyb-origin-spacer-p {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+	#pyb-origin-last-p {
+		margin-bottom: 24px;
+	}
 	#photo-row {
 		width: 100%;
+		margin-top: 72px;
 	}
 	#photo-row > div {
 		margin: 0 auto;
@@ -697,14 +711,16 @@
 	}
 	.staff-row {
 		text-align: center;
+		margin-top: 72px;
 	}
 	.staff-row > div > p {
 		max-width: 75%;
-		margin:0 auto;
+		margin: 24px auto;
 	}
 	.staff-row > div > h4 {
 		text-align: center;
 		padding-top: 15px;
+		margin-top: 48px;
 	}
 	.staff-row > div > h6 {
 		text-align: center;
@@ -714,11 +730,23 @@
 	}
 	#who-we-are-self > div > h1 {
 		text-align: center;
+		margin-top: 48px;
+	}
+	#who-we-are-self > div > p {
+		margin-top: 24px;
+		margin-bottom: 48px;
+	}
+	#who-we-are-container {
+		margin-top: 72px;
+		margin-bottom: 48px;
 	}
 	#leadership-h1 {
 		text-align: center;
 	}
-
+	#chalk-photo {
+		margin-top: 48px;
+		margin-bottom: 24px;
+	}
 /************************/
 /* END: leadership.html */
 /************************/
@@ -733,6 +761,8 @@
 	}
 	#get-involved-container > h2 {
 		text-align: center;
+		margin-top: 24px;
+		margin-bottom: 48px;
 	}
 	#get-involved-explanation {
 		margin: 0 auto;
@@ -740,9 +770,17 @@
 	}
 	#get-involved-link {
 		text-align: center;
+		margin: 24px auto;
 	}
-	#get-involved-prompt-container h5 {
+	#get-involved-prompt h5 {
 		text-align: center;
+		margin-bottom: 24px;
+	}
+	#get-involved-prompt-container {
+		margin-top: 48px;
+	}
+	#get-involved-prompt-container hr {
+		margin-bottom: 24px;
 	}
 
 /*************************/
@@ -754,9 +792,16 @@
 /* START: contact.php */
 /**********************/
 
+	#contact-wrapper-container {
+		margin-top: 72px;
+		margin-bottom: 48px;
+	}
 	#contact-wrapper {
 		background-color: lightgray;
-		margin: 0 auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 48px;
 		max-width: 600px;
 		min-height: 200px;
 	}
@@ -769,7 +814,6 @@
 		width:180px;
 		height:80px;
 	}
-
 
 /********************/
 /* END: contact.php */

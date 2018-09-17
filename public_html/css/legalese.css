@@ -1,4 +1,4 @@
-#modal_paragraphs{
+.modal_paragraphs{
 	text-align:left;
 }
 .legalese_modal{
@@ -10,6 +10,10 @@
 .legalese_modal h2, .legalese_modal p{
 	text-align:center;
 	color:white;
+}
+.legalese_modal h2 {
+	margin-top: 24px;
+	margin-bottom: 48px;
 }
 #modal_ul{
 	position:relative;
