@@ -36,25 +36,25 @@
 				</div>
 			</div>
 
-			<hr id="undertoprow">
+			<hr id="under-top-row">
 			<div class="row">
 					<div class="columns small-12 medium-12 large-12 el4">
 						<div class="sitelinks">
-							<a href="#" id="tos_btn">Terms of Service</a> <b>|</b>
-							<a href="#" id="pp_btn">Privacy Policy</a> <b>|</b>
+							<a href="#" id="tos-btn">Terms of Service</a> <b>|</b>
+							<a href="#" id="pp-btn">Privacy Policy</a> <b>|</b>
 							<a href="contact.php">Contact Us</a> <b>|</b>
 							<a href="https://www.paypal.me/PackYourBack">Donate</a>
 
-							<div id="tos_modal" class="modal">
-								<div class="tos_modal_content">
-									<span class="tos_close">&times;</span>
+							<div id="tos-modal" class="modal">
+								<div class="tos-modal-content">
+									<span class="tos-close">&times;</span>
 									<p><?php include('tos.html'); ?></p>
 								</div>
 							</div>
 
-							<div id="pp_modal" class="modal">
-								<div class="privacy_modal_content">
-									<span class="pp_close">&times;</span>
+							<div id="pp-modal" class="modal">
+								<div class="privacy-modal-content">
+									<span class="pp-close">&times;</span>
 									<p><?php include('pp.html'); ?></p>
 								</div>
 							</div>

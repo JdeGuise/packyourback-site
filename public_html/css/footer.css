@@ -65,7 +65,7 @@
 		font-size: 13px;
 		padding: 0px;
 	}
-	#footer #footer_soc_media img {
+	#footer #footer-soc-media img {
 		width: 25px;
 		height: 25px;
 	}
@@ -100,7 +100,7 @@
 		font-family: Roboto;
 		font-size: 14px;
 	}
-	#footer_pyb {
+	#footer-pyb {
 		width: 270px;
 		height: 80px;
 		margin-top: 10px;
@@ -116,7 +116,7 @@
 	.contactinfo h2 {
 		text-align: left;
 	}
-	#undertoprow {
+	#under-top-row {
 		margin-top: 10px;
 	}
 	#footer-signoff h2 {
@@ -151,21 +151,13 @@
 		.sitelinks {
 			padding-bottom: 20px;
 		}
-
-		#undertoprow {
+		#under-top-row {
 			margin-top: 20px;
 		}
-		.floatright {
-			float: left;
-		}
-		.floatright h2 {
-			margin-top: -11px;
-			margin-bottom: -14px;
-		}
-		#footer_pyb {
+		#footer-pyb {
 			width: 60%;
 		}
-		.footer_sponsor {
+		.footer-sponsor {
 			padding-top: 10px;
 		}
 		#sponsorb {
