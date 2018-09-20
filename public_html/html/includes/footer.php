@@ -80,5 +80,5 @@
 			</div>
 		</div>
 	</footer> <!-- close footer content -->
-	<script src="js/modal_ctrl.js"></script>
+	<script src="js/modalScript.js"></script>
 </body>
