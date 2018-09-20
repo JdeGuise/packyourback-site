@@ -9,9 +9,8 @@
 			<div class="columns small-12 medium-8 large-8" id="footer-top">
 				<div class="row el3">
 					<div class="columns small-12 medium-12 large-7" id="el1">
-						<br>
 						<h4>Join Our Newsletter</h4>
-						<form action="index.php" method="post" class="subscribe-form">
+						<form action="index.php" method="post" id="subscribe-form">
 							<input type="email" name="email" class="subscribe-input" placeholder="Email address">
 								<button type="submit" class="subscribe-submit">Subscribe</button>
 						</form>

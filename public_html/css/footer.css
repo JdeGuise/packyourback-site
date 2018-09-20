@@ -47,7 +47,7 @@
 	#el1 h4 {
 		margin-top: 24px;
 	}
-	
+
 	.el2 {
 		margin-top:5px;
 	}
@@ -84,7 +84,7 @@
 		border-width: 2px;
 		border-color: #008CBA;
 	}
-	.subscribe-form {
+	#subscribe-form {
 		width: 120px;
 		height: 31px;
 		color: white;
@@ -195,7 +195,7 @@
 	/*this is for the subscribe form, which was overlapping
 	with the sidebar on very small screens*/
 	@media only screen and (max-width: 420px) {
-		.subscribe-form {
+		#subscribe-form {
 			width: 100px;
 		}
 		#footer button {
