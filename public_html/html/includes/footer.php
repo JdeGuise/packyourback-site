@@ -18,7 +18,6 @@
 				</div>
 
 				<div class="columns small-12 medium-12 large-5 el2" id="footer-soc-media">
-						<br>
 						<h4>Find Us Elsewhere</h4>
 						<a href="https://www.linkedin.com/company/10569483?trk=tyah&trkInfo=tarId%3A1459660539341%2Ctas%3Apack%20your%20back%2Cidx%3A1-1-1">
 							<img id="soc_med_foot" src="../assets/social_media/linkedin.png">
@@ -60,13 +59,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="columns medium-12 lines_shift">
-						<hr class="lines_shift el4">
+					<div class="columns medium-12">
+						<hr class="el4">
 					</div>
 
-					<br>
-					<br>
-					<div class="columns small-12 medium-12 large-12">
+					<div class="columns small-12 medium-12 large-12" id="pyb-org-info">
 						<h2>Pack Your Back <b>|</b> (877) 932-5277 <b>|</b> Bad Axe, Michigan</h2>
 					</div>
 			</div>
@@ -76,7 +73,11 @@
 		<div class="row">
 			<div class="columns small-12 medium-12 large-12" id="footer-signoff">
 					<h2> ©2018 Pack Your Back </h2>
-					<h6>Site by <a href="mailto:john.r.deguise@gmail.com" class="mail">John deGuise</a></h6>
+					<h2>
+						Site by <a href="mailto:john.r.deguise@gmail.com" class="mail">
+							John deGuise
+						</a>
+					</h2>
 			</div>
 		</div>
 	</footer> <!-- close footer content -->

@@ -51,6 +51,9 @@
 	.el2 {
 		margin-top:5px;
 	}
+	#footer-soc-media h4{
+		margin-top: 24px;
+	}
 	#footer button {
 		width: 75px;
 		height: 31px;
@@ -120,14 +123,9 @@
 		margin-top: 10px;
 	}
 	#footer-signoff h2 {
-		left: 50px;
-		position: relative;
-	}
-	#footer-signoff h6 {
-		color: rgb(110, 110, 110);
 		text-align: center;
+		margin-bottom: 12px;
 	}
-
 	@media only screen and (min-width: 1024px) {
 		#footer {
 			height: 70%;
