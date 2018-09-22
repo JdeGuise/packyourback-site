@@ -41,15 +41,18 @@
 	#footer-top b {
 		font-size: 16px;
 	}
-	#el1 {
+	.el1 {
 		margin-bottom: -18px;
 	}
-	#el1 h4 {
+	.el1 h4 {
 		margin-top: 24px;
 	}
-	
+
 	.el2 {
 		margin-top:5px;
+	}
+	#footer-soc-media h4{
+		margin-top: 24px;
 	}
 	#footer button {
 		width: 75px;
@@ -65,7 +68,7 @@
 		font-size: 13px;
 		padding: 0px;
 	}
-	#footer .footer_soc_media img {
+	#footer #footer-soc-media img {
 		width: 25px;
 		height: 25px;
 	}
@@ -84,10 +87,11 @@
 		border-width: 2px;
 		border-color: #008CBA;
 	}
-	.subscribe-form {
+	#subscribe-form {
 		width: 120px;
 		height: 31px;
 		color: white;
+		margin-bottom: 24px;
 	}
 	.sidebar {
 		background-color: white;
@@ -99,7 +103,7 @@
 		font-family: Roboto;
 		font-size: 14px;
 	}
-	#footer_pyb {
+	#footer-pyb {
 		width: 270px;
 		height: 80px;
 		margin-top: 10px;
@@ -115,21 +119,13 @@
 	.contactinfo h2 {
 		text-align: left;
 	}
-	#undertoprow {
+	#under-top-row {
 		margin-top: 10px;
 	}
-	.lines_shift {
-		display: none;
-	}
 	#footer-signoff h2 {
-		left: 50px;
-		position: relative;
-	}
-	#footer-signoff h6 {
-		color: rgb(110, 110, 110);
 		text-align: center;
+		margin-bottom: 12px;
 	}
-
 	@media only screen and (min-width: 1024px) {
 		#footer {
 			height: 70%;
@@ -139,7 +135,7 @@
 		#footer-top {
 			margin-bottom: 40px;
 		}
-		#el1 {
+		.el1 {
 			margin-bottom: -29px;
 			margin-top: -20px;
 		}
@@ -153,21 +149,13 @@
 		.sitelinks {
 			padding-bottom: 20px;
 		}
-
-		#undertoprow {
+		#under-top-row {
 			margin-top: 20px;
 		}
-		.floatright {
-			float: left;
-		}
-		.floatright h2 {
-			margin-top: -11px;
-			margin-bottom: -14px;
-		}
-		#footer_pyb {
+		#footer-pyb {
 			width: 60%;
 		}
-		.footer_sponsor {
+		.footer-sponsor {
 			padding-top: 10px;
 		}
 		#sponsorb {
@@ -195,7 +183,7 @@
 	/*this is for the subscribe form, which was overlapping
 	with the sidebar on very small screens*/
 	@media only screen and (max-width: 420px) {
-		.subscribe-form {
+		#subscribe-form {
 			width: 100px;
 		}
 		#footer button {

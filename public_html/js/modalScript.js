@@ -1,16 +1,16 @@
 // Get the modal
-var tos_modal = document.getElementById("tos_modal");
-var pp_modal = document.getElementById("pp_modal");
+var tos_modal = document.getElementById("tos-modal");
+var pp_modal = document.getElementById("pp-modal");
 
 // Get the button that opens the modal
-var tos_btn = document.getElementById("tos_btn");
-var pp_btn = document.getElementById("pp_btn");
+var tos_btn = document.getElementById("tos-btn");
+var pp_btn = document.getElementById("pp-btn");
 
 // Get the <span> element that closes the modal
-var tos_span = document.getElementsByClassName("tos_close")[0];
-var pp_span = document.getElementsByClassName("pp_close")[0];
+var tos_span = document.getElementsByClassName("tos-close")[0];
+var pp_span = document.getElementsByClassName("pp-close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 tos_btn.onclick = function() {
     tos_modal.style.display = "block";
 }
