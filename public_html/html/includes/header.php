@@ -1,4 +1,4 @@
-<header class="header">
+<header id="header">
 	<div class="columns small-12">
 		<ul class="topnav" id="myTopNav">
 			<a href="index.php">
@@ -47,8 +47,6 @@
 <div class="dropdownOverlay" id="dropdownOverlay">
 	<div class="thedropdown" id="thedropdown">
 		<ul class="dropdown myDropdown" id="myDropdown">
-			<br>
-
 			<li class="dropdown_menuitem" onclick="location.href='index.php';">
 				<a href="index.php">Home</a>
 			</li>
